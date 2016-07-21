@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:minHeight="?android:listPreferredItemHeight" style="@style/ListRow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/text" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:layout_toLeftOf="@id/attachment" android:layout_centerVertical="true" />
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/attachment" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" twitter:scaleType="fill" />
+    <ImageView android:id="@id/attachment_poll" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+</RelativeLayout>

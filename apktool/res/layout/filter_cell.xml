@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.twitter.media.ui.image.MediaImageView android:id="@id/image_preview" android:layout_width="wrap_content" android:layout_height="@dimen/filter_thumbnail_size" twitter:aspect_ratio="1.0" twitter:scaleType="fill">
+            <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:overlayDrawable="@drawable/border_filter_thumb" />
+        </com.twitter.media.ui.image.MediaImageView>
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/filter_name" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="23.0dip" />
+    </LinearLayout>
+    <SeekBar android:layout_gravity="center|top" android:id="@id/intensity_slider" android:visibility="gone" android:layout_width="@dimen/filter_slider_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filter_slider_margin" android:layout_marginTop="15.0dip" android:layout_marginRight="@dimen/filter_slider_margin" android:maxHeight="5.0dip" android:max="100" android:progress="80" android:progressDrawable="@drawable/filter_seek_bar_progress" android:minHeight="5.0dip" android:thumb="@drawable/filter_thumb" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/team_logo" android:layout_width="@dimen/sports_header_team_image_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:contentDescription="@null" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textStyle="bold" android:textColor="@color/text" android:id="@id/team_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+</LinearLayout>

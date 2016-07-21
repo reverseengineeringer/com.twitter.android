@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.moments.ui.OffScreenTranslationLayout android:layout_gravity="center|top" android:id="@id/off_screen_translation_layout" android:layout_width="@dimen/moments_full_screen_top_chrome_button_max_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.android.av.audio.ExternalActionButtonImpl android:layout_gravity="center_horizontal" android:id="@id/audio_cta_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_standard_spacing_half" android:layout_marginBottom="@dimen/moments_standard_spacing_half" twitter:viewLayout="@layout/moments_audio_cta_button" twitter:actionTextSize="@dimen/font_size_small" twitter:actionTextColor="@color/white" />
+</com.twitter.android.moments.ui.OffScreenTranslationLayout>

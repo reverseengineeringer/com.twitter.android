@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.ProgressLayout android:id="@id/progress_layout" android:background="@drawable/ftu_progress_black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_default_spacing" android:max="100">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </com.twitter.ui.widget.ProgressLayout>
+    <com.twitter.ui.widget.TwitterButton android:textSize="@dimen/card_font_size_small" android:id="@id/card_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_default_spacing" style="@style/TwitterButtonMediumCondensedBold" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/card_font_size_small" android:textStyle="bold" android:textColor="@color/text" android:id="@id/card_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/card_font_size_small" android:textColor="@color/text" android:id="@id/card_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.android.moments.ui.fullscreen.ScaleToFitFrameLayout android:id="@id/media_with_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.twitter.media.ui.image.AspectRatioFrameLayout android:layout_gravity="center_vertical" android:id="@id/media_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/moments_image_loading_progress_bar" />
+                <include layout="@layout/moments_indeterminate_progress_bar" />
+            </com.twitter.media.ui.image.AspectRatioFrameLayout>
+            <View android:background="@drawable/drop_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/moments_drop_shadow_height" />
+        </LinearLayout>
+    </com.twitter.android.moments.ui.fullscreen.ScaleToFitFrameLayout>
+    <include layout="@layout/moments_page_play_button" />
+    <com.twitter.android.moments.ui.video.MomentsVideoPlayerChromeView android:layout_gravity="bottom" android:id="@id/video_chrome" android:background="@drawable/bg_darker_to_clear_gradient" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

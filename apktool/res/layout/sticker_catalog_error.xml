@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/sticker_catalog_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="20.0sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stickers_catalog_error_message" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="14.0sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/stickers_catalog_error_message_secondary" />
+    <com.twitter.ui.widget.TwitterButton android:textSize="14.0sp" android:layout_gravity="center_horizontal" android:id="@id/retry" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/notif_action_retry" style="@style/TwitterButtonLargeNight" />
+</LinearLayout>

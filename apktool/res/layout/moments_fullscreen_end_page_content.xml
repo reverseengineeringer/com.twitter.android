@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/moments_end_page_dim" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:padding="@dimen/moments_standard_spacing" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/moments_standard_spacing" android:src="@drawable/ic_moments_end_bolt" android:scaleType="center" android:contentDescription="@null" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_large" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/moments_standard_spacing" android:text="@string/moments_follow_along_see_updates" android:lineSpacingExtra="@dimen/moments_large_text_spacing" />
+        <com.twitter.ui.widget.ToggleTwitterButton android:id="@id/follow_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/moments_standard_spacing" android:text="@string/follow" twitter:styleIdOn="@style/TwitterButtonSmallKnockout" twitter:styleIdOff="@style/TwitterButtonSmallNight" twitter:nodpiBaseIconName="ic_lightning_small" style="@style/TwitterButtonSmall" />
+        <com.twitter.ui.widget.TwitterButton android:id="@id/share_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/moments_share" style="@style/TwitterButtonMediumNightBorderless" />
+    </LinearLayout>
+    <include layout="@layout/moments_fullscreen_pivot_suggestions" />
+    <include layout="@layout/moments_text_spacer" />
+</LinearLayout>

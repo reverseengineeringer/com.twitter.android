@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/verified_icon_intrinsic_height">
+        <com.twitter.ui.widget.UnpaddedTypefacesTextView android:ellipsize="end" android:id="@id/name_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?userInfoNameStyle" />
+        <ImageView android:id="@id/protected_item" android:paddingLeft="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_locked" android:contentDescription="@string/icon_protected" />
+        <ImageView android:id="@id/verified_item" android:paddingLeft="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_verified" android:contentDescription="@string/icon_verified" />
+    </LinearLayout>
+    <com.twitter.ui.widget.UnpaddedTypefacesTextView android:id="@id/screenname_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/manual_name_username_padding" android:singleLine="true" style="?userWithBioScreenNameStyle" />
+</LinearLayout>

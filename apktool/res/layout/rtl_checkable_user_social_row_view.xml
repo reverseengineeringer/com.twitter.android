@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.UserSocialView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListRow.WhoToFollow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.widget.SocialBylineView android:id="@id/social_byline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SocialProof.WhoToFollow" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/social_byline">
+        <include layout="@layout/user_checkbox" />
+        <com.twitter.library.media.widget.UserImageView android:id="@id/user_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="?userAvatarStyle" />
+        <RelativeLayout android:id="@id/name_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/user_image" android:layout_toRightOf="@id/user_checkbox">
+            <include layout="@layout/user_info_name" />
+            <com.twitter.ui.widget.UnpaddedTypefacesTextView android:id="@id/screenname_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0sp" android:layout_below="@id/name_layout" android:layout_alignParentRight="true" style="?userWithBioScreenNameStyle" />
+        </RelativeLayout>
+        <com.twitter.ui.widget.UnpaddedTypefacesTextView android:id="@id/profile_description_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0sp" android:layout_toLeftOf="@id/user_image" android:layout_below="@id/name_container" style="?userWithBioDescriptionStyle" />
+        <include layout="@layout/user_promoted_info" />
+    </RelativeLayout>
+</com.twitter.library.widget.UserSocialView>

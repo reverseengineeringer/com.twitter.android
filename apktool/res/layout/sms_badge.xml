@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/sms_badge_background" android:padding="@dimen/sms_badge_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.UnpaddedTypefacesTextView android:textSize="@dimen/font_size_micro" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sms" android:textAllCaps="true" />
+</FrameLayout>

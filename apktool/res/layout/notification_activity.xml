@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/top_toolbar" />
+            <RelativeLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+        </RelativeLayout>
+    </com.twitter.library.widget.ToolbarWrapperLayout>
+    <include layout="@layout/browser_loading_status" />
+</android.support.design.widget.CoordinatorLayout>

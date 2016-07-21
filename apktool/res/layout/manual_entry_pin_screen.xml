@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/app_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/list_horizontal_padding" android:layout_marginRight="@dimen/list_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/signup_clean_header" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="14.0sp" android:textColor="@color/deep_gray" android:gravity="center" android:id="@id/phone_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/phone_verify_manual_we_texted_code" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="14.0sp" android:textColor="@color/deep_gray" android:gravity="center" android:id="@id/pin_entry_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/phone_verify_manual_instructions" />
+        <include layout="@layout/pin_entry_view" />
+    </LinearLayout>
+</ScrollView>

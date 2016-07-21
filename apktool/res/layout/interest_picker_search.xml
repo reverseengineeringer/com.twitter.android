@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.twitter.internal.android.widget.PopupEditText android:textColor="@color/text" android:textColorHint="@color/secondary_text" android:layout_gravity="center_vertical" android:id="@id/ip_search" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightSmall" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:hint="@string/interest_picker_search_hint" android:singleLine="true" android:drawableLeft="@drawable/ic_search_hint_dark" android:drawablePadding="5.0dip" android:inputType="textNoSuggestions" android:imeOptions="actionDone|flagNoExtractUi" app:popupMenuYOffset="-12.0dip" />
+    <View android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider_thickness" />
+</merge>

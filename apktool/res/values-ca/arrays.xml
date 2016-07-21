@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>Habilitat per a tot</item>
+        <item>Habilitat només per als missatges directes</item>
+        <item>Deshabilitat per a tot</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>Enllaç al tuit</item>
+        <item>"Copia l'enllaç"</item>
+        <item>"Envia l'enllaç"</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>Quina és la satisfacció en general amb %1$s?</item>
+        <item>Com de satisfet estàs amb %1$s?</item>
+        <item>"En general, com estàs de satisfet de l'experiència amb %1$s fa poc?"</item>
+        <item>"Com valoraries en general l'experiència amb %1$s?"</item>
+        <item>"Com valoraries en general l'experiència amb %1$s?"</item>
+        <item>"Com valoraries l'experiència fins ara amb %1$s?"</item>
+        <item>"Com valoraries l'experiència al Twitter amb %1$s?"</item>
+        <item>"Estàs satisfet amb l'experiència amb %1$s fa poc?"</item>
+        <item>"S'han complert les expectatives que tenies amb %1$s?"</item>
+        <item>"Com valoraries l'experiència com a hoste de %1$s?"</item>
+        <item>"Com valoraries el servei que t'ha donat %1$s?"</item>
+        <item>"Com valoraries el servei que t'ha donat %1$s fa poc?"</item>
+        <item>Com valoraries el servei que has rebut de %1$s?</item>
+        <item>Estàs satisfet amb els resultats de la interacció amb %1$s?</item>
+        <item>Com valoraries la capacitat de %1$s per resoldre la incidència?</item>
+        <item>Com qualificaries el temps de resposta de %1$s?</item>
+        <item>Com qualificaries la rapidesa del servei de %1$s?</item>
+        <item>Com qualificaries el temps de resolució amb %1$s?</item>
+        <item>Com valoraries el temps en què %1$s ha resolt el teu problema?</item>
+        <item>Com valoraries la rapidesa de resolució amb %1$s?</item>
+        <item>"Com valoraries l'experiència com a assessors de %1$s?"</item>
+        <item>"Com estàs de satisfet amb l'ajuda de l'agent de %1$s?"</item>
+        <item>"Com estàs de satisfet de l'ajuda de l'especialista %1$s?"</item>
+        <item>"Com estàs de satisfet amb l'ajuda del representant de %1$s?"</item>
+        <item>"Com valoraries el servei bancari que t'ha ofert %1$s fa poc?"</item>
+        <item>"Com valoraries en general l'esdeveniment a %1$s?"</item>
+        <item>"Com valoraries l'experiència de pagament amb %1$s?"</item>
+        <item>"Com valoraries l'experiència d'adquisició amb %1$s?"</item>
+        <item>"Com valoraries l'experiència de compra amb %1$s?"</item>
+        <item>"Com valoraries l'experiència d'entrega amb %1$s?"</item>
+        <item>"Com valoraries l'experiència de lloguer amb %1$s?"</item>
+        <item>Com valoraries la visita al comerç de %1$s fa poc?</item>
+        <item>"Com qualificaries l'estada a l'hotel %1$s fa poc?"</item>
+        <item>Com valoraries el vol que has fet amb %1$s fa poc?</item>
+        <item>Com valoraries el trajecte que has fet amb %1$s fa poc?</item>
+        <item>Com valoraries el viatge que has fet amb %1$s fa poc?</item>
+        <item>Com valoraries la visita que has fet a %1$s fa poc?</item>
+        <item>"Com valoraries l'àpat que has fet a %1$s fa poc?"</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>A mida per a tu</item>
+        <item>De qualsevol</item>
+        <item>Desactivat</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>Amb quina probabilitat recomanaries %1$s a una amistat?</item>
+        <item>Amb quina probabilitat recomanaries %1$s a una amistat?</item>
+        <item>Amb quina probabilitat recomanaries %1$s a un company?</item>
+        <item>Amb quina probabilitat recomanaries %1$s a un familiar?</item>
+        <item>Amb quina probabilitat recomanaries %1$s a algú?</item>
+        <item>Amb quina probabilitat recomanaries %1$s a una amistat o un company?</item>
+        <item>Amb quina probabilitat tornaràs a comprar a %1$s?</item>
+        <item>Amb quina probabilitat recomanaries %1$s?</item>
+        <item>Recomanaries %1$s a una amistat o company?</item>
+        <item>Amb quina probabilitat recomanaries %1$s a una amistat?</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>"Només d'enquestes que he obert"</item>
+        <item>Enquestes que he creat o votat</item>
+        <item>Desactivades</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5 minuts</item>
+        <item>10 minuts</item>
+        <item>15 minuts</item>
+        <item>30 minuts</item>
+        <item>1 hora</item>
+        <item>2 hores</item>
+        <item>4 hores</item>
+        <item>Diari</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>General</item>
+        <item>Xarxa</item>
+        <item>Fotos i vídeos</item>
+        <item>Tuits i cronologies</item>
+    </string-array>
+</resources>

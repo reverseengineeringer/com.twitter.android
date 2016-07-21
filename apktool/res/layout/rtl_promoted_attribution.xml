@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/advertiser_name" style="@style/TrendsPlusTrend.MetaDescription.Promoted.RTL" />
+    <ImageView android:id="@id/promoted_icon" android:contentDescription="@string/promoted_trend" style="@style/TrendsPlusTrend.PromotedIcon.RTL" />
+</LinearLayout>

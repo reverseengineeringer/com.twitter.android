@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>Käytössä kaikille</item>
+        <item>Käytössä vain yksityisviesteille</item>
+        <item>Pois käytöstä kaikille</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>Twiittaa linkki</item>
+        <item>Kopioi linkki</item>
+        <item>Lähetä linkki</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>Miten tyytyväinen olet kaikkiaan yritykseen %1$s?</item>
+        <item>Miten tyytyväinen olet yritykseen %1$s?</item>
+        <item>Miten tyytyväinen olit kaikkiaan äskettäiseen kokemukseesi yrityksestä %1$s?</item>
+        <item>Minkä kokonaisarvosanan %1$s saa sinulta?</item>
+        <item>Minkä kokonaisarvosanan %1$s saa sinulta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta tähänastisen kokemuksesi perusteella?</item>
+        <item>Minkä arvosanan %1$s saa sinulta Twitter-toiminnastaan?</item>
+        <item>Olitko tyytyväinen asiointiisi yrityksen %1$s kanssa?</item>
+        <item>Miten hyvin %1$s vastaa odotuksiasi?</item>
+        <item>Minkä arvosanan %1$s saa sinulta vierailustasi?</item>
+        <item>Minkä arvosanan %1$s saa sinulta palvelusta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta vastikään saamastasi palvelusta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta palvelusta?</item>
+        <item>Olitko tyytyväinen asioinnin lopputulokseen yrityksen %1$s kanssa?</item>
+        <item>Minkä arvosanan %1$s saa sinulta pulmasi ratkaisemisesta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta vastausajasta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta palvelunopeudesta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta asiasi ratkaisuun kuluneesta ajasta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta pulmasi ratkaisunopeudesta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta asiasi ratkaisunopeudesta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta asiakaspalvelijan osaamisesta?</item>
+        <item>Miten tyytyväinen olit sinua auttaneeseen yrityksen %1$s asiakaspalvelijaan?</item>
+        <item>Miten tyytyväinen olit sinua auttaneeseen yrityksen %1$s asiantuntijaan?</item>
+        <item>Miten tyytyväinen olit sinua auttaneeseen yrityksen %1$s edustajaan?</item>
+        <item>Minkä arvosanan %1$s saa sinulta vastikään saamastasi pankkipalvelusta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta tapahtumasta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta laskunmaksusta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta ostotapahtumasta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta ostoskokemuksesta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta toimituksesta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta vuokrauspalvelusta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta käynnistäsi myymälässä?</item>
+        <item>Minkä arvosanan %1$s saa sinulta äskettäisestä hotelliyöpymisestäsi?</item>
+        <item>Minkä arvosanan %1$s saa sinulta vastikään tekemästäsi lentomatkasta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta vastikään saamastasi kyydistä?</item>
+        <item>Minkä arvosanan %1$s saa sinulta vastikään tekemästäsi matkasta?</item>
+        <item>Minkä arvosanan %1$s saa sinulta viimeaikaisesta käynnistäsi?</item>
+        <item>Minkä arvosanan %1$s saa sinulta vastikään nauttimastasi ateriasta?</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>Räätälöity sinulle</item>
+        <item>Keneltä tahansa</item>
+        <item>Pois käytöstä</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>Kuinka todennäköisesti suosittelisit yritystä %1$s ystävälle?</item>
+        <item>Kuinka todennäköisesti suosittelisit yritystä %1$s ystävällesi?</item>
+        <item>Kuinka todennäköisesti suosittelisit yritystä %1$s kollegalle?</item>
+        <item>Kuinka todennäköisesti suosittelisit yritystä %1$s perheenjäsenelle?</item>
+        <item>Kuinka todennäköisesti suosittelisit yritystä %1$s jollekulle muulle?</item>
+        <item>Kuinka todennäköisesti suosittelisit yritystä %1$s ystävälle tai kollegalle?</item>
+        <item>Kuinka todennäköisesti asioit yrityksessä %1$s tulevaisuudessa?</item>
+        <item>Kuinka todennäköisesti suosittelisit yritystä %1$s?</item>
+        <item>Suosittelisitko yritystä %1$s ystävälle tai kollegalle?</item>
+        <item>Kuinka todennäköisesti suosittelisit kokemustasi yrityksen kanssa %1$s ystävälle?</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>Vain luomani kyselyt</item>
+        <item>Kyselyt, joita luon tai joihin osallistun</item>
+        <item>Pois päältä</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5 minuuttia</item>
+        <item>10 minuuttia</item>
+        <item>15 minuuttia</item>
+        <item>30 minuuttia</item>
+        <item>1 tunti</item>
+        <item>2 tuntia</item>
+        <item>4 tuntia</item>
+        <item>Päivittäin</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>Yleinen</item>
+        <item>Verkko</item>
+        <item>Kuvat ja videot</item>
+        <item>Twiitit ja aikajanat</item>
+    </string-array>
+</resources>

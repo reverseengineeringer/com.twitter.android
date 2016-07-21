@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/list_row_padding_horizontal">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textStyle="bold" android:textColor="@color/primary_text" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:lines="1" android:layout_alignParentTop="true" />
+        <com.twitter.ui.widget.TypefacesTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/owner_byline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:lines="1" android:layout_below="@id/name" android:layout_alignParentLeft="true" style="@style/ActivityText.Byline" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/primary_text" android:gravity="center_vertical" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="0.0dip" android:layout_below="@id/owner_byline" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <include layout="@layout/section_divider" />
+</LinearLayout>

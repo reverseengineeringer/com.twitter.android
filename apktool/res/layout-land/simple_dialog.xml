@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/dialog_panel" android:background="@color/twitter_blue" android:paddingBottom="@dimen/dialog_panel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="left" android:id="@id/button_dismiss" android:paddingLeft="@dimen/dialog_dismiss_button_padding_start" android:paddingTop="@dimen/dialog_dismiss_button_padding_start" android:paddingRight="@dimen/dialog_dismiss_button_padding_end" android:paddingBottom="@dimen/dialog_dismiss_button_padding_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialog_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dialog_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/twitter_logo" android:contentDescription="@null" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@null" android:freezesText="true" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/dialog_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@null" android:freezesText="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <com.twitter.ui.widget.TwitterButton android:id="@id/button_positive" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_weight="0.4" twitter:fillColor="@color/white" style="@style/TwitterButtonLargeBold" />
+            <com.twitter.ui.widget.TwitterButton android:id="@id/button_negative" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@null" android:layout_weight="0.4" twitter:bounded="true" style="@style/TwitterButtonLargeNight" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/settings_notification_types_category" android:key="notif_pref_category">
+        <Preference android:persistent="false" android:title="@string/settings_notif_timeline_title" android:key="notif_tweets" android:defaultValue="false" />
+        <com.twitter.android.settings.CheckBoxListPreference android:persistent="false" android:entries="@array/mention_notif" android:title="@string/settings_notif_mentions_title" android:key="notif_mentions_choice" android:defaultValue="0" android:entryValues="@array/notif_settings_values" twitter:offValue="0" />
+        <com.twitter.android.settings.CheckBoxListPreference android:persistent="false" android:entries="@array/mention_notif" android:title="@string/settings_notif_retweets_title" android:key="notif_retweets_choice" android:defaultValue="0" android:entryValues="@array/notif_settings_values" twitter:offValue="0" />
+        <com.twitter.android.settings.CheckBoxListPreference android:persistent="false" android:entries="@array/mention_notif" android:title="@string/settings_notif_likes_title" android:key="notif_favorites_choice" android:defaultValue="0" android:entryValues="@array/notif_settings_values" twitter:offValue="0" />
+        <Preference android:persistent="false" android:title="@string/settings_notif_retweets_title" android:key="notif_retweets" android:defaultValue="false" />
+        <Preference android:persistent="false" android:title="@string/settings_notif_likes_title" android:key="notif_favorites" android:defaultValue="false" />
+        <com.twitter.android.settings.CheckBoxListPreference android:persistent="false" android:entries="@array/polls_notif" android:title="@string/settings_notif_polls_title" android:key="notif_polls_choice" android:defaultValue="0" android:entryValues="@array/notif_settings_values" twitter:offValue="0" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_notif_follows_title" android:key="notif_follows" android:defaultValue="false" />
+        <com.twitter.android.settings.CheckBoxListPreference android:persistent="false" android:entries="@array/notif_vit_follows_entries" android:title="@string/settings_notif_follows_title" android:key="notif_vit_follows" android:defaultValue="2" android:entryValues="@array/notif_settings_values" twitter:offValue="0" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_notif_direct_messages_title" android:key="notif_direct_messages" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_notif_vit_notable_event_title" android:key="notif_vit_notable_event" android:summary="@string/settings_notif_vit_notable_event_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_notif_lifeline_alerts_title" android:key="notif_lifeline_alerts" android:summary="@string/settings_notif_lifeline_alerts_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_notif_offer_redemption_title" android:key="notif_offer_redemption" android:summary="@string/settings_notif_offer_redemption_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_notif_address_book_title" android:key="notif_address_book" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/highlights_title" android:key="notif_highlights" android:summary="@string/settings_notif_highlights_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/moments_title" android:key="notif_moments" android:summary="@string/settings_notif_moments_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_notif_recommendations_title" android:key="notif_recommendations" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_notif_news_title" android:key="notif_news" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_notif_experimental_title" android:key="notif_experimental" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_notification_methods_category" android:key="notif_pref_category">
+        <CheckBoxPreference android:title="@string/settings_vibrate_title" android:key="vibrate" android:summary="@string/settings_vibrate_summary" />
+        <RingtonePreference android:title="@string/settings_ringtone_title" android:key="ringtone" android:summary="@string/settings_ringtone_summary" android:ringtoneType="notification" android:showDefault="true" android:showSilent="true" />
+        <CheckBoxPreference android:title="@string/settings_use_led_title" android:key="use_led" android:summary="@string/settings_use_led_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>Zapnuto pro vše</item>
+        <item>Zapnuto jen pro soukromé zprávy</item>
+        <item>Vypnuto pro vše</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>Tweetnout odkaz</item>
+        <item>Zkopírovat odkaz</item>
+        <item>Odeslat odkaz</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>Jaká je vaše celková spokojenost s firmou %1$s?</item>
+        <item>Jak jste spokojeni s firmou %1$s?</item>
+        <item>Jaká byla vaše celková poslední spokojenost s firmou %1$s?</item>
+        <item>Jak hodnotíte svou celkovou zkušenost s firmou %1$s?</item>
+        <item>Jak hodnotíte svou celkovou zkušenost s firmou %1$s?</item>
+        <item>Jak hodnotíte svou dosavadní zkušenost s firmou %1$s?</item>
+        <item>Jak hodnotíte svou zkušenost na Twitteru s firmou %1$s?</item>
+        <item>Byli jste spokojeni s poslední zkušeností s firmou%1$s?</item>
+        <item>Nakolik firma %1$s plní vaše očekávání?</item>
+        <item>Jak hodnotíte svou zkušenost hosta u firmy %1$s?</item>
+        <item>Jak hodnotíte svou zkušenost se službami firmy %1$s?</item>
+        <item>Jak hodnotíte svou poslední zkušenost se službami firmy %1$s?</item>
+        <item>Jak hodnotíte svou zkušenost se službami poskytnutými firmou%1$s?</item>
+        <item>Byli jste spokojeni s výsledkem komunikaces firmou %1$s?</item>
+        <item>Jak hodnotíte schopnost řešit vaše problémy se službamifirmy %1$s?</item>
+        <item>Jak hodnotíte dobu odezvy firmy %1$s?</item>
+        <item>Jak hodnotíte rychlost poskytování služeb u firmy %1$s?</item>
+        <item>Jak hodnotíte čas, který firma %1$s potřebovalak vyřešení vašich požadavků?</item>
+        <item>Jak hodnotíte čas potřebný k vyřešení vašich problémůse službami firmy %1$s?</item>
+        <item>Jak hodnotíte rychlost řešení vašich požadavků firmou %1$s?</item>
+        <item>Jak hodnotíte odbornost poradce firmy %1$s?</item>
+        <item>Jak jste byli spokojeni s agentem firmy %1$s, který vámpomáhal?</item>
+        <item>Jak jste byli spokojeni s odborníkem firmy %1$s, kterývám pomáhal?</item>
+        <item>Jak jste byli spokojeni se zástupcem firmy %1$s, který vámpomáhal?</item>
+        <item>Jak hodnotíte svou poslední zkušenost s bankovnímislužbami firmy %1$s?</item>
+        <item>Jak hodnotíte svou celkovou zkušenost s událostí ufirmy %1$s?</item>
+        <item>Jak hodnotíte svou zkušenost s placením účtu u firmy %1$s?</item>
+        <item>Jak hodnotíte svou zkušenost s nákupem u firmy %1$s?</item>
+        <item>Jak hodnotíte svou zkušenost s nakupováním u firmy %1$s?</item>
+        <item>Jak hodnotíte svou zkušenost s doručením zboží od firmy%1$s?</item>
+        <item>Jak hodnotíte svou zkušenost s pronájmem u firmy %1$s?</item>
+        <item>Jak hodnotíte svou poslední návštěvu obchodu %1$s?</item>
+        <item>Jak hodnotíte svůj poslední pobyt v hotelu %1$s?</item>
+        <item>Jak hodnotíte svůj poslední let s firmou %1$s?</item>
+        <item>Jak hodnotíte svou poslední cestu s firmou %1$s?</item>
+        <item>Jak hodnotíte své poslední cestování s firmou %1$s?</item>
+        <item>Jak hodnotíte svou poslední návštěvu u firmy %1$s?</item>
+        <item>Jak hodnotíte své poslední jídlo ve firmě %1$s?</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>Přizpůsobené pro vás</item>
+        <item>Od kohokoli</item>
+        <item>Vypnuto</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>S jakou pravděpodobností byste příteli doporučili firmu%1$s?</item>
+        <item>S jakou pravděpodobností byste příteli doporučili firmu%1$s?</item>
+        <item>S jakou pravděpodobností byste kolegovi doporučilifirmu %1$s?</item>
+        <item>S jakou pravděpodobností byste své rodině doporučilifirmu %1$s?</item>
+        <item>S jakou pravděpodobností byste někomu jinému doporučilifirmu %1$s?</item>
+        <item>S jakou pravděpodobností byste příteli nebo kolegovidoporučili firmu %1$s?</item>
+        <item>S jakou pravděpodobností byste v budoucnostinakupovali u firmy %1$s?</item>
+        <item>S jakou pravděpodobností byste doporučili firmu %1$s?</item>
+        <item>Doporučili byste firmu %1$s příteli nebo kolegovi?</item>
+        <item>S jakou pravděpodobností byste příteli doporučili svouzkušenost s firmou %1$s?</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>Jen mnou vytvořená hlasování</item>
+        <item>Mnou vytvořená hlasování a hlasování, ve kterých hlasuji</item>
+        <item>Vypnuto</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>1 hodina</item>
+        <item>2 hodiny</item>
+        <item>4 hodiny</item>
+        <item>Každý den</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>Obecné</item>
+        <item>Síť</item>
+        <item>Fotky a videa</item>
+        <item>Tweety a časové osy</item>
+    </string-array>
+</resources>

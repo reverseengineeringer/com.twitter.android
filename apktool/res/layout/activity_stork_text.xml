@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textStyle="bold" android:textColor="@color/text" android:gravity="center" android:background="@color/faint_gray" android:padding="@dimen/activity_stork_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/activity_stork_title" android:lineSpacingMultiplier="1.2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

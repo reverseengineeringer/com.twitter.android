@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.internal.android.widget.HighlightedRelativeLayout android:paddingTop="@dimen/activity_header_margin_top" android:paddingBottom="@dimen/activity_multi_tweet_padding_bottom" style="@style/ListRow.Activity"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/image_container" android:layout_width="@dimen/user_image_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/image_margin_end">
+        <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@null" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/header_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:layout_toRightOf="@id/image_container">
+        <LinearLayout android:orientation="horizontal" android:id="@id/user_images_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+            <include layout="@layout/mini_user_images" />
+        </LinearLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/text" android:id="@id/title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_below="@id/user_images_container" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/body" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/header_content" android:layout_alignLeft="@id/header_content">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" layout="@layout/mini_tweet_summary" />
+        <include layout="@layout/mini_tweet_summary" />
+        <include layout="@layout/mini_tweet_summary" />
+        <include layout="@layout/mini_tweet_summary" />
+    </LinearLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/dark_gray" android:id="@id/view_all_text" android:paddingLeft="0.0dip" android:paddingTop="14.0dip" android:layout_below="@id/body" android:layout_alignLeft="@id/header_content" style="@style/ActivityViewAll" />
+</com.twitter.internal.android.widget.HighlightedRelativeLayout>

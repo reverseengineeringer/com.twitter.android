@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/highlights_outer_padding" android:layout_marginTop="@dimen/highlights_inner_spacing_topalign_adjusted" android:layout_marginRight="@dimen/highlights_outer_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/highlights_tweet_header_tall" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/highlights_tweet_media_text_size" android:id="@id/tweet_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/highlights_avatar_margin" android:layout_below="@id/screen_name_and_time" android:lineSpacingMultiplier="@dimen/highlights_spacing_large_text" style="@style/Highlights.ContentText" />
+</RelativeLayout>

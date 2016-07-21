@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/end_card_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.media.ui.image.MediaImageView android:layout_gravity="center" android:id="@id/app_icon" android:layout_width="@dimen/card_canvas_app_icon_size" android:layout_height="@dimen/card_canvas_app_icon_size" android:layout_margin="12.0dip" android:scaleType="fitCenter" />
+    <View android:background="@color/soft_white" android:layout_width="@dimen/divider_thickness" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/card_canvas_cta_button_font_size" android:textColor="@color/white" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/standard_spacing" android:singleLine="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ratings_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/stars_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/button_small_text" android:textColor="@color/white" android:id="@id/ratings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/button_small_text" android:textColor="@color/white" android:id="@id/app_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/play_store" android:singleLine="true" />
+    </LinearLayout>
+    <com.twitter.ui.widget.TwitterButton android:layout_gravity="center" android:id="@id/cta_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_small" android:text="@string/app_install" android:contentDescription="@string/app_install" style="@style/TwitterButtonMediumNight" />
+</LinearLayout>

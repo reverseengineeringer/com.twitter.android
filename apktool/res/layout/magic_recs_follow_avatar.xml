@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/magic_recs_notify_follow_avatar_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/magic_recs_follow_avatar" android:layout_width="@dimen/magic_recs_notify_follow_avatar_size" android:layout_height="@dimen/magic_recs_notify_follow_avatar_size" android:contentDescription="@string/magic_recs_follow_expanded_profile_photo_description" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/phone_association_settings_title" android:key="phone_association" />
+    <Preference android:title="@string/email_association_settings_title" android:key="email_association" />
+    <Preference android:title="@string/change_password" android:key="change_password" />
+    <Preference android:title="@string/settings_security_title" android:key="security" />
+    <com.twitter.android.settings.country.CountryPreference android:title="@string/settings_country_settings_title" android:key="country_category" />
+</PreferenceScreen>

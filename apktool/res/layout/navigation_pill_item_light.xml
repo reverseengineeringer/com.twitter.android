@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/NavigationPillContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/navigation_pill_text" style="@style/NavigationPill.Light" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.widget.ToolbarWrapperLayout android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/top_toolbar" />
+            <com.twitter.media.ui.AnimatingProgressBar android:id="@id/main_progress_bar" android:visibility="gone" style="@style/AnimatingProgressBarStyle" />
+            <include layout="@layout/vit_notification_landing_bar" />
+            <LinearLayout android:orientation="vertical" android:id="@id/persistent_reply" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <View android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <include layout="@layout/persistent_reply_box" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/persistent_reply" android:layout_below="@id/vit_notification_landing_bar" />
+        </RelativeLayout>
+    </com.twitter.library.widget.ToolbarWrapperLayout>
+    <include layout="@layout/browser_loading_status" />
+</android.support.design.widget.CoordinatorLayout>

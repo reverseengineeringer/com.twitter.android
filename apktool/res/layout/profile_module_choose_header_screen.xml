@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.profilecompletionmodule.chooseheader.ChooseHeaderScreen android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/blue_bird_header" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/header" layout="@layout/signup_clean_header" />
+            <include android:layout_gravity="center" android:id="@id/profile_card" android:layout_width="fill_parent" android:layout_height="@dimen/profile_module_header_screen_outer_container_height" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:layout_below="@id/header" layout="@layout/profile_module_choose_header_screen_profile_card_layout" />
+        </RelativeLayout>
+    </ScrollView>
+    <include layout="@layout/edit_profile_module_toolbar" />
+</com.twitter.android.profilecompletionmodule.chooseheader.ChooseHeaderScreen>

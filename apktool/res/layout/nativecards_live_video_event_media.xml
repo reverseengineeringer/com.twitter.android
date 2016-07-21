@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.android.moments.ui.VideoFillCropFrameLayout android:id="@id/media_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/ripple_selector_rectangle" />
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/thumbnail_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/ripple_selector_rectangle" twitter:defaultDrawable="@color/placeholder_bg" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" twitter:scaleType="fit">
+        <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/corner_radius" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <com.twitter.android.livevideo.player.LiveVideoCardPlayerChrome android:id="@id/player_chrome" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

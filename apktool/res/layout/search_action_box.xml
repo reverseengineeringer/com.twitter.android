@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.SearchQueryView android:id="@id/query" android:drawableLeft="?searchHintDrawable" android:drawableRight="?searchClearDrawable" android:inputType="textFilter|textNoSuggestions" twitter:clearDrawablePosition="right" style="@style/SearchTextView.Suggestions"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto" />

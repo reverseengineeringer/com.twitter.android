@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/share_via_dm_padding" android:paddingTop="@dimen/dm_suggestions_vertical_padding" android:paddingRight="@dimen/share_via_dm_padding" android:paddingBottom="@dimen/dm_suggestions_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/dm_local_contact_suggestion_info" />
+</RelativeLayout>

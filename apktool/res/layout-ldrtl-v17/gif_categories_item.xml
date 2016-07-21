@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.media.ui.image.AspectRatioFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:aspect_ratio="1.0" twitter:scaleMode="height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.library.media.widget.AnimatedGifView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="@drawable/bg_found_media_category_item" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="bottom|center|right" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" />
+</com.twitter.media.ui.image.AspectRatioFrameLayout>

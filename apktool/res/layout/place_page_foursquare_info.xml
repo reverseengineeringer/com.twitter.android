@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/place_page_vertical_spacing" android:layout_marginBottom="@dimen/place_page_vertical_spacing" android:src="@drawable/ic_logo_foursquare" android:scaleType="center" android:contentDescription="@null" />
+    <include android:id="@id/place_page_app_link_button" layout="@layout/place_page_cta_button" />
+</LinearLayout>

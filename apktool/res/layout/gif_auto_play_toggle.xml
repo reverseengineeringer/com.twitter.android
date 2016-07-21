@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/auto_play_switch_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center|left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="16.0sp" android:textColor="@color/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/found_media_auto_play_toggle_label" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="14.0sp" android:textColor="@color/medium_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/found_media_auto_play_toggle_subtitle" />
+    </LinearLayout>
+    <Switch android:layout_gravity="center|right" android:id="@id/auto_play_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" />
+</FrameLayout>

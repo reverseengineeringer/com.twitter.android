@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_item_count">
+        <item quantity="other">%d нових елементів</item>
+        <item quantity="one">Нових елементів: %d</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_days">
+        <item quantity="other">Залишилося %1$d дн.</item>
+        <item quantity="one">Залишилося %1$d дн.</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_hours">
+        <item quantity="other">Залишилося %1$d год</item>
+        <item quantity="one">Залишилося %1$d год</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_minutes">
+        <item quantity="other">Залишилося %1$d хв</item>
+        <item quantity="one">Залишилося %1$d хв</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d днів</item>
+        <item quantity="one">1 день</item>
+    </plurals>
+    <plurals name="dm_seen_by_list_others_overflow">
+        <item quantity="other">і ще {{}}%d{{}}</item>
+        <item quantity="one">і ще {{}}%d{{}}</item>
+    </plurals>
+    <plurals name="dm_state_seen_by">
+        <item quantity="other">Переглянули: %d</item>
+        <item quantity="one">Переглянули: %d</item>
+    </plurals>
+    <plurals name="dm_unread_messages">
+        <item quantity="other">%d непрочит. повідом.</item>
+        <item quantity="one">%d непрочит. повідом.</item>
+    </plurals>
+    <plurals name="followed_by_count">
+        <item quantity="other">Читає %1$s та %2$d інших</item>
+        <item quantity="one">Читають %1$s і ще %2$d</item>
+    </plurals>
+    <plurals name="in_reply_to_name_and_count">
+        <item quantity="other">У відповідь %1$s і ще %2$d%3$s</item>
+        <item quantity="one">У відповідь %1$s і ще %2$d%3$s</item>
+    </plurals>
+    <plurals name="magic_recs_follow_notif">
+        <item quantity="other">З-поміж тих, кого ви читаєте, щойно почали читати %1$s і ще %2$d</item>
+        <item quantity="one">З-поміж тих, кого ви читаєте, щойно почали читати %1$s і ще %2$d</item>
+    </plurals>
+    <plurals name="media_monetization_settings_categories_selected">
+        <item quantity="other">Вибрано категорій: %d</item>
+        <item quantity="one">Вибрано категорій: %d</item>
+    </plurals>
+    <plurals name="media_tag_prompt">
+        <item quantity="other">Хто на цих фото?</item>
+        <item quantity="one">Хто на цьому фото?</item>
+    </plurals>
+    <plurals name="media_tag_remaining">
+        <item quantity="other">Ще можна позначити: %d.</item>
+        <item quantity="one">Ще можна позначити: %d.</item>
+    </plurals>
+    <plurals name="media_tag_tagged">
+        <item quantity="other">Позначено осіб: %d</item>
+        <item quantity="one">Позначено осіб: %d</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="other">%d місяців</item>
+        <item quantity="one">1 місяць</item>
+    </plurals>
+    <plurals name="most_active_users_footer">
+        <item quantity="other">Інші активні контакти: %s</item>
+        <item quantity="one">Інші активні контакти: %s</item>
+    </plurals>
+    <plurals name="new_tweet_count">
+        <item quantity="other">%d нових твітів</item>
+        <item quantity="one">Нових твітів: %d</item>
+    </plurals>
+    <plurals name="news_related_tweets_title">
+        <item quantity="other">Пов’язані твіти</item>
+        <item quantity="one">Пов’язаний твіт</item>
+    </plurals>
+    <plurals name="news_top_tweets">
+        <item quantity="other">Популярних твітів: %1$s</item>
+        <item quantity="one">%1$s популярний твіт</item>
+    </plurals>
+    <plurals name="news_top_tweets_title">
+        <item quantity="other">Популярні твіти</item>
+        <item quantity="one">Популярний твіт</item>
+    </plurals>
+    <plurals name="profile_followers_count_label">
+        <item quantity="other">Читачі</item>
+        <item quantity="one">Читач</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_likes">
+        <item quantity="other">%s вподобань</item>
+        <item quantity="one">%s вподобав(ла)</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_media">
+        <item quantity="other">%s фото</item>
+        <item quantity="one">%s фото</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_timeline">
+        <item quantity="other">Твіти: %s</item>
+        <item quantity="one">%s твіт</item>
+    </plurals>
+    <plurals name="profile_tweets_count_label">
+        <item quantity="other">Твіти</item>
+        <item quantity="one">Твіт</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">Ще відповідей: %1$d</item>
+        <item quantity="one">Ще відповідей: %1$d</item>
+    </plurals>
+    <plurals name="search_user_name_pile">
+        <item quantity="other">%1$s, %2$s та інші</item>
+        <item quantity="one">%1$s та інші</item>
+    </plurals>
+    <plurals name="selected_image_count">
+        <item quantity="other">Вибрано %d</item>
+        <item quantity="one">Вибрано: %d</item>
+    </plurals>
+    <plurals name="settings_notif_tweets_count">
+        <item quantity="other">%d людей</item>
+        <item quantity="one">Осіб: %d</item>
+    </plurals>
+    <plurals name="social_follow_and_follow_and_others">
+        <item quantity="other">Читають %1$s, %2$s і ще %3$d</item>
+        <item quantity="one">%1$s, %2$s і ще %3$d читають</item>
+    </plurals>
+    <plurals name="social_like_and_retweets_count">
+        <item quantity="other">%1$s вподобали та %2$s ретвітнули</item>
+        <item quantity="one">Вподобали: %1$s, ретвітнули: %2$s</item>
+    </plurals>
+    <plurals name="social_like_count">
+        <item quantity="other">%1$s вподобали</item>
+        <item quantity="one">Вподобали: %1$s</item>
+    </plurals>
+    <plurals name="social_like_count_with_user">
+        <item quantity="other">З-поміж тих, кого ви читаєте, вподобали %1$s і ще %2$d</item>
+        <item quantity="one">З-поміж тих, кого ви читаєте, вподобали %1$s і ще %2$d</item>
+    </plurals>
+    <plurals name="social_like_count_with_user_accessibility_description">
+        <item quantity="other">З-поміж тих, кого ви читаєте, вподобали %1$s і ще %2$d</item>
+        <item quantity="one">З-поміж тих, кого ви читаєте, вподобали %1$s і ще %2$d</item>
+    </plurals>
+    <plurals name="social_proof_in_reply_multiple_names_and_count">
+        <item quantity="other">У відповідь %1$s, %2$s і ще %3$d</item>
+        <item quantity="one">У відповідь %1$s, %2$s і ще %3$d</item>
+    </plurals>
+    <plurals name="social_retweet_and_likes_count">
+        <item quantity="other">%1$s ретвітнули та %2$s вподобали</item>
+        <item quantity="one">Ретвітнули: %1$s, вподобали: %2$s</item>
+    </plurals>
+    <plurals name="social_retweet_count">
+        <item quantity="other">%1$s ретвітнули</item>
+        <item quantity="one">Ретвітів: %1$s</item>
+    </plurals>
+    <plurals name="stat_label_likes">
+        <item quantity="other">ВПОДОБАНЬ</item>
+        <item quantity="one">ВПОДОБАНЬ</item>
+    </plurals>
+    <plurals name="stat_label_retweets">
+        <item quantity="other">РЕТВІТІВ</item>
+        <item quantity="one">РЕТВİТІВ</item>
+    </plurals>
+    <plurals name="stat_label_views">
+        <item quantity="other">ПЕРЕГЛЯДІВ</item>
+        <item quantity="one">ПЕРЕГЛЯД</item>
+    </plurals>
+    <plurals name="story_proof_author_follow_by">
+        <item quantity="other">\@%1$s і ще %2$d читають</item>
+        <item quantity="one">\@%1$s і ще %2$d читають</item>
+    </plurals>
+    <plurals name="story_proof_follow_by">
+        <item quantity="other">\@%1$s і ще %2$d нещодавно почали читати</item>
+        <item quantity="one">\@%1$s і ще %2$d нещодавно почали читати</item>
+    </plurals>
+    <plurals name="story_proof_like_by">
+        <item quantity="other">\@%1$s і ще %2$d вподобали це</item>
+        <item quantity="one">\@%1$s і ще %2$d вподобали це</item>
+    </plurals>
+    <plurals name="story_proof_retweet_by">
+        <item quantity="other">\@%1$s і ще %2$d ретвітнули це</item>
+        <item quantity="one">\@%1$s і ще %2$d ретвітнули це</item>
+    </plurals>
+    <plurals name="story_proof_shared_by">
+        <item quantity="other">\@%1$s і ще %2$d говорять про це</item>
+        <item quantity="one">\@%1$s і ще %2$d говорять про це</item>
+    </plurals>
+    <plurals name="tagline_view_count">
+        <item quantity="other">Переглядів: %1$s</item>
+        <item quantity="one">Переглядів: %1$s</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%dд</item>
+        <item quantity="one">1д</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%d ДНІВ ТОМУ</item>
+        <item quantity="one">1 ДЕНЬ ТОМУ</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d год</item>
+        <item quantity="one">1 год</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%d ГОДИН ТОМУ</item>
+        <item quantity="one">1 ГОДИНУ ТОМУ</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d хв</item>
+        <item quantity="one">1 хв</item>
+    </plurals>
+    <plurals name="time_mins_ago">
+        <item quantity="other">%d ХВИЛИН ТОМУ</item>
+        <item quantity="one">1 ХВИЛИНУ ТОМУ</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d с</item>
+        <item quantity="one">1 с</item>
+    </plurals>
+    <plurals name="tweet_detail_footer_view_count">
+        <item quantity="other">Переглядів: %1$s</item>
+        <item quantity="one">Переглядів: %1$s</item>
+    </plurals>
+    <plurals name="typing_users_count">
+        <item quantity="other">Пише осіб: %d</item>
+        <item quantity="one">Пише осіб: %d</item>
+    </plurals>
+    <plurals name="users_fast_follow_text">
+        <item quantity="other">Ще +%1$s нових читачів за SMS</item>
+        <item quantity="one">Ще +%1$s новий читач за SMS</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d тижнів</item>
+        <item quantity="one">1 тиждень</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="other">%d років</item>
+        <item quantity="one">1 рік</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers">
+        <item quantity="other">%1$s запросив(ла) людей: %2$s</item>
+        <item quantity="one">%1$s запросив(ла) людей: %2$s</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers_embolden">
+        <item quantity="other">*%1$s* запросив(ла) людей: %2$s</item>
+        <item quantity="one">*%1$s* запросив(ла) людей: %2$s</item>
+    </plurals>
+    <plurals name="ps__time_format_days">
+        <item quantity="other">%d дн.</item>
+        <item quantity="one">%d дн.</item>
+    </plurals>
+    <plurals name="ps__time_format_hours">
+        <item quantity="other">%d год</item>
+        <item quantity="one">%d год</item>
+    </plurals>
+    <plurals name="ps__time_format_minutes">
+        <item quantity="other">%d хв</item>
+        <item quantity="one">%d хв</item>
+    </plurals>
+    <plurals name="ps__time_format_seconds">
+        <item quantity="other">%d с</item>
+        <item quantity="one">%d с</item>
+    </plurals>
+</resources>

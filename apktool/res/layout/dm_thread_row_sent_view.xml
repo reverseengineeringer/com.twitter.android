@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/dm_message_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DMRow">
+        <FrameLayout android:id="@id/attachments" android:visibility="gone" android:layout_width="@dimen/message_content_max_width" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true">
+            <com.twitter.library.av.DMVideoThumbnailView android:id="@id/video_thumbnail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MessageMedia" />
+            <com.twitter.android.av.video.VideoContainerHost android:id="@id/gif_thumbnail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MessageMedia" />
+            <LinearLayout android:orientation="vertical" android:id="@id/draft_media_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.twitter.android.media.widget.AttachmentMediaView android:id="@id/draft_media_thumbnail" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:layout="@layout/dm_draft_videos_and_gifs_preview_layout" style="@style/MessageMedia" />
+                <com.twitter.media.ui.AnimatingProgressBar android:id="@id/draft_media_progress_bar" style="@style/DMAnimatingProgressBarStyle" />
+            </LinearLayout>
+            <com.twitter.media.ui.image.MediaImageView android:id="@id/media_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:scaleType="fill" style="@style/MessageMedia">
+                <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:tint="@color/faint_transparent_black" android:contentDescription="@null" />
+            </com.twitter.media.ui.image.MediaImageView>
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/image_nsfw_text" android:background="@color/dm_sent_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dm_nsfw_interstitial" style="@style/DMNSFWInterstitial" />
+            <com.twitter.library.view.QuoteView android:id="@id/quote_tweet" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@null" twitter:borderColor="@color/dm_sent_bg" style="@style/DMQuoteView" />
+        </FrameLayout>
+        <View android:id="@id/attachment_separator" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/attachments" />
+        <LinearLayout android:orientation="vertical" android:id="@id/bubble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/attachment_separator" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" style="@style/DMBubble.Sent">
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/dm_conversation_avatar_size" style="@style/DMContent.Sent" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/byline_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/bubble" android:layout_alignParentRight="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/spam_actions" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/byline_container" android:layout_alignRight="@id/bubble">
+            <com.twitter.ui.widget.TwitterButton android:id="@id/is_not_spam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dm_not_spam_button" android:layout_weight="1.0" style="@style/TwitterButtonMediumRegular" />
+            <com.twitter.ui.widget.TwitterButton android:id="@id/is_spam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/dm_confirm_spam_button" android:layout_weight="1.0" style="@style/TwitterButtonMediumRegular" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/dm_full_width_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

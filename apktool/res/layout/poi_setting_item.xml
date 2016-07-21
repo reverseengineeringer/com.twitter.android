@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/section_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/divider_thickness" layout="@layout/divider" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListRow.PoiItem.Setting">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/poi_setting_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/poi_precise_location_setting" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/PoiListElement.Text.Primary" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/poi_setting_secondary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/poi_setting_label" android:layout_alignParentLeft="true" style="@style/PoiListElement.Text.Secondary" />
+        <Switch android:id="@id/poi_setting_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

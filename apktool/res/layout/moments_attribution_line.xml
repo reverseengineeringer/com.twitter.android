@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/favicon_image" style="@style/MomentsGuideAuthorAvatar">
+        <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/corner_radius" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/favicon_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsGuideText.FaviconText.White" />
+    <ImageView android:id="@id/verified_badge" android:layout_marginLeft="@dimen/standard_spacing" android:contentDescription="@null" style="@style/MomentsGuideVerifiedBadge" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/screen_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/standard_spacing" style="@style/MomentsGuideText.ScreenName.White" />
+</LinearLayout>

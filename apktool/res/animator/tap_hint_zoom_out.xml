@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@anim/decelerate_cubic" android:duration="@integer/tap_hint_zoom_out_duration" android:valueTo="1.0f" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@anim/decelerate_cubic" android:duration="@integer/tap_hint_zoom_out_duration" android:valueTo="1.0f" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@anim/decelerate_cubic" android:duration="@integer/tap_hint_zoom_out_duration" android:valueFrom="1.0f" android:valueTo="@dimen/tap_hint_initial_alpha" android:propertyName="alpha" />
+</set>

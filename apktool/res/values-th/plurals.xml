@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_item_count">
+        <item quantity="other">%d รายการใหม่</item>
+        <item quantity="one">%d สิ่งใหม่</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_days">
+        <item quantity="other">เหลืออีก %1$d วัน</item>
+        <item quantity="one">เหลืออีก %1$d วัน</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_hours">
+        <item quantity="other">เหลืออีก %1$d ชั่วโมง</item>
+        <item quantity="one">เหลืออีก %1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_minutes">
+        <item quantity="other">เหลืออีก %1$d นาที</item>
+        <item quantity="one">เหลืออีก %1$d นาที</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d วัน</item>
+        <item quantity="one">1 วัน</item>
+    </plurals>
+    <plurals name="dm_seen_by_list_others_overflow">
+        <item quantity="other">และอีก {{}}%d คน{{}}</item>
+        <item quantity="one">และอีก {{}}%d คน{{}}</item>
+    </plurals>
+    <plurals name="dm_state_seen_by">
+        <item quantity="other">อ่านแล้ว %d คน</item>
+        <item quantity="one">อ่านแล้ว %d คน</item>
+    </plurals>
+    <plurals name="dm_unread_messages">
+        <item quantity="other">%d ข้อความที่ยังไม่ได้อ่าน</item>
+        <item quantity="one">%d ข้อความที่ยังไม่ได้อ่าน</item>
+    </plurals>
+    <plurals name="followed_by_count">
+        <item quantity="other">ถูกติดตามโดย %1$s และ %2$d คนอื่น ๆ</item>
+        <item quantity="one">ถูกติดตามโดย %1$s และ %2$d คนอื่น ๆ</item>
+    </plurals>
+    <plurals name="in_reply_to_name_and_count">
+        <item quantity="other">ในการตอบกลับถึง %1$s และอีก %2$d%3$sคน</item>
+        <item quantity="one">ในการตอบกลับถึง %1$s และอีก %2$d%3$s คน</item>
+    </plurals>
+    <plurals name="magic_recs_follow_notif">
+        <item quantity="other">เพิ่งถูกติดตามโดย %1$s และมี %2$d คนที่คุณติดตาม</item>
+        <item quantity="one">เพิ่งถูกติดตามโดย %1$s และมี %2$d คนที่คุณติดตาม</item>
+    </plurals>
+    <plurals name="media_monetization_settings_categories_selected">
+        <item quantity="other">%d หมวดหมู่ที่เลือก</item>
+        <item quantity="one">%d หมวดหมู่ที่เลือก</item>
+    </plurals>
+    <plurals name="media_tag_prompt">
+        <item quantity="other">มีใครอยู่ในรูปนี้บ้าง?</item>
+        <item quantity="one">มีใครอยู่ในรูปนี้บ้าง?</item>
+    </plurals>
+    <plurals name="media_tag_remaining">
+        <item quantity="other">แท็กอีกได้ถึง %d คน</item>
+        <item quantity="one">แท็กอีกได้ถึง %d คน</item>
+    </plurals>
+    <plurals name="media_tag_tagged">
+        <item quantity="other">%d คนถูกแท็ก</item>
+        <item quantity="one">%d คนถูกแท็ก</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="other">%d เดือน</item>
+        <item quantity="one">1 เดือน</item>
+    </plurals>
+    <plurals name="most_active_users_footer">
+        <item quantity="other">คุณมีผู้ติดต่อที่มีความเคลื่อนไหวเพิ่มขึ้น %s ราย</item>
+        <item quantity="one">คุณมีผู้ติดต่อที่มีความเคลื่อนไหวเพิ่มขึ้น %s ราย</item>
+    </plurals>
+    <plurals name="new_tweet_count">
+        <item quantity="other">%d ทวีตใหม่</item>
+        <item quantity="one">%d ทวีตใหม่</item>
+    </plurals>
+    <plurals name="news_related_tweets_title">
+        <item quantity="other">ทวีตที่เกี่ยวข้อง</item>
+        <item quantity="one">ทวีตที่เกี่ยวข้อง</item>
+    </plurals>
+    <plurals name="news_top_tweets">
+        <item quantity="other">%1$s ทวีตติดอันดับ</item>
+        <item quantity="one">%1$s ทวีตติดอันดับ</item>
+    </plurals>
+    <plurals name="news_top_tweets_title">
+        <item quantity="other">ทวีตติดอันดับ</item>
+        <item quantity="one">ทวีตติดอันดับ</item>
+    </plurals>
+    <plurals name="profile_followers_count_label">
+        <item quantity="other">ผู้ติดตาม</item>
+        <item quantity="one">ผู้ติดตาม</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_likes">
+        <item quantity="other">%s ความชอบ</item>
+        <item quantity="one">%s ชื่นชอบ</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_media">
+        <item quantity="other">%s ภาพ</item>
+        <item quantity="one">%s ภาพ</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_timeline">
+        <item quantity="other">%s ทวีต</item>
+        <item quantity="one">%s ทวีต</item>
+    </plurals>
+    <plurals name="profile_tweets_count_label">
+        <item quantity="other">ทวีต</item>
+        <item quantity="one">ทวีต</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">อีก %1$d การตอบกลับ</item>
+        <item quantity="one">อีก %1$d การตอบกลับ</item>
+    </plurals>
+    <plurals name="search_user_name_pile">
+        <item quantity="other">%1$s, %2$s และอีกมาก</item>
+        <item quantity="one">%1$s และอีกมาก</item>
+    </plurals>
+    <plurals name="selected_image_count">
+        <item quantity="other">%d ที่เลือก</item>
+        <item quantity="one">%d รูปถูกเลือก</item>
+    </plurals>
+    <plurals name="settings_notif_tweets_count">
+        <item quantity="other">%d คน</item>
+        <item quantity="one">%d คน</item>
+    </plurals>
+    <plurals name="social_follow_and_follow_and_others">
+        <item quantity="other">%1$s, %2$s และอีก %3$d คนติดตาม</item>
+        <item quantity="one">%1$s, %2$s และอีก %3$d คนติดตาม</item>
+    </plurals>
+    <plurals name="social_like_and_retweets_count">
+        <item quantity="other">%1$s ความชอบและ %2$s รีทวีต</item>
+        <item quantity="one">%1$s ความชอบ และ %2$s รีทวีต</item>
+    </plurals>
+    <plurals name="social_like_count">
+        <item quantity="other">%1$s ความชอบ</item>
+        <item quantity="one">%1$s ความชอบ</item>
+    </plurals>
+    <plurals name="social_like_count_with_user">
+        <item quantity="other">%1$s และอีก %2$d คนที่คุณติดตามชื่นชอบ</item>
+        <item quantity="one">%1$s และอีก %2$d คนที่คุณติดตามชื่นชอบ</item>
+    </plurals>
+    <plurals name="social_like_count_with_user_accessibility_description">
+        <item quantity="other">ถูกชื่นชอบโดย %1$s และอีก %2$d คนที่คุณติดตาม</item>
+        <item quantity="one">ถูกชื่นชอบโดย %1$s และอีก %2$d คนที่คุณติดตาม</item>
+    </plurals>
+    <plurals name="social_proof_in_reply_multiple_names_and_count">
+        <item quantity="other">ในการตอบกลับถึง %1$s, %2$s, และอีก %3$d คน</item>
+        <item quantity="one">ในการตอบกลับถึง %1$s, %2$s และอีก %3$d คน</item>
+    </plurals>
+    <plurals name="social_retweet_and_likes_count">
+        <item quantity="other">%1$s รีทวีตและ %2$s ความชอบ</item>
+        <item quantity="one">%1$s รีทวีตและ %2$s ความชอบ</item>
+    </plurals>
+    <plurals name="social_retweet_count">
+        <item quantity="other">%1$s รีทวีต</item>
+        <item quantity="one">%1$s รีทวีต</item>
+    </plurals>
+    <plurals name="stat_label_likes">
+        <item quantity="other">ความชอบ</item>
+        <item quantity="one">ชื่นชอบ</item>
+    </plurals>
+    <plurals name="stat_label_retweets">
+        <item quantity="other">รีทวีต</item>
+        <item quantity="one">รีทวีต</item>
+    </plurals>
+    <plurals name="stat_label_views">
+        <item quantity="other">ยอดดู</item>
+        <item quantity="one">ยอดดู</item>
+    </plurals>
+    <plurals name="story_proof_author_follow_by">
+        <item quantity="other">\@%1$s และอีก %2$d คนติดตาม</item>
+        <item quantity="one">\@%1$s และอีก %2$d คนติดตาม</item>
+    </plurals>
+    <plurals name="story_proof_follow_by">
+        <item quantity="other">\@%1$s และอีก %2$d คนเพิ่งเริ่มติดตาม</item>
+        <item quantity="one">\@%1$s และอีก %2$d คนเพิ่งเริ่มติดตาม</item>
+    </plurals>
+    <plurals name="story_proof_like_by">
+        <item quantity="other">\@%1$s และอีก %2$d คนชื่นชอบ</item>
+        <item quantity="one">\@%1$s และอีก %2$d คนชื่นชอบ</item>
+    </plurals>
+    <plurals name="story_proof_retweet_by">
+        <item quantity="other">\@%1$s และอีก %2$d คนได้รีทวีต</item>
+        <item quantity="one">\@%1$s และอีก %2$d คนได้รีทวีต</item>
+    </plurals>
+    <plurals name="story_proof_shared_by">
+        <item quantity="other">\@%1$s และอีก %2$d คนกำลังพูดถึงสิ่งนี้</item>
+        <item quantity="one">\@%1$s และอีก %2$d คนกำลังพูดถึงสิ่งนี้</item>
+    </plurals>
+    <plurals name="tagline_view_count">
+        <item quantity="other">ยอดดู %1$s ครั้ง</item>
+        <item quantity="one">ยอดดู %1$s ครั้ง</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%d วัน</item>
+        <item quantity="one">1 วัน</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%d วันที่แล้ว</item>
+        <item quantity="one">1 วันที่แล้ว</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d ชม.</item>
+        <item quantity="one">1 ชม.</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%d ชั่วโมงที่แล้ว</item>
+        <item quantity="one">1 ชั่วโมงที่แล้ว</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">1 นาที</item>
+    </plurals>
+    <plurals name="time_mins_ago">
+        <item quantity="other">%d นาทีที่แล้ว</item>
+        <item quantity="one">1 นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d วินาที</item>
+        <item quantity="one">1 วินาที</item>
+    </plurals>
+    <plurals name="tweet_detail_footer_view_count">
+        <item quantity="other">ยอดดู %1$s ครั้ง</item>
+        <item quantity="one">ยอดดู %1$s ครั้ง</item>
+    </plurals>
+    <plurals name="typing_users_count">
+        <item quantity="other">%d คนกําลังพิมพ์ข้อความ</item>
+        <item quantity="one">%d คนกำลังพิมพ์</item>
+    </plurals>
+    <plurals name="users_fast_follow_text">
+        <item quantity="other">+%1$s ผู้ติดตาม SMS เพิ่มเติม</item>
+        <item quantity="one">+%1$s ผู้ติดตาม SMS เพิ่มเติม</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d สัปดาห์</item>
+        <item quantity="one">1 สัปดาห์</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="other">%d ปี</item>
+        <item quantity="one">1 ปี</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers">
+        <item quantity="other">%1$s เชิญ %2$s คนแล้ว</item>
+        <item quantity="one">%1$s เชิญ %2$s คนแล้ว</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers_embolden">
+        <item quantity="other">*%1$s* เชิญ %2$s คนแล้ว</item>
+        <item quantity="one">*%1$s* เชิญ %2$s คนแล้ว</item>
+    </plurals>
+    <plurals name="ps__time_format_days">
+        <item quantity="other">%d วัน</item>
+        <item quantity="one">%d วัน</item>
+    </plurals>
+    <plurals name="ps__time_format_hours">
+        <item quantity="other">%d ชั่วโมง</item>
+        <item quantity="one">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="ps__time_format_minutes">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">%d นาที</item>
+    </plurals>
+    <plurals name="ps__time_format_seconds">
+        <item quantity="other">%d วินาที</item>
+        <item quantity="one">%d วินาที</item>
+    </plurals>
+</resources>

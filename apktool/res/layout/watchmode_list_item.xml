@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.av.watchmode.view.WatchModeListItemView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.2099915dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.AspectRatioFrameLayout android:id="@id/watchmode_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:aspect_ratio="3.0" twitter:scaleMode="height">
+        <com.twitter.android.av.watchmode.view.WatchModeScalingFrameLayout android:id="@id/watchmode_scaling_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.twitter.android.av.video.VideoContainerHost android:id="@id/watchmode_video_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.twitter.android.av.watchmode.view.WatchModeScalingFrameLayout>
+        <View android:id="@id/watchmode_dim_view" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/watchmode_collapsed_overlay" android:paddingLeft="@dimen/watchmode_collapsed_overlay_padding" android:paddingRight="@dimen/watchmode_collapsed_overlay_padding" android:paddingBottom="@dimen/watchmode_collapsed_overlay_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="start|center|top" android:orientation="horizontal" android:paddingTop="@dimen/watchmode_collapsed_text_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/watchmode_collapsed_text_left_margin">
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textStyle="bold" android:textColor="@color/white" android:id="@id/watchmode_preview_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/medium_gray" android:id="@id/watchmode_preview_user_handle" android:paddingLeft="@dimen/watchmode_collapsed_text_left_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.twitter.media.ui.image.AspectRatioFrameLayout>
+    <com.twitter.android.av.watchmode.view.TweetSummaryView android:id="@id/tweet" android:background="@color/deep_transparent_black" android:paddingLeft="@dimen/watchmode_tweet_padding_left" android:paddingTop="@dimen/watchmode_tweet_padding_top" android:paddingRight="@dimen/watchmode_tweet_padding_right" android:paddingBottom="@dimen/watchmode_tweet_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/watchmode_content_container" android:layout_alignParentBottom="true" />
+    <com.twitter.android.av.WatchModeVideoPlayerChromeView android:id="@id/video_chrome" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tweet" android:layout_alignParentTop="true" />
+</com.twitter.android.av.watchmode.view.WatchModeListItemView>

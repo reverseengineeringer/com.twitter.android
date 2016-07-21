@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="InlineDismissConfirmationText">
+        <item name="android:layout_toRightOf">@id/undo_feeback</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="InlineDismissUndoButton">
+        <item name="android:layout_marginRight">@dimen/inline_dismiss_undo_inside_margin</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="TimelineMessageDismiss">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="TweetProfileImage">
+        <item name="android:paddingLeft">@dimen/image_margin_end</item>
+        <item name="android:paddingRight">0.0dip</item>
+    </style>
+    <style name="ps__HeartContainer">
+        <item name="android:gravity">left</item>
+    </style>
+</resources>

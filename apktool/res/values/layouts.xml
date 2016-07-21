@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="design_navigation_menu_item">@layout/drawer_menu_item</item>
+</resources>

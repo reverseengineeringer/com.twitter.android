@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.UserView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.BackgroundImageView android:id="@id/background_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:tint="@color/faint_transparent_black" twitter:defaultDrawable="@color/deep_gray">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="18.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/featured_card_layout_title" />
+            <include layout="@layout/featured_card_profile_info" />
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/white" android:ellipsize="end" android:id="@id/social_byline" android:paddingTop="14.0dip" android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.twitter.media.ui.image.BackgroundImageView>
+</com.twitter.library.widget.UserView>

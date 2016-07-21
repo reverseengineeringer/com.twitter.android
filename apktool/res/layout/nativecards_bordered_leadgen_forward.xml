@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.android.revenue.card.CardMediaView android:id="@id/media_container" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:radiusTopLeft="@dimen/card_inner_corner_radius" twitter:radiusTopRight="@dimen/card_inner_corner_radius" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_spacing_medium" android:layout_marginRight="@dimen/card_horizontal_margin">
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textStyle="bold" android:textColor="@color/text" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/card_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:maxLines="2" android:layout_weight="1.0" />
+            <com.twitter.ui.widget.TwitterButton android:textSize="@dimen/card_font_size_micro" android:layout_gravity="center_vertical" android:id="@id/card_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="@dimen/card_spacing_large" android:layout_marginBottom="@dimen/card_spacing_large" android:text="@string/cta_read_more" style="@style/TwitterButtonSmallCondensedBold" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/full_card_on_click_overlay" android:background="@color/clear" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

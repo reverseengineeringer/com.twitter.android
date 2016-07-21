@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@color/light_gray" android:padding="@dimen/moments_standard_spacing" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/live_video_player_error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_spacing_medium" style="@style/LiveVideoCardText.Secondary.Text" />
+    <View android:background="@color/medium_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/card_default_spacing" android:layout_marginBottom="@dimen/card_default_spacing" />
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/dark_gray" android:ellipsize="end" android:id="@id/live_video_player_error_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/poll_card_row_vertical_margin" android:lines="1" style="@style/LiveVideoCardText.Primary.Error" />
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/dark_gray" android:ellipsize="end" android:id="@id/live_video_player_error_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/LiveVideoCardText.Secondary.Text" />
+</LinearLayout>

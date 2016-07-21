@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/list_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textStyle="bold" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/empty_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/line_spacing_extra" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/empty_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/empty_title" />
+</RelativeLayout>

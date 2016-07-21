@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/phone_info" layout="@layout/commerce_info_header" />
+    <View android:background="@color/border_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/commerce_card_entry_edit_padding" android:paddingRight="@dimen/commerce_card_entry_edit_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/commerce_card_margin_name">
+        <EditText android:id="@id/commerce_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/commerce_address_phone" android:singleLine="true" android:inputType="phone" android:textCursorDrawable="@null" style="@style/Commerce.EditText" />
+    </LinearLayout>
+</LinearLayout>

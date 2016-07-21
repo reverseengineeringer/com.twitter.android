@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/card_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/nativecards_live_video_event_error" />
+    <TextView android:textSize="@dimen/font_size_medium" android:textColor="@color/medium_gray" android:gravity="center_horizontal" android:id="@id/compact_error_view" android:background="@color/light_gray" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/broadcast_not_available" />
+</FrameLayout>

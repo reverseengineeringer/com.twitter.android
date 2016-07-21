@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.android.moments.ui.fullscreen.ScaleToFitFrameLayout android:id="@id/media_with_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.twitter.media.ui.image.MediaImageView android:id="@id/primary_image" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:aspect_ratio="1.0" twitter:scaleMode="height" twitter:scaleType="fit">
+                <com.twitter.moments.core.ui.widget.capsule.DrawableAwareImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.twitter.media.ui.image.MediaImageView>
+            <View android:background="@drawable/drop_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/moments_drop_shadow_height" />
+        </LinearLayout>
+        <include layout="@layout/moments_image_loading_progress_bar" />
+    </com.twitter.android.moments.ui.fullscreen.ScaleToFitFrameLayout>
+</FrameLayout>

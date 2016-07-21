@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/player" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/player_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/CricketPlayerStatusRTL" />
+        <com.twitter.ui.widget.TypefacesTextView android:ellipsize="end" android:id="@id/player_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/CricketPlayerNameRTL" />
+    </LinearLayout>
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/player" android:layout_width="@dimen/score_card_logo" android:layout_height="@dimen/score_card_logo" android:layout_alignParentRight="true" android:layout_centerVertical="true" twitter:scaleType="fill" twitter:singleImageView="true">
+        <com.twitter.android.events.sports.cricket.BezelImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="@dimen/player_card_avatar_width" android:layout_height="@dimen/player_card_avatar_height" twitter:maskDrawable="@drawable/circle_mask" twitter:borderDrawable="@drawable/circle_border" />
+    </com.twitter.media.ui.image.MediaImageView>
+</RelativeLayout>

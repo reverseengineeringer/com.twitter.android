@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/list_row_background" android:minHeight="?android:listPreferredItemHeight" style="@style/ListRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/primary_text" android:id="@id/text_item" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItem" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/promoted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/badge_spacing" style="@style/Promoted" />
+    <com.twitter.ui.widget.TypefacesTextView android:ellipsize="end" android:id="@id/cluster_titles" android:visibility="gone" android:layout_marginTop="@dimen/badge_spacing" style="@style/StatName" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.media.ui.image.AspectRatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/image_gallery" twitter:aspect_ratio="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/gallery_image_image" android:background="@color/placeholder_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/image_gallery" twitter:scaleType="fill" />
+    <FrameLayout android:id="@id/gallery_image_selected_mark" android:background="@color/deep_transparent_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_compose_gallery_multiphoto_check_default" android:contentDescription="@null" />
+    </FrameLayout>
+</com.twitter.media.ui.image.AspectRatioFrameLayout>

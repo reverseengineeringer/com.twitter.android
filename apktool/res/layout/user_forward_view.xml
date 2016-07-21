@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.UserForwardView android:paddingTop="@dimen/list_row_padding_vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/linear_layout_divider"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TextLayoutView android:textColor="@color/primary_text" android:id="@id/name_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.twitter.ui.widget.BadgeView android:id="@id/promoted" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/promoted_badge_spacing" style="@style/BadgeView" />
+    <com.twitter.library.widget.ActionButton android:id="@id/action_button" android:background="@drawable/btn_follow_action_bg" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/btn_follow_action" style="@style/ActionButton.Follow" />
+</com.twitter.library.widget.UserForwardView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.internal.android.widget.GroupedRowView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TrendsPlusGroupedRowView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/trendsplus_content_promoted_collapsed" />
+        <include layout="@layout/trendsplus_list_divider" />
+    </LinearLayout>
+</com.twitter.internal.android.widget.GroupedRowView>

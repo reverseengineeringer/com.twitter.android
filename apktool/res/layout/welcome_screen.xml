@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/grad_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/welcome_screen_logo_margin_top" android:src="@drawable/twitter_logo_white" android:contentDescription="@null" />
+        <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.twitter.ui.widget.TypefacesTextView android:layout_width="fill_parent" android:layout_marginTop="@dimen/welcome_screen_padding" android:layout_marginBottom="@dimen/welcome_screen_title_margin_bottom" android:text="@string/welcome_screen_header" style="@style/Phone100WelcomeTextStyle" />
+        <com.twitter.ui.widget.TypefacesTextView android:layout_width="fill_parent" android:layout_marginBottom="@dimen/welcome_screen_desc_margin_bottom" android:text="@string/welcome_screen_description" style="@style/Phone100WelcomeTextStyle" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0">
+                <com.twitter.ui.widget.TwitterButton android:id="@id/sign_up" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/welcome_screen_signup_margin_bottom" android:text="@string/signup_sign_up" style="@style/Phone100Button" />
+                <com.twitter.ui.widget.TwitterButton android:gravity="center_horizontal" android:id="@id/log_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/welcome_screen_login_margin_bottom" android:text="@string/login_cta" app:labelColor="@color/white" app:labelPressedColor="@color/dark_gray" style="@style/TwitterButtonMediumBorderless" />
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

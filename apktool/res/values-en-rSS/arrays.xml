@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>[[147584]] Enabled for all</item>
+        <item>[[147585]] Enabled only for Direct Messages</item>
+        <item>[[147586]] Disabled for all</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>[[31836]] Tweet link</item>
+        <item>[[31837]] Copy link</item>
+        <item>[[31838]] Send link</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>[[152280]] What is your overall satisfaction with %1$s?</item>
+        <item>[[152281]] How satisfied are you with %1$s?</item>
+        <item>[[152282]] Overall, how satisfied were you with your recent %1$s experience?</item>
+        <item>[[152283]] How would you rate the overall experience with %1$s?</item>
+        <item>[[152284]] How would you rate your overall experience with %1$s?</item>
+        <item>[[152285]] How would you rate your experience so far with %1$s?</item>
+        <item>[[152286]] How would you rate your experience on Twitter with %1$s?</item>
+        <item>[[152287]] Were you satisfied with your recent experience with %1$s?</item>
+        <item>[[152288]] How well does %1$s meet your expectations?</item>
+        <item>[[152289]] How would you rate your guest experience with %1$s?</item>
+        <item>[[152290]] How would you rate your service experience with %1$s?</item>
+        <item>[[152291]] How would you rate your recent service experience with %1$s?</item>
+        <item>[[152292]] How would you rate the service you received from %1$s?</item>
+        <item>[[152293]] Were you satisfied with the result of your interaction with %1$s?</item>
+        <item>[[152294]] How would you rate the ability to resolve your issue with %1$s?</item>
+        <item>[[152295]] How would you rate the response time from %1$s?</item>
+        <item>[[152296]] How would you rate the speed of service from %1$s?</item>
+        <item>[[152297]] How would you rate the time to resolution with %1$s?</item>
+        <item>[[152298]] How would you rate the time to resolve your issue with %1$s?</item>
+        <item>[[152299]] How would you rate the speed of resolution with %1$s?</item>
+        <item>"[[152300]] How would you rate the %1$s advisor's expertise?"</item>
+        <item>[[152301]] How satisfied were you with the %1$s agent who helped you?</item>
+        <item>[[152302]] How satisfied were you with the %1$s specialist who helped you?</item>
+        <item>[[152303]] How satisfied were you with the %1$s representative who helped you?</item>
+        <item>[[152304]] How would you rate your recent banking experience with %1$s?</item>
+        <item>[[152305]] How would you rate the overall event experience at %1$s?</item>
+        <item>[[152306]] How would you rate your bill pay experience with %1$s?</item>
+        <item>[[152307]] How would you rate your purchase experience with %1$s?</item>
+        <item>[[152308]] How would you rate your shopping experience with %1$s?</item>
+        <item>[[152309]] How would you rate your delivery experience with %1$s?</item>
+        <item>[[152310]] How would you rate your rental experience with %1$s?</item>
+        <item>[[152311]] How would you rate your recent %1$s store visit?</item>
+        <item>[[152312]] How would you rate your recent %1$s hotel stay?</item>
+        <item>[[152313]] How would you rate your recent flight with %1$s?</item>
+        <item>[[152314]] How would you rate your recent ride with %1$s?</item>
+        <item>[[152315]] How would you rate your recent trip with %1$s?</item>
+        <item>[[152316]] How would you rate your recent visit to %1$s?</item>
+        <item>[[152317]] How would you rate your recent meal at %1$s?</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>[[9402]] Tailored for you</item>
+        <item>[[9403]] From anyone</item>
+        <item>[[9404]] Off</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>[[152270]] How likely are you to recommend %1$s to a friend?</item>
+        <item>[[152271]] How likely is it that you would recommend %1$s to a friend?</item>
+        <item>[[152272]] How likely is it that you would recommend %1$s to a colleague?</item>
+        <item>[[152273]] How likely is it that you would recommend %1$s to a family member?</item>
+        <item>[[152274]] How likely is it that you would recommend %1$s to someone else?</item>
+        <item>[[152275]] How likely is it that you would recommend %1$s to a friend or colleague?</item>
+        <item>[[152276]] How likely is it that you would shop at %1$s in the future?</item>
+        <item>[[152277]] How likely is it that you would recommend %1$s?</item>
+        <item>[[152278]] Would you recommend %1$s to a friend or colleague?</item>
+        <item>[[152279]] How likely are you to recommend your experience with %1$s to a friend?</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>[[147685]] Only polls I create</item>
+        <item>[[147686]] Polls I create or vote in</item>
+        <item>[[147237]] Off</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>[[7588]] 5 minutes</item>
+        <item>[[7589]] 10 minutes</item>
+        <item>[[7590]] 15 minutes</item>
+        <item>[[7591]] 30 minutes</item>
+        <item>[[7592]] 1 hour</item>
+        <item>[[7593]] 2 hours</item>
+        <item>[[7594]] 4 hours</item>
+        <item>[[106356]] Daily</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>[[108619]] General</item>
+        <item>[[108541]] Network</item>
+        <item>[[108542]] Photos and videos</item>
+        <item>[[108543]] Tweets and timelines</item>
+    </string-array>
+</resources>

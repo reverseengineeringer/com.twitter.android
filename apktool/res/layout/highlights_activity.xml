@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.ui.widget.FullScreenFrameLayout android:id="@id/highlights_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:layout_gravity="center" android:id="@id/opt_out_stub" android:layout="@layout/highlights_opt_out_prompt" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/highlights_opt_out_margin" />
+    <LinearLayout android:orientation="vertical" android:id="@id/highlights_fitted_content" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/highlights_exit" android:background="@drawable/highlights_chrome_button_bg" android:layout_width="@dimen/highlights_chrome_button_size" android:layout_height="@dimen/highlights_chrome_button_size" android:layout_marginLeft="@dimen/highlights_chrome_margin" android:layout_marginRight="@dimen/highlights_chrome_margin" android:src="@drawable/ic_close" android:scaleType="centerInside" android:contentDescription="@string/button_exit" />
+        <com.twitter.android.widget.highlights.StoriesViewPager android:id="@id/highlights_viewpager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" twitter:edge_pull_elasticity_factor="0.4" />
+        <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/highlights_bottom_story_margin" />
+    </LinearLayout>
+</com.twitter.ui.widget.FullScreenFrameLayout>

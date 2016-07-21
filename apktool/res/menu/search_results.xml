@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="?toolbarFilterIcon" android:id="@id/menu_search_filter_slideup" android:title="@string/search_filter_title" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_save_search" android:visible="false" android:title="@string/menu_save_search" android:showAsAction="never" />
+    <item android:id="@id/menu_delete_search" android:visible="false" android:title="@string/menu_delete_search" android:showAsAction="never" />
+</menu>

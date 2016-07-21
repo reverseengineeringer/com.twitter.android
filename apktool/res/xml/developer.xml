@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/developer_settings_title" android:key="category_developer" android:order="10000">
+        <Preference android:title="Debug" android:key="pref_debug" />
+        <Preference android:title="@string/settings_feature_switch_title" android:key="pref_feature_switches" android:summary="@string/settings_feature_switch_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

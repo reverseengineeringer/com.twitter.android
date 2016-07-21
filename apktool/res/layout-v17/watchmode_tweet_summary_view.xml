@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textStyle="bold" android:textColor="@color/white" android:id="@id/watchmode_tweet_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/medium_gray" android:id="@id/watchmode_tweet_handle" android:paddingLeft="@dimen/watchmode_handle_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/watchmode_handle_padding_left" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/medium_gray" android:gravity="end" android:id="@id/watchmode_tweet_timestamp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/white" android:id="@id/watchmode_tweet_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@id/actionbar" android:layout_width="fill_parent" android:layout_height="@dimen/watchmode_action_bar_height" android:layout_marginLeft="@dimen/watchmode_action_bar_margin" android:layout_marginRight="@dimen/watchmode_action_bar_margin" layout="@layout/media_action_bar" />
+</merge>

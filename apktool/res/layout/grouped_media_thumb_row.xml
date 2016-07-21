@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.internal.android.widget.GroupedRowView android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:single="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.internal.android.widget.HorizontalListView android:id="@id/photo_list" android:minHeight="@dimen/media_thumbnail_size" twitter:dividerWidth="@dimen/photo_divider_width" twitter:edgePadding="@dimen/photo_edge_padding" twitter:fillWidthHeightRatio="3.0" style="@style/ListRow.Photorail" />
+</com.twitter.internal.android.widget.GroupedRowView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/av_media_controller_controls" android:background="@drawable/bg_dark_to_clear_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/live_video_pause_button" android:background="@null" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_play_btn" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/play" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/icon_spacing" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/icon_spacing" android:layout_alignParentEnd="true">
+            <com.twitter.library.widget.TightTextView android:background="@drawable/live_video_badge_bg" android:paddingLeft="@dimen/live_video_badge_vertical_padding" android:paddingTop="@dimen/live_video_badge_horizontal_padding" android:paddingRight="@dimen/live_video_badge_vertical_padding" android:paddingBottom="@dimen/live_video_badge_horizontal_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/live_video_badge_horizontal_margin" android:layout_marginEnd="@dimen/live_video_badge_horizontal_margin" twitter:text_size="@dimen/font_size_micro" twitter:text_color="@color/white" twitter:text="@string/av_player_live_badge_label" />
+            <ImageButton android:id="@id/live_video_fullscreen_button" android:background="@null" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_expand_btn" android:contentDescription="@string/av_player_button_fullscreen" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

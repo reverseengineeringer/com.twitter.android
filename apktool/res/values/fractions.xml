@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="fraction" name="moments_card_width">@fraction/carousel_width</item>
+    <fraction name="profile_card_width">90.0%</fraction>
+    <fraction name="popup_window_flyout_pivot_x">95.00001%</fraction>
+    <fraction name="popup_window_flyout_pivot_y">4.999995%</fraction>
+    <fraction name="carousel_width">90.0%</fraction>
+    <fraction name="category_carousel_card_width">45.000004%</fraction>
+    <fraction name="cover_carousel_card_width">100.0%</fraction>
+    <fraction name="highlights_drag_exit_fraction">20.000004%</fraction>
+    <fraction name="highlights_story_header_overlay_gradient_mid">66.0%</fraction>
+    <fraction name="moments_cover_initial_progress_percent">4.999995%</fraction>
+    <fraction name="moments_fullscreen_media_parallax_percentage">25.0%</fraction>
+    <fraction name="vertical_drag_dismiss_min_translation_percentage">33.000004%</fraction>
+</resources>

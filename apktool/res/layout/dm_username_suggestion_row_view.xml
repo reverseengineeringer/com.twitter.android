@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/share_via_dm_padding" android:paddingTop="@dimen/dm_suggestions_vertical_padding" android:paddingRight="@dimen/share_via_dm_padding" android:paddingBottom="@dimen/dm_suggestions_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/avatar" android:layout_width="@dimen/medium_user_image_size" android:layout_height="@dimen/medium_user_image_size" android:layout_alignParentLeft="true" app:cornerRadius="@dimen/medium_user_image_size" app:defaultDrawable="@drawable/ic_dm_contacts_avatar">
+        <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textColor="@color/primary_text" android:gravity="center_vertical" android:id="@id/title" android:paddingLeft="@dimen/share_tweet_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/avatar" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/progress_item" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleSmall" />
+</RelativeLayout>

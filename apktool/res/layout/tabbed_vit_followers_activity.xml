@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/toolbar" layout="@layout/top_toolbar" />
+            <ProgressBar android:layout_gravity="center|top" android:id="@id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/standard_spacing" android:indeterminate="true" android:layout_below="@id/toolbar" style="?android:attr/progressBarStyleSmall" />
+            <com.twitter.android.composer.ComposerDockLayout android:id="@id/dock" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" twitter:topDockId="@id/tabs_dock">
+                <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <RelativeLayout android:id="@id/tabs_dock" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.twitter.internal.android.widget.HorizontalListView android:id="@id/tabs" style="@style/NavigationBar" />
+                </RelativeLayout>
+            </com.twitter.android.composer.ComposerDockLayout>
+        </RelativeLayout>
+    </com.twitter.library.widget.ToolbarWrapperLayout>
+    <android.support.design.widget.FloatingActionButton android:id="@id/composer_write" android:visibility="gone" twitter:layout_anchor="@id/root_layout" style="@style/FabStyle" />
+</android.support.design.widget.CoordinatorLayout>

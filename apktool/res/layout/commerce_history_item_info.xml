@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/commerce_summary_title_top_margin" android:paddingTop="@dimen/commerce_summary_title_top_margin" android:paddingRight="@dimen/commerce_summary_title_top_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/commerce_history_margin">
+        <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/secondary_text" android:gravity="left" android:id="@id/commerce_history_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Item" android:includeFontPadding="false" />
+        <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/text" android:gravity="right" android:id="@id/commerce_history_item_value" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/commerce_buy_now_price_padding" android:text="$29.99" android:includeFontPadding="false" android:layout_weight="10.0" />
+    </LinearLayout>
+    <View android:id="@id/commerce_history_item_hidden_separator" android:background="@color/border_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:id="@id/commerce_history_item_separator" android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/commerce_history_margin" />
+</LinearLayout>

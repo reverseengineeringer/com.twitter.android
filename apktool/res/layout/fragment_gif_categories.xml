@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/gif_auto_play_toggle" />
+        <com.twitter.android.media.widget.GifCategoriesView android:id="@id/grid" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:gifCategoriesSpacing="4.0dip" twitter:gifCategoriesColumnCount="2" style="@style/List.Refreshable" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+    <include layout="@layout/load_gif_error_page" />
+</FrameLayout>

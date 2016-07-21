@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/MomentsBottomSheet.Profile"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|right" android:orientation="vertical" android:id="@id/profile_sheet_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginBottom="0.0dip" android:layout_marginStart="0.0dip" layout="@layout/moments_user_layout" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium_large" android:id="@id/profile_description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_large_spacing" style="@style/MomentsFullScreenText.Thin" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/profile_location_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_large_spacing">
+            <ImageView android:id="@id/profile_location_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/ic_profile_bio_location" android:contentDescription="@null" android:layout_marginEnd="4.0dip" />
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium_large" android:id="@id/profile_location_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsFullScreenText.Thin" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_large_spacing">
+            <com.twitter.android.widget.TweetStatView android:id="@id/followers_stat" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/moments_large_spacing" twitter:nameTextColor="@color/white" twitter:valueTextColor="@color/white" />
+            <com.twitter.android.widget.TweetStatView android:id="@id/following_stat" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" twitter:nameTextColor="@color/white" twitter:valueTextColor="@color/white" />
+        </LinearLayout>
+        <FrameLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_large_spacing">
+            <com.twitter.ui.widget.ToggleTwitterButton android:layout_gravity="right" android:id="@id/follow_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/follow" twitter:styleIdOn="@style/TwitterButtonSmallKnockout" twitter:styleIdOff="@style/TwitterButtonSmallNight" twitter:nodpiBaseIconName="ic_follow" style="@style/TwitterButtonSmallNight" />
+            <ImageButton android:layout_gravity="left" android:id="@id/overflow" android:background="@drawable/ripple_selector_oval" android:layout_width="@dimen/moments_overflow_button_height" android:layout_height="@dimen/moments_overflow_button_height" android:src="@drawable/ic_moments_tweet_action_overflow_off" android:scaleType="center" android:contentDescription="@null" />
+        </FrameLayout>
+    </LinearLayout>
+    <include android:visibility="gone" layout="@layout/moments_indeterminate_progress_bar" />
+</FrameLayout>

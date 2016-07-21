@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.android.settings.MultilineCheckBoxPreference android:title="@string/settings_app_graph_title" android:key="allow_app_graph" android:summary="" />
+    <Preference android:title="@string/settings_learn_more" android:key="app_graph_learn_more" />
+</PreferenceScreen>

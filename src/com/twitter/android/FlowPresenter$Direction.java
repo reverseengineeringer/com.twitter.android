@@ -1,0 +1,12 @@
+package com.twitter.android;
+
+public enum FlowPresenter$Direction
+{
+  private FlowPresenter$Direction() {}
+}
+
+/* Location:
+ * Qualified Name:     com.twitter.android.FlowPresenter.Direction
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

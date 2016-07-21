@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/clear_view" android:background="@drawable/appwidget_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/widget_header" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/text_title_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/widget_clear_content" />
+    </RelativeLayout>
+    <ListView android:gravity="center" android:id="@id/list_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:loopViews="true" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="empty" />
+</LinearLayout>

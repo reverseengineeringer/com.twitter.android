@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dismiss" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/ic_action_squashed_height" android:layout_marginTop="5.0dip" android:src="@drawable/ic_action_dismiss" android:contentDescription="?dismissString" android:alpha="0.5" style="@style/TimelineMessageDismiss" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/timeline_message_padding_horizontal" android:paddingTop="@dimen/timeline_message_padding_top" android:paddingRight="@dimen/timeline_message_padding_horizontal" android:paddingBottom="@dimen/timeline_message_padding_bottom_below_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/timeline_message_header_text_size" android:textColor="@color/seamful_black" android:gravity="center" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/seamful_black" android:gravity="center" android:id="@id/body" android:paddingTop="@dimen/timeline_message_text_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/timeline_message_padding_bottom_above_buttons" />
+        <TableLayout android:id="@id/buttons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/timeline_message_button_section_margin_top">
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.twitter.ui.widget.TwitterButton android:id="@id/primary_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/timeline_message_button_top_margin" style="@style/TimelineMessagePrimaryAction" />
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.twitter.ui.widget.TwitterButton android:id="@id/secondary_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/timeline_message_button_top_margin" style="@style/TimelineMessageSecondaryAction" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</merge>

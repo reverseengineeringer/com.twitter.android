@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twitter.android.media.imageeditor.stickers.StickerTabLayout android:id="@id/category_tabs" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="@dimen/remix_category_tab_height" />
+        <com.twitter.ui.view.LockableViewPager android:id="@id/category_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/sticker_catalog_progress_bar" />
+    <include layout="@layout/sticker_catalog_error" />
+    <include layout="@layout/sticker_variants" />
+</merge>

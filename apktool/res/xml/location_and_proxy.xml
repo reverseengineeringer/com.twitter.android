@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:selectable="false" android:summary="@string/settings_general_indicator" />
+    <CheckBoxPreference android:title="@string/settings_location_title" android:key="location" android:summary="@string/settings_location_summary" android:defaultValue="false" />
+    <PreferenceScreen android:title="@string/settings_proxy_settings" android:key="advanced_proxy" android:summary="@string/settings_enable_http_proxy_summary" />
+</PreferenceScreen>

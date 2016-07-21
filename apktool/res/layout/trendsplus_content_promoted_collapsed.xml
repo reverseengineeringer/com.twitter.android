@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/TrendsPlusTrendContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/title" style="@style/TrendsPlusTrend.PromotedTitle" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" layout="@layout/promoted_attribution" style="@style/TrendsPlusTrend.PromotedAttribution.Collapsed" />
+</RelativeLayout>

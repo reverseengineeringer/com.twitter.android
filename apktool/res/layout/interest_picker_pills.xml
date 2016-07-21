@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/pills_layout" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/interest_pills_spacing" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyle" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/error_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/button_xlarge_text" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/interest_picker_error_loading" />
+        <com.twitter.ui.widget.TwitterButton android:layout_gravity="center_horizontal" android:id="@id/try_again" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/loading_story_button_margin" android:text="@string/interest_picker_try_again" style="@style/TwitterButtonMediumBold" />
+    </LinearLayout>
+</FrameLayout>

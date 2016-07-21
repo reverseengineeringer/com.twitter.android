@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/activity_live_video_player_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/activity_live_video_container" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/live_video_timeline_player_min_height">
+            <com.twitter.android.av.video.VideoContainerHost android:id="@id/activity_live_video_container_host" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.twitter.android.livevideo.player.LiveVideoPlayerChrome android:id="@id/activity_live_video_player_chrome" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/activity_live_video_player_error" />
+            <com.twitter.android.livevideo.player.LiveVideoPlayerErrorView android:id="@id/activity_live_video_player_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/activity_live_video_container_host" android:layout_alignBottom="@id/activity_live_video_container_host" />
+        </RelativeLayout>
+        <com.twitter.android.livevideo.landing.LiveVideoPlaceholderView android:id="@id/activity_live_video_placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/live_video_timeline_player_min_height" />
+        <FrameLayout android:id="@id/activity_live_video_fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include android:layout_gravity="bottom" android:id="@id/activity_live_video_inline_composer" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/inline_tweet_composer" />
+    <include android:id="@id/toolbar" layout="@layout/top_toolbar" />
+</android.support.design.widget.CoordinatorLayout>

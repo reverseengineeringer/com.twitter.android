@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialog_panel" android:background="@color/faded_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/button_dismiss" android:paddingLeft="@dimen/moments_large_spacing" android:paddingRight="@dimen/moments_large_spacing" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/ic_moments_close" android:tint="@color/dark_gray" android:layout_weight="8.0" android:contentDescription="@string/cancel" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="30.0">
+        <ImageView android:id="@id/logo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        <ImageView android:id="@id/dialog_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/dialog_icon_media" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="50.0">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/dialog_title" android:paddingLeft="@dimen/prompt_fullscreen_text_padding_horizontal" android:paddingRight="@dimen/prompt_fullscreen_text_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/PromptText.Dark" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/dialog_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/dialog_title" style="@style/PromptDescriptionTextDark" />
+        <com.twitter.ui.widget.TwitterButton android:id="@id/button_positive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/button_negative" android:layout_centerHorizontal="true" android:layout_alignWithParentIfMissing="true" style="@style/TwitterButtonMediumNeutral" />
+        <com.twitter.ui.widget.TwitterButton android:id="@id/button_negative" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/prompt_between_button_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/TwitterButtonMediumNeutral" />
+    </RelativeLayout>
+    <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0" />
+</LinearLayout>

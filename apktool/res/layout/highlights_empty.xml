@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <View android:background="@drawable/highlights_empty_state_bg_top" android:layout_width="fill_parent" android:layout_height="@dimen/highlights_rounded_corner_size" android:layout_weight="0.1" />
+        <com.twitter.media.ui.image.AspectRatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:aspect_ratio="@dimen/highlights_empty_state_image_aspect_ratio">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/highlights_empty_state_bg" android:scaleType="fitXY" android:contentDescription="@null" />
+        </com.twitter.media.ui.image.AspectRatioFrameLayout>
+        <ScrollView android:background="@color/highlights_empty_state_bg_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/highlights_empty_padding_start" android:paddingRight="@dimen/highlights_empty_padding_end" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/highlights_text_size_xxlarge" android:textColor="@color/white" android:gravity="center" android:id="@id/highlights_empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/highlights_empty_title" android:lineSpacingMultiplier="@dimen/highlights_spacing_xxlarge_text" style="@style/Highlights.ContentText" />
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/highlights_text_size_medium" android:textColor="@color/white" android:gravity="center" android:id="@id/highlights_empty_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="@dimen/highlights_spacing_medium_text" />
+            </LinearLayout>
+        </ScrollView>
+        <FrameLayout android:background="@drawable/highlights_empty_state_bg_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/highlights_empty_button_box_height" android:layout_weight="0.15">
+            <com.twitter.ui.widget.TwitterButton android:layout_gravity="center_horizontal" android:id="@id/highlights_empty_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/highlights_empty_button_margin_top" style="@style/TwitterButtonMediumHeavy" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

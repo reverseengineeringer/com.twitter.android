@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ps__invited_num_followers">
+        <item quantity="other">[%1$s ïínvïítéêd %2$s péêöøpléê]</item>
+        <item quantity="one">[%1$s ïínvïítéêd %2$s péêrsöøn]</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers_embolden">
+        <item quantity="other">[*%1$s* ïínvïítéêd %2$s péêöøpléê]</item>
+        <item quantity="one">[*%1$s* ïínvïítéêd %2$s péêrsöøn]</item>
+    </plurals>
+    <plurals name="ps__time_format_days">
+        <item quantity="other">[%d Dåäys]</item>
+        <item quantity="one">[%d Dåäy]</item>
+    </plurals>
+    <plurals name="ps__time_format_hours">
+        <item quantity="other">[%d Höøürs]</item>
+        <item quantity="one">[%d Höøür]</item>
+    </plurals>
+    <plurals name="ps__time_format_minutes">
+        <item quantity="other">[%d Mïínütéês]</item>
+        <item quantity="one">[%d Mïínütéê]</item>
+    </plurals>
+    <plurals name="ps__time_format_seconds">
+        <item quantity="other">[%d Séêcöønds]</item>
+        <item quantity="one">[%d Séêcöønd]</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.internal.android.widget.GroupedRowView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewAnimator android:id="@id/preview_tweet_animator" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/tweet_row_view_tweet" />
+        <include layout="@layout/tweet_row_view_tweet" />
+    </ViewAnimator>
+</com.twitter.internal.android.widget.GroupedRowView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/ListRow.Tweet"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/commerce_history_list_image" android:layout_width="@dimen/user_image_size" android:layout_height="@dimen/user_image_size" twitter:defaultDrawable="@color/dark_gray" twitter:scaleType="fill" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/commerce_border_padding" android:layout_toRightOf="@id/commerce_history_list_image">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/commerce_spinner_bottom_padding">
+            <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/secondary_text" android:gravity="left" android:id="@id/commerce_history_list_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sept 1, 2014" android:includeFontPadding="false" />
+            <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/dark_green" android:gravity="left" android:id="@id/commerce_history_list_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/commerce_buy_now_price_padding" android:text=" • Processing" android:includeFontPadding="false" />
+        </LinearLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/commerce_font_size_large" android:textColor="@color/text" android:gravity="left" android:id="@id/commerce_history_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lorem ipsum dolor sit amet" android:includeFontPadding="false" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/commerce_font_size_medium" android:textColor="@color/secondary_text" android:gravity="left" android:id="@id/commerce_history_list_sold_by" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/commerce_divider_top" android:text="Sold by Taylor Swift Official Online Store" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

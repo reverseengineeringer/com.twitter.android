@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>全部啟用</item>
+        <item>僅啟用私人訊息</item>
+        <item>全部停用</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>推文連結</item>
+        <item>複製連結</item>
+        <item>傳送連結</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>你對於 %1$s 的整體滿意度為何？</item>
+        <item>你對於 %1$s 的滿意度為何？</item>
+        <item>整體而言，你最近對於 %1$s 的體驗是否滿意？</item>
+        <item>你會如何評價對於 %1$s 的整體體驗？</item>
+        <item>你會如何評價對於 %1$s 的整體體驗？</item>
+        <item>你會如何評價至今對於 %1$s 的體驗？</item>
+        <item>你會如何評價在 Twitter 上對於 %1$s 的體驗？</item>
+        <item>你最近對於 %1$s 的體驗是否滿意？</item>
+        <item>%1$s 符合你的預期的程度有多高？</item>
+        <item>你會如何評價對於 %1$s 的顧客體驗？</item>
+        <item>你會如何評價對於 %1$s 的服務體驗？</item>
+        <item>你會如何評價最近對於 %1$s 的服務體驗？</item>
+        <item>你會如何評價 %1$s 所提供的服務？</item>
+        <item>你對於與 %1$s 的互動結果是否滿意？</item>
+        <item>你會如何評價有關 %1$s 的解決問題能力？</item>
+        <item>你會如何評價 %1$s 的回應時間？</item>
+        <item>你會如何評價 %1$s 的服務速度？</item>
+        <item>你會如何評價有關 %1$s 解答所花費的時間？</item>
+        <item>你會如何評價有關 %1$s 解決問題所花費的時間？</item>
+        <item>你會如何評價有關 %1$s 的解答速度？</item>
+        <item>你會如何評價 %1$s 顧問的專業性？</item>
+        <item>你對於協助你的 %1$s 專員的滿意程度為何？</item>
+        <item>你對於協助你的 %1$s 專家的滿意程度為何？</item>
+        <item>你對於協助你的 %1$s 代表的滿意程度為何？</item>
+        <item>你會如何評價最近對於 %1$s 的銀行業務體驗？</item>
+        <item>你會如何評價在 %1$s 的整體活動體驗？</item>
+        <item>你會如何評價對於 %1$s 的帳單支付體驗？</item>
+        <item>你會如何評價對於 %1$s 的購買體驗？</item>
+        <item>你會如何評價對於 %1$s 的購物體驗？</item>
+        <item>你會如何評價對於 %1$s 的送貨體驗？</item>
+        <item>你會如何評價對於 %1$s 的出租體驗？</item>
+        <item>你會如何評價最近的 %1$s 商店造訪體驗？</item>
+        <item>你會如何評價最近的 %1$s 住宿體驗？</item>
+        <item>你會如何評價最近對於 %1$s 的航程體驗？</item>
+        <item>你會如何評價最近對於 %1$s 的搭乘體驗？</item>
+        <item>你會如何評價最近對於 %1$s 的旅程體驗？</item>
+        <item>你會如何評價最近到 %1$s 的造訪體驗？</item>
+        <item>你會如何評價最近在 %1$s 所食用的餐點？</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>專為你量身定做</item>
+        <item>來自任何人</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>你向朋友推薦 %1$s 的機率有多高？</item>
+        <item>你向朋友推薦 %1$s 的可能性有多高？</item>
+        <item>你向同事推薦 %1$s 的可能性有多高？</item>
+        <item>你向家人推薦 %1$s 的可能性有多高？</item>
+        <item>你向其他人推薦 %1$s 的可能性有多高？</item>
+        <item>你向朋友或同事推薦 %1$s 的可能性有多高？</item>
+        <item>你未來光顧 %1$s 的可能性有多高？</item>
+        <item>你推薦 %1$s 的可能性有多高？</item>
+        <item>你會向朋友或同事推薦 %1$s 嗎？</item>
+        <item>你向朋友推薦你的 %1$s 體驗的機率有多大？</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>僅限我建立的投票</item>
+        <item>我建立或參與的投票</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>30 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>4 小時</item>
+        <item>每日</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>一般</item>
+        <item>網路</item>
+        <item>相片和影片</item>
+        <item>推文和時間軸</item>
+    </string-array>
+</resources>

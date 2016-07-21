@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/HorizontalRule" />
+    <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.ui.widget.TwitterButton android:id="@id/skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/not_now" android:layout_alignParentLeft="true" app:labelMargin="0.0dip" style="@style/TwitterButtonMediumRegularBorderless" />
+        <com.twitter.ui.widget.TwitterButton android:enabled="false" android:id="@id/cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/next" android:layout_alignParentRight="true" style="@style/TwitterButtonMediumHeavy" />
+    </RelativeLayout>
+</merge>

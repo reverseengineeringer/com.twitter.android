@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/card_url" android:background="@drawable/bg_nativecards_clickable" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/text_link" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="10.0dip" android:maxLines="3" android:lineSpacingMultiplier="1.26" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/secondary_text" android:ellipsize="end" android:id="@id/site_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" android:singleLine="true" android:lineSpacingMultiplier="1.032" />
+    </LinearLayout>
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/thumbnail" android:layout_width="90.0dip" android:layout_height="72.0dip" android:contentDescription="@string/image_profile_default" twitter:defaultDrawable="@color/placeholder_bg" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" />
+</LinearLayout>

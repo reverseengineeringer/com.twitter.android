@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.widget.EngagementActionBar android:orientation="vertical" android:id="@id/actionbar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/divider" layout="@layout/divider" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageButton android:id="@id/reply" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?iconReply" android:layout_weight="0.2" android:contentDescription="@string/button_action_reply" />
+        <com.twitter.android.widget.ToggleImageButton android:id="@id/retweet" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?iconRetweet" android:layout_weight="0.2" twitter:contentDescriptionOn="@string/button_status_retweeted" twitter:contentDescriptionOff="@string/button_action_retweet" twitter:toggleOnClick="false" />
+        <com.twitter.android.widget.ToggleImageButton android:id="@id/favorite" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?iconFavorite" android:layout_weight="0.2" twitter:contentDescriptionOn="@string/button_status_liked" twitter:contentDescriptionOff="@string/button_action_like" />
+        <ImageButton android:id="@id/share_via_dm" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_action_share_via_dm" android:layout_weight="0.2" android:contentDescription="@string/share_tweet_via_dm" />
+        <ImageButton android:id="@id/share" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_action_share" android:layout_weight="0.2" android:contentDescription="@string/button_action_share" />
+    </LinearLayout>
+</com.twitter.android.widget.EngagementActionBar>

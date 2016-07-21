@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.android.av.watchmode.view.WatchModeRecyclerView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center|left|top" android:id="@id/watchmode_back_arrow" android:padding="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_watchmode_arrow" android:contentDescription="@string/back" />
+</FrameLayout>

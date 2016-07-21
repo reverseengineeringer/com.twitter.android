@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/section_divider_color" android:paddingLeft="@dimen/share_via_dm_padding" android:paddingTop="@dimen/dm_suggestions_vertical_padding" android:paddingRight="@dimen/share_via_dm_padding" android:paddingBottom="@dimen/dm_suggestions_vertical_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textStyle="bold" android:textColor="@color/secondary_text" android:gravity="center_vertical" android:id="@id/divider_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

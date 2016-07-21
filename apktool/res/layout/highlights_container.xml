@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.media.ui.image.AspectRatioFrameLayout android:layout_gravity="center|top" android:id="@id/highlights_card" android:background="@drawable/highlights_story_bg" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" twitter:aspect_ratio="@dimen/highlights_aspect_ratio"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/highlights_story_container" android:padding="@dimen/highlights_container_stroke_width" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/highlights_social_proof_height" android:layout_weight="0.0" layout="@layout/highlights_social_proof" />
+        <View android:id="@id/proof_divider" android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="@dimen/highlights_container_stroke_width" android:layout_weight="0.0" />
+    </LinearLayout>
+</com.twitter.media.ui.image.AspectRatioFrameLayout>

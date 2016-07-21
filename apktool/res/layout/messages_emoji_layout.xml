@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/emoji_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/cancel_emoji" android:background="@null" android:paddingLeft="@dimen/dm_action_button_padding_horizontal" android:paddingTop="@dimen/dm_action_button_padding_vertical" android:paddingRight="@dimen/dm_action_button_padding_horizontal" android:paddingBottom="@dimen/dm_action_button_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_emoji_close" android:contentDescription="@string/dm_close_emoji_list" />
+    </LinearLayout>
+</LinearLayout>

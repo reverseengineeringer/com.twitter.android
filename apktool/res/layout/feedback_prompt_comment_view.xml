@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingBottom="@dimen/feedback_card_privacy_notice_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/feedback_card_dismiss_button" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/feedback_prompt_comment_text" android:layout_marginTop="@dimen/nps_feedback_card_prompts_text_top_margin" android:text="@string/feedback_comment_format" android:layout_below="@id/feedback_dismiss_button" style="@style/CustomerFeedbackCardPromptTitle" />
+    <com.twitter.ui.widget.TwitterButton android:textSize="@dimen/feedback_card_medium_text_size" android:id="@id/add_feedback_comment_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feedback_card_center_button_top_bottom_margin" android:layout_marginBottom="@dimen/feedback_card_center_button_top_bottom_margin" android:text="@string/feedback_add_comment" android:layout_below="@id/feedback_prompt_comment_text" android:layout_centerHorizontal="true" style="@style/TwitterButtonMediumBold" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/feedback_privacy_notice" android:layout_below="@id/add_feedback_comment_button" style="@style/CustomerFeedbackCardPrivacyNotice" />
+</RelativeLayout>

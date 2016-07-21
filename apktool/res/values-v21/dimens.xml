@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_compat_margin">16.0dip</dimen>
+    <dimen name="highlights_notification_title_margin_left">0.0dip</dimen>
+    <dimen name="magic_recs_notify_big_text_with_subtext_padding_top">0.0dip</dimen>
+    <dimen name="notification_circle_inset">12.0dip</dimen>
+</resources>

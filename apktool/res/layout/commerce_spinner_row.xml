@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <CheckedTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:ellipsize="marquee" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/spinnerDropDownItemStyle" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="10.0sp" android:textColor="@color/primary_text" android:ellipsize="marquee" android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/commerce_spinner_price_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/spinnerItemStyle" />
+    </LinearLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="10.0sp" android:textColor="@color/primary_text" android:ellipsize="marquee" android:id="@android:id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/spinnerItemStyle" />
+    <View android:layout_width="fill_parent" android:layout_height="12.0dip" />
+</LinearLayout>

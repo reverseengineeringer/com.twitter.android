@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:aspect_ratio="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/image" android:background="@null" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/compose_periscope_btn_new_flow" android:scaleType="centerInside" android:contentDescription="@string/subtitle_periscope" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/exit_to_app_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_marginBottom="?editImageMargin" android:src="@drawable/ic_exit_to_app_white" android:contentDescription="@null" android:alpha="0.5" />
+    <View android:id="@id/gallery_image_disabled_mask" android:background="?galleryDisabledMaskColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

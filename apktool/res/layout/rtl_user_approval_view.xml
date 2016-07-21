@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/user_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/action_button_deny_frame" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/action_button_accept_frame" android:layout_centerVertical="true">
+            <ImageButton android:id="@id/action_button_deny" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/mini_user_image_size" android:contentDescription="@string/button_deny" style="@style/Button" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/action_button_accept_frame" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/list_row_padding_vertical" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <ImageButton android:id="@id/action_button_accept" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/mini_user_image_size" android:contentDescription="@string/button_accept" style="@style/Button" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/action_button_frame" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/list_row_padding_vertical" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <com.twitter.library.widget.ActionButton android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" style="@style/ActionButton" />
+        </FrameLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/btn_padding" android:layout_toRightOf="@id/action_button_deny_frame">
+            <include layout="@layout/user_info" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:textStyle="italic" android:id="@id/profile_description_item" android:paddingTop="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/user_container" style="@style/ActivityText.Info" />
+    <include layout="@layout/user_promoted_info" />
+</merge>

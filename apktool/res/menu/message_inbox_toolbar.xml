@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_title_compose_dm" android:id="@id/menu_compose_dm" android:title="@string/button_new_dm" />
+    <item android:id="@id/dm_mark_as_read" android:title="@string/messages_mark_all_read_title" android:showAsAction="never" />
+</menu>

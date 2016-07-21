@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_vertical" android:id="@android:id/text1" android:paddingLeft="@dimen/profile_edit_birthdate_popup_item_padding_side" android:paddingRight="@dimen/profile_edit_birthdate_popup_item_padding_side" android:layout_width="fill_parent" android:layout_height="@dimen/profile_edit_birthdate_popup_item_height" android:drawablePadding="@dimen/profile_edit_birthdate_visibility_field_padding" style="@style/TwitterEditProfile"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

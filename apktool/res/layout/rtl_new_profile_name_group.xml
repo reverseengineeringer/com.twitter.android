@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minHeight="@dimen/verified_icon_intrinsic_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/protected_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/icon_protected" style="@style/ProfileCardProtectedItem.RTL" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/verified_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/icon_verified" style="@style/ProfileCardVerifiedItem.RTL" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/name_item" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ProfileCardNameItem" />
+</LinearLayout>

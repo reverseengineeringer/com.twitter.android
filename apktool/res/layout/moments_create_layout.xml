@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/top_toolbar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/moments_standard_spacing">
+        <com.twitter.ui.widget.TwitterEditText android:id="@id/moment_name_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/moment_text_field_moment_name_hint" twitter:labelColor="@color/secondary_text" twitter:labelText="@string/moment_text_field_moment_name_label" style="@style/TwitterEditText" />
+        <com.twitter.ui.widget.TwitterEditText android:id="@id/moment_description_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/moment_text_field_moment_description_hint" android:maxLines="1" twitter:labelColor="@color/secondary_text" twitter:labelText="@string/moment_text_field_moment_description_label" style="@style/TwitterEditText" />
+    </LinearLayout>
+</LinearLayout>

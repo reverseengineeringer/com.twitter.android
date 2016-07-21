@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MomentsFullScreenText.Thin" parent="@style/MomentsFullScreenText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearanceThin">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextLight">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextMedium">
+        <item name="android:textStyle">?mediumTextStyle</item>
+        <item name="android:fontFamily">?mediumFontFamily</item>
+    </style>
+    <style name="TextRegular">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.BackgroundImageView android:id="@id/banner_image" android:layout_width="fill_parent" android:layout_height="@dimen/navigation_drawer_header_height" twitter:overlayDrawable="@drawable/bg_dark_to_clear_gradient" twitter:crossfadeDuration="@integer/profile_header_crossfade_duration" twitter:filterMaxOpacity="0.0" twitter:filterColor="@android:color/transparent" twitter:imageType="profile_header" />
+    <LinearLayout android:layout_gravity="center|left|top" android:orientation="horizontal" android:id="@id/other_accounts" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/navigation_drawer_padding" />
+    <LinearLayout android:gravity="right" android:layout_gravity="bottom" android:orientation="vertical" android:padding="?drawerViewSidePadding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.library.media.widget.UserImageView android:id="@id/my_profile" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="0.0dip" twitter:userImageSize="@dimen/profile_avatar_size" style="@style/UserImage.Rounded" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/navigation_drawer_padding">
+            <ImageView android:layout_gravity="center" android:id="@id/accounts" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/navigation_account_switcher_size" android:layout_height="@dimen/navigation_account_switcher_size" android:src="@drawable/ic_drawer_arrow" android:contentDescription="@string/switch_accounts" android:rotation="90.0" />
+            <LinearLayout android:gravity="right" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/user_bio" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/font_size_medium" android:textColor="@color/white" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="6.0dip" />
+                <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/white" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

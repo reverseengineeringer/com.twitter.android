@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:id="@id/av_skip_badge_container" android:background="@drawable/bg_media_skip_badge" android:padding="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bg_media_badge_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/av_skip" />
+</LinearLayout>

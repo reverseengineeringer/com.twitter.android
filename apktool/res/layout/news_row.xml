@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/ListRow.News.NoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/list_row_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/news_image" android:layout_alignParentLeft="true">
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textStyle="bold" android:textColor="@color/primary_text" android:id="@id/news_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/secondary_text" android:id="@id/news_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/news_info_margin_top" />
+        </LinearLayout>
+        <com.twitter.media.ui.image.MediaImageView android:id="@id/news_image" android:visibility="gone" android:layout_width="@dimen/news_image_width" android:layout_height="@dimen/news_image_height" android:layout_marginLeft="@dimen/news_image_margin_left" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@null" twitter:defaultDrawable="@color/placeholder_bg" twitter:fadeIn="true" twitter:scaleType="fill">
+            <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/news_image_rounded_corner_size" />
+        </com.twitter.media.ui.image.MediaImageView>
+    </RelativeLayout>
+    <View android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider_thickness" />
+</LinearLayout>

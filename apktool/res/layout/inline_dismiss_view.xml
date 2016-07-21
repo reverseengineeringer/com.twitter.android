@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.InlineDismissView android:background="@color/section_divider_color" android:padding="@dimen/inline_dismiss_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

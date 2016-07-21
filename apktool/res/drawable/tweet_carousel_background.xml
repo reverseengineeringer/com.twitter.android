@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item twitter:state_highlighted="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/tweet_border_width" android:color="@color/border_color" />
+            <solid android:color="@color/unread" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/tweet_border_width" android:color="@color/border_color" />
+            <solid android:color="@color/pressed" />
+        </shape>
+    </item>
+    <item android:state_activated="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/tweet_border_width" android:color="@color/border_color" />
+            <solid android:color="@color/pressed" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/tweet_border_width" android:color="@color/border_color" />
+            <solid android:color="@color/focused_bg" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/tweet_border_width" android:color="@color/border_color" />
+            <solid android:color="@color/focused_bg" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/tweet_border_width" android:color="@color/border_color" />
+            <solid android:color="@color/app_background" />
+        </shape>
+    </item>
+</selector>

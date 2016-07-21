@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/error_dim" android:background="@color/dark_transparent_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium_large" android:textStyle="bold" android:textColor="@color/soft_white" android:gravity="center" android:layout_gravity="center" android:id="@id/error_message_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/moments_standard_spacing" android:layout_marginRight="@dimen/moments_standard_spacing" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_view_image" android:visibility="gone" android:layout_width="@dimen/moments_full_screen_image_loading_progressbar_width" android:layout_height="@dimen/moments_full_screen_image_loading_progressbar_height" android:indeterminate="false" android:progressDrawable="@drawable/moments_fullscreen_progressbar_primary" style="?android:attr/progressBarStyleHorizontal" />
+</FrameLayout>

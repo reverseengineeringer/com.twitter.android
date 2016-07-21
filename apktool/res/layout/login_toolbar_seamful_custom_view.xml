@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:paddingLeft="@dimen/login_overflow_icon_width" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_title_logo_signup" android:contentDescription="@string/image_icon" />
+    <com.twitter.ui.widget.TwitterButton android:layout_gravity="center|right" android:id="@id/signup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signup_sign_up" style="@style/TwitterButtonMediumBorderless" />
+</FrameLayout>

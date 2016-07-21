@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="bottom|center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bg_media_badge_padding" layout="@layout/av_badge" />
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/full_screen_header" android:background="@color/app_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.android.autocomplete.ListViewSuggestionEditText android:gravity="center_vertical" android:id="@id/selection_text" android:layout_width="0.0dip" android:layout_height="@dimen/list_preferred_height" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="5.0dip" android:drawableLeft="@drawable/ic_search_hint_dark" android:drawablePadding="5.0dip" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionSearch|flagNoExtractUi" twitter:lengthThreshold="0" style="@style/TwitterEditText" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textStyle="bold" android:textColor="@color/twitter_blue" android:gravity="center_vertical" android:id="@id/done_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="15.0dip" android:text="@string/cancel" android:textAllCaps="true" />
+    </LinearLayout>
+    <View android:id="@id/divider_border_1" android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider_thickness" android:layout_alignParentTop="true" />
+    <ListView android:id="@id/suggestion_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider_border_1" style="@style/List" />
+    <FrameLayout android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twitter.ui.widget.TypefacesTextView android:layout_gravity="center|top" android:id="@id/list_empty_text" android:paddingTop="@dimen/list_row_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/standard_spacing" style="@style/Dot" />
+    </FrameLayout>
+</RelativeLayout>

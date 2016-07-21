@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/ripple_selector_rectangle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="true" style="@style/ListRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <include layout="@layout/moments_attribution_line" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsGuideText.Primary.White" />
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.twitter.ui.widget.BadgeView android:id="@id/promoted_badge" style="@style/BadgeView.Moments" />
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsGuideText.Secondary.White" />
+            <com.twitter.android.moments.ui.guide.KnockoutTextView android:id="@id/live_badge" style="@style/MomentsGuideText.LiveBadge.White" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/thumbnail_wrapper" android:layout_width="@dimen/moments_thumbnail_width" android:layout_height="@dimen/moments_thumbnail_height" android:layout_marginLeft="@dimen/moments_standard_spacing" android:layout_marginRight="0.0dip" layout="@layout/moments_guide_list_item_thumbnail" />
+</LinearLayout>

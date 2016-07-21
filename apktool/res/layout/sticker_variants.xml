@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/remix_variant_selector" android:background="@color/transparent_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/variant_grid" android:background="@color/black" android:padding="@dimen/remix_sticker_grid_item_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

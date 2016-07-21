@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/one_factor_auth_dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/OneFactorAuthDialogDescriptionEditText" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/one_factor_auth_sms" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_one_factor_link_sms" style="@style/OneFactorAuthDialogButton" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/one_factor_auth_email" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_one_factor_link_email" style="@style/OneFactorAuthDialogButton" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/one_factor_auth_retry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_one_factor_link_retry" style="@style/OneFactorAuthDialogButton" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/actions" android:layout_width="fill_parent" android:layout_height="@dimen/highlights_action_height" style="@style/ProfileStoryActionBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.widget.CompoundDrawableAnimButton android:textSize="@dimen/profile_story_text_size" android:id="@id/story_action_follow_text" android:paddingLeft="@dimen/ht_follow_icon_padding" android:paddingRight="@dimen/ht_follow_icon_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableLeft="@drawable/highlights_action_follow_text" android:drawablePadding="@dimen/profile_action_follow_padding" android:contentDescription="@string/follow" style="@style/HighlightsActionButton.InStoryActionBar" />
+</FrameLayout>

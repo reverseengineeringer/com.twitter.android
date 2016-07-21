@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/share_via_dm_padding" android:paddingTop="@dimen/dm_suggestions_vertical_padding" android:paddingRight="@dimen/share_via_dm_padding" android:paddingBottom="@dimen/dm_suggestions_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/user_info" />
+    <ImageView android:id="@id/user_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_accept_default" android:contentDescription="@null" style="@style/UserSelected" />
+</RelativeLayout>

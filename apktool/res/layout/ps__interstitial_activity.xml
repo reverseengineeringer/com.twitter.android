@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="30.0dip" android:src="@drawable/ps__illustration" android:contentDescription="@string/ps__app_name" />
+    <TextView android:textSize="22.0sp" android:gravity="center" android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:text="@string/ps__install_description" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <tv.periscope.android.view.PsButton android:textColor="@color/ps__white" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@string/ps__download_periscope" android:onClick="onInstallClick" style="@style/ps__Button" />
+    <tv.periscope.android.view.PsButton android:layout_gravity="bottom|center" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ps__install_no_thanks" android:onClick="onCancelClick" style="@style/ps__Button.Hollow" />
+    <tv.periscope.android.view.TosView android:textSize="10.0sp" android:textColor="@color/ps__light_grey" android:gravity="center" android:layout_gravity="bottom" android:id="@id/tos_line" android:padding="@dimen/ps__standard_spacing_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ps__interstitial_tos" custom:ps__font="fonts/MuseoSans-300.otf" />
+</LinearLayout>

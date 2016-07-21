@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/activity_live_video_placeholder_image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:defaultDrawable="@color/placeholder_bg" twitter:scaleType="fill">
+        <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <View android:background="@drawable/bg_live_video_event_card_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/text_container" android:padding="@dimen/moments_standard_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/activity_live_video_placeholder_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LiveVideoCardText.Primary" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/activity_live_video_placeholder_secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LiveVideoCardText.Secondary" />
+    </LinearLayout>
+</merge>

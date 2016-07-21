@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_bar_profile" android:id="@id/my_profile" android:title="@string/profile_item" android:showAsAction="never" twitter:order="1" twitter:overflowIcon="@drawable/bg_no_profile_photo_sm" twitter:groupId="1" twitter:component="drawer" twitter:drawerTitle="@string/drawer_profile" />
+    <item android:icon="@drawable/ic_bar_lists" android:id="@id/lists" android:title="@string/profile_tab_title_lists_owned_by" android:showAsAction="never" twitter:order="4" twitter:groupId="1" twitter:component="drawer" twitter:drawerTitle="@string/drawer_lists" />
+    <item android:id="@id/news_overflow" android:visible="false" android:title="@string/news_menu_item_title" android:showAsAction="never" twitter:order="2" twitter:groupId="1" twitter:component="drawer" twitter:drawerIcon="@drawable/ic_bar_news" />
+    <item android:icon="@drawable/ic_bar_highlights" android:id="@id/highlights_overflow" android:title="@string/highlights_title" android:showAsAction="never" twitter:order="3" twitter:groupId="1" twitter:component="drawer" />
+    <item android:id="@id/find_people_overflow" android:visible="false" android:title="@string/users_pick_friend_title" android:showAsAction="never" twitter:groupId="1" twitter:component="drawer" twitter:drawerIcon="@drawable/ic_bar_find_people" />
+    <item android:id="@id/night_mode" android:visible="false" android:title="@string/night_mode" android:showAsAction="never" twitter:actionLayout="@layout/simple_toggle" twitter:component="drawer" />
+    <item android:id="@id/accounts" android:title="@string/accounts_title" android:showAsAction="never" twitter:component="drawer" />
+    <item android:id="@id/log_out" android:visible="false" android:title="@string/log_out" android:showAsAction="never" twitter:order="1003" twitter:component="drawer" />
+    <item android:id="@id/ads_companion" android:visible="false" android:title="@string/ads_companion" android:showAsAction="never" twitter:component="drawer" />
+</menu>

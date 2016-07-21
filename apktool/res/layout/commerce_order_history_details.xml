@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/top_toolbar_with_action_title" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/commerce_history_loading_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="center" android:id="@id/commerce_loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/commerce_history_details_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/commerce_item_ordered" layout="@layout/commerce_info_header" />
+                <LinearLayout android:orientation="horizontal" android:padding="@dimen/commerce_summary_title_top_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="10.0">
+                        <com.twitter.media.ui.image.MediaImageView android:id="@id/commerce_history_image" android:layout_width="@dimen/user_image_size" android:layout_height="@dimen/user_image_size" twitter:defaultDrawable="@color/dark_gray" twitter:scaleType="fill" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/commerce_border_padding">
+                            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/commerce_font_size_large" android:textColor="@color/link" android:gravity="left" android:id="@id/commerce_history_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lorem ipsum dolor sit amet" android:includeFontPadding="false" />
+                            <com.twitter.ui.widget.TypefacesTextView android:gravity="left" android:id="@id/commerce_history_attributes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="foo . bar" android:includeFontPadding="false" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/text" android:layout_gravity="center" android:id="@id/commerce_history_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/commerce_buy_now_price_padding" android:text="$29.99" android:includeFontPadding="false" />
+                </LinearLayout>
+                <View android:background="@color/light_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <com.twitter.android.commerce.widget.form.OrderHistoryItemAttribute android:id="@id/commerce_item_subtotal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.twitter.android.commerce.widget.form.OrderHistoryItemAttribute android:id="@id/commerce_item_shipping" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.twitter.android.commerce.widget.form.OrderHistoryItemAttribute android:id="@id/commerce_item_tax" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.twitter.android.commerce.widget.form.OrderHistoryItemAttribute android:id="@id/commerce_item_total" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <include android:id="@id/commerce_item_status" layout="@layout/commerce_info_header" />
+                <com.twitter.android.commerce.widget.form.OrderHistoryItemAttribute android:id="@id/commerce_item_order_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.twitter.android.commerce.widget.form.OrderHistoryItemAttribute android:id="@id/commerce_item_seller" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.twitter.android.commerce.widget.form.OrderHistoryItemAttribute android:id="@id/commerce_item_paid_with" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/dark_gray" android:gravity="left" android:id="@id/commerce_history_shipping_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/commerce_card_title_padding" android:layout_marginTop="@dimen/commerce_summary_title_top_margin" android:layout_marginRight="@dimen/commerce_card_title_padding" android:layout_marginBottom="@dimen/commerce_history_margin" android:text="Item" android:includeFontPadding="false" />
+                <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/text" android:gravity="left" android:id="@id/commerce_address_full" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/commerce_card_title_padding" android:layout_marginRight="@dimen/commerce_card_title_padding" android:layout_marginBottom="@dimen/commerce_summary_title_top_margin_address" android:text="sample text" android:includeFontPadding="false" android:inputType="textMultiLine|textNoSuggestions" />
+                <include android:id="@id/commerce_item_support" layout="@layout/commerce_info_header" />
+                <com.twitter.android.commerce.widget.form.OrderHistoryItemAttribute android:id="@id/commerce_item_support_email" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.twitter.android.commerce.widget.form.OrderHistoryItemAttribute android:id="@id/commerce_item_support_website" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.twitter.android.commerce.widget.form.OrderHistoryItemAttribute android:id="@id/commerce_item_support_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

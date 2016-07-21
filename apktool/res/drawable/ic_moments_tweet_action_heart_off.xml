@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/moments_tweet_action_margin" android:top="@dimen/moments_tweet_action_margin" android:right="@dimen/moments_tweet_action_margin" android:bottom="@dimen/moments_tweet_action_margin">
+        <shape android:shape="oval">
+            <solid android:color="@color/white_opacity_20" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/ic_moments_tweet_action_heart" />
+</layer-list>

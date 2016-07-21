@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:state_pressed="true" android:drawable="@drawable/ic_tweet_action_inline_retweet_on_pressed" twitter:state_toggled_on="true" />
+    <item android:drawable="@drawable/ic_inline_action_rt_on" twitter:state_toggled_on="true" />
+    <item android:state_enabled="false" android:drawable="@drawable/ic_tweet_action_inline_retweet_white_disabled" />
+    <item android:state_pressed="true" android:drawable="@drawable/ic_tweet_action_inline_retweet_lightgray" />
+    <item android:drawable="@drawable/ic_tweet_action_inline_retweet_white" />
+</selector>

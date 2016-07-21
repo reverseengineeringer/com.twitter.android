@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_row_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mag_icon" android:layout_width="@dimen/mini_user_image_size" android:layout_height="@dimen/mini_user_image_size" android:layout_margin="@dimen/list_row_padding_horizontal" android:src="@drawable/ic_search_filters_everything" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textColor="@color/primary_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/mag_icon" android:layout_toRightOf="@id/clear" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/clear" android:padding="@dimen/btn_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_recent_search_clear_x" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/button_clear" />
+</RelativeLayout>

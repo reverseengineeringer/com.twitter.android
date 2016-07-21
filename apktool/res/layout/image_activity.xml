@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twitter.media.ui.image.MediaImageView android:id="@id/full_image" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.twitter.library.media.widget.MultiTouchImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.twitter.media.ui.image.MediaImageView>
+        <View android:layout_gravity="bottom" android:id="@id/extra_action_button_bar" android:background="@color/dark_transparent_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="70.0dip" />
+        <com.twitter.ui.widget.TwitterButton android:layout_gravity="bottom|center" android:id="@id/extra_action_photo_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/edit" style="@style/TwitterButtonMediumCondensedNight" />
+    </FrameLayout>
+    <ProgressBar android:id="@id/loading" android:layout_width="200.0dip" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" style="?android:attr/progressBarStyleHorizontal" />
+    <include layout="@layout/top_toolbar" />
+</RelativeLayout>

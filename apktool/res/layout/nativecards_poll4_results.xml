@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/results" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/poll_card_4choice_row_height" android:layout_marginTop="@dimen/poll_card_row_vertical_margin" android:layout_marginBottom="@dimen/poll_card_row_vertical_margin" android:baselineAligned="false">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/poll_card_item_horizontal_margin" android:layout_weight="1.0">
+            <com.twitter.media.ui.image.MediaImageView android:id="@id/result0_image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:defaultDrawable="@color/placeholder_bg" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" twitter:singleImageView="true">
+                <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/poll_card_image_corner_radius" twitter:overlayDrawable="@drawable/image_overlay" />
+            </com.twitter.media.ui.image.MediaImageView>
+            <com.twitter.media.ui.image.MediaImageView android:layout_gravity="fill" android:id="@id/result0_fade" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.8" twitter:defaultDrawable="@color/placeholder_bg" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" twitter:singleImageView="true">
+                <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/poll_card_image_corner_radius" twitter:overlayDrawable="@drawable/image_overlay" />
+            </com.twitter.media.ui.image.MediaImageView>
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/result0_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/poll_card_item_horizontal_margin" android:layout_weight="1.0">
+            <com.twitter.media.ui.image.MediaImageView android:id="@id/result1_image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:defaultDrawable="@color/placeholder_bg" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" twitter:singleImageView="true">
+                <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/poll_card_image_corner_radius" twitter:overlayDrawable="@drawable/image_overlay" />
+            </com.twitter.media.ui.image.MediaImageView>
+            <com.twitter.media.ui.image.MediaImageView android:layout_gravity="fill" android:id="@id/result1_fade" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.8" twitter:defaultDrawable="@color/placeholder_bg" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" twitter:singleImageView="true">
+                <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/poll_card_image_corner_radius" twitter:overlayDrawable="@drawable/image_overlay" />
+            </com.twitter.media.ui.image.MediaImageView>
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/result1_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/poll_card_4choice_row_height" android:layout_marginTop="@dimen/poll_card_row_vertical_margin" android:layout_marginBottom="@dimen/poll_card_row_vertical_margin" android:baselineAligned="false">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/poll_card_item_horizontal_margin" android:layout_weight="1.0">
+            <com.twitter.media.ui.image.MediaImageView android:id="@id/result2_image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:defaultDrawable="@color/placeholder_bg" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" twitter:singleImageView="true">
+                <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/poll_card_image_corner_radius" twitter:overlayDrawable="@drawable/image_overlay" />
+            </com.twitter.media.ui.image.MediaImageView>
+            <com.twitter.media.ui.image.MediaImageView android:layout_gravity="fill" android:id="@id/result2_fade" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.8" twitter:defaultDrawable="@color/placeholder_bg" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" twitter:singleImageView="true">
+                <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/poll_card_image_corner_radius" twitter:overlayDrawable="@drawable/image_overlay" />
+            </com.twitter.media.ui.image.MediaImageView>
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/result2_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/poll_card_item_horizontal_margin" android:layout_weight="1.0">
+            <com.twitter.media.ui.image.MediaImageView android:id="@id/result3_image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:defaultDrawable="@color/placeholder_bg" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" twitter:singleImageView="true">
+                <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/poll_card_image_corner_radius" twitter:overlayDrawable="@drawable/image_overlay" />
+            </com.twitter.media.ui.image.MediaImageView>
+            <com.twitter.media.ui.image.MediaImageView android:layout_gravity="fill" android:id="@id/result3_fade" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.8" twitter:defaultDrawable="@color/placeholder_bg" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" twitter:singleImageView="true">
+                <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/poll_card_image_corner_radius" />
+            </com.twitter.media.ui.image.MediaImageView>
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/result3_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

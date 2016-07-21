@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.ui.view.ModernDrawerLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:relayoutToolbar="?relayoutMainToolbar">
+            <RelativeLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.twitter.android.composer.ComposerDockLayout android:id="@id/dock" android:layout_width="fill_parent" android:layout_height="fill_parent" app:topDockId="@id/tabs_dock" app:turtle="?topDockPeek">
+                    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/tabs_dock" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?tabsDockStyle">
+                        <com.twitter.library.widget.StatusToolBar android:id="@id/toolbar" style="?mainToolBarStyle" />
+                        <com.twitter.internal.android.widget.HorizontalListView android:id="@id/tabs" android:splitMotionEvents="false" style="?mainNavBarStyle" />
+                    </LinearLayout>
+                </com.twitter.android.composer.ComposerDockLayout>
+                <com.twitter.media.ui.AnimatingProgressBar android:id="@id/main_progress_bar" android:visibility="gone" style="@style/AnimatingProgressBarStyle" />
+            </RelativeLayout>
+        </com.twitter.library.widget.ToolbarWrapperLayout>
+        <include layout="@layout/browser_loading_status" />
+        <android.support.design.widget.FloatingActionButton android:id="@id/composer_write" android:visibility="gone" app:layout_anchor="@id/main_layout" style="@style/FabStyle" />
+    </android.support.design.widget.CoordinatorLayout>
+    <com.twitter.library.client.navigation.ModernDrawerView android:layout_gravity="start" android:id="@id/drawer" android:layout_width="@dimen/navigation_drawer_width" android:layout_height="fill_parent" app:itemIconTint="@color/deep_gray" app:itemTextColor="@color/text" app:headerLayout="@layout/navigation_drawer_header" />
+</com.twitter.ui.view.ModernDrawerLayout>

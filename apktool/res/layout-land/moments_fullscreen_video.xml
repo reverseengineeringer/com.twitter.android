@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/moments_image_loading_progress_bar" />
+    <com.twitter.android.moments.ui.FillCropFrameLayout android:id="@id/media_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.twitter.android.moments.ui.video.MomentsVideoPlayerChromeView android:layout_gravity="bottom" android:id="@id/video_chrome" android:background="@drawable/bg_darker_to_clear_gradient" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/moments_indeterminate_progress_bar" />
+</FrameLayout>

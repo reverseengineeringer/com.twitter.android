@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/place_page_vertical_spacing" android:layout_marginBottom="@dimen/place_page_vertical_spacing">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/place_rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/place_page_horizontal_spacing" android:scaleType="center" android:contentDescription="@null" />
+        <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/secondary_text" android:layout_gravity="center_vertical" android:id="@id/place_review_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/place_page_horizontal_spacing" />
+        <ImageView android:layout_gravity="center_vertical" android:paddingBottom="@dimen/place_picker_attribution_logo_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_places_yelp_logo" android:scaleType="center" android:contentDescription="@null" />
+    </LinearLayout>
+    <include android:id="@id/place_page_app_link_button" layout="@layout/place_page_cta_button" />
+</LinearLayout>

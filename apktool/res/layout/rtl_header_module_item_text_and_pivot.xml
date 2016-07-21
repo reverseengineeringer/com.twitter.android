@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/pivot_click_target" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/HeaderModuleTitleContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/pivot" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/HeaderModuleTitlePivot.RTL" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/title_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/HeaderModuleTitleText.RTL" />
+</LinearLayout>

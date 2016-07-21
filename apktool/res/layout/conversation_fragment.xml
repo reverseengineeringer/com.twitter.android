@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.library.widget.PageableListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:loadingHeaderLayout="@layout/list_header_view" twitter:loadingFooterLayout="@layout/tweet_details_footer" style="@style/List.Conversation" />
+    <include android:id="@android:id/empty" layout="@layout/empty_list_layout" />
+</FrameLayout>

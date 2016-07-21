@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.android.settings.CheckBoxListPreference android:persistent="false" android:entries="@array/mention_notif" android:title="@string/settings_notif_retweets_title" android:key="notif_retweets_choice" android:defaultValue="0" android:entryValues="@array/notif_settings_values" twitter:offValue="0" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/settings_notif_retweeted_mention_title" android:key="notif_retweeted_mention" android:summary="@string/settings_notif_retweeted_mention_summary" android:dependency="notif_retweets_choice" android:defaultValue="false" />
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/highlights_rounded_corner_size" android:topRightRadius="@dimen/highlights_rounded_corner_size" />
+    <solid android:color="@color/highlights_empty_state_bg_top" />
+</shape>

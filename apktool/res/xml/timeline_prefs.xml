@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.android.widget.UrlLinkableCheckboxPreference android:persistent="false" android:checked="false" android:title="@string/ranked_timeline_settings_personalization_title" android:key="ranked_timeline_setting" android:summary="@string/ranked_timeline_settings_personalization_summary_learn_more" android:defaultValue="false" twitter:clickableUrl="@string/url_ranked_timeline_learn_more" />
+</PreferenceScreen>

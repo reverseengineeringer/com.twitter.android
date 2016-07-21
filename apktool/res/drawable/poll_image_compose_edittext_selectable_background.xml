@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item twitter:state_error="true">
+        <shape android:shape="rectangle">
+            <solid android:width="@dimen/poll_card_large_button_horizontal_margin" android:color="@color/invalid_poll_choice_background" />
+            <corners android:radius="@dimen/card_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:width="@dimen/poll_card_large_button_horizontal_margin" android:color="@color/white_opacity_30" />
+            <corners android:radius="@dimen/card_corner_radius" />
+        </shape>
+    </item>
+</selector>

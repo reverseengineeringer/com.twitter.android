@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="14.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/select_all_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="-5.0dip" android:checked="false" android:layout_alignParentLeft="true" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/medium_gray" android:id="@id/select_all_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_all" android:layout_toRightOf="@id/select_all_checkbox" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/medium_gray" android:id="@id/friend_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_item_count">
+        <item quantity="other">‏%d عناصر جديدة</item>
+        <item quantity="one">‏%d عنصر جديد</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_days">
+        <item quantity="other">‏%1$d أيامًا متبقية</item>
+        <item quantity="one">‏%1$d بقي يوم</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_hours">
+        <item quantity="other">‏%1$d ساعات متبقية</item>
+        <item quantity="one">‏%1$d بقيت ساعة</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_minutes">
+        <item quantity="other">‏%1$d دقائق متبقية</item>
+        <item quantity="one">‏%1$d بقيت دقيقة</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">‏%d يومًا</item>
+        <item quantity="one">‏يوم واحد</item>
+    </plurals>
+    <plurals name="dm_seen_by_list_others_overflow">
+        <item quantity="other">‏و{{}}%d آخرين{{}}</item>
+        <item quantity="one">‏و{{}}%d آخرين{{}}</item>
+    </plurals>
+    <plurals name="dm_state_seen_by">
+        <item quantity="other">‏تمت مشاهدة بواسطة %d من الأشخاص</item>
+        <item quantity="one">‏تمت مشاهدته بواسطة %d شخص</item>
+    </plurals>
+    <plurals name="dm_unread_messages">
+        <item quantity="other">‏%d رسائل غير مقروءة</item>
+        <item quantity="one">‏%d رسالة غير مقروءة</item>
+    </plurals>
+    <plurals name="followed_by_count">
+        <item quantity="other">‏متابَع بواسطة %1$s و %2$d آخرين</item>
+        <item quantity="one">‏متابَع بواسطة %1$s و %2$d آخرين</item>
+    </plurals>
+    <plurals name="in_reply_to_name_and_count">
+        <item quantity="other">‏ردًا على %1$s وعلى %2$d%3$sآخرين</item>
+        <item quantity="one">‏ردًا على %1$s و%2$d%3$sآخر</item>
+    </plurals>
+    <plurals name="magic_recs_follow_notif">
+        <item quantity="other">‏متابعة بواسطة %1$s و%2$d أشخاص آخرين تتابعهم</item>
+        <item quantity="one">‏متابعة بواسطة %1$s و%2$d أشخاص آخرين تتابعهم</item>
+    </plurals>
+    <plurals name="media_monetization_settings_categories_selected">
+        <item quantity="other">‏%d فئات محددة</item>
+        <item quantity="one">‏%d فئة محددة</item>
+    </plurals>
+    <plurals name="media_tag_prompt">
+        <item quantity="other">‏من يظهر في هذه الصور؟</item>
+        <item quantity="one">‏من الأشخاص المشار إليهم في هذه الصور؟</item>
+    </plurals>
+    <plurals name="media_tag_remaining">
+        <item quantity="other">‏يمكنك الإشارة حتى %d من الأشخاص.</item>
+        <item quantity="one">‏يمكنك الإشارة حتى %d من الأشخاص.</item>
+    </plurals>
+    <plurals name="media_tag_tagged">
+        <item quantity="other">‏تمت الإشارة إلى %d من الأشخاص</item>
+        <item quantity="one">‏%d تمت الإشارة إلى شخص</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="other">‏%d شهر</item>
+        <item quantity="one">‏شهر واحد</item>
+    </plurals>
+    <plurals name="most_active_users_footer">
+        <item quantity="other">‏لديك %s جهات اتصال نشطه</item>
+        <item quantity="one">‏لديك %s جهة أتصال نشطه</item>
+    </plurals>
+    <plurals name="new_tweet_count">
+        <item quantity="other">‏%d تغريدة جديدة</item>
+        <item quantity="one">‏%d تغريدة جديدة</item>
+    </plurals>
+    <plurals name="news_related_tweets_title">
+        <item quantity="other">‏تغريدات ذات صلة</item>
+        <item quantity="one">‏تغريدة ذات صلة</item>
+    </plurals>
+    <plurals name="news_top_tweets">
+        <item quantity="other">‏%1$s التغريدات الأكثر انتشارًا</item>
+        <item quantity="one">‏%1$s التغريدة الأكثر انتشارًا</item>
+    </plurals>
+    <plurals name="news_top_tweets_title">
+        <item quantity="other">‏التغريدات الأكثر انتشارًا</item>
+        <item quantity="one">‏التغريدة الأكثر انتشارًا</item>
+    </plurals>
+    <plurals name="profile_followers_count_label">
+        <item quantity="other">‏متابِعون</item>
+        <item quantity="one">‏متابِع</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_likes">
+        <item quantity="other">‏%s يعجبه</item>
+        <item quantity="one">‏%s أعجبه</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_media">
+        <item quantity="other">‏%s صور</item>
+        <item quantity="one">‏%s صورة</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_timeline">
+        <item quantity="other">‏%s تغريدات</item>
+        <item quantity="one">‏%s تغريدة</item>
+    </plurals>
+    <plurals name="profile_tweets_count_label">
+        <item quantity="other">‏تغريدات</item>
+        <item quantity="one">‏تغريدة</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">‏%1$d ردود أخرى</item>
+        <item quantity="one">‏%1$d رد آخر</item>
+    </plurals>
+    <plurals name="search_user_name_pile">
+        <item quantity="other">‏%1$s,‏ %2$s وآخرون‏</item>
+        <item quantity="one">‏%1$s وآخرون</item>
+    </plurals>
+    <plurals name="selected_image_count">
+        <item quantity="other">‏%d محددة</item>
+        <item quantity="one">‏%d محددة</item>
+    </plurals>
+    <plurals name="settings_notif_tweets_count">
+        <item quantity="other">‏%d أشخاص</item>
+        <item quantity="one">‏%d شخص</item>
+    </plurals>
+    <plurals name="social_follow_and_follow_and_others">
+        <item quantity="other">‏قام %1$s و %2$s و%3$d آخرون بمتابعة</item>
+        <item quantity="one">‏قام %1$sو %2$s و%3$d آخر بمتابعة</item>
+    </plurals>
+    <plurals name="social_like_and_retweets_count">
+        <item quantity="other">‏%1$sإعجاب و %2$s إعادة تغريد</item>
+        <item quantity="one">‏%1$sإعجاب و%2$s إعادة تغريد</item>
+    </plurals>
+    <plurals name="social_like_count">
+        <item quantity="other">‏%1$s إعجاب</item>
+        <item quantity="one">‏%1$s إعجاب</item>
+    </plurals>
+    <plurals name="social_like_count_with_user">
+        <item quantity="other">‏قام %1$s و%2$d آخرون تُتابعهم بالإعجاب</item>
+        <item quantity="one">‏قام %1$s و%2$d آخرون تُتابعهم بالإعجاب</item>
+    </plurals>
+    <plurals name="social_like_count_with_user_accessibility_description">
+        <item quantity="other">‏تم الإعجاب بواسطة %1$s و%2$d آخرين تتابعهم</item>
+        <item quantity="one">‏تم الإعجاب بواسطة %1$s و%2$d آخرين تتابعهم</item>
+    </plurals>
+    <plurals name="social_proof_in_reply_multiple_names_and_count">
+        <item quantity="other">‏ردًا على %1$s و%2$s و%3$d آخرين</item>
+        <item quantity="one">‏ردًا على %1$s و%2$s و%3$d آخر</item>
+    </plurals>
+    <plurals name="social_retweet_and_likes_count">
+        <item quantity="other">‏%1$s إعادة تغريد و%2$s إعجاب</item>
+        <item quantity="one">‏%1$s إعادة تغريد و%2$s إعجاب</item>
+    </plurals>
+    <plurals name="social_retweet_count">
+        <item quantity="other">‏قام %1$s بإعادة تغريد</item>
+        <item quantity="one">‏قام %1$s بإعادة تغريد</item>
+    </plurals>
+    <plurals name="stat_label_likes">
+        <item quantity="other">‏مرات الإعجاب</item>
+        <item quantity="one">‏أعجبني</item>
+    </plurals>
+    <plurals name="stat_label_retweets">
+        <item quantity="other">‏إعادة تغريد</item>
+        <item quantity="one">‏إعادة تغريد</item>
+    </plurals>
+    <plurals name="stat_label_views">
+        <item quantity="other">‏مشاهدة</item>
+        <item quantity="one">‏مشاهدة</item>
+    </plurals>
+    <plurals name="story_proof_author_follow_by">
+        <item quantity="other">‏قام ‎@%1$s و%2$d آخرون بمتابَعة</item>
+        <item quantity="one">‏قام‎@%1$s و%2$d آخرون بمتابَعة</item>
+    </plurals>
+    <plurals name="story_proof_follow_by">
+        <item quantity="other">‏قام ‎@%1$s و%2$d آخرون مؤخرًا بمتابعة</item>
+        <item quantity="one">‏قام ‎@%1$s و%2$d آخرون مؤخرًا بمتابعة</item>
+    </plurals>
+    <plurals name="story_proof_like_by">
+        <item quantity="other">‏قام %1$s و%2$d آخرون بالإعجاب</item>
+        <item quantity="one">‏قام %1$s و%2$d آخرون بالإعجاب</item>
+    </plurals>
+    <plurals name="story_proof_retweet_by">
+        <item quantity="other">‏قام \"%1$s\" و%2$d آخرون بإعادة تغريد</item>
+        <item quantity="one">‏قام \"%1$s\" و%2$d آخرون بإعادة تغريد</item>
+    </plurals>
+    <plurals name="story_proof_shared_by">
+        <item quantity="other">‏قام ‎@%1$s و%2$d آخرون بالحديث عن هذا</item>
+        <item quantity="one">‏قام ‎@%1$s و%2$d آخرون بالحديث عن هذا</item>
+    </plurals>
+    <plurals name="tagline_view_count">
+        <item quantity="other">‏%1$s من المشاهدات</item>
+        <item quantity="one">‏%1$s مشاهدة</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">‏%d ي</item>
+        <item quantity="one">‏1يوم</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">‏مُنذ %d يوم</item>
+        <item quantity="one">‏مُنذ يوم واحد</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">‏%d س</item>
+        <item quantity="one">‏1 س</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">‏منذ %d ساعة</item>
+        <item quantity="one">‏منذ ساعة</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">‏%d د</item>
+        <item quantity="one">‏1د</item>
+    </plurals>
+    <plurals name="time_mins_ago">
+        <item quantity="other">‏منذ %d دقيقة</item>
+        <item quantity="one">‏منذ دقيقة واحدة</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">‏%d ث</item>
+        <item quantity="one">‏1 ث</item>
+    </plurals>
+    <plurals name="tweet_detail_footer_view_count">
+        <item quantity="other">‏%1$s مشاهدة</item>
+        <item quantity="one">‏%1$s مشاهدة</item>
+    </plurals>
+    <plurals name="typing_users_count">
+        <item quantity="other">‏%d أشخاص يكتبون</item>
+        <item quantity="one">‏%d شخص يكتب</item>
+    </plurals>
+    <plurals name="users_fast_follow_text">
+        <item quantity="other">‏+%1$s وأكثر متابِعون برسالة نصيّة قصيرة</item>
+        <item quantity="one">‏+%1$s وأكثر متابِع برسالة نصيّة قصيرة</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">‏%d أسبوع</item>
+        <item quantity="one">‏أسبوع واحد</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="other">‏%d سنة</item>
+        <item quantity="one">‏سنة واحدة</item>
+    </plurals>
+</resources>

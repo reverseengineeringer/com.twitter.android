@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/settings_sync_data_title" android:key="sync_data" />
+    <com.twitter.android.settings.ListPreference android:persistent="false" android:entries="@array/refresh_intervals" android:title="@string/settings_polling_interval_title" android:key="polling_interval" android:summary="%s" android:dependency="sync_data" android:defaultValue="1440" android:entryValues="@array/refresh_interval_values" />
+</PreferenceScreen>

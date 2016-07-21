@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/tap_hint_main_view" android:background="@drawable/twitter_blue_circle" android:visibility="gone" android:layout_width="@dimen/tap_fit_tutorial_size" android:layout_height="@dimen/tap_fit_tutorial_size" />
+    <View android:layout_gravity="center" android:id="@id/tap_hint_ring_view" android:background="@drawable/tap_hint_blue_ring" android:visibility="gone" android:layout_width="@dimen/tap_fit_tutorial_ring_size" android:layout_height="@dimen/tap_fit_tutorial_ring_size" />
+</merge>

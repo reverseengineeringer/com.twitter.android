@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ListRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textStyle="bold" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/sul_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:maxLines="2" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/user_images_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.twitter.library.media.widget.UserImageView android:visibility="invisible" style="@style/InterestsUserImage" />
+        <com.twitter.library.media.widget.UserImageView android:visibility="invisible" style="@style/InterestsUserImage" />
+        <com.twitter.library.media.widget.UserImageView android:visibility="invisible" style="@style/InterestsUserImage" />
+    </LinearLayout>
+</LinearLayout>

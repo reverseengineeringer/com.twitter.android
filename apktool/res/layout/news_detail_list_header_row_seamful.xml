@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.internal.android.widget.GroupedRowView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingBottom="@dimen/list_row_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/header_title" style="@style/News.TopTweets" />
+    </RelativeLayout>
+</com.twitter.internal.android.widget.GroupedRowView>

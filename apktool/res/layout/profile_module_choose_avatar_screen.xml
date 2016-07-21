@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.profilecompletionmodule.chooseavatar.ChooseAvatarScreen android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/blue_bird_header" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/header" layout="@layout/signup_clean_header" />
+            <FrameLayout android:id="@id/avatar_container" android:layout_width="@dimen/profile_module_avatar_container_outer_length" android:layout_height="@dimen/profile_module_avatar_container_outer_length" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginTop="@dimen/profile_module_avatar_container_margin_top" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:layout_below="@id/header">
+                <LinearLayout android:orientation="vertical" android:id="@id/avatar_upload_cta" android:background="@drawable/profile_module_avatar_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/profile_module_avatar_cta_image_margin_top" android:src="@drawable/ic_blue_camera_plus" android:maxHeight="@dimen/profile_module_avatar_cta_image_max_height" android:contentDescription="@null" />
+                    <com.twitter.ui.widget.TypefacesTextView android:gravity="center" android:layout_gravity="center_horizontal" android:paddingLeft="@dimen/profile_module_avatar_cta_text_padding" android:paddingRight="@dimen/profile_module_avatar_cta_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/profile_module_avatar_cta_text_margin_top" android:text="@string/profile_module_choose_header_cta_text" style="@style/ProfileModuleImageCtaStyle" />
+                </LinearLayout>
+                <com.twitter.library.media.widget.UserImageView android:layout_gravity="center" android:id="@id/avatar_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/edit_avatar_subtitle" twitter:scaleType="fill" twitter:userImageSize="@dimen/profile_module_avatar_container_inner_length" twitter:imageCornerRadius="@dimen/profile_module_avatar_container_inner_corner_radius" />
+            </FrameLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <include layout="@layout/edit_profile_module_toolbar" />
+</com.twitter.android.profilecompletionmodule.chooseavatar.ChooseAvatarScreen>

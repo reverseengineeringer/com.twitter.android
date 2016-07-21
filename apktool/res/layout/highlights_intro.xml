@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twitter.media.ui.image.AspectRatioFrameLayout android:id="@id/highlights_intro_video_box" android:background="@color/twitter_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspect_ratio="1.0">
+            <ScrollView android:layout_gravity="center_vertical" android:id="@id/highlights_intro_video_description" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/highlights_text_size_xxlarge" android:textColor="@color/white" android:gravity="center" android:id="@id/highlights_intro_description_msg" android:paddingLeft="@dimen/highlights_outer_padding" android:paddingRight="@dimen/highlights_outer_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/highlights_intro_video_description" android:lineSpacingMultiplier="@dimen/highlights_spacing_xxlarge_text" style="@style/Highlights.ContentText" />
+            </ScrollView>
+            <com.twitter.library.media.player.InlineVideoView android:id="@id/highlights_intro_video_player" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.twitter.media.ui.image.AspectRatioFrameLayout>
+        <FrameLayout android:id="@id/highlights_intro_video_button_box" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/highlights_intro_video_box" android:layout_alignParentBottom="true">
+            <com.twitter.ui.widget.TwitterButton android:layout_gravity="center" android:id="@id/highlights_intro_video_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/highlights_intro_video_button" style="@style/TwitterButtonLargeHeavy" />
+            <com.twitter.ui.widget.TypefacesTextView android:layout_gravity="center" android:id="@id/highlights_intro_video_msg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/highlights_intro_opt_in_description_populated" style="@style/Highlights.ContentText" />
+        </FrameLayout>
+        <ScrollView android:id="@id/highlights_intro_opt_in_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_centerVertical="true">
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/highlights_outer_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/highlights_intro_opt_in_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_highlights_intro" android:contentDescription="@null" />
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/highlights_text_size_xxlarge" android:textStyle="bold" android:textColor="@color/white" android:gravity="bottom|center" android:id="@id/highlights_intro_opt_in_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/highlights_intro_opt_in_header" android:lineSpacingMultiplier="@dimen/highlights_spacing_xxlarge_text" style="@style/Highlights.ContentText" />
+                <FrameLayout android:id="@id/highlights_intro_opt_in_description_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/highlights_text_size_xlarge" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/highlights_intro_opt_in_description_loading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/highlights_intro_opt_in_description_loading" android:lineSpacingMultiplier="@dimen/highlights_spacing_xlarge_text" style="@style/Highlights.ContentText" />
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/highlights_text_size_xlarge" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/highlights_intro_opt_in_description_populated" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/highlights_intro_opt_in_description_populated" android:lineSpacingMultiplier="@dimen/highlights_spacing_xlarge_text" style="@style/Highlights.ContentText" />
+                </FrameLayout>
+                <com.twitter.android.widget.highlights.IntroStorySpinner android:layout_gravity="center_horizontal" android:id="@id/highlights_intro_opt_in_spinner" android:layout_width="@dimen/highlights_intro_spinner_size" android:layout_height="@dimen/highlights_intro_spinner_size" android:layout_marginTop="@dimen/highlights_intro_spinner_margin_top" android:indeterminate="true" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</merge>

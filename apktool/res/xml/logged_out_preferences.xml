@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_category_privacy_title" android:key="@string/settings_category_privacy_title" android:order="100">
+        <com.twitter.android.settings.MultilineCheckBoxPreference android:title="@string/settings_email_disco_title" android:key="email_disco" android:summary="@string/settings_email_disco_summary" />
+        <com.twitter.android.settings.MultilineCheckBoxPreference android:title="@string/settings_phone_disco_title" android:key="phone_disco" android:summary="@string/settings_phone_disco_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_proxy_settings" android:key="@string/settings_proxy_settings" android:order="200">
+        <Preference android:title="@string/settings_proxy_settings" android:key="advanced_proxy" android:summary="@string/settings_enable_http_proxy_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

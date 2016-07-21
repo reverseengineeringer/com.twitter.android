@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:toolBarId="@id/stacked_toolbar" twitter:shouldDrawManualShadow="true">
+        <com.twitter.library.widget.SlidingPanel android:id="@id/sliding_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:panelHeaderLayoutId="@layout/search_filter_header" twitter:panelContentLayoutId="@layout/search_filter_choices">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/stacked_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.twitter.library.widget.StatusToolBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?toolBarSize" android:elevation="0.0dip" />
+                    <com.twitter.internal.android.widget.HorizontalListView android:id="@id/tabs" style="@style/NavigationBar" />
+                </LinearLayout>
+                <com.twitter.android.composer.ComposerDockLayout android:id="@id/dock" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <ViewStub android:id="@id/search_alerts_stub" android:layout="@layout/search_alerts_bar" android:layout_width="fill_parent" android:layout_height="@dimen/nav_bar_height" />
+                </com.twitter.android.composer.ComposerDockLayout>
+            </LinearLayout>
+        </com.twitter.library.widget.SlidingPanel>
+    </com.twitter.library.widget.ToolbarWrapperLayout>
+    <include layout="@layout/browser_loading_status" />
+    <android.support.design.widget.FloatingActionButton android:id="@id/composer_write" android:visibility="gone" twitter:layout_anchor="@id/sliding_panel" style="@style/FabStyle" />
+</android.support.design.widget.CoordinatorLayout>

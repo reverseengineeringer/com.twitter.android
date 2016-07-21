@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.widget.SportsEventView android:id="@id/event_view" style="@style/EventHeaderView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/team_rows" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_alignParentTop="true">
+        <com.twitter.android.widget.SportsTeamRowView android:id="@id/team_one_row" android:paddingLeft="@dimen/list_row_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" twitter:customRowLayout="@layout/sports_team_header_item" twitter:abbreviatedTeamNames="true" />
+        <com.twitter.android.widget.SportsTeamRowView android:gravity="center_horizontal" android:id="@id/team_two_row" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" twitter:customRowLayout="@layout/sports_team_header_item" twitter:abbreviatedTeamNames="true" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/game_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/EventViewHeaderDetail" />
+    </LinearLayout>
+    <View android:background="@drawable/bg_section_divider" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_below="@id/team_rows" />
+</com.twitter.android.widget.SportsEventView>

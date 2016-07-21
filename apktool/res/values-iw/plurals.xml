@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ps__invited_num_followers">
+        <item quantity="other">%1$s הזמין %2$s אנשים</item>
+        <item quantity="one">%1$s הזמין אדם %2$s</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers_embolden">
+        <item quantity="other">*%1$s* הזמין %2$s אנשים</item>
+        <item quantity="one">*%1$s* הזמין אדם %2$s</item>
+    </plurals>
+    <plurals name="ps__time_format_days">
+        <item quantity="other">%d ימים</item>
+        <item quantity="one">יום %d</item>
+    </plurals>
+    <plurals name="ps__time_format_hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה %d</item>
+    </plurals>
+    <plurals name="ps__time_format_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה %d</item>
+    </plurals>
+    <plurals name="ps__time_format_seconds">
+        <item quantity="other">%d שניות</item>
+        <item quantity="one">שנייה %d</item>
+    </plurals>
+</resources>

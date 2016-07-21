@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/trends_menu_change_loc" android:title="@string/trends_menu_change_loc" android:showAsAction="never" />
+    <item android:id="@id/trends_menu_get_personalized" android:title="@string/trends_menu_get_personalized" android:showAsAction="never" />
+</menu>

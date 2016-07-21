@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.profilecompletionmodule.chooselocation.ChooseLocationScreen android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/blue_bird_header" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/header" layout="@layout/signup_clean_header" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal">
+                <com.twitter.internal.android.widget.PopupEditText android:id="@id/edit_location" android:layout_marginBottom="@dimen/list_preferred_height" android:maxLength="@integer/profile_location_max_length" android:inputType="textCapWords|textNoSuggestions" android:imeOptions="actionDone|flagNoExtractUi" twitter:threshold="0" twitter:labelText="@string/edit_profile_location" style="@style/TwitterEditProfile" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/edit_profile_module_toolbar" />
+</com.twitter.android.profilecompletionmodule.chooselocation.ChooseLocationScreen>

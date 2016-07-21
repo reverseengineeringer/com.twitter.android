@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.twitter.moments.core.ui.widget.capsule.WidthMatchFirstChildFrameLayout android:layout_gravity="center_horizontal" android:id="@id/container" android:background="@drawable/bg_moment_audio_page_cta" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="@dimen/moments_cta_height" android:layout_marginTop="@dimen/moments_standard_spacing_half" android:layout_marginBottom="@dimen/moments_standard_spacing_half">
+        <com.twitter.ui.widget.TypefacesTextView android:ellipsize="none" android:layout_gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/moments_standard_spacing" android:layout_marginRight="@dimen/moments_standard_spacing" android:singleLine="true" />
+        <com.twitter.moments.core.ui.widget.capsule.NotClippedTextView android:textSize="@dimen/font_size_small" android:textColor="@color/moments_audio_track_text_color" android:ellipsize="none" android:layout_gravity="center_vertical" android:id="@id/track" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/moments_standard_spacing" android:layout_marginRight="@dimen/moments_standard_spacing" android:singleLine="true" />
+    </com.twitter.moments.core.ui.widget.capsule.WidthMatchFirstChildFrameLayout>
+</merge>

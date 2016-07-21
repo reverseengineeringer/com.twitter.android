@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+    <com.twitter.android.autocomplete.PopupSuggestionEditText android:textSize="@dimen/font_size_medium" android:gravity="center_vertical" android:id="@id/tweet_text" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginTop="@dimen/standard_spacing" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:layout_marginBottom="@dimen/standard_spacing" android:maxLines="3" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionSend|flagNoEnterAction" twitter:showAsDropdown="false" twitter:showFullScreen="true" twitter:removePastedStyles="true" style="@style/TwitterEditText.NoPadding" />
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/card_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.twitter.media.ui.image.MediaImageView android:id="@id/card_image" android:layout_width="wrap_content" android:layout_height="@dimen/website_card_short_media_width" android:contentDescription="@string/image_profile_default" twitter:defaultDrawable="@color/placeholder_bg" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" twitter:scaleType="fill">
+            <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadiusTopLeft="@dimen/card_inner_corner_radius" twitter:cornerRadiusBottomLeft="@dimen/card_inner_corner_radius" />
+        </com.twitter.media.ui.image.MediaImageView>
+        <View android:background="@color/border_color" android:layout_width="@dimen/border_thickness" android:layout_height="@dimen/website_card_short_media_width" android:layout_alignRight="@id/card_image" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/card_bottom_container" android:paddingLeft="@dimen/card_horizontal_margin" android:paddingRight="@dimen/card_horizontal_margin" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/text" android:ellipsize="end" android:id="@id/card_text" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/secondary_text" android:ellipsize="end" android:id="@id/card_summary" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/secondary_text" android:ellipsize="end" android:id="@id/card_url" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <com.twitter.ui.widget.TwitterButton android:textSize="@dimen/card_font_size_micro" android:layout_gravity="center_vertical" android:id="@id/card_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/card_horizontal_margin" android:text="@string/cta_read_more" style="@style/TwitterButtonSmallCondensedBold" />
+</LinearLayout>

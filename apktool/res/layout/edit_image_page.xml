@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.android.media.stickers.StickerFilteredImageView android:id="@id/filter_preview" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.twitter.android.media.imageeditor.CropMediaImageView android:id="@id/crop_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/filter_controls_height" />
+    <com.twitter.android.media.imageeditor.stickers.StickerSelectorView android:id="@id/sticker_selector" android:background="@color/sticker_catalog_overlay_background" android:paddingTop="@dimen/edit_image_toolbar_height" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

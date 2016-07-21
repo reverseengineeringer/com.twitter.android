@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/image0" android:background="@drawable/nativecards_media_border_right" android:paddingRight="@dimen/border_thickness" android:layout_width="wrap_content" android:layout_height="@dimen/card_pad_wide_height" twitter:defaultDrawable="@color/placeholder_bg" twitter:aspect_ratio="@dimen/square_aspect_ratio" twitter:errorDrawable="@drawable/bg_tweet_placeholder_photo_error" twitter:scaleType="fill">
+        <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadiusTopLeft="@dimen/card_inner_corner_radius" twitter:cornerRadiusBottomLeft="@dimen/card_inner_corner_radius" />
+    </com.twitter.media.ui.image.MediaImageView>
+</LinearLayout>

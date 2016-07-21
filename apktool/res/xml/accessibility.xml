@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:selectable="false" android:summary="@string/settings_general_indicator" />
+    <CheckBoxPreference android:title="@string/settings_accessibility_alt_text_title" android:key="compose_alt_text" android:summary="@string/settings_accessibility_alt_text_summary" android:defaultValue="false" />
+</PreferenceScreen>

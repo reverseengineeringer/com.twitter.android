@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.widget.TweetDetailView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/notif_settings_link_container" layout="@layout/notif_settings_link" />
+    <com.twitter.library.widget.SocialBylineView android:id="@id/social_byline" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:labelColor="@color/secondary_text" twitter:labelSize="@dimen/font_size_small" twitter:minIconWidth="@dimen/user_image_size" twitter:iconMargin="10.0dip" />
+    <RelativeLayout android:id="@id/badge" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/list_row_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.library.media.widget.UserImageView android:id="@id/profile_image" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" twitter:imageType="profile" style="@style/ParentAlignment" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/name_panel" android:background="@drawable/bg_name_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/TweetDetailsName">
+            <LinearLayout android:orientation="horizontal" android:id="@id/name_and_icon" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textStyle="bold" android:textColor="@color/text" android:ellipsize="end" android:id="@id/name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:id="@id/icon" android:paddingLeft="@dimen/convo_tweet_title_icon_padding_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@null" />
+            </LinearLayout>
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/secondary_text" android:id="@id/screen_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/name_and_icon" />
+        </RelativeLayout>
+        <com.twitter.library.widget.ActionButton android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/user_follow_btn_min_width" android:minHeight="@dimen/user_follow_btn_min_height" android:layout_centerVertical="false" style="@style/ActionButton.TweetDetails" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tweet_content" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingRight="@dimen/list_row_padding_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/font_size_xlarge" android:textColor="@color/primary_text" android:textColorLink="@color/link" android:id="@id/content_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:lineSpacingExtra="@dimen/line_spacing_extra" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tweet_translation" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TweetTranslationBox">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/tweet_translation_link" android:layout_width="fill_parent" android:layout_height="@dimen/tweet_trans_button_height" style="@style/TweetTranslationLink" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/tweet_translation_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TweetTranslation" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/preview_container" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/list_row_padding_vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.twitter.library.widget.PossiblySensitiveWarningView android:orientation="vertical" android:id="@id/possibly_sensitive_warning" android:background="@color/placeholder_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginTop="@dimen/list_row_padding_vertical" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:layout_marginBottom="@dimen/list_row_padding_vertical" twitter:showAllowView="true" twitter:showAlwaysView="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/byline" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/list_row_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.library.view.QuoteView android:id="@id/quote_tweet" android:background="@drawable/quote_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/deep_gray" android:id="@id/media_tags" android:background="@drawable/bg_media_tag_byline" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.twitter.ui.widget.BadgeView android:id="@id/promoted_badge" android:clickable="true" android:drawablePadding="@dimen/standard_spacing" android:onClick="onClickHandler" style="@style/BadgeView.TweetDetail" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/byline_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" style="@style/Byline" />
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/secondary_text" android:id="@id/byline_location_name" android:paddingTop="@dimen/image_margin_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/badge_spacing" android:singleLine="true" android:layout_toRightOf="@id/byline_timestamp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/media_monetization_bar_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/divider" />
+        <LinearLayout style="@style/TweetAnalyticsBar">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/tweet_analytics_icon_height" android:src="@drawable/ic_tweet_monetize" android:adjustViewBounds="true" android:contentDescription="@string/view_media_monetization_settings" />
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/media_monetization_bar_container_text" android:textAllCaps="true" style="@style/TweetAnalyticsBarText" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tweet_analytics_bar_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/divider" />
+        <LinearLayout style="@style/TweetAnalyticsBar">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/tweet_analytics_icon_height" android:src="@drawable/ic_tweet_analytics" android:adjustViewBounds="true" android:contentDescription="@string/icon_view_tweet_activity" />
+            <com.twitter.ui.widget.TypefacesTextView android:text="@string/view_tweet_activity" style="@style/TweetAnalyticsBarText" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/stats_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/reserved_actionbar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/action_bar" />
+    <View android:id="@id/bottom_divider" android:background="@color/border_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</com.twitter.android.widget.TweetDetailView>

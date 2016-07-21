@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Debug PTR"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Injection">
+        <CheckBoxPreference android:title="Inject PTR" android:key="inject_ptr_enabled" android:defaultValue="false" />
+        <EditTextPreference android:title="Injection Order" android:key="inject_ptr_order" android:dependency="inject_ptr_enabled" android:defaultValue="discover,local,tv,unplanned,wtf,sports" android:dialogMessage="Valid Entries:\n'discover,local,tv,unplanned,wtf,sports'\n\nEnter a comma-delimited list, duplicates OK" />
+        <EditTextPreference android:title="Injection Index (Zero-Based)" android:key="inject_ptr_index" android:dependency="inject_ptr_enabled" android:defaultValue="0" android:inputType="number" />
+    </PreferenceCategory>
+</PreferenceScreen>

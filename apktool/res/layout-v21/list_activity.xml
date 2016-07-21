@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:toolBarId="@id/stacked_toolbar" twitter:shouldDrawManualShadow="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/stacked_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.twitter.library.widget.StatusToolBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?toolBarSize" android:elevation="0.0dip" />
+                <com.twitter.internal.android.widget.HorizontalListView android:id="@id/tabs" style="@style/NavigationBar" />
+            </LinearLayout>
+            <com.twitter.android.composer.ComposerDockLayout android:id="@id/dock" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ProgressBar android:layout_gravity="center|top" android:id="@id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/standard_spacing" android:indeterminate="true" android:layout_below="@id/toolbar" style="?android:attr/progressBarStyleSmall" />
+            </com.twitter.android.composer.ComposerDockLayout>
+        </LinearLayout>
+    </com.twitter.library.widget.ToolbarWrapperLayout>
+    <android.support.design.widget.FloatingActionButton android:id="@id/composer_write" android:visibility="gone" twitter:layout_anchor="@id/root_layout" style="@style/FabStyle" />
+</android.support.design.widget.CoordinatorLayout>

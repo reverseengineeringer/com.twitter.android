@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_title_news" android:id="@id/news" android:visible="false" android:title="@string/news_menu_item_title" android:showAsAction="ifRoom" twitter:component="tabs" />
+    <item android:icon="@drawable/ic_title_find_people" android:id="@id/find_people" android:title="@string/users_pick_friend_title" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_title_messages" android:id="@id/toolbar_dms" android:title="@string/home_direct_messages" android:showAsAction="ifRoom" twitter:priority="1" twitter:component="tabs" />
+    <item android:icon="@drawable/ic_title_notifications" android:id="@id/toolbar_notif" android:title="@string/notif_center_title" android:showAsAction="ifRoom" twitter:priority="2" twitter:component="tabs" />
+    <item android:icon="@drawable/ic_title_moments_default" android:id="@id/toolbar_moments" android:visible="false" android:title="@string/moments_title" android:showAsAction="ifRoom" twitter:component="tabs" />
+</menu>

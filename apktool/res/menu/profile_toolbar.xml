@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_share" android:title="@string/button_action_share" android:showAsAction="never" twitter:order="1" />
+    <item android:id="@id/menu_compose_dm" android:title="@string/users_direct_message" android:showAsAction="never" twitter:order="2" />
+    <item android:id="@id/menu_turn_off_retweets" android:title="@string/users_turn_off_retweets" android:showAsAction="never" twitter:order="3" />
+    <item android:id="@id/menu_turn_on_retweets" android:title="@string/users_turn_on_retweets" android:showAsAction="never" twitter:order="4" />
+    <item android:id="@id/menu_drafts" android:title="@string/drafts" android:showAsAction="never" twitter:order="5" />
+    <item android:id="@id/menu_add_to_list" android:title="@string/users_add_list_member" android:showAsAction="never" twitter:order="6" />
+    <item android:id="@id/menu_show_lists" android:title="@string/profile_tab_title_lists_owned_by" android:showAsAction="never" twitter:order="7" />
+    <item android:id="@id/menu_mute" android:title="@string/mute" android:showAsAction="never" twitter:order="8" />
+    <item android:id="@id/menu_unmute" android:title="@string/unmute" android:showAsAction="never" twitter:order="9" />
+    <item android:id="@id/menu_unblock" android:title="@string/users_unblock" android:showAsAction="never" twitter:order="10" />
+    <item android:id="@id/menu_block" android:title="@string/block" android:showAsAction="never" twitter:order="11" />
+    <item android:id="@id/menu_report" android:title="@string/report" android:showAsAction="never" twitter:order="12" />
+    <item android:id="@id/menu_ads_companion" android:title="@string/ads_companion" android:showAsAction="never" twitter:order="13" />
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <tv.periscope.android.view.PsTextView android:textSize="16.0sp" android:textColor="@color/ps__dark_grey" android:id="@id/body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/ps__dialog_moderator_learn_more_body" custom:ps__font="fonts/MuseoSans-300.otf" />
+            <tv.periscope.android.view.PsTextView android:textSize="10.0sp" android:textColor="@color/ps__light_grey" android:id="@id/example" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/ps__dialog_moderator_learn_more_example" custom:ps__font="fonts/MuseoSans-300.otf" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/ps__bg_card_grey" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <LinearLayout android:orientation="horizontal" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:background="@drawable/ps__bg_moderation_chat_avatar" android:layout_width="24.0dip" android:layout_height="24.0dip">
+                        <ImageView android:layout_gravity="bottom|center" android:id="@id/avatar" android:layout_width="24.0dip" android:layout_height="wrap_content" android:src="@drawable/ps__ic_anonymous" android:scaleType="centerInside" android:alpha="0.3" />
+                    </FrameLayout>
+                    <tv.periscope.android.view.PsTextView android:textSize="@dimen/ps__standard_text_size" android:textColor="@color/ps__light_grey" android:gravity="center_vertical" android:id="@id/message_moderate_body" android:background="@drawable/ps__bg_chat" android:paddingLeft="8.0dip" android:paddingRight="@dimen/ps__moderator_spacing" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginRight="30.0dip" android:text="@string/ps__dialog_moderator_learn_more_message_body" custom:ps__font="fonts/MuseoSans-300.otf" />
+                </LinearLayout>
+                <View android:background="@color/ps__light_grey_20" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" />
+                <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <tv.periscope.android.view.PsButton android:textSize="@dimen/ps__standard_text_size" android:background="@drawable/ps__hollow_btn_grey_filled" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginRight="4.0dip" android:text="@string/ps__moderator_negative" android:layout_weight="1.0" android:textAllCaps="false" custom:ps__font="fonts/MuseoSans-700.otf" style="@style/ps__Button" />
+                    <tv.periscope.android.view.PsButton android:textSize="@dimen/ps__standard_text_size" android:background="@drawable/ps__hollow_btn_grey_filled" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/ps__moderator_positive" android:layout_weight="1.0" android:textAllCaps="false" custom:ps__font="fonts/MuseoSans-700.otf" style="@style/ps__Button" />
+                    <tv.periscope.android.view.PsButton android:textSize="@dimen/ps__standard_text_size" android:background="@drawable/ps__hollow_btn_grey_filled" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginLeft="4.0dip" android:text="@string/ps__moderator_neutral" android:layout_weight="1.0" android:textAllCaps="false" custom:ps__font="fonts/MuseoSans-700.otf" style="@style/ps__Button" />
+                </LinearLayout>
+            </LinearLayout>
+            <tv.periscope.android.view.PsTextView android:textSize="@dimen/ps__standard_text_size" android:textColor="@color/ps__light_grey" android:gravity="center" android:id="@id/disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/ps__dialog_moderator_learn_more_disable" custom:ps__font="fonts/MuseoSans-300.otf" />
+        </LinearLayout>
+    </ScrollView>
+    <tv.periscope.android.view.PsButton android:id="@id/positive" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ps__dialog_moderator_learn_more_button" style="@style/ps__Button.Hollow" />
+</LinearLayout>

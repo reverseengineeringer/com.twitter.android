@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">center</item>
+    </style>
+    <style name="PullToRefreshLayout">
+        <item name="android:layout_weight">7.0</item>
+    </style>
+    <style name="PullToRefreshText.CTA" parent="@style/PullToRefreshText">
+        <item name="android:gravity">left</item>
+    </style>
+</resources>

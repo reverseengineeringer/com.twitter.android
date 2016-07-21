@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/commerce_card_entry_number_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <com.twitter.android.commerce.widget.creditcard.CardNumber android:id="@id/commerce_card_entry_number" android:paddingLeft="0.0dip" android:paddingRight="4.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:textCursorDrawable="@null" style="@style/Commerce.Form" />
+        <com.twitter.ui.widget.TypefacesTextView android:layout_gravity="center_vertical" android:id="@id/commerce_card_entry_partial_number" android:paddingLeft="0.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="0008" android:textCursorDrawable="@null" style="@style/Commerce.Form" />
+    </FrameLayout>
+    <com.twitter.android.commerce.widget.creditcard.CardExpiration android:id="@id/commerce_card_entry_expiration" android:paddingRight="6.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/commerce_card_entry_number_container" android:textCursorDrawable="@null" style="@style/Commerce.Form" />
+    <com.twitter.android.commerce.widget.creditcard.CardCCV android:id="@id/commerce_card_entry_ccv" android:paddingRight="7.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/commerce_card_entry_expiration" android:textCursorDrawable="@null" style="@style/Commerce.Form" />
+    <com.twitter.android.commerce.widget.creditcard.InternationalCardZip android:id="@id/commerce_card_entry_zip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/commerce_card_entry_ccv" android:textCursorDrawable="@null" style="@style/Commerce.Form" />
+    <View android:visibility="invisible" android:layout_width="1000.0dip" android:layout_height="10.0dip" android:layout_toRightOf="@id/commerce_card_entry_zip" />
+</RelativeLayout>

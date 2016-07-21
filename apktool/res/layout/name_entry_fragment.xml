@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/list_horizontal_padding" android:layout_marginRight="@dimen/list_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/signup_clean_header" />
+        <com.twitter.ui.widget.TwitterEditText android:id="@id/name_entry" android:maxLength="@integer/profile_full_name_max_length" android:drawableRight="@drawable/ic_sign_up_field_state_list" android:inputType="textPersonName|textCapWords" android:imeOptions="actionNext" twitter:labelText="@string/signup_name_label" style="@style/TwitterPhone100Edit" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.widget.MediaStoreItemView android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/image_gallery" twitter:aspect_ratio="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twitter.media.ui.image.FixedSizeImageView android:id="@id/gallery_image_image" android:background="?galleryPlaceholderColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/image_gallery" />
+        <View android:id="@id/gallery_gradient" android:background="@drawable/gallery_gradient_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.twitter.media.ui.image.FixedSizeImageView android:layout_gravity="bottom|center|left" android:id="@id/gallery_gif_badge" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:src="@drawable/gif_badge" android:contentDescription="@null" />
+        <com.twitter.library.media.widget.VideoDurationView android:layout_gravity="bottom|center|left" android:id="@id/video_duration" android:background="@drawable/bg_media_badge" android:padding="@dimen/bg_media_badge_padding" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" twitter:text_size="@dimen/font_size_small" twitter:text_face="bold" twitter:text_color="@color/white" />
+        <View android:id="@id/selected_dark_overlay" android:background="#60000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/gallery_image_selected_mark" android:background="?gallerySelectedMarkColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?gallerySelectedMark" android:scaleType="center" android:contentDescription="@null" />
+        <ImageView android:id="@id/gallery_selected_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selected_stroke" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/gallery_image_expand" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_marginBottom="?editImageMargin" android:src="?iconExpand" android:contentDescription="@null" />
+        <View android:id="@id/gallery_image_disabled_mask" android:background="?galleryDisabledMaskColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</com.twitter.android.widget.MediaStoreItemView>

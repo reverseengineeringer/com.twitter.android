@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="?profileCardBottomPadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.widget.ActionButton android:id="@id/action_button" android:background="@drawable/btn_follow_action_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:src="@drawable/btn_follow_action" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/ActionButton.Follow" />
+    <LinearLayout android:orientation="vertical" android:id="@id/screenname_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/action_button" android:layout_alignParentLeft="true">
+        <include layout="@layout/profile_name_group" />
+        <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/secondary_text" android:ellipsize="end" android:id="@id/screenname_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/text" android:ellipsize="end" android:id="@id/profile_description_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="4" android:layout_below="@id/screenname_group" android:lineSpacingExtra="@dimen/line_spacing_extra" android:lineSpacingMultiplier="1.0" />
+    <android.support.v7.widget.RecyclerView android:id="@id/profile_entities" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/profile_description_item" />
+    <com.twitter.library.widget.SocialBylineView android:id="@id/social_byline" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/profile_entities" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/SocialProof.ProfileCard" />
+</RelativeLayout>

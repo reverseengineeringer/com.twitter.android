@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/top_toolbar" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Spinner android:id="@id/users" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" />
+                <Button android:textColor="@color/white" android:id="@id/issue_push_check_in" android:background="@color/twitter_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Issue push check in" />
+                <RadioGroup android:id="@id/logged_in_push" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/favorite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="Favorited Tweet" />
+                    <RadioButton android:id="@id/retweet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="Retweet" />
+                    <RadioButton android:id="@id/followed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="Follow" />
+                    <RadioButton android:id="@id/follow_request" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="Follow request" />
+                    <RadioButton android:id="@id/tweet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="Favorite Person Tweets" />
+                    <RadioButton android:id="@id/event_parrot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="Event Parrot" />
+                    <RadioButton android:id="@id/world_cup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="World Cup" />
+                    <RadioButton android:id="@id/magicrecs_user" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="MagicRecs User" />
+                    <RadioButton android:id="@id/magicrecs_tweet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="MagicRecs Tweet" />
+                    <RadioButton android:id="@id/magicrecs_hashtag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="MagicRecs Hashtag" />
+                    <RadioButton android:id="@id/magicrecs_exp_user" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="MagicRecs Experiment: Follow" />
+                    <RadioButton android:id="@id/magicrecs_exp_tweet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="MagicRecs Experiment: Tweet" />
+                    <RadioButton android:id="@id/magicrecs_exp_who_to_device_follow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="MagicRecs Experiment: WTDF" />
+                    <RadioButton android:id="@id/highlights" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="Highlights" />
+                    <RadioButton android:id="@id/highlights_opt_out" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="Highlights w/ opt-out" />
+                    <RadioButton android:id="@id/highlights_as_magic_rec" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="Highlights as MagicRec" />
+                    <RadioButton android:id="@id/highlights_as_rich_magic_rec" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="Highlights as Rich MagicRec" />
+                    <RadioButton android:id="@id/moments" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="@string/moments_title" />
+                    <RadioButton android:id="@id/news" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="News" />
+                    <RadioButton android:id="@id/poll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:text="Poll" />
+                </RadioGroup>
+                <Button android:textColor="@color/white" android:id="@id/send_logged_in_push" android:background="@color/twitter_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Send logged in push" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</com.twitter.library.widget.ToolbarWrapperLayout>

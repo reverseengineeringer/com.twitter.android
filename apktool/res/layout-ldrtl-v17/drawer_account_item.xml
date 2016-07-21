@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingTop="@dimen/drawer_account_item_padding_horizontal" android:paddingBottom="@dimen/drawer_account_item_padding_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_weight="1.0">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/button_small_text" android:textStyle="bold" android:textColor="@color/text" android:ellipsize="end" android:layout_gravity="end" android:id="@id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/button_small_text" android:textColor="@color/subtext" android:ellipsize="end" android:layout_gravity="end" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+    </LinearLayout>
+    <com.twitter.library.media.widget.UserImageView android:id="@id/user_image" style="@style/DrawerAccountUserImageView" />
+</LinearLayout>

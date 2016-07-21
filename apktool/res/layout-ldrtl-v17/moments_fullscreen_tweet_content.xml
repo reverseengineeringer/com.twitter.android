@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/content_container" android:background="@drawable/bg_darker_to_clear_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/text_and_heart_overlay_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/text_container" android:paddingLeft="@dimen/moments_standard_spacing" android:paddingTop="@dimen/moments_capsule_overlay_top_spacing" android:paddingRight="@dimen/moments_standard_spacing" android:paddingBottom="@dimen/moments_large_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/badge" android:inflatedId="@id/badge" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center|right" android:id="@id/user_container" android:paddingLeft="@dimen/moments_standard_spacing_half" android:paddingTop="@dimen/moments_standard_spacing_half" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium_large" android:textColor="@color/moments_username_color" android:id="@id/tertiary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/standard_spacing" android:layout_marginBottom="1.0dip" style="@style/MomentsGuideText.ScreenName" />
+                    <ImageView android:id="@id/verified_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/standard_spacing" android:src="@drawable/ic_moments_verified_white" android:contentDescription="@null" />
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium_large" android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" style="@style/MomentsGuideText.FaviconText.White" />
+                </LinearLayout>
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium_large" android:textColor="@color/white" android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <FrameLayout android:id="@id/cta_module_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_standard_spacing" />
+                <include layout="@layout/moments_fullscreen_tweet_actions_chrome" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

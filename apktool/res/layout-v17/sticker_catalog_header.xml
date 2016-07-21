@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/sticker_top_divider" android:background="@color/white_opacity_30" android:layout_width="fill_parent" android:layout_height="@dimen/divider_thickness" android:layout_marginTop="@dimen/remix_sticker_padding" android:layout_marginBottom="@dimen/remix_sticker_padding" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/button_medium_text" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/sticker_group_title" android:padding="@dimen/remix_category_title_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/promoted_category" android:paddingBottom="@dimen/remix_category_title_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/remix_category_title_padding" android:layout_marginRight="@dimen/stickers_badge_side_padding" android:src="@drawable/ic_stickers_promoted_badge" android:contentDescription="@string/promoted_trend" android:layout_marginStart="@dimen/remix_category_title_padding" android:layout_marginEnd="@dimen/stickers_badge_side_padding" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="?android:textColorSecondary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/promoted_trend" android:includeFontPadding="false" android:lineSpacingExtra="@dimen/line_spacing_extra" android:lineSpacingMultiplier="1.0" />
+    </LinearLayout>
+</LinearLayout>

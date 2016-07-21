@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@color/border_color" android:insetLeft="@dimen/trendsplus_content_margin_left" android:insetRight="@dimen/trendsplus_border_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

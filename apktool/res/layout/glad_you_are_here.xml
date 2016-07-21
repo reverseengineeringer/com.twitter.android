@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/grad_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/welcome_screen_logo_margin_top" android:src="@drawable/twitter_logo_white" android:contentDescription="@null" />
+        <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0">
+                <com.twitter.ui.widget.TypefacesTextView android:layout_width="fill_parent" android:layout_marginTop="@dimen/welcome_screen_padding" android:layout_marginBottom="@dimen/welcome_screen_title_margin_bottom" android:text="@string/glad_you_are_here_title" style="@style/Phone100GladYouAreHereTextStyle" />
+                <com.twitter.ui.widget.TypefacesTextView android:layout_width="fill_parent" android:layout_marginBottom="@dimen/welcome_screen_desc_margin_bottom" android:text="@string/glad_you_are_here_subtitle" style="@style/Phone100GladYouAreHereTextStyle" />
+                <com.twitter.ui.widget.TwitterButton android:id="@id/lets_go" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/glad_you_are_here_cta_margin_bottom" android:text="@string/lets_go" style="@style/Phone100Button" />
+                <CheckBox android:textSize="@dimen/font_size_small" android:textColor="@color/white" android:gravity="top" android:layout_gravity="top" android:id="@id/addressbook_upload" android:paddingLeft="@dimen/glad_you_are_here_checkbox_padding_horizontal" android:paddingRight="@dimen/glad_you_are_here_checkbox_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/glad_you_are_here_checkbox_margin_bottom" android:checked="true" android:button="@drawable/phone100_checkbox" android:text="@string/signup_upload_contacts_checkbox_text" android:lineSpacingExtra="2.0sp" />
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/white" android:id="@id/live_sync_legal_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/glad_you_are_here_checkbox_margin_bottom" android:text="@string/addressbook_connection_legal" android:lineSpacingExtra="2.0sp"
+                  xmlns:android="http://schemas.android.com/apk/res/android" />
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

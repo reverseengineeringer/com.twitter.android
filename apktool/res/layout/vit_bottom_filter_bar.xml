@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/divider_no_margin" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/standard_spacing" android:paddingRight="@dimen/standard_spacing" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/vit_filter_bar_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vit_notifications_tab_all" style="@style/FilterButtonStyle" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/vit_filter_bar_mentions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vit_notifications_tab_mentions" style="@style/FilterButtonStyle" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/vit_filter_bar_verified" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vit_notifications_tab_verified" style="@style/FilterButtonStyle" />
+        <android.support.v4.widget.Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:id="@id/vit_filter_bar_overflow" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_moments_tweet_action_overflow_off" android:adjustViewBounds="true" android:tint="@color/secondary_text" android:contentDescription="@string/settings_advanced_options" />
+    </LinearLayout>
+</LinearLayout>

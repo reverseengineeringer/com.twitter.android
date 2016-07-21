@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>모두 켜기</item>
+        <item>쪽지만 켜기</item>
+        <item>모두 끄기</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>링크 트윗하기</item>
+        <item>링크 복사하기</item>
+        <item>링크 보내기</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>%1$s에 대한 전반적인 만족도는 어떠신가요?</item>
+        <item>%1$s에 얼마나 만족하셨나요?</item>
+        <item>최근 %1$s의 전반적인 경험에 얼마나 만족하셨나요?</item>
+        <item>%1$s 서비스의 전반적인 경험은 어떠셨나요?</item>
+        <item>%1$s 서비스의 전반적인 경험은 어떠셨나요?</item>
+        <item>지금까지의 %1$s 서비스 경험은 어떠셨나요?</item>
+        <item>트위터에서의 %1$s 서비스 경험은 어떠셨나요?</item>
+        <item>최근 %1$s의 경험에 얼마나 만족하셨나요?</item>
+        <item>%1$s의 경험은 얼마나 기대에 부응했나요?</item>
+        <item>%1$s 서비스를 통한 숙박 경험은 어떠셨나요?</item>
+        <item>%1$s의 서비스 경험은 어떠셨나요?</item>
+        <item>최근 %1$s의 서비스 경험은 어떠셨나요?</item>
+        <item>%1$s에서 받은 서비스는 어떠셨나요?</item>
+        <item>%1$s의 대응에 얼마나 만족하셨나요?</item>
+        <item>%1$s의 문제 해결 역량을 어떻게 평가하시나요?</item>
+        <item>%1$s의 응답 시간은 어떠셨나요?</item>
+        <item>%1$s의 서비스 속도는 어떠셨나요?</item>
+        <item>%1$s에서 문제를 해결하는 데 걸린 시간은 어떠셨나요?</item>
+        <item>%1$s에서 내 문제를 해결하는 데 걸린 시간은 어떠셨나요?</item>
+        <item>%1$s의 문제 해결 속도는 어떠셨나요?</item>
+        <item>%1$s 상담사의 전문성을 어떻게 평가하시나요?</item>
+        <item>나를 도와준 %1$s 담당자에게 얼마나 만족하셨나요?</item>
+        <item>나를 도와준 %1$s 전문가에게 얼마나 만족하셨나요?</item>
+        <item>나를 도와준 %1$s 담당자에게 얼마나 만족하셨나요?</item>
+        <item>최근 %1$s의 은행 업무 경험은 어떠셨나요?</item>
+        <item>%1$s의 전반적인 이벤트 경험은 어떠셨나요?</item>
+        <item>%1$s 서비스를 통한 결제 경험은 어떠셨나요?</item>
+        <item>%1$s 서비스를 통한 구매 경험은 어떠셨나요?</item>
+        <item>%1$s 서비스를 통한 쇼핑 경험은 어떠셨나요?</item>
+        <item>%1$s 서비스를 통한 배달 경험은 어떠셨나요?</item>
+        <item>%1$s 서비스를 통한 렌탈 경험은 어떠셨나요?</item>
+        <item>최근 %1$s 매장 방문은 어떠셨나요?</item>
+        <item>최근 %1$s 호텔 숙박은 어떠셨나요?</item>
+        <item>최근 %1$s 서비스를 통한 비행은 어떠셨나요?</item>
+        <item>최근 %1$s 서비스를 통한 탑승은 어떠셨나요?</item>
+        <item>최근 %1$s 서비스를 통한 여행은 어떠셨나요?</item>
+        <item>최근 %1$s 방문은 어떠셨나요?</item>
+        <item>최근 %1$s에서의 식사는 어떠셨나요?</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>나를 위한 맞춤형 제안</item>
+        <item>모든 사람으로부터</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>%1$s을(를) 친구에게 추천할 의향이 있으신가요?</item>
+        <item>%1$s을(를) 친구에게 추천할 의향이 있으신가요?</item>
+        <item>%1$s을(를) 동료에게 추천할 의향이 있으신가요?</item>
+        <item>%1$s을(를) 가족에게 추천할 의향이 있으신가요?</item>
+        <item>%1$s을(를) 다른 사람에게 추천할 의향이 있으신가요?</item>
+        <item>%1$s을(를) 친구나 동료에게 추천할 의향이 있으신가요?</item>
+        <item>다음에도 %1$s에서 쇼핑할 의향이 있으신가요?</item>
+        <item>%1$s을(를) 추천할 의향이 있으신가요?</item>
+        <item>%1$s을(를) 친구나 동료에게 추천하시겠어요?</item>
+        <item>%1$s의 경험을 친구에게 추천할 의향이 있으신가요?</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>내가 만든 투표만</item>
+        <item>내가 만들거나 참여한 투표</item>
+        <item>끄기</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>30분</item>
+        <item>1시간</item>
+        <item>2시간</item>
+        <item>4시간</item>
+        <item>일별</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>일반</item>
+        <item>내 주변</item>
+        <item>사진 및 동영상</item>
+        <item>트윗과 타임라인</item>
+    </string-array>
+</resources>

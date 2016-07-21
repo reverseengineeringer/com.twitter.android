@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.businessprofiles.gallery.MediaGalleryView android:paddingTop="@dimen/media_gallery_padding_vertical" android:paddingBottom="@dimen/media_gallery_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/media_gallery_recycler_view" android:paddingLeft="@dimen/media_gallery_padding_horizontal" android:paddingRight="@dimen/media_gallery_padding_horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/media_thumbnail_size" />
+</com.twitter.android.businessprofiles.gallery.MediaGalleryView>

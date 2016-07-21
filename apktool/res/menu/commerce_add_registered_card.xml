@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_commerce_add_profile" android:title="@string/commerce_menu_profile_add_card" />
+</menu>

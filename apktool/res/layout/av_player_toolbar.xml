@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/button_min_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/av_back_button" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_title_up_default" android:scaleType="centerInside" android:contentDescription="@string/button_toolbar_back" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_title_logo_default" android:contentDescription="@null" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/av_toolbar_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/standard_spacing" android:text="@string/av_view_more_carousel_title" android:singleLine="true" android:contentDescription="@string/av_view_more_carousel_title" />
+    </LinearLayout>
+</RelativeLayout>

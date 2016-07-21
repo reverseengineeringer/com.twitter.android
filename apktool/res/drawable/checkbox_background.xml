@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="500" android:exitFadeDuration="500"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <color android:color="@color/pressed" />
+    </item>
+    <item android:drawable="@android:color/transparent" />
+</selector>

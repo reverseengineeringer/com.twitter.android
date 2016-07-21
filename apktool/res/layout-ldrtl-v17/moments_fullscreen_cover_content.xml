@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/moments_cover_page_dim" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:background="@drawable/bg_moments_fullscreen_cover_gradient" android:paddingTop="@dimen/moments_fullscreen_cover_gradient_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="right" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="right" android:layout_gravity="bottom" android:orientation="vertical" android:paddingLeft="@dimen/moments_standard_spacing" android:paddingTop="@dimen/moments_capsule_overlay_top_spacing" android:paddingRight="@dimen/moments_standard_spacing" android:paddingBottom="@dimen/moments_standard_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/moments_standard_spacing">
+                        <com.twitter.android.moments.ui.guide.KnockoutTextView android:id="@id/live_badge" android:visibility="gone" style="@style/MomentsGuideText.LiveBadge.White" />
+                        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_small" android:id="@id/tertiary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" style="@style/MomentsFullScreenText.Thin" />
+                    </LinearLayout>
+                    <View android:id="@id/tertiary_text_separator" android:background="@color/moments_cover_page_divider_color" android:layout_width="@dimen/moments_cover_divider_width" android:layout_height="@dimen/divider_thickness" android:layout_marginBottom="@dimen/moments_small_spacing" />
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_xlarge" android:textColor="@color/white" android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsFullScreenText.Thin" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/author_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_wider_spacing">
+                        <include layout="@layout/moments_attribution_line" />
+                    </LinearLayout>
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium_large" android:textColor="@color/white" android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_cover_top_spacing" style="@style/MomentsFullScreenText.Thin" />
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium_large" android:textColor="@color/seamful_red" android:id="@id/quaternary_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_cover_top_spacing" android:text="@string/possibly_sensitive_title" style="@style/MomentsFullScreenText.Thin" />
+                    <com.twitter.ui.widget.ToggleTwitterButton android:id="@id/follow_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_standard_spacing" android:layout_marginBottom="@dimen/moments_cover_follow_button_margin_bottom" android:text="@string/follow" twitter:styleIdOn="@style/TwitterButtonSmallKnockout" twitter:styleIdOff="@style/TwitterButtonSmallNight" twitter:nodpiBaseIconName="ic_lightning_small" style="@style/TwitterButtonSmall" />
+                </LinearLayout>
+            </FrameLayout>
+            <ViewStub android:id="@id/score_card_stub" android:layout="@layout/moments_fullscreen_cover_score_overlay" android:inflatedId="@id/score_card_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include layout="@layout/moments_fullscreen_swipe_hint_overflow_container" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

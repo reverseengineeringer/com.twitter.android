@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/top_toolbar" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.twitter.ui.widget.TwitterEditText android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="@string/create_edit_list_name_hint" android:inputType="textAutoCorrect|textCapSentences" style="@style/TwitterEditText" />
+                <com.twitter.ui.widget.TwitterEditText android:gravity="top" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="@string/create_edit_list_description_hint" android:minLines="3" android:layout_below="@id/name" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" style="@style/TwitterEditText" />
+                <CheckBox android:textColor="@color/primary_text" android:id="@id/privacy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/create_edit_list_privacy_check" android:layout_below="@id/description" />
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</com.twitter.library.widget.ToolbarWrapperLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>Diaktifkan untuk semua</item>
+        <item>Diaktifkan hanya untuk Direct Messages</item>
+        <item>Dinonaktifkan untuk semua</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>Tweet tautan</item>
+        <item>Salin tautan</item>
+        <item>Kirim tautan</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>Secara keseluruhan, seberapa puaskah Anda dengan %1$s?</item>
+        <item>Seberapa puaskah Anda dengan %1$s?</item>
+        <item>Secara keseluruhan, seberapa puaskah Anda dengan pengalaman %1$s terkini Anda?</item>
+        <item>Bagaimana Anda menilai keseluruhan pengalaman Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai keseluruhan pengalaman Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai pengalaman Anda sejauh ini bersama %1$s?</item>
+        <item>Bagaimana Anda menilai pengalaman Anda di Twitter bersama %1$s?</item>
+        <item>Puaskah Anda dengan pengalaman terkini Anda bersama %1$s?</item>
+        <item>Seberapa baik %1$s memenuhi ekspektasi Anda?</item>
+        <item>Bagaimana Anda menilai pengalaman bertamu Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai pengalaman layanan terkini Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai pengalaman layanan terkini Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai layanan yang Anda terima dari %1$s?</item>
+        <item>Puaskah Anda dengan hasil dari interaksi Anda dengan %1$s?</item>
+        <item>Bagaimana Anda menilai kemampuan penyelesaian masalah Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai jangka waktu merespon dari %1$s?</item>
+        <item>Bagaimana Anda menilai kecepatan layanan dari %1$s?</item>
+        <item>Bagaimana Anda menilai jangka waktu pemecahan masalah bersama %1$s?</item>
+        <item>Bagaimana Anda menilai jangka waktu penyelesaian masalah Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai kecepatan memecahkan masalah bersama %1$s?</item>
+        <item>Bagaimana Anda menilai keahlian penasihat %1$s?</item>
+        <item>Seberapa puaskah Anda dengan agen %1$s yang membantu Anda?</item>
+        <item>Seberapa puaskah Anda dengan tenaga ahli %1$s yang membantu Anda?</item>
+        <item>Seberapa puaskah Anda dengan perwakilan %1$s yang membantu Anda?</item>
+        <item>Bagaimana Anda menilai pengalaman perbankan terkini Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai keseluruhan pengalaman acara di %1$s?</item>
+        <item>Bagaimana Anda menilai pengalaman pembayaran tagihan Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai pengalaman membeli Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai pengalaman berbelanja Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai pengalaman pengiriman Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai pengalaman menyewa Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai kunjungan terkini Anda ke toko %1$s?</item>
+        <item>Bagaimana Anda menilai pengalaman terkini Anda menginap di hotel %1$s?</item>
+        <item>Bagaimana Anda menilai penerbangan terkini Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai pengalaman berkendara terkini Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai perjalanan terkini Anda bersama %1$s?</item>
+        <item>Bagaimana Anda menilai kunjungan terkini Anda ke %1$s?</item>
+        <item>Bagaimana Anda menilai hidangan terkini Anda di %1$s?</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>Disesuaikan untuk Anda</item>
+        <item>Dari siapa pun</item>
+        <item>Mati</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>Seberapa besar kemungkinan Anda merekomendasikan %1$s ke teman Anda?</item>
+        <item>Seberapa besar kemungkinan Anda merekomendasikan %1$s ke teman Anda?</item>
+        <item>Seberapa besar kemungkinan Anda merekomendasikan %1$s ke rekan Anda?</item>
+        <item>Seberapa besar kemungkinan Anda merekomendasikan %1$s ke keluarga Anda?</item>
+        <item>Seberapa besar kemungkinan Anda merekomendasikan %1$s ke orang lain?</item>
+        <item>Seberapa besar kemungkinan Anda merekomendasikan %1$s ke teman atau rekan Anda?</item>
+        <item>Seberapa besar kemungkinan Anda berbelanja %1$s di kemudian hari?</item>
+        <item>Seberapa besar kemungkinan Anda merekomendasikan %1$s?</item>
+        <item>Apakah Anda akan merekomendasikan %1$s ke teman atau rekan Anda?</item>
+        <item>Seberapa besar kemungkinan Anda merekomendasikan pengalaman Anda bersama %1$s ke teman Anda?</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>Hanya jajak pendapat yang saya buat</item>
+        <item>Jajak pendapat yang saya buat atau beri suara</item>
+        <item>Mati</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>15 menit</item>
+        <item>30 menit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>4 jam</item>
+        <item>Harian</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>Umum</item>
+        <item>Jaringan</item>
+        <item>Foto dan video</item>
+        <item>Tweet dan timeline</item>
+    </string-array>
+</resources>

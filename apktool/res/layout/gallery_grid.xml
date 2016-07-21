@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?galleryGridColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <View android:id="@id/gallery_header" android:background="?galleryGridColor" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <GridView android:id="@id/gallery_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" style="@style/GalleryGrid" />
+</LinearLayout>

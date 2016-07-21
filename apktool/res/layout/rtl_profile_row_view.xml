@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/ListRow.Profile"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/count" style="@style/SimpleRowViewCount.Profile" />
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/profile_row_title_text" android:id="@id/title" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/SimpleRowViewTitle" />
+</LinearLayout>

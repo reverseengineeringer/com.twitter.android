@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/commerce_top_separator" android:background="@color/border_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="vertical" android:background="@color/section_divider_color" android:paddingTop="@dimen/commerce_summary_title_top_margin" android:paddingBottom="@dimen/commerce_summary_title_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/commerce_header_details" android:paddingLeft="@dimen/commerce_action_margin" android:paddingRight="@dimen/commerce_action_margin" android:paddingBottom="@dimen/commerce_card_title_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/commerce_card_reentry_reason" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/commerce_header_image" android:paddingLeft="@dimen/commerce_card_title_padding" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_checkout_label_shipping" android:scaleType="centerCrop" android:tint="@color/secondary_text" android:contentDescription="@null" />
+            <com.twitter.ui.widget.TypefacesTextView android:textStyle="bold" android:textColor="@color/secondary_text" android:id="@id/commerce_header_label" android:paddingLeft="@dimen/commerce_action_margin" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/commerce_shipping_address" android:textAllCaps="true" />
+            <LinearLayout android:gravity="right" android:id="@id/commerce_header_action_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/link" android:gravity="right" android:paddingRight="@dimen/commerce_card_title_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/commerce_change_card" android:textAllCaps="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/border_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.media.ui.image.BackgroundImageView android:id="@id/news_image" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:defaultDrawable="@color/dark_gray" twitter:crossfadeDuration="300" twitter:filterMaxOpacity="0.0" twitter:filterColor="@android:color/transparent" twitter:imageType="cricket_hero_image" />
+    </RelativeLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/news_author_name" android:layout_marginTop="18.0dip" android:fontFamily="sans-serif-medium" style="@style/News.Source.Details" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/news_title" android:fontFamily="sans-serif-light" style="@style/News.Title.Details" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/news_info" android:visibility="gone" android:fontFamily="sans-serif-light" style="@style/News.Info.Details" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/primary_text" android:id="@id/news_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/list_row_padding_horizontal" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/text_link" android:id="@id/full_article" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginTop="@dimen/news_seamful_details_margin_top" android:layout_marginBottom="@dimen/news_seamful_details_margin_bottom" android:text="@string/news_view_full_article" />
+    <com.twitter.ui.widget.TwitterButton android:layout_gravity="center_horizontal" android:id="@id/open_in_browser" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginTop="@dimen/news_seamful_details_margin_top" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:layout_marginBottom="@dimen/news_seamful_details_margin_top" android:text="@string/news_read_more" style="@style/TwitterButtonMediumRegular" />
+    <View android:background="@drawable/bg_section_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

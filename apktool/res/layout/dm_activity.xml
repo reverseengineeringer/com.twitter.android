@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.library.widget.SlidingPanel android:id="@id/sliding_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:panelHeaderLayoutId="@layout/dm_view_participants_header" twitter:panelContentLayoutId="@layout/dm_view_participants_list_view">
+        <com.twitter.library.widget.ToolbarWrapperLayout android:id="@id/wrapper_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/top_toolbar" />
+                <com.twitter.android.composer.ComposerDockLayout android:id="@id/dock" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <RelativeLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+                </com.twitter.android.composer.ComposerDockLayout>
+            </LinearLayout>
+        </com.twitter.library.widget.ToolbarWrapperLayout>
+    </com.twitter.library.widget.SlidingPanel>
+    <include layout="@layout/browser_loading_status" />
+</android.support.design.widget.CoordinatorLayout>

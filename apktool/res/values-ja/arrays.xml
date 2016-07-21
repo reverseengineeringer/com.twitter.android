@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>すべてオン</item>
+        <item>ダイレクトメッセージのみオン</item>
+        <item>すべてオフ</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>リンクをツイート</item>
+        <item>リンクをコピー</item>
+        <item>リンクを送信</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>全体的な印象として%1$sはいかがでしたか？</item>
+        <item>%1$sはいかがでしたか？</item>
+        <item>全体的な印象として最近利用された%1$sはいかがでしたか？</item>
+        <item>全体的な印象として%1$sはいかがでしたか？</item>
+        <item>全体的な印象として%1$sはいかがでしたか？</item>
+        <item>これまでの印象として%1$sはいかがでしたか？</item>
+        <item>Twitterで利用された%1$sはいかがでしたか？</item>
+        <item>最近利用された%1$sはいかがでしたか？</item>
+        <item>%1$sの満足度はどれくらいですか？</item>
+        <item>利用された%1$sはいかがでしたか？</item>
+        <item>%1$sのサービスはいかがでしたか？</item>
+        <item>最近利用された%1$sのサービスはいかがでしたか？</item>
+        <item>%1$sのサービスはいかがでしたか？</item>
+        <item>%1$sとやり取りした結果はいかがでしたか？</item>
+        <item>%1$sの問題解決力はいかがでしたか？</item>
+        <item>%1$sの回答までにかかる時間はいかがでしたか？</item>
+        <item>%1$sのサービスの速さはいかがでしたか？</item>
+        <item>%1$sの解決までにかかる時間はいかがでしたか？</item>
+        <item>%1$sの問題解決までにかかる時間はいかがでしたか？</item>
+        <item>%1$sの解決の速さはいかがでしたか？</item>
+        <item>%1$sで対応されたアドバイザーの知識はいかがでしたか？</item>
+        <item>%1$sで対応されたエージェントはいかかでしたか？</item>
+        <item>%1$sで対応された専門家はいかかでしたか？</item>
+        <item>%1$sで対応された代理人はいかかでしたか？</item>
+        <item>最近取引された%1$sはいかがでしたか？</item>
+        <item>全体的な印象として%1$sでのイベントはいかがでしたか？</item>
+        <item>%1$sでのお支払いはいかがでしたか？</item>
+        <item>%1$sでのご購入はいかがでしたか？</item>
+        <item>%1$sでのショッピングはいかがでしたか？</item>
+        <item>%1$sのデリバリーはいかがでしたか？</item>
+        <item>レンタルを利用された%1$sはいかがでしたか？</item>
+        <item>最近行かれた%1$sはいかがでしたか？</item>
+        <item>最近宿泊された%1$sはいかがでしたか？</item>
+        <item>最近フライトを利用された%1$sはいかがでしたか？</item>
+        <item>最近利用された%1$sはいかがでしたか？</item>
+        <item>最近旅行された%1$sはいかがでしたか？</item>
+        <item>最近行かれた%1$sはいかがでしたか？</item>
+        <item>最近お食事された%1$sはいかがでしたか？</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>カスタマイズ</item>
+        <item>誰からでも</item>
+        <item>無効</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>%1$sをどの程度お友だちにおすすめしますか？</item>
+        <item>%1$sをどの程度お友だちにおすすめしますか？</item>
+        <item>%1$sをどの程度同僚におすすめしますか？</item>
+        <item>%1$sをどの程度ご家族におすすめしますか？</item>
+        <item>%1$sをどの程度他のユーザーにおすすめしますか？</item>
+        <item>%1$sをどの程度お友だちや同僚におすすめしますか？</item>
+        <item>%1$sでどの程度今後もショッピングしたいですか？</item>
+        <item>%1$sをどの程度おすすめしますか？</item>
+        <item>%1$sをお友だちや同僚におすすめしますか？</item>
+        <item>利用された%1$sをどの程度お友だちにおすすめしますか？</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>自分が作成した投票のみ</item>
+        <item>自分が作成または参加した投票</item>
+        <item>通知しない</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5分</item>
+        <item>10分</item>
+        <item>15分</item>
+        <item>30分</item>
+        <item>1時間</item>
+        <item>2時間</item>
+        <item>4時間</item>
+        <item>毎日</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>一般</item>
+        <item>ネットワーク</item>
+        <item>画像と動画</item>
+        <item>ツイートとタイムライン</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/status_toolbar_message_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.view.ScrollingMarqueeTextView android:id="@id/campaign_text_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/StatusBarText" />
+</FrameLayout>

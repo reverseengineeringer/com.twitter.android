@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/share_via_tweet" android:title="@string/share_via_tweet" app:showAsAction="never" />
+    <item android:id="@id/share_tweet_via_dm" android:title="@string/share_tweet_via_dm" app:showAsAction="never" />
+    <item android:id="@id/copy_link" android:title="@string/copy_link" app:showAsAction="never" />
+    <item android:id="@id/open_in_browser" android:title="@string/open_url_dialog_title" app:showAsAction="never" />
+    <item android:id="@id/share" android:title="@string/share_external" app:showAsAction="never" />
+</menu>

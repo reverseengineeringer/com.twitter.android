@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include android:layout_gravity="bottom|center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bg_media_badge_padding" layout="@layout/periscope_badge" />
+    <tv.periscope.android.view.PsLoading android:layout_gravity="top" android:id="@id/ps_loading_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="118.0dip" twitter:ps__halfHeight="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/periscope_card_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/cta_play" />
+</merge>

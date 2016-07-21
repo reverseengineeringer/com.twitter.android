@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.twitter.ui.widget.TwitterIndeterminateProgressSpinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/TwitterIndeterminateProgressSpinnerBig" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/twitter_logo" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+        </RelativeLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="14.0sp" android:textColor="@color/deep_gray" android:gravity="center" android:id="@id/description_line1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/phone_verify_waiting" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="14.0sp" android:textColor="@color/deep_gray" android:gravity="center" android:id="@id/description_line2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/phone_verify_time" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+            <View android:background="@android:color/darker_gray" android:layout_width="110.0sp" android:layout_height="1.0dip" />
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="15.0sp" android:textColor="@color/deep_gray" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/phone_verify_or" />
+            <View android:background="@android:color/darker_gray" android:layout_width="110.0sp" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <com.twitter.ui.widget.TwitterButton android:layout_gravity="center" android:id="@id/manually_verify_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/phone_verify_manually" style="@style/TwitterButtonMediumBold" />
+        <com.twitter.ui.widget.TwitterButton android:layout_gravity="center" android:id="@id/resend_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/phone_verify_not_receive_sms" style="@style/TwitterButtonSmallCondensedBorderless" />
+    </LinearLayout>
+</ScrollView>

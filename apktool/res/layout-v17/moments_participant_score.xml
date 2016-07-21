@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:twitter="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/participant_logo" android:layout_width="@dimen/moments_score_logo_height" android:layout_height="@dimen/moments_score_logo_height" android:layout_marginRight="@dimen/moments_standard_spacing" android:layout_marginEnd="@dimen/moments_standard_spacing">
+        <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/smaller_corner_radius" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <com.twitter.ui.widget.TypefacesTextView android:gravity="center_vertical" android:id="@id/participant_name" android:layout_width="0.0dip" android:layout_height="@dimen/moments_score_logo_height" android:layout_marginRight="@dimen/moments_standard_spacing" android:layout_weight="1.0" android:layout_marginEnd="@dimen/moments_standard_spacing" />
+    <com.twitter.ui.widget.TypefacesTextView android:gravity="center_vertical" android:id="@id/participant_score" android:layout_width="wrap_content" android:layout_height="@dimen/moments_score_logo_height" />
+    <FrameLayout android:layout_width="@dimen/moments_standard_spacing" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="end" android:id="@id/winner_indicator" android:visibility="gone" android:layout_width="@dimen/moments_score_winner_indicator_width" android:layout_height="@dimen/moments_score_winner_indicator_height" />
+    </FrameLayout>
+</LinearLayout>

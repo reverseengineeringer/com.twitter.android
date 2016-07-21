@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tv.periscope.android.ui.broadcast.ChannelView android:layout_width="fill_parent" android:layout_height="fill_parent" custom:ps__includeComposer="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" />

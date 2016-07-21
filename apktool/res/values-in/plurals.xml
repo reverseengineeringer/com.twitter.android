@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_item_count">
+        <item quantity="other">%d item baru</item>
+        <item quantity="one">%d item baru</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_days">
+        <item quantity="other">%1$d hari tersisa</item>
+        <item quantity="one">%1$d hari tersisa</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_hours">
+        <item quantity="other">%1$d jam tersisa</item>
+        <item quantity="one">%1$d jam tersisa</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_minutes">
+        <item quantity="other">%1$d menit tersisa</item>
+        <item quantity="one">%1$d menit tersisa</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d hari</item>
+        <item quantity="one">1 hari</item>
+    </plurals>
+    <plurals name="dm_seen_by_list_others_overflow">
+        <item quantity="other">dan {{}}%d lainnya{{}}</item>
+        <item quantity="one">dan {{}}%d lainnya{{}}</item>
+    </plurals>
+    <plurals name="dm_state_seen_by">
+        <item quantity="other">Dilihat oleh %d orang</item>
+        <item quantity="one">Dilihat oleh %d orang</item>
+    </plurals>
+    <plurals name="dm_unread_messages">
+        <item quantity="other">%d pesan belum terbaca</item>
+        <item quantity="one">%d pesan belum terbaca</item>
+    </plurals>
+    <plurals name="followed_by_count">
+        <item quantity="other">Diikuti oleh %1$s dan %2$d lainnya</item>
+        <item quantity="one">Diikuti oleh %1$s dan %2$d lainnya</item>
+    </plurals>
+    <plurals name="in_reply_to_name_and_count">
+        <item quantity="other">Sebagai balasan untuk %1$s dan %2$d%3$slainnya</item>
+        <item quantity="one">Sebagai balasan untuk %1$s dan %2$d%3$slainnya</item>
+    </plurals>
+    <plurals name="magic_recs_follow_notif">
+        <item quantity="other">Baru saja diikuti oleh %1$s dan %2$d orang yang Anda ikuti</item>
+        <item quantity="one">Baru saja diikuti oleh %1$s dan %2$d orang yang Anda ikuti</item>
+    </plurals>
+    <plurals name="media_monetization_settings_categories_selected">
+        <item quantity="other">%d kategori dipilih</item>
+        <item quantity="one">%d kategori dipilih</item>
+    </plurals>
+    <plurals name="media_tag_prompt">
+        <item quantity="other">Siapa di foto ini?</item>
+        <item quantity="one">Siapa di foto ini?</item>
+    </plurals>
+    <plurals name="media_tag_remaining">
+        <item quantity="other">Tandai hingga %d orang lagi.</item>
+        <item quantity="one">Tandai hingga %d orang lagi.</item>
+    </plurals>
+    <plurals name="media_tag_tagged">
+        <item quantity="other">%d orang ditandai</item>
+        <item quantity="one">%d orang ditandai</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="other">%d bulan</item>
+        <item quantity="one">1 bulan</item>
+    </plurals>
+    <plurals name="most_active_users_footer">
+        <item quantity="other">Anda mempunyai %s kontak aktif lainnya</item>
+        <item quantity="one">Anda mempunyai %s kontak aktif lainnya</item>
+    </plurals>
+    <plurals name="new_tweet_count">
+        <item quantity="other">%d Tweet Baru</item>
+        <item quantity="one">%d Tweet baru</item>
+    </plurals>
+    <plurals name="news_related_tweets_title">
+        <item quantity="other">Tweet terkait</item>
+        <item quantity="one">Tweet terkait</item>
+    </plurals>
+    <plurals name="news_top_tweets">
+        <item quantity="other">%1$s Tweet populer</item>
+        <item quantity="one">%1$s Tweet populer</item>
+    </plurals>
+    <plurals name="news_top_tweets_title">
+        <item quantity="other">Tweet Populer</item>
+        <item quantity="one">Tweet Populer</item>
+    </plurals>
+    <plurals name="profile_followers_count_label">
+        <item quantity="other">Pengikut</item>
+        <item quantity="one">Pengikut</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_likes">
+        <item quantity="other">%s Suka</item>
+        <item quantity="one">%s Suka</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_media">
+        <item quantity="other">%s Foto</item>
+        <item quantity="one">%s Foto</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_timeline">
+        <item quantity="other">%s Tweet</item>
+        <item quantity="one">%s Tweet</item>
+    </plurals>
+    <plurals name="profile_tweets_count_label">
+        <item quantity="other">Tweet</item>
+        <item quantity="one">Tweet</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">%1$d balasan lainnya</item>
+        <item quantity="one">%1$d balasan lainnya</item>
+    </plurals>
+    <plurals name="search_user_name_pile">
+        <item quantity="other">%1$s, %2$s, dan lainnya</item>
+        <item quantity="one">%1$s dan lainnya</item>
+    </plurals>
+    <plurals name="selected_image_count">
+        <item quantity="other">%d dipilih</item>
+        <item quantity="one">%d dipilih</item>
+    </plurals>
+    <plurals name="settings_notif_tweets_count">
+        <item quantity="other">%d orang</item>
+        <item quantity="one">%d orang</item>
+    </plurals>
+    <plurals name="social_follow_and_follow_and_others">
+        <item quantity="other">%1$s, %2$s, dan %3$d lainnya mengikuti</item>
+        <item quantity="one">%1$s, %2$s, dan %3$d lainnya mengikuti</item>
+    </plurals>
+    <plurals name="social_like_and_retweets_count">
+        <item quantity="other">%1$s suka dan %2$s Retweet</item>
+        <item quantity="one">%1$s suka dan %2$s Retweet</item>
+    </plurals>
+    <plurals name="social_like_count">
+        <item quantity="other">%1$s suka</item>
+        <item quantity="one">%1$s suka</item>
+    </plurals>
+    <plurals name="social_like_count_with_user">
+        <item quantity="other">%1$s dan %2$d lainnya yang Anda ikuti menyukai</item>
+        <item quantity="one">%1$s dan %2$d lainnya yang Anda ikuti menyukai</item>
+    </plurals>
+    <plurals name="social_like_count_with_user_accessibility_description">
+        <item quantity="other">Disukai oleh %1$s dan %2$d lainnya yang Anda ikuti</item>
+        <item quantity="one">Disukai oleh %1$s dan %2$d lainnya yang Anda ikuti</item>
+    </plurals>
+    <plurals name="social_proof_in_reply_multiple_names_and_count">
+        <item quantity="other">Sebagai balasan untuk %1$s, %2$s, dan %3$d lainnya</item>
+        <item quantity="one">Sebagai balasan untuk %1$s, %2$s, dan %3$d lainnya</item>
+    </plurals>
+    <plurals name="social_retweet_and_likes_count">
+        <item quantity="other">%1$s Retweet dan %2$s suka</item>
+        <item quantity="one">%1$s Retweet dan %2$s suka</item>
+    </plurals>
+    <plurals name="social_retweet_count">
+        <item quantity="other">%1$s Retweet</item>
+        <item quantity="one">%1$s Retweet</item>
+    </plurals>
+    <plurals name="stat_label_likes">
+        <item quantity="other">SUKA</item>
+        <item quantity="one">SUKA</item>
+    </plurals>
+    <plurals name="stat_label_retweets">
+        <item quantity="other">RETWEET</item>
+        <item quantity="one">RETWEET</item>
+    </plurals>
+    <plurals name="stat_label_views">
+        <item quantity="other">TAYANGAN</item>
+        <item quantity="one">TAYANGAN</item>
+    </plurals>
+    <plurals name="story_proof_author_follow_by">
+        <item quantity="other">\@%1$s dan %2$d lainnya mengikuti</item>
+        <item quantity="one">\@%1$s dan %2$d lainnya mengikuti</item>
+    </plurals>
+    <plurals name="story_proof_follow_by">
+        <item quantity="other">\@%1$s dan %2$d lainnya baru saja mengikuti</item>
+        <item quantity="one">\@%1$s dan %2$d lainnya baru saja mengikuti</item>
+    </plurals>
+    <plurals name="story_proof_like_by">
+        <item quantity="other">\@%1$s dan %2$d lainnya menyukai</item>
+        <item quantity="one">\@%1$s dan %2$d lainnya mengikuti</item>
+    </plurals>
+    <plurals name="story_proof_retweet_by">
+        <item quantity="other">\@%1$s dan %2$d lainnya me-Retweet</item>
+        <item quantity="one">\@%1$s dan %2$d lainnya me-Retweet</item>
+    </plurals>
+    <plurals name="story_proof_shared_by">
+        <item quantity="other">\@%1$s dan %2$d lainnya membicarakan ini</item>
+        <item quantity="one">\@%1$s dan %2$d lainnya membicarakan ini</item>
+    </plurals>
+    <plurals name="tagline_view_count">
+        <item quantity="other">%1$s tayangan</item>
+        <item quantity="one">%1$s tayangan</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%d hari</item>
+        <item quantity="one">1 hari</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%d HARI YANG LALU</item>
+        <item quantity="one">1 HARI YANG LALU</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">1 jam</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%d JAM YANG LALU</item>
+        <item quantity="one">1 JAM YANG LALU</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d menit</item>
+        <item quantity="one">1 menit</item>
+    </plurals>
+    <plurals name="time_mins_ago">
+        <item quantity="other">%d MENIT YANG LALU</item>
+        <item quantity="one">1 MENIT YANG LALU</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d detik</item>
+        <item quantity="one">1 detik</item>
+    </plurals>
+    <plurals name="tweet_detail_footer_view_count">
+        <item quantity="other">%1$s tayangan</item>
+        <item quantity="one">%1$s tayangan</item>
+    </plurals>
+    <plurals name="typing_users_count">
+        <item quantity="other">%d orang mengetik</item>
+        <item quantity="one">%d orang mengetik</item>
+    </plurals>
+    <plurals name="users_fast_follow_text">
+        <item quantity="other">+%1$s pengikut SMS lainnya</item>
+        <item quantity="one">+%1$s pengikut SMS lainnya</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d minggu</item>
+        <item quantity="one">1 minggu</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="other">%d tahun</item>
+        <item quantity="one">1 tahun</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers">
+        <item quantity="other">%1$s mengundang %2$s orang</item>
+        <item quantity="one">%1$s mengundang %2$s orang</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers_embolden">
+        <item quantity="other">*%1$s* mengundang %2$s orang</item>
+        <item quantity="one">*%1$s* mengundang %2$s orang</item>
+    </plurals>
+    <plurals name="ps__time_format_days">
+        <item quantity="other">%d Hari</item>
+        <item quantity="one">%d Hari</item>
+    </plurals>
+    <plurals name="ps__time_format_hours">
+        <item quantity="other">%d Jam</item>
+        <item quantity="one">%d Jam</item>
+    </plurals>
+    <plurals name="ps__time_format_minutes">
+        <item quantity="other">%d Menit</item>
+        <item quantity="one">%d Menit</item>
+    </plurals>
+    <plurals name="ps__time_format_seconds">
+        <item quantity="other">%d Detik</item>
+        <item quantity="one">%d Detik</item>
+    </plurals>
+</resources>

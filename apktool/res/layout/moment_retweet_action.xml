@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/retweet_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.android.widget.ToggleImageButton android:id="@id/retweet" android:background="@null" android:layout_width="@dimen/moments_tweet_action_button_size" android:layout_height="@dimen/moments_tweet_action_button_size" android:src="@drawable/moments_btn_tweet_action_retweet" android:contentDescription="@string/tweets_retweet" />
+    <com.twitter.ui.widget.TypefacesTextView android:layout_gravity="center" android:id="@id/retweets_stat" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsFullScreenText.TweetStats" />
+</LinearLayout>

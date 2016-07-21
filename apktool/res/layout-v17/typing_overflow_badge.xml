@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/font_size_medium" android:textColor="@color/dm_sent_content" android:gravity="center" android:layout_gravity="top" android:background="@drawable/twitter_blue_circle" android:layout_width="@dimen/dm_conversation_avatar_size" android:layout_height="@dimen/dm_conversation_avatar_size" android:layout_marginTop="@dimen/typing_indicator_avatar_top_margin" android:layout_marginRight="@dimen/dm_avatar_spacing" android:layout_marginEnd="@dimen/dm_avatar_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.profilecompletionmodule.addbio.AddBioScreen android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/blue_bird_header" />
+    <com.twitter.library.widget.ObservableScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/header" layout="@layout/signup_clean_header" />
+                <View android:id="@id/placeholder" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal">
+                    <android.support.v7.widget.RecyclerView android:id="@id/pills_layout" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/interest_pills_spacing" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.twitter.ui.widget.TwitterEditText android:id="@id/edit_bio" android:background="@color/app_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:inputType="textCapSentences|textMultiLine" twitter:labelText="@string/profile_module_add_bio_label" twitter:maxCharacterCount="@integer/profile_bio_max_length" twitter:characterCounterMode="countdown" style="@style/TwitterEditText" />
+        </FrameLayout>
+    </com.twitter.library.widget.ObservableScrollView>
+    <include layout="@layout/edit_profile_module_toolbar" />
+</com.twitter.android.profilecompletionmodule.addbio.AddBioScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/ripple_selector_rectangle" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ListRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/thumbnail_wrapper" layout="@layout/moments_guide_list_item_thumbnail" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/moments_standard_spacing">
+        <include layout="@layout/moments_attribution_line" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsGuideText.Primary.White" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.twitter.android.moments.ui.guide.KnockoutTextView android:id="@id/live_badge" style="@style/MomentsGuideText.LiveBadge.White" />
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsGuideText.Secondary.White" />
+            <com.twitter.ui.widget.BadgeView android:id="@id/promoted_badge" style="@style/BadgeView.Moments" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

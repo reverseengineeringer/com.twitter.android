@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_fab_compose_write" android:id="@id/toolbar_compose" android:title="@string/button_new_tweet" android:showAsAction="always" />
+    <item android:icon="?toolbarSearchIcon" android:id="@id/toolbar_search" android:title="@string/button_search" android:showAsAction="always|collapseActionView" twitter:actionLayout="@layout/search_action_box" />
+</menu>

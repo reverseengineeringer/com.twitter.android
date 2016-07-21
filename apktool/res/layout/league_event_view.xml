@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.widget.EventView android:id="@id/event_view" style="@style/EventHeaderView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/event_entries" android:background="@color/white" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_alignParentTop="true">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/event_title" style="@style/EventLandingTitle" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/event_subtitle" style="@style/EventLandingDetail" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/event_popularity" style="@style/EventLandingDetail" />
+    </LinearLayout>
+    <View android:background="@drawable/bg_section_divider" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_below="@id/event_entries" />
+</com.twitter.android.widget.EventView>

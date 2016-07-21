@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_font_size_micro">12.0sp</dimen>
+    <dimen name="card_font_size_small">14.0sp</dimen>
+    <dimen name="font_size_large">20.0sp</dimen>
+    <dimen name="font_size_medium">18.0sp</dimen>
+    <dimen name="font_size_micro">14.0sp</dimen>
+    <dimen name="font_size_small">16.0sp</dimen>
+    <dimen name="font_size_xlarge">22.0sp</dimen>
+    <dimen name="font_size_xmicro">12.0sp</dimen>
+    <dimen name="font_size_xxlarge">24.0sp</dimen>
+    <dimen name="pill_toggle_button_text_size">18.0sp</dimen>
+    <dimen name="timeline_message_header_text_size">30.0sp</dimen>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/top_toolbar_with_action_title" />
+        <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+            <RelativeLayout android:id="@id/wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.twitter.android.profiles.HeaderImageView android:id="@id/header_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="100.0dip" android:layout_alignParentTop="true" android:onClick="onClickHandler" twitter:defaultDrawable="@color/dark_gray" twitter:scaleType="fill">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/deep_transparent_black" android:contentDescription="@string/overlay_content_description" />
+                    <ImageView android:layout_gravity="center" android:layout_width="@dimen/profile_camera_size" android:layout_height="@dimen/profile_camera_size" android:src="@drawable/ic_profile_camera_plus" android:contentDescription="@string/button_camera" />
+                </com.twitter.android.profiles.HeaderImageView>
+                <ImageView android:id="@id/avatar_foreground" android:background="@color/app_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:contentDescription="@null" android:alpha="0.0" />
+                <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/list_row_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/avatar_image">
+                    <com.twitter.ui.widget.TwitterEditText android:id="@id/edit_name" android:hint="@string/edit_profile_name_hint" android:maxLength="@integer/profile_full_name_max_length" twitter:labelText="@string/edit_profile_name" style="@style/TwitterEditProfile" />
+                    <com.twitter.ui.widget.TwitterEditText android:id="@id/edit_bio" twitter:labelText="@string/edit_profile_bio" style="@style/TwitterEditBio" />
+                    <com.twitter.internal.android.widget.PopupEditText android:id="@id/edit_location" android:maxLength="@integer/profile_location_max_length" android:inputType="textNoSuggestions" android:imeOptions="flagNoExtractUi" twitter:threshold="0" twitter:labelText="@string/edit_profile_location" style="@style/TwitterEditProfile" />
+                    <com.twitter.ui.widget.TwitterEditText android:id="@id/edit_web_url" android:maxLength="@integer/profile_url_max_length" android:inputType="textUri" twitter:labelText="@string/edit_profile_website" style="@style/TwitterEditProfile" />
+                    <CheckBox android:gravity="center_vertical" android:id="@id/vine_visibility_field" android:layout_marginTop="@dimen/profile_edit_profile_label_margin" android:text="@string/edit_vine_visibility_label" style="@style/TwitterEditProfile" />
+                    <com.twitter.ui.widget.TwitterEditText android:id="@id/birthdate_field" android:focusable="false" android:hint="@string/edit_profile_birthdate_hint" twitter:labelText="@string/edit_profile_birthday" style="@style/TwitterEditProfile" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</com.twitter.library.widget.ToolbarWrapperLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/banner_image" android:layout_width="fill_parent" android:layout_height="@dimen/profile_card_banner_height" android:layout_alignParentTop="true" twitter:singleImageView="true">
+        <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:fixedSize="true" twitter:cornerRadiusTopLeft="@dimen/profile_card_corner_radius" twitter:cornerRadiusTopRight="@dimen/profile_card_corner_radius" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <com.twitter.library.media.widget.UserImageView android:id="@id/user_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/profile_card_avatar_left_margin" android:layout_below="@id/banner_image" android:layout_alignParentRight="true" twitter:defaultDrawable="@color/placeholder_bg" twitter:singleImageView="true" twitter:userImageSize="@dimen/profile_header_avatar_size_with_border" />
+    <com.twitter.library.widget.ActionButton android:id="@id/action_button" android:background="@drawable/btn_follow_action_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/profile_card_horizontal_padding" android:layout_marginBottom="@dimen/profile_header_avatar_border" android:src="@drawable/btn_follow_action" android:layout_alignBottom="@id/user_image" android:layout_alignParentLeft="true" style="@style/ActionButton.Follow" />
+</RelativeLayout>

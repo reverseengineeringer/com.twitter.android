@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_item_count">
+        <item quantity="other">%d件の新しいアイテム</item>
+        <item quantity="one">%d件の新しいアイテム</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_days">
+        <item quantity="other">残り%1$d日</item>
+        <item quantity="one">残り%1$d日</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_hours">
+        <item quantity="other">残り%1$d時間</item>
+        <item quantity="one">あと%1$d時間</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_minutes">
+        <item quantity="other">残り%1$d分</item>
+        <item quantity="one">残り%1$d分</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d日</item>
+        <item quantity="one">1日</item>
+    </plurals>
+    <plurals name="dm_seen_by_list_others_overflow">
+        <item quantity="other">と他{{}}%d人{{}}</item>
+        <item quantity="one">と他{{}}%d人{{}}</item>
+    </plurals>
+    <plurals name="dm_state_seen_by">
+        <item quantity="other">%d人が既読</item>
+        <item quantity="one">%d人が既読</item>
+    </plurals>
+    <plurals name="dm_unread_messages">
+        <item quantity="other">%d件の未読メッセージ</item>
+        <item quantity="one">%d件の未読メッセージ</item>
+    </plurals>
+    <plurals name="followed_by_count">
+        <item quantity="other">%1$sさんと他%2$d人にフォローされています</item>
+        <item quantity="one">%1$sさんと他%2$d人にフォローされています</item>
+    </plurals>
+    <plurals name="in_reply_to_name_and_count">
+        <item quantity="other">%1$sさんと他%2$d%3$s人への返信</item>
+        <item quantity="one">返信先: %1$sさんと他%2$d%3$s人</item>
+    </plurals>
+    <plurals name="magic_recs_follow_notif">
+        <item quantity="other">フォロー中の%1$sさんと他%2$d名にフォローされました</item>
+        <item quantity="one">フォロー中の%1$sさんと他%2$d名にフォローされました</item>
+    </plurals>
+    <plurals name="media_monetization_settings_categories_selected">
+        <item quantity="other">%d個のカテゴリーを選択中</item>
+        <item quantity="one">%d個のカテゴリーを選択中</item>
+    </plurals>
+    <plurals name="media_tag_prompt">
+        <item quantity="other">この画像には誰がいますか</item>
+        <item quantity="one">この画像には誰がいますか</item>
+    </plurals>
+    <plurals name="media_tag_remaining">
+        <item quantity="other">もう%d人タグ付け</item>
+        <item quantity="one">あと%d人タグ付けできます。</item>
+    </plurals>
+    <plurals name="media_tag_tagged">
+        <item quantity="other">%d人タグ付けされています</item>
+        <item quantity="one">%d人がタグ付けされています</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="other">%dヶ月</item>
+        <item quantity="one">1か月</item>
+    </plurals>
+    <plurals name="most_active_users_footer">
+        <item quantity="other">他にも%s人のTwitterユーザーがいます。</item>
+        <item quantity="one">他にも%s人のTwitterユーザーがいます。</item>
+    </plurals>
+    <plurals name="new_tweet_count">
+        <item quantity="other">%d件の新しいツイート</item>
+        <item quantity="one">%d件の新しいツイート</item>
+    </plurals>
+    <plurals name="news_related_tweets_title">
+        <item quantity="other">関連ツイート</item>
+        <item quantity="one">関連ツイート</item>
+    </plurals>
+    <plurals name="news_top_tweets">
+        <item quantity="other">%1$s件の話題のツイート</item>
+        <item quantity="one">%1$s件の話題のツイート</item>
+    </plurals>
+    <plurals name="news_top_tweets_title">
+        <item quantity="other">トップツイート</item>
+        <item quantity="one">トップツイート</item>
+    </plurals>
+    <plurals name="profile_followers_count_label">
+        <item quantity="other">フォロワー</item>
+        <item quantity="one">フォロワー</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_likes">
+        <item quantity="other">いいね %s</item>
+        <item quantity="one">いいね %s</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_media">
+        <item quantity="other">画像/動画 %s</item>
+        <item quantity="one">画像/動画 %s</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_timeline">
+        <item quantity="other">ツイート %s</item>
+        <item quantity="one">ツイート %s</item>
+    </plurals>
+    <plurals name="profile_tweets_count_label">
+        <item quantity="other">ツイート</item>
+        <item quantity="one">ツイート</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">さらに%1$d件の返信</item>
+        <item quantity="one">他%1$d件の返信</item>
+    </plurals>
+    <plurals name="search_user_name_pile">
+        <item quantity="other">%1$sさん、%2$sさんと他のユーザー</item>
+        <item quantity="one">%1$sさんと他のユーザー</item>
+    </plurals>
+    <plurals name="selected_image_count">
+        <item quantity="other">%d枚の画像を選択中</item>
+        <item quantity="one">%d件を選択中</item>
+    </plurals>
+    <plurals name="settings_notif_tweets_count">
+        <item quantity="other">%d人</item>
+        <item quantity="one">%d人</item>
+    </plurals>
+    <plurals name="social_follow_and_follow_and_others">
+        <item quantity="other">%1$sさん、%2$sさんと他%3$d人がフォロー</item>
+        <item quantity="one">%1$sさん、%2$sさんと他%3$d人がフォローしています</item>
+    </plurals>
+    <plurals name="social_like_and_retweets_count">
+        <item quantity="other">%1$s いいね　%2$s リツイート</item>
+        <item quantity="one">%1$s いいね %2$s リツイート</item>
+    </plurals>
+    <plurals name="social_like_count">
+        <item quantity="other">%1$s いいね</item>
+        <item quantity="one">%1$s いいね</item>
+    </plurals>
+    <plurals name="social_like_count_with_user">
+        <item quantity="other">フォローしている%1$sさんと他%2$d人がいいねしました</item>
+        <item quantity="one">フォローしている%1$sさんと他%2$d人がいいねしました</item>
+    </plurals>
+    <plurals name="social_like_count_with_user_accessibility_description">
+        <item quantity="other">フォローしている%1$sさんと他%2$d人がいいねしました</item>
+        <item quantity="one">フォローしている%1$sさんと他%2$d人がいいねしました</item>
+    </plurals>
+    <plurals name="social_proof_in_reply_multiple_names_and_count">
+        <item quantity="other">%1$sさん、%2$sさんと他%3$d人への返信</item>
+        <item quantity="one">返信先: %1$sさん、%2$sさんと他%3$d人</item>
+    </plurals>
+    <plurals name="social_retweet_and_likes_count">
+        <item quantity="other">%1$s リツイート %2$s いいね</item>
+        <item quantity="one">%1$s リツイート %2$s いいね</item>
+    </plurals>
+    <plurals name="social_retweet_count">
+        <item quantity="other">%1$s リツイート</item>
+        <item quantity="one">%1$s リツイート</item>
+    </plurals>
+    <plurals name="stat_label_likes">
+        <item quantity="other">いいね</item>
+        <item quantity="one">いいね</item>
+    </plurals>
+    <plurals name="stat_label_retweets">
+        <item quantity="other">リツイート</item>
+        <item quantity="one">リツイート</item>
+    </plurals>
+    <plurals name="stat_label_views">
+        <item quantity="other">表示</item>
+        <item quantity="one">表示</item>
+    </plurals>
+    <plurals name="story_proof_author_follow_by">
+        <item quantity="other">\@%1$sさんと他%2$d人からフォローされました</item>
+        <item quantity="one">\@%1$sさんと他%2$d人からフォローされました</item>
+    </plurals>
+    <plurals name="story_proof_follow_by">
+        <item quantity="other">\@%1$sさんと他%2$d人からフォローされました</item>
+        <item quantity="one">\@%1$sさんと他%2$d人からフォローされました</item>
+    </plurals>
+    <plurals name="story_proof_like_by">
+        <item quantity="other">\@%1$sさんと他%2$d人がいいね</item>
+        <item quantity="one">\@%1$sさんと他%2$d人がいいね</item>
+    </plurals>
+    <plurals name="story_proof_retweet_by">
+        <item quantity="other">\@%1$sさんと他%2$d人がリツイート</item>
+        <item quantity="one">\@%1$sさんと他%2$d人がリツイート</item>
+    </plurals>
+    <plurals name="story_proof_shared_by">
+        <item quantity="other">\@%1$sさんと他%2$d人がこの件について話しています</item>
+        <item quantity="one">\@%1$sさんと他%2$d人がこの件について話しています</item>
+    </plurals>
+    <plurals name="tagline_view_count">
+        <item quantity="other">%1$s件の閲覧</item>
+        <item quantity="one">%1$s件の閲覧</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%d日</item>
+        <item quantity="one">1日</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%d日前</item>
+        <item quantity="one">1日前</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%d時間前</item>
+        <item quantity="one">1時間前</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="time_mins_ago">
+        <item quantity="other">%d分前</item>
+        <item quantity="one">1分前</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+    <plurals name="tweet_detail_footer_view_count">
+        <item quantity="other">%1$s件の閲覧</item>
+        <item quantity="one">%1$s件の閲覧</item>
+    </plurals>
+    <plurals name="typing_users_count">
+        <item quantity="other">%d人のユーザーが入力しています</item>
+        <item quantity="one">%d人が入力中</item>
+    </plurals>
+    <plurals name="users_fast_follow_text">
+        <item quantity="other">%1$s人以上のSMSフォロワー</item>
+        <item quantity="one">%1$s人以上のSMSフォロワー</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d週間</item>
+        <item quantity="one">1週間</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="other">%d年</item>
+        <item quantity="one">1年</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers">
+        <item quantity="other">%1$sさんが%2$s人のユーザーを招待しました</item>
+        <item quantity="one">%1$sさんが%2$s人のユーザーを招待しました</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers_embolden">
+        <item quantity="other">*%1$s*さんが%2$s人のユーザーを招待しました</item>
+        <item quantity="one">*%1$s*さんが%2$s人のユーザーを招待しました</item>
+    </plurals>
+    <plurals name="ps__time_format_days">
+        <item quantity="other">%d日</item>
+        <item quantity="one">%d日</item>
+    </plurals>
+    <plurals name="ps__time_format_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">%d時間</item>
+    </plurals>
+    <plurals name="ps__time_format_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+    <plurals name="ps__time_format_seconds">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">%d秒</item>
+    </plurals>
+</resources>

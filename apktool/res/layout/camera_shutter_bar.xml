@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.android.media.widget.CameraModeButton android:id="@id/button_camera_mode" android:background="@drawable/grey_box" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="centerInside" android:contentDescription="@string/switch_camera_mode" twitter:cameraModeButtonGravitatedMargin="20.0dip" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/button_camera_shutter" android:layout_width="50.0dip" android:layout_height="50.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/image_camera_shutter" android:background="@null" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="center" android:contentDescription="@string/camera_shutter" />
+        <ImageView android:layout_gravity="center" android:id="@id/image_camera_prev_shutter" android:background="@null" android:layout_width="40.0dip" android:layout_height="40.0dip" android:contentDescription="@string/camera_shutter" />
+    </FrameLayout>
+</merge>

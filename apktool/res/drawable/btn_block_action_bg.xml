@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/btn_action_pressed_bg" />
+    <item android:state_focused="true" android:drawable="@drawable/btn_action_pressed_bg" />
+    <item android:state_checked="true">
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/app_background" />
+            <stroke android:width="1.0dip" android:color="@color/seamful_red" />
+            <padding android:left="5.0dip" android:top="4.0dip" android:right="5.0dip" android:bottom="4.0dip" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/app_background" />
+            <stroke android:width="1.0dip" android:color="@color/border_color" />
+            <padding android:left="5.0dip" android:top="4.0dip" android:right="5.0dip" android:bottom="4.0dip" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+</selector>

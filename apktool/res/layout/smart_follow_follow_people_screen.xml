@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.smartfollow.followpeople.FollowPeopleScreen android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/blue_bird_header" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.twitter.android.widget.PinnedHeaderRefreshableListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/List.Refreshable" />
+    </FrameLayout>
+    <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.ui.widget.TwitterButton android:id="@id/cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cont" android:layout_alignParentRight="true" style="@style/TwitterButtonMediumHeavy" />
+    </RelativeLayout>
+</com.twitter.android.smartfollow.followpeople.FollowPeopleScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/quote_tweet_container" android:background="@drawable/moments_overlay_text_bg" android:padding="@dimen/moments_standard_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/ripple_selector_rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium_large" android:textStyle="bold" android:textColor="@color/white" android:id="@id/quoted_tweet_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/moments_standard_spacing_half" android:singleLine="true" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium_large" android:textColor="@color/moments_username_color" android:id="@id/quoted_tweet_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/quoted_tweet_name" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium_large" android:textColor="@color/white" android:id="@id/quoted_tweet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_card_badge_top_padding" android:layout_below="@id/quoted_tweet_name" />
+</RelativeLayout>

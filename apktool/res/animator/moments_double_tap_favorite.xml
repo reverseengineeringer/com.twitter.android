@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:interpolator="@android:interpolator/decelerate_quad" android:duration="167" android:ordering="together">
+        <objectAnimator android:valueFrom="0" android:valueTo="255" android:valueType="intType" android:propertyName="drawableAlpha" />
+        <objectAnimator android:valueFrom="0.8" android:valueTo="1.2" android:valueType="floatType" android:propertyName="drawableScale" />
+    </set>
+    <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="500" android:valueFrom="1.2" android:valueTo="1" android:valueType="floatType" android:propertyName="drawableScale" />
+    <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="333" android:valueFrom="255" android:valueTo="0" android:valueType="intType" android:propertyName="drawableAlpha" />
+</set>

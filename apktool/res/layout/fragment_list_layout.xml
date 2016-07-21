@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.library.widget.ToolbarWrapperLayout android:id="@id/root_wrapper_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/root_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/top_toolbar" />
+            <com.twitter.android.composer.ComposerDockLayout android:id="@id/dock" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.twitter.android.composer.ComposerDockLayout>
+        </LinearLayout>
+    </com.twitter.library.widget.ToolbarWrapperLayout>
+    <android.support.design.widget.FloatingActionButton android:id="@id/composer_write" android:visibility="gone" twitter:layout_anchor="@id/root_linear_layout" style="@style/FabStyle" />
+</android.support.design.widget.CoordinatorLayout>

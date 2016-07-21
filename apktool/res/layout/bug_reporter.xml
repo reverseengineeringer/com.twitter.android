@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar" layout="@layout/top_toolbar" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/list_row_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.twitter.ui.widget.TwitterEditText android:id="@id/bug_report_summary" android:inputType="textCapSentences" twitter:labelText="Summary" style="@style/BugReport.EditText" />
+                <Spinner android:id="@id/bug_report_section" android:hint="Where did we go wrong?" style="@style/BugReport.Spinner" />
+                <com.twitter.ui.widget.TypefacesTextView android:id="@id/bug_report_screenshot_label" android:text="Attached screenshot" style="@style/BugReport.Title" />
+                <ImageView android:id="@id/bug_report_screenshot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:contentDescription="Attached screenshot." />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</com.twitter.library.widget.ToolbarWrapperLayout>

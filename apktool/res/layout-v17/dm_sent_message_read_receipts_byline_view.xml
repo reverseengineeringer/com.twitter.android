@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/byline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <FrameLayout android:id="@id/byline_timestamp_and_message_state_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/read_state_icon" android:layout_alignParentTop="true" android:layout_toStartOf="@id/read_state_icon">
+            <com.twitter.ui.widget.TypefacesTextView android:layout_gravity="right" android:id="@id/byline_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Byline.Message.Sent" />
+            <com.twitter.ui.widget.TypefacesTextView android:layout_gravity="right" android:id="@id/message_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Byline.Message.Sent" />
+        </FrameLayout>
+        <ImageView android:id="@id/read_state_icon" android:paddingTop="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@null" android:layout_alignParentEnd="true" style="@style/Byline.Message.Sent.ReadReceiptIcon" />
+    </RelativeLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/seen_by_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/byline" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/Byline.Message.Sent.SeenByText" />
+</RelativeLayout>

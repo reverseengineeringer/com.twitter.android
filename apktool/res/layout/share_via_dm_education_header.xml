@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/toolbar_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content" android:paddingLeft="@dimen/share_via_dm_padding" android:paddingRight="@dimen/share_via_dm_padding" android:paddingBottom="@dimen/share_via_dm_padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/share_via_dm_title_font_size" android:textColor="@color/text_blue" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_via_dm_education_module_title" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/secondary_text" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_via_dm_education_module_subtitle" />
+    </LinearLayout>
+</LinearLayout>

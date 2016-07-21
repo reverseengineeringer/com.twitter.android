@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pager_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twitter.ui.view.ResizeOnRotateViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.twitter.library.widget.SlidingPanel android:id="@id/sliding_panel" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:panelHeaderLayoutId="@layout/media_tags_list_header" twitter:panelContentLayoutId="@layout/media_tagged_user_list_view"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+        <FrameLayout android:id="@id/gallery_control_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/gallery_control" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.twitter.android.av.GalleryVideoChromeView android:id="@id/video_chrome" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/gallery_control_container" />
+                <LinearLayout android:orientation="vertical" android:id="@id/gallery_control_container" android:background="@color/dark_transparent_black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <include layout="@layout/photo_pager_tweet" />
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/light_gray" android:id="@id/media_tags" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.twitter.ui.widget.TwitterButton android:id="@id/btn_visit_site_large" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:text="@string/btn_large_visit_site" style="@style/TwitterButtonMediumNight" />
+                    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+            <include layout="@layout/top_toolbar" />
+        </FrameLayout>
+    </com.twitter.library.widget.SlidingPanel>
+</merge>

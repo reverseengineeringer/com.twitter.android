@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/form_password_status_icon_spacing" android:right="0.0dip">
+        <bitmap android:gravity="center" android:src="@drawable/ic_sign_up_reveal_on" />
+    </item>
+</layer-list>

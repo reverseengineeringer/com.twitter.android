@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.av.PeriscopeBadge android:id="@id/periscope_badge_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/status_badge_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip">
+        <ImageView android:paddingLeft="@dimen/bg_media_badge_padding" android:paddingTop="@dimen/bg_media_badge_padding" android:paddingBottom="@dimen/bg_media_badge_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_periscope_pin" android:contentDescription="@string/video_badge_type_indicator" />
+        <com.twitter.library.widget.TightTextView android:id="@id/periscope_status_text" android:padding="@dimen/bg_media_badge_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="@dimen/video_badge_eq_height" twitter:vertical_alignment="center" twitter:text_size="@dimen/font_size_micro" twitter:text_color="@color/white" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/viewer_badge_container" android:background="@drawable/bg_periscope_badge_gray_right_rounded" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/periscope_viewer_icon" android:paddingLeft="@dimen/bg_media_badge_padding" android:paddingTop="@dimen/bg_media_badge_padding" android:paddingBottom="@dimen/bg_media_badge_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_periscope_viewer" android:contentDescription="@string/periscope_viewer_indicator" />
+        <com.twitter.library.widget.TightTextView android:id="@id/periscope_viewer_text" android:padding="@dimen/bg_media_badge_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="@dimen/video_badge_eq_height" twitter:vertical_alignment="center" twitter:text_size="@dimen/font_size_micro" twitter:text_color="@color/white" />
+    </LinearLayout>
+</com.twitter.android.av.PeriscopeBadge>

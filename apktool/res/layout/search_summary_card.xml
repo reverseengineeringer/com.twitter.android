@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.internal.android.widget.GroupedRowView android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:single="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListRow">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_xxlarge" android:id="@id/search_summary_query" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/search_summary_feedback" android:layout_alignParentLeft="true" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:id="@id/search_summary_expansion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/search_summary_feedback" android:layout_below="@id/search_summary_query" android:layout_alignParentLeft="true" />
+        <ImageButton android:id="@id/search_summary_feedback" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_card_info" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/search_summary_feedback_description" />
+    </RelativeLayout>
+</com.twitter.internal.android.widget.GroupedRowView>

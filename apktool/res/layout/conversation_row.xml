@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.TweetView android:id="@id/row" android:background="@drawable/bg_conversation_row" twitter:profileImageWidth="@dimen/user_image_size" twitter:profileImageHeight="@dimen/user_image_size" style="@style/ListRow.Tweet"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.widget.TweetCarouselView android:orientation="vertical" android:background="@drawable/tweet_carousel_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/tweet_container" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.library.media.widget.UserImageView android:id="@id/profile_image" android:background="@color/clear" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/image_profile" twitter:userImageSize="mini" style="@style/CarouselTweetProfileImage" />
+        <ImageView android:id="@id/dismiss" android:paddingBottom="@dimen/tweet_dismiss_padding" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pulltorefresh_dismiss" android:contentDescription="@string/tweets_dismiss_question" style="@style/CarouselTweetDismiss" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CarouselTweetHeader">
+            <com.twitter.ui.widget.TweetHeaderView android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tweet_header_margin" android:layout_marginRight="@dimen/tweet_header_margin" style="@style/TweetHeaderView" />
+        </LinearLayout>
+        <com.twitter.library.widget.TextContentView android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip" android:maxLines="@integer/tweet_max_content_lines" android:minLines="@integer/tweet_max_content_lines" android:layout_below="@id/profile_image" android:lineSpacingExtra="@dimen/line_spacing_extra" twitter:contentColor="@color/primary_text" twitter:linkColor="@color/link" />
+    </RelativeLayout>
+    <include layout="@layout/carousel_inline_actions" />
+    <com.twitter.ui.widget.BadgeView android:id="@id/badge" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:layout_marginBottom="8.0dip" style="@style/BadgeView" />
+</com.twitter.android.widget.TweetCarouselView>

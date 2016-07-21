@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.media.ui.image.MediaImageView android:visibility="gone" android:layout_width="@dimen/media_thumbnail_size" android:layout_height="@dimen/media_thumbnail_size" android:layout_marginLeft="@dimen/media_gallery_item_padding" android:layout_marginRight="@dimen/media_gallery_item_padding" android:layout_weight="1.0" twitter:defaultDrawable="@color/placeholder_bg" twitter:scaleType="fill"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/image_gallery" twitter:overlayDrawable="@drawable/image_overlay" />
+</com.twitter.media.ui.image.MediaImageView>

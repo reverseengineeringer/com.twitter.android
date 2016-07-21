@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/profile_card_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.android.people.adapters.FavoriteQuotedView android:id="@id/quoted_tweet" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

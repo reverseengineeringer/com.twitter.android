@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sticker_background" android:layout_width="fill_parent" android:layout_height="@dimen/stickers_timeline_header_background_height" android:contentDescription="@string/stickers_timeline_background_color" />
+    <com.twitter.media.ui.image.MediaImageView android:layout_gravity="center|top" android:id="@id/sticker_image" android:paddingTop="@dimen/stickers_timeline_header_image_padding" android:layout_width="@dimen/stickers_timeline_header_image_dimensions" android:layout_height="@dimen/stickers_timeline_header_image_dimensions" android:scaleType="centerCrop" />
+    <RelativeLayout android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/sticker_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stickers_timeline_header_attribution_margin_top" android:layout_marginBottom="@dimen/stickers_timeline_header_attribution_margin_bottom">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/white" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerVertical="true" android:lineSpacingExtra="@dimen/line_spacing_extra" />
+        <ImageView android:id="@id/verified_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/badge_spacing" android:src="@drawable/ic_moments_verified_white_larger" android:layout_toRightOf="@id/name" android:layout_centerVertical="true" android:contentDescription="@null" />
+    </RelativeLayout>
+</FrameLayout>

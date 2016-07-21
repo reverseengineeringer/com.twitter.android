@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/player" android:layout_width="@dimen/score_card_logo" android:layout_height="@dimen/score_card_logo" twitter:scaleType="fill" twitter:singleImageView="true">
+        <com.twitter.android.events.sports.cricket.BezelImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="@dimen/player_card_avatar_width" android:layout_height="@dimen/player_card_avatar_height" twitter:maskDrawable="@drawable/circle_mask" twitter:borderDrawable="@drawable/circle_border" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <com.twitter.ui.widget.TypefacesTextView android:ellipsize="end" android:id="@id/player_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/CricketPlayerName" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/player_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/CricketPlayerStatus" />
+</LinearLayout>

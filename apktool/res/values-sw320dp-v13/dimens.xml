@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="event_header_image_height">48.0dip</dimen>
+    <dimen name="share_via_dm_recent_item_dimension">68.0dip</dimen>
+</resources>

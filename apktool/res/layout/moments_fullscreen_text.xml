@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/moments_user_layout" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_large" android:id="@id/primary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/moments_standard_spacing" android:layout_marginRight="@dimen/moments_standard_spacing" android:layout_marginBottom="@dimen/moments_quote_tweet_bottom_spacing" android:scrollHorizontally="false" android:lineSpacingExtra="@dimen/moments_large_text_spacing" />
+    <FrameLayout android:id="@id/cta_module_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/moments_standard_spacing" android:layout_marginRight="@dimen/moments_standard_spacing" />
+</LinearLayout>

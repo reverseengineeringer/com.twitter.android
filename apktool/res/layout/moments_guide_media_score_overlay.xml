@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.moments.ui.ScoreView android:id="@id/score_card_container" android:paddingBottom="@dimen/moments_standard_spacing_half" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MomentsScore.Dark"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/moments_standard_spacing" layout="@layout/moments_score_overlay" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/top_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_thickness" android:layout_marginLeft="@dimen/moments_standard_spacing" android:layout_marginRight="@dimen/moments_standard_spacing" />
+    </FrameLayout>
+</com.twitter.android.moments.ui.ScoreView>

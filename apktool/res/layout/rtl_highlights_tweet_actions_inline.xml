@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/highlights_inline_action_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.widget.CompoundDrawableAnimButton android:id="@id/story_action_favorite_inline" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableRight="?highlightsActionFavorite" android:contentDescription="@string/tweets_like" style="@style/HighlightsActionButton.InlineTweetList" />
+    <com.twitter.library.widget.CompoundDrawableAnimButton android:id="@id/story_action_retweet_inline" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableRight="@drawable/highlights_action_retweet" android:drawablePadding="@dimen/highlights_action_retweet_padding" android:contentDescription="@string/tweets_retweet" style="@style/HighlightsActionButton.InlineTweetList" />
+</LinearLayout>

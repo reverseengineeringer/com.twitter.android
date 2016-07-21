@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:twitter="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.internal.android.widget.PopupEditText android:textSize="@dimen/twitter_edit_text_text_size_medium" android:id="@id/phone_entry" android:hint="@string/phone_entry_placeholder" android:drawableLeft="@drawable/phone_code_holder_medium" android:drawableRight="@drawable/ic_sign_up_field_state_list" android:inputType="phone" android:imeOptions="actionNext" twitter:labelText="@string/phone_number" twitter:underlineStyle="@style/TwitterEditTextUnderLineDrawable.Phone.Medium" style="@style/TwitterPhoneEdit" />
+    <com.twitter.ui.widget.TwitterSelection android:id="@id/selection_phone_code" android:layout_width="@dimen/phone_code_field_width_medium" android:layout_height="wrap_content" android:layout_alignBaseline="@id/phone_entry" twitter:dialogTheme="@style/CountryCodeSelectionDialogTheme">
+        <com.twitter.ui.widget.TwitterEditText android:textSize="@dimen/twitter_edit_text_text_size_medium" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/ic_form_chevron_down" style="@style/TwitterEditText" />
+    </com.twitter.ui.widget.TwitterSelection>
+</RelativeLayout>

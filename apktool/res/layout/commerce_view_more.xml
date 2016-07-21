@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/commerce_view_more_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/commerce_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/commerce_profile_page_view_more" style="@style/ListRow.More" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/commerce_view_more_extras" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

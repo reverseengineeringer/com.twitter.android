@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/blue_bird_header" />
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/flow_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/HorizontalRule" />
+        <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.twitter.ui.widget.TwitterButton android:id="@id/skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/not_now" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Phone100SkipButtonStyle" />
+            <com.twitter.ui.widget.TwitterButton android:id="@id/cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/next" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TwitterButtonMediumHeavy" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/js_inst_webview" />
+</LinearLayout>

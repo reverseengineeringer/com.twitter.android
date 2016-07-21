@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/top_toolbar_with_action_title_commerce" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/commerce_card_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:background="@color/border_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/commerce_card_entry_edit_padding" android:paddingRight="@dimen/commerce_card_entry_edit_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/commerce_card_margin_name">
+                <EditText android:id="@id/commerce_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/commerce_address_email" android:singleLine="true" android:inputType="textEmailAddress" android:textCursorDrawable="@null" style="@style/Commerce.EditText" />
+            </LinearLayout>
+            <View android:background="@color/border_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/commerce_spacing_below_email" />
+            <View android:background="@color/border_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/commerce_card_entry_padding" />
+            <LinearLayout android:orientation="vertical" android:background="@color/section_divider_color" android:padding="@dimen/commerce_card_entry_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.twitter.ui.widget.TwitterButton android:id="@id/commerce_card_button_save" android:layout_width="fill_parent" android:layout_height="@dimen/commerce_card_button_height" android:text="@string/commerce_card_button_save" twitter:nodpiBaseIconName="ic_lock" style="@style/TwitterButtonLargeHeavy" />
+                <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/commerce_payment_disclosure" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/commerce_summary_title_top_margin" android:layout_marginBottom="@dimen/commerce_summary_title_bottom_margin" android:text="@string/commerce_payment_card_footnote" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

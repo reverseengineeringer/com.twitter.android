@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/quote_tweet_wrapper" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.twitter.library.view.QuoteView android:id="@id/quote_tweet" android:background="@color/app_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/share_via_dm_spacing_medium" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/message_compose_wrapper" android:background="@color/app_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.android.dm.widget.ShareViaDMMessageComposer android:id="@id/composer_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</merge>

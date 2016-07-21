@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/event_search_activity" />
+        <include android:id="@id/topmost_loggedout_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nav_bar_height" android:layout_alignParentBottom="true" layout="@layout/loggedout_bar" />
+        <com.twitter.android.profiles.animation.BalloonSetAnimationView android:id="@id/balloon_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

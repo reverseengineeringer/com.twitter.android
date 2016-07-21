@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>Aktiveret for alt</item>
+        <item>Kun aktiveret for direkte beskeder</item>
+        <item>Deaktiveret for alt</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>Tweet link</item>
+        <item>Kopier link</item>
+        <item>Send link</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>Hvor tilfreds er du samlet set med %1$s?</item>
+        <item>Hvor tilfreds er du med %1$s?</item>
+        <item>Hvor tilfreds er du samlet set med oplevelsen, du havde hos %1$s?</item>
+        <item>Hvordan vil du vurdere din samlede oplevelse hos %1$s?</item>
+        <item>Hvordan vil du vurdere din samlede oplevelse hos %1$s?</item>
+        <item>Hvordan vil du vurdere din hidtidige oplevelse hos %1$s?</item>
+        <item>Hvordan vil du vurdere din oplevelse på Twitter med %1$s?</item>
+        <item>Er du tilfreds med din seneste oplevelse hos %1$s?</item>
+        <item>Hvor godt lever %1$s op til dine forventninger?</item>
+        <item>Hvordan vil du vurdere din gæsteoplevelse hos %1$s?</item>
+        <item>Hvordan vil du vurdere den service, du fik af %1$s?</item>
+        <item>Hvordan vil du vurdere den service, du for nylig fik hos %1$s?</item>
+        <item>Hvordan vil du vurdere den service, du fik hos %1$s?</item>
+        <item>Er du tilfreds med resultatet af interaktionen med %1$s?</item>
+        <item>Hvordan vil du vurdere muligheden for at løse dit problem med %1$s?</item>
+        <item>Hvordan vil du vurdere svartiden fra %1$s?</item>
+        <item>Hvordan vil du vurdere servicetiden fra %1$s?</item>
+        <item>Hvordan vil du vurdere tiden, hvormed problemet med %1$s blev løst?</item>
+        <item>Hvordan vil du vurdere tiden, det tog at løse dit problem med %1$s?</item>
+        <item>Hvordan vil du vurdere hastigheden, hvormed problemet med %1$s blev løst?</item>
+        <item>Hvordan vil du vurdere %1$s-rådgiverens ekspertise?</item>
+        <item>Hvor tilfreds var du med %1$s-agenten, der hjalp dig?</item>
+        <item>Hvor tilfreds var du med %1$s-specialisten, der hjalp dig?</item>
+        <item>Hvor tilfreds var du med %1$s-repræsentanten, der hjalp dig?</item>
+        <item>Hvordan vil du vurdere din seneste bankoplevelse med %1$s?</item>
+        <item>Hvordan vil du samlet set vurdere arrangementet på %1$s?</item>
+        <item>Hvordan vil du vurdere oplevelsen med at betale en regning med %1$s?</item>
+        <item>Hvordan vil du vurdere din købsoplevelse hos %1$s?</item>
+        <item>Hvordan vil du vurdere din shoppingoplevelse hos %1$s?</item>
+        <item>Hvordan vil du vurdere leveringen fra %1$s?</item>
+        <item>Hvordan vil du vurdere din udlejningsoplevelse med %1$s?</item>
+        <item>Hvordan vil du vurdere dit seneste butiksbesøg hos %1$s?</item>
+        <item>Hvordan vil du vurdere dit seneste hotelbesøg hos %1$s?</item>
+        <item>Hvordan vil du vurdere din seneste flyvetur med %1$s?</item>
+        <item>Hvordan vil du vurdere din seneste køretur med %1$s?</item>
+        <item>Hvordan vil du vurdere din seneste tur med %1$s?</item>
+        <item>Hvordan vil du vurdere dit seneste besøg til %1$s?</item>
+        <item>Hvordan vil du vurdere dit seneste måltid hos %1$s?</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>Skræddersyet til dig</item>
+        <item>Fra alle</item>
+        <item>Fra</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>Hvor sandsynligt er det, at du vil anbefale %1$s til en ven?</item>
+        <item>Hvor sandsynligt er det, at du vil anbefale %1$s til en ven?</item>
+        <item>Hvor sandsynligt er det, at du vil anbefale %1$s til en kollega?</item>
+        <item>Hvor sandsynligt er det, at du vil anbefale %1$s til et familiemedlem?</item>
+        <item>Hvor sandsynligt er det, at du vil anbefale %1$s til andre?</item>
+        <item>Hvor sandsynligt er det, at du vil anbefale %1$s til en ven eller kollega?</item>
+        <item>Hvor sandsynligt er det, at du vil handle hos %1$s i fremtiden?</item>
+        <item>Hvor sandsynligt er det, at du vil anbefale %1$s?</item>
+        <item>Ville du anbefale %1$s til en ven eller kollega?</item>
+        <item>Hvor sandsynligt er det, at du vil anbefale din oplevelse med %1$s til en ven?</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>Kun afstemninger, jeg opretter</item>
+        <item>Afstemninger, jeg opretter eller deltager i</item>
+        <item>Fra</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>30 minutter</item>
+        <item>1 time</item>
+        <item>2 timer</item>
+        <item>4 timer</item>
+        <item>Dagligt</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>Generelt</item>
+        <item>Netværk</item>
+        <item>Billeder og videoer</item>
+        <item>Tweets og tidslinjer</item>
+    </string-array>
+</resources>

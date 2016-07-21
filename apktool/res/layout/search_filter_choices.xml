@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/search_filter_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.internal.android.widget.GroupedRowView android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:cardStyle="middle" style="@style/GroupedRowView">
+            <RadioGroup android:id="@id/search_filter" style="@style/SearchFilterSelectionGroup">
+                <com.twitter.library.widget.StyleableRadioButton android:id="@id/filter_none" android:checked="true" android:text="@string/search_filter_none" android:drawableLeft="@drawable/ic_search_filters_everything" style="@style/SearchFilterSelection" />
+                <View style="@style/Border" />
+                <com.twitter.library.widget.StyleableRadioButton android:id="@id/filter_photos" android:text="@string/search_filter_photos" android:drawableLeft="@drawable/ic_search_filters_photos" style="@style/SearchFilterSelection" />
+                <View style="@style/Border" />
+                <com.twitter.library.widget.StyleableRadioButton android:id="@id/filter_videos" android:text="@string/search_filter_videos" android:drawableLeft="@drawable/ic_search_filters_video" style="@style/SearchFilterSelection" />
+                <View style="@style/Border" />
+                <com.twitter.library.widget.StyleableRadioButton android:id="@id/filter_periscope" android:visibility="gone" android:text="@string/search_filter_periscope" android:drawableLeft="@drawable/ic_search_filters_periscope" style="@style/SearchFilterSelection" />
+                <View android:id="@id/filter_periscope_border" android:visibility="gone" style="@style/Border" />
+                <com.twitter.library.widget.StyleableRadioButton android:id="@id/filter_news" android:text="@string/search_filter_news" android:drawableLeft="@drawable/ic_search_filters_news" style="@style/SearchFilterSelection" />
+                <View style="@style/Border" />
+                <com.twitter.library.widget.StyleableRadioButton android:id="@id/filter_people" android:text="@string/search_filter_people" android:drawableLeft="@drawable/ic_search_filters_people" style="@style/SearchFilterSelection" />
+            </RadioGroup>
+        </com.twitter.internal.android.widget.GroupedRowView>
+        <com.twitter.internal.android.widget.GroupedRowView android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:single="true" style="@style/GroupedRowView">
+            <RadioGroup android:id="@id/search_filter_social" android:visibility="gone" style="@style/SearchFilterSelectionGroup">
+                <com.twitter.library.widget.StyleableRadioButton android:id="@id/filter_everyone" android:checked="true" android:text="@string/search_everyone" style="@style/SearchFilterSelection" />
+                <View style="@style/Border" />
+                <com.twitter.library.widget.StyleableRadioButton android:id="@id/filter_follows" android:text="@string/search_follow" style="@style/SearchFilterSelection" />
+            </RadioGroup>
+        </com.twitter.internal.android.widget.GroupedRowView>
+        <com.twitter.internal.android.widget.GroupedRowView android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:single="true" style="@style/GroupedRowView">
+            <RadioGroup android:id="@id/search_filter_geo" android:visibility="gone" style="@style/SearchFilterSelectionGroup">
+                <com.twitter.library.widget.StyleableRadioButton android:id="@id/filter_no_geo" android:checked="true" android:text="@string/search_everywhere" style="@style/SearchFilterSelection" />
+                <View style="@style/Border" />
+                <com.twitter.library.widget.StyleableRadioButton android:id="@id/filter_geo" android:text="@string/search_near" style="@style/SearchFilterSelection" />
+            </RadioGroup>
+        </com.twitter.internal.android.widget.GroupedRowView>
+        <Button android:layout_gravity="center" android:id="@id/search_filter_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_filter_more" android:drawableRight="@drawable/icn_downarrow" style="@style/PanelButton" />
+    </LinearLayout>
+</ScrollView>

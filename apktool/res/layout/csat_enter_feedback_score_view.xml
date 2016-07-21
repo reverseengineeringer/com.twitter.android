@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingBottom="@dimen/feedback_card_privacy_notice_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/feedback_card_dismiss_button" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/prompt_feedback_score_text" android:layout_marginTop="@dimen/csat_feedback_card_prompts_text_top_margin" android:includeFontPadding="false" android:layout_below="@id/feedback_dismiss_button" style="@style/CustomerFeedbackCardPromptTitle" />
+    <RelativeLayout android:id="@id/feedback_score_button_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/prompt_feedback_score_text" android:layout_centerHorizontal="true">
+        <LinearLayout android:id="@id/feedback_score_buttons_row" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/csat_feedback_score_button_row_top_margin" android:layout_centerHorizontal="true">
+            <FrameLayout style="@style/CustomerFeedbackCsatScoreButton">
+                <include layout="@layout/feedback_csat_score_image_background" />
+                <ImageView android:id="@id/csat_score_rating_1" android:src="@drawable/ic_smile_rating_1" android:contentDescription="@string/csat_score_description1" style="@style/CustomerFeedbackCSATEmoji" />
+            </FrameLayout>
+            <FrameLayout style="@style/CustomerFeedbackCsatScoreButtonWithLeftMargin">
+                <include layout="@layout/feedback_csat_score_image_background" />
+                <ImageView android:id="@id/csat_score_rating_2" android:src="@drawable/ic_smile_rating_2" android:contentDescription="@string/csat_score_description2" style="@style/CustomerFeedbackCSATEmoji" />
+            </FrameLayout>
+            <FrameLayout style="@style/CustomerFeedbackCsatScoreButtonWithLeftMargin">
+                <include layout="@layout/feedback_csat_score_image_background" />
+                <ImageView android:id="@id/csat_score_rating_3" android:src="@drawable/ic_smile_rating_3" android:contentDescription="@string/csat_score_description3" style="@style/CustomerFeedbackCSATEmoji" />
+            </FrameLayout>
+            <FrameLayout style="@style/CustomerFeedbackCsatScoreButtonWithLeftMargin">
+                <include layout="@layout/feedback_csat_score_image_background" />
+                <ImageView android:id="@id/csat_score_rating_4" android:src="@drawable/ic_smile_rating_4" android:contentDescription="@string/csat_score_description4" style="@style/CustomerFeedbackCSATEmoji" />
+            </FrameLayout>
+            <FrameLayout style="@style/CustomerFeedbackCsatScoreButtonWithLeftMargin">
+                <include layout="@layout/feedback_csat_score_image_background" />
+                <ImageView android:id="@id/csat_score_rating_5" android:src="@drawable/ic_smile_rating_5" android:contentDescription="@string/csat_score_description5" style="@style/CustomerFeedbackCSATEmoji" />
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/feedback_score_buttons_row_background_line" android:padding="@dimen/csat_feedback_score_button_padding_for_emojis" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/feedback_score_buttons_row" android:layout_alignTop="@id/feedback_score_buttons_row" android:layout_alignRight="@id/feedback_score_buttons_row" android:layout_alignBottom="@id/feedback_score_buttons_row">
+            <View android:layout_gravity="center_vertical" android:background="@color/deep_gray" android:layout_width="fill_parent" android:layout_height="@dimen/csat_feedback_score_background_line_thickness" />
+        </FrameLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/very_dissatisfied_label" android:layout_below="@id/feedback_score_buttons_row" android:layout_alignLeft="@id/feedback_score_buttons_row" style="@style/CustomerFeedbackCsatScoreDescriptionText.VeryDissatisfied" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/very_satisfied_label" android:layout_below="@id/feedback_score_buttons_row" android:layout_alignRight="@id/feedback_score_buttons_row" style="@style/CustomerFeedbackCsatScoreDescriptionText.VerySatisfied" />
+    </RelativeLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/feedback_privacy_notice" android:layout_marginTop="@dimen/csat_feedback_privacy_margin_top" android:layout_below="@id/feedback_score_button_area" style="@style/CustomerFeedbackCardPrivacyNotice" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="highlights_notification_bg_color">#ffeeeeee</color>
+    <color name="highlights_notification_story_bg">#7affffff</color>
+    <color name="highlights_notification_subtext">#ff6d6d6d</color>
+    <color name="magic_recs_gradient_tint_start">#ccffffff</color>
+    <color name="magic_recs_subtext">@android:color/primary_text_light</color>
+    <color name="notification_media_tint">#c0ffffff</color>
+    <color name="notification_title_text">@color/black</color>
+    <color name="highlights_notification_overlay_text">@color/black</color>
+</resources>

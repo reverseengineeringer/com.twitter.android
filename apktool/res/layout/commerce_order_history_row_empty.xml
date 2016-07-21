@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textStyle="bold" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/commerce_payment_shipping_loading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/commerce_card_title_padding" android:text="@string/commerce_history_no_history" android:lineSpacingExtra="@dimen/line_spacing_extra" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/commerce_payment_shipping_loading_subtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/commerce_history_no_history_subtitle" />
+</LinearLayout>

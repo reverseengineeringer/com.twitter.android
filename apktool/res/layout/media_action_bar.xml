@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.widget.EngagementActionBar android:orientation="vertical" android:id="@id/actionbar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/stats_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:paddingLeft="10.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:baselineAligned="false">
+        <LinearLayout android:gravity="start" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+            <ImageButton android:gravity="center_vertical" android:id="@id/reply" android:background="@null" android:paddingLeft="@dimen/btn_follow_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_gallery_action_reply" android:contentDescription="@string/button_action_reply" />
+        </LinearLayout>
+        <LinearLayout android:gravity="start" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="-10.0dip" android:layout_weight="1.0">
+            <com.twitter.android.widget.ToggleImageButton android:gravity="center_vertical" android:id="@id/retweet" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_gallery_action_rt" twitter:contentDescriptionOn="@string/button_status_retweeted" twitter:contentDescriptionOff="@string/button_action_retweet" twitter:toggleOnClick="false" />
+            <com.twitter.ui.widget.TypefacesTextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/retweet_label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="-6.0dip" android:singleLine="true" android:textIsSelectable="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="start" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="-4.0dip" android:layout_weight="1.0">
+            <com.twitter.android.widget.ToggleImageButton android:gravity="center_vertical" android:id="@id/favorite" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:src="?galleryActionFave" android:baselineAlignBottom="false" twitter:contentDescriptionOn="@string/button_status_liked" twitter:contentDescriptionOff="@string/button_action_like" />
+            <com.twitter.ui.widget.TypefacesTextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/favorite_label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="-10.0dip" android:singleLine="true" android:textIsSelectable="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="start" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:gravity="center_vertical" android:id="@id/share" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_gallery_action_share" android:contentDescription="@string/button_action_share" />
+        </LinearLayout>
+    </LinearLayout>
+</com.twitter.android.widget.EngagementActionBar>

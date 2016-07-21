@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="@dimen/pull_to_refresh_drawable_width" android:layout_height="fill_parent" style="@style/PullToRefreshLayout">
+            <ProgressBar android:layout_gravity="right" android:id="@id/refresh_loading" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginRight="10.0dip" style="?android:attr/progressBarStyleSmall" />
+            <ImageView android:layout_gravity="right" android:id="@id/refresh_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_pull_arrow" android:scaleType="center" android:contentDescription="@null" />
+        </FrameLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/refresh_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pull_to_refresh_text_margin_left" android:layout_marginTop="26.0dip" android:text="@string/refresh_pull_down" android:layout_weight="12.0" style="@style/PullToRefreshText.CTA" />
+    </LinearLayout>
+    <View android:id="@id/refresh_divider" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginTop="@dimen/standard_spacing" android:layout_alignParentBottom="true" />
+    <View android:id="@id/ptr_border" android:background="@color/border_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/divider_thickness" android:layout_marginTop="@dimen/standard_spacing" android:layout_alignParentBottom="true" />
+</merge>

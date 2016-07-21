@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/highlights_notification_root" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/HighlightsNotification"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/notification_icon" />
+    <TextView android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent.Title" android:textColor="@color/notification_title_text" android:ellipsize="marquee" android:id="@id/highlights_notification_title" android:fadingEdge="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/highlights_notification_title_margin_left" android:layout_marginTop="@dimen/notification_padding" android:layout_marginRight="@dimen/notification_padding" android:text="@string/highlights_notification_title" android:singleLine="true" android:layout_toRightOf="@id/icon" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent" android:textColor="@color/highlights_notification_subtext" android:ellipsize="marquee" android:id="@id/highlights_notification_text" android:fadingEdge="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/highlights_notification_title_margin_left" android:layout_marginRight="@dimen/notification_padding" android:singleLine="true" android:layout_toRightOf="@id/icon" android:layout_below="@id/highlights_notification_title" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/digest_notif_expanded_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?android:dividerHorizontal" android:scaleType="fitXY" android:layout_below="@id/icon" android:contentDescription="@null" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerVertical" android:layout_below="@id/digest_notif_expanded_divider" android:showDividers="middle">
+        <RelativeLayout android:id="@id/notif_col_1" style="@style/HighlightsNotification.Column.Expanded">
+            <ImageView android:id="@id/notif_col_image_1" android:contentDescription="@null" style="@style/HighlightsNotification.Image.Expanded" />
+            <TextView android:textColor="@color/highlights_notification_story_text" android:id="@id/notif_col_handle_1" style="@style/HighlightsNotification.Handle" />
+            <TextView android:textColor="@color/highlights_notification_story_text" android:id="@id/notif_col_text_1" android:layout_below="@id/notif_col_handle_1" style="@style/HighlightsNotification.Text.Expanded" />
+            <ImageView android:layout_alignLeft="@id/notif_col_image_1" android:layout_alignTop="@id/notif_col_image_1" android:layout_alignRight="@id/notif_col_image_1" android:layout_alignBottom="@id/notif_col_image_1" android:contentDescription="@null" style="@style/HighlightsNotification.Selector" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/notif_col_2" style="@style/HighlightsNotification.Column.Expanded">
+            <ImageView android:id="@id/notif_col_image_2" android:contentDescription="@null" style="@style/HighlightsNotification.Image.Expanded" />
+            <TextView android:textColor="@color/highlights_notification_story_text" android:id="@id/notif_col_handle_2" style="@style/HighlightsNotification.Handle" />
+            <TextView android:textColor="@color/highlights_notification_story_text" android:id="@id/notif_col_text_2" android:layout_below="@id/notif_col_handle_2" style="@style/HighlightsNotification.Text.Expanded" />
+            <ImageView android:layout_alignLeft="@id/notif_col_image_2" android:layout_alignTop="@id/notif_col_image_2" android:layout_alignRight="@id/notif_col_image_2" android:layout_alignBottom="@id/notif_col_image_2" android:contentDescription="@null" style="@style/HighlightsNotification.Selector" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

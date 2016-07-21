@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.UserView android:id="@id/user_row" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:politicalDrawable="@drawable/ic_badge_gov_default" twitter:promotedDrawable="@drawable/ic_badge_promoted_gray"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/separator_stub" android:layout="@layout/user_row_separator" android:inflatedId="@id/separator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/separator" style="?listRowStyle">
+        <include layout="@layout/user_with_bio_and_follow_button" />
+    </RelativeLayout>
+</com.twitter.library.widget.UserView>

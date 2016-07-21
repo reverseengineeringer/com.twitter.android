@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/top_toolbar" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include layout="@layout/progress_bar" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/webview_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/webview_error_message_header_font_size" android:textColor="@color/deep_gray" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/webview_error_message_line_space" android:text="@string/webview_error_loading" />
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/webview_error_message_body_font_size" android:textColor="@color/deep_gray" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/webview_tap_to_retry" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</com.twitter.library.widget.ToolbarWrapperLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_title_recent_logo" android:contentDescription="@null" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="@dimen/highlights_progress_diameter" android:layout_height="@dimen/highlights_progress_diameter" android:indeterminateDrawable="@drawable/highlights_loading_progress" />
+    </FrameLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/highlights_text_size_xxlarge" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/loading_text" android:paddingLeft="@dimen/loading_story_text_padding" android:paddingRight="@dimen/loading_story_text_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/loading_story_button_margin" style="@style/Highlights.ContentText" />
+    <com.twitter.ui.widget.TwitterButton android:enabled="true" android:layout_gravity="center" android:id="@id/try_again" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/loading_story_button_margin" android:text="@string/loading_story_try_again_text" style="@style/TwitterButtonMediumNight" />
+</LinearLayout>

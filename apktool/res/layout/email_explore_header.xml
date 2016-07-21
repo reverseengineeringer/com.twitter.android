@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.media.ui.image.MediaImageView android:id="@id/email_explore_header" android:contentDescription="@string/email_explore_header_image_description" twitter:defaultDrawable="@color/dark_gray" style="@style/EventHeaderImage" />
+        <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/white" android:gravity="center" android:id="@id/header_image_src" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:layout_alignBottom="@id/email_explore_header" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/event_entries" android:background="@color/white" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/list_row_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/email_explore_title" style="@style/ExploreEmailLandingTitle" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/email_explore_subtitle" style="@style/ExploreEmailLandingDetail" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginBottom="22.0dip">
+        <com.twitter.library.widget.TwitterRelativeLayout android:id="@id/button_bar" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.twitter.ui.widget.TwitterButton android:id="@id/follow_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" twitter:nodpiBaseIconName="ic_follow" style="@style/TwitterButtonMediumBold" />
+            <com.twitter.ui.widget.TwitterButton android:id="@id/unfollow_all" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" twitter:nodpiBaseIconName="ic_following" style="@style/TwitterButtonMediumHeavy" />
+        </com.twitter.library.widget.TwitterRelativeLayout>
+    </FrameLayout>
+    <View android:layout_width="fill_parent" android:layout_height="5.0dip" style="@style/HorizontalRule" />
+</LinearLayout>

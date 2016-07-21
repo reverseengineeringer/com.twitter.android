@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.ui.widget.TwitterButton android:id="@id/follow_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/follow" twitter:nodpiBaseIconName="ic_follow" style="@style/TwitterButtonMediumBold" />
+    <com.twitter.ui.widget.TwitterButton android:id="@id/following_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unfollow" twitter:nodpiBaseIconName="ic_following" style="@style/TwitterButtonMediumHeavy" />
+</LinearLayout>

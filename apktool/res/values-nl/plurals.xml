@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_item_count">
+        <item quantity="other">%d nieuw items</item>
+        <item quantity="one">%d nieuw item</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_days">
+        <item quantity="other">%1$d dagen resterend</item>
+        <item quantity="one">%1$d dag resterend</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_hours">
+        <item quantity="other">%1$d uur resterend</item>
+        <item quantity="one">%1$d uur resterend</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_minutes">
+        <item quantity="other">%1$d minuten resterend</item>
+        <item quantity="one">%1$d minuut resterend</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d dagen</item>
+        <item quantity="one">1 dag</item>
+    </plurals>
+    <plurals name="dm_seen_by_list_others_overflow">
+        <item quantity="other">en {{}}%d anderen{{}}</item>
+        <item quantity="one">en {{}}%d ander{{}}</item>
+    </plurals>
+    <plurals name="dm_state_seen_by">
+        <item quantity="other">Gezien door %d personen</item>
+        <item quantity="one">Gezien door %d persoon</item>
+    </plurals>
+    <plurals name="dm_unread_messages">
+        <item quantity="other">%d ongelezen berichten</item>
+        <item quantity="one">%d ongelezen bericht</item>
+    </plurals>
+    <plurals name="followed_by_count">
+        <item quantity="other">Gevolgd door %1$s en %2$d anderen</item>
+        <item quantity="one">Gevolgd door %1$s en %2$d ander</item>
+    </plurals>
+    <plurals name="in_reply_to_name_and_count">
+        <item quantity="other">Als antwoord op %1$s en %2$d%3$sanderen</item>
+        <item quantity="one">Als antwoord op %1$s en %2$d%3$sander</item>
+    </plurals>
+    <plurals name="magic_recs_follow_notif">
+        <item quantity="other">Zojuist gevolgd door %1$s en %2$d personen die je volgt</item>
+        <item quantity="one">Zojuist gevolgd door %1$s en %2$d persoon die je volgt</item>
+    </plurals>
+    <plurals name="media_monetization_settings_categories_selected">
+        <item quantity="other">%d categorieën geselecteerd</item>
+        <item quantity="one">%d categorie geselecteerd</item>
+    </plurals>
+    <plurals name="media_tag_prompt">
+        <item quantity="other">"Wie staan op deze foto's?"</item>
+        <item quantity="one">Wie staan er op deze foto?</item>
+    </plurals>
+    <plurals name="media_tag_remaining">
+        <item quantity="other">Je kunt nog %d personen taggen.</item>
+        <item quantity="one">Je kunt nog %d persoon taggen.</item>
+    </plurals>
+    <plurals name="media_tag_tagged">
+        <item quantity="other">%d personen getagd</item>
+        <item quantity="one">%d persoon getagd</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="other">%d maanden</item>
+        <item quantity="one">1 maand</item>
+    </plurals>
+    <plurals name="most_active_users_footer">
+        <item quantity="other">Je hebt nog %s actieve contacten</item>
+        <item quantity="one">Je hebt nog %s actief contact</item>
+    </plurals>
+    <plurals name="new_tweet_count">
+        <item quantity="other">%d nieuwe Tweets</item>
+        <item quantity="one">%d nieuwe Tweet</item>
+    </plurals>
+    <plurals name="news_related_tweets_title">
+        <item quantity="other">Gerelateerde Tweets</item>
+        <item quantity="one">Gerelateerde Tweet</item>
+    </plurals>
+    <plurals name="news_top_tweets">
+        <item quantity="other">%1$s toptweets</item>
+        <item quantity="one">%1$s toptweets</item>
+    </plurals>
+    <plurals name="news_top_tweets_title">
+        <item quantity="other">Toptweets</item>
+        <item quantity="one">Toptweet</item>
+    </plurals>
+    <plurals name="profile_followers_count_label">
+        <item quantity="other">Volgers</item>
+        <item quantity="one">Volger</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_likes">
+        <item quantity="other">%s vind-ik-leuks</item>
+        <item quantity="one">%s vind-ik-leuk</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_media">
+        <item quantity="other">"%s foto's"</item>
+        <item quantity="one">%s foto</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_timeline">
+        <item quantity="other">%s Tweets</item>
+        <item quantity="one">%s Tweet</item>
+    </plurals>
+    <plurals name="profile_tweets_count_label">
+        <item quantity="other">Tweets</item>
+        <item quantity="one">Tweet</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">nog %1$d antwoorden</item>
+        <item quantity="one">nog %1$d antwoord</item>
+    </plurals>
+    <plurals name="search_user_name_pile">
+        <item quantity="other">%1$s, %2$s en meer</item>
+        <item quantity="one">%1$s en meer</item>
+    </plurals>
+    <plurals name="selected_image_count">
+        <item quantity="other">%d geselecteerd</item>
+        <item quantity="one">%d geselecteerd</item>
+    </plurals>
+    <plurals name="settings_notif_tweets_count">
+        <item quantity="other">%d personen</item>
+        <item quantity="one">%d persoon</item>
+    </plurals>
+    <plurals name="social_follow_and_follow_and_others">
+        <item quantity="other">%1$s, %2$s en %3$d anderen volgen</item>
+        <item quantity="one">%1$s, %2$s en %3$d ander volgen</item>
+    </plurals>
+    <plurals name="social_like_and_retweets_count">
+        <item quantity="other">%1$s vind-ik-leuks en %2$s Retweets</item>
+        <item quantity="one">%1$s vind-ik-leuks en %2$s Retweet</item>
+    </plurals>
+    <plurals name="social_like_count">
+        <item quantity="other">%1$s vind-ik-leuks</item>
+        <item quantity="one">%1$s vind-ik-leuk</item>
+    </plurals>
+    <plurals name="social_like_count_with_user">
+        <item quantity="other">%1$s en %2$d anderen die je volgt, vinden dit leuk</item>
+        <item quantity="one">%1$s en %2$d anderen die je volgt, vinden dit leuk</item>
+    </plurals>
+    <plurals name="social_like_count_with_user_accessibility_description">
+        <item quantity="other">Leuk gevonden door %1$s en %2$d anderen die je volgt</item>
+        <item quantity="one">Leuk gevonden door %1$s en %2$d anderen die je volgt</item>
+    </plurals>
+    <plurals name="social_proof_in_reply_multiple_names_and_count">
+        <item quantity="other">Als antwoord op %1$s, %2$s en %3$d anderen</item>
+        <item quantity="one">Als antwoord op %1$s, %2$s en %3$d ander</item>
+    </plurals>
+    <plurals name="social_retweet_and_likes_count">
+        <item quantity="other">%1$s Retweets en %2$s vind-ik-leuks</item>
+        <item quantity="one">%1$s Retweets en %2$s vind-ik-leuk</item>
+    </plurals>
+    <plurals name="social_retweet_count">
+        <item quantity="other">%1$s Retweets</item>
+        <item quantity="one">%1$s Retweet</item>
+    </plurals>
+    <plurals name="stat_label_likes">
+        <item quantity="other">VIND-IK-LEUKS</item>
+        <item quantity="one">VIND-IK-LEUK</item>
+    </plurals>
+    <plurals name="stat_label_retweets">
+        <item quantity="other">RETWEETS</item>
+        <item quantity="one">RETWEET</item>
+    </plurals>
+    <plurals name="stat_label_views">
+        <item quantity="other">KEER BEKEKEN</item>
+        <item quantity="one">KEER BEKEKEN</item>
+    </plurals>
+    <plurals name="story_proof_author_follow_by">
+        <item quantity="other">\@%1$s en %2$d anderen volgen</item>
+        <item quantity="one">\@%1$s en %2$d ander volgen</item>
+    </plurals>
+    <plurals name="story_proof_follow_by">
+        <item quantity="other">\@%1$s en %2$d anderen volgen nu</item>
+        <item quantity="one">\@%1$s en %2$d ander volgen nu</item>
+    </plurals>
+    <plurals name="story_proof_like_by">
+        <item quantity="other">\@%1$s en %2$d anderen vinden dit leuk</item>
+        <item quantity="one">\@%1$s en %2$d ander vinden dit leuk</item>
+    </plurals>
+    <plurals name="story_proof_retweet_by">
+        <item quantity="other">\@%1$s en %2$d anderen hebben geretweet</item>
+        <item quantity="one">\@%1$s en %2$d ander hebben geretweet</item>
+    </plurals>
+    <plurals name="story_proof_shared_by">
+        <item quantity="other">\@%1$s en %2$d anderen praten hierover</item>
+        <item quantity="one">\@%1$s en %2$d ander praten hierover</item>
+    </plurals>
+    <plurals name="tagline_view_count">
+        <item quantity="other">%1$s keer bekeken</item>
+        <item quantity="one">%1$s keer bekeken</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%dd</item>
+        <item quantity="one">1d</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%d DAGEN GELEDEN</item>
+        <item quantity="one">1 DAG GELEDEN</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%du</item>
+        <item quantity="one">1u</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%d UUR GELEDEN</item>
+        <item quantity="one">1 UUR GELEDEN</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%dm</item>
+        <item quantity="one">1m</item>
+    </plurals>
+    <plurals name="time_mins_ago">
+        <item quantity="other">%d MINUTEN GELEDEN</item>
+        <item quantity="one">1 MINUUT GELEDEN</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%ds</item>
+        <item quantity="one">1s</item>
+    </plurals>
+    <plurals name="tweet_detail_footer_view_count">
+        <item quantity="other">%1$s keer bekeken</item>
+        <item quantity="one">%1$s keer bekeken</item>
+    </plurals>
+    <plurals name="typing_users_count">
+        <item quantity="other">%d personen zijn aan het typen</item>
+        <item quantity="one">%d persoon is aan het typen</item>
+    </plurals>
+    <plurals name="users_fast_follow_text">
+        <item quantity="other">+%1$s andere sms-volgers</item>
+        <item quantity="one">+%1$s andere sms-volger</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d weken</item>
+        <item quantity="one">1 week</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="other">%d jaar</item>
+        <item quantity="one">1 jaar</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers">
+        <item quantity="other">%1$s heeft %2$s personen uitgenodigd</item>
+        <item quantity="one">%1$s heeft %2$s persoon uitgenodigd</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers_embolden">
+        <item quantity="other">*%1$s* heeft %2$s personen uitgenodigd</item>
+        <item quantity="one">*%1$s* heeft %2$s persoon uitgenodigd</item>
+    </plurals>
+    <plurals name="ps__time_format_days">
+        <item quantity="other">%d dagen</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="ps__time_format_hours">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="ps__time_format_minutes">
+        <item quantity="other">%d minuten</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="ps__time_format_seconds">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d seconde</item>
+    </plurals>
+</resources>

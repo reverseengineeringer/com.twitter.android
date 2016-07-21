@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_data_warning_box" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/warning_message" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/link" android:id="@id/media_display" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/allow_display_media" />
+        <ImageView android:id="@id/media_round_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/round_dot" android:layout_toRightOf="@id/media_display" android:layout_centerInParent="true" android:contentDescription="@null" />
+        <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/link" android:id="@id/media_display_always" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/always_allow_display_media" android:layout_toRightOf="@id/media_round_dot" android:layout_alignTop="@id/media_display" android:layout_alignBottom="@id/media_display" />
+    </RelativeLayout>
+</LinearLayout>

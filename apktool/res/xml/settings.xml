@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="\@account" android:key="category_account" android:order="10">
+        <Preference android:title="@string/settings_account_title" android:key="pref_account" android:order="10" />
+        <Preference android:title="@string/settings_notification_title" android:key="pref_notifications" android:order="20" />
+        <Preference android:title="@string/settings_privacy_and_content_title" android:key="pref_privacy_and_content" android:order="30" />
+        <Preference android:title="@string/settings_orders_and_payments_title" android:key="pref_orders_and_payments" android:order="40" />
+        <Preference android:title="@string/settings_sign_out_title" android:key="pref_sign_out" android:order="50" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_category_general_title" android:key="category_general" android:order="20">
+        <Preference android:title="@string/settings_display_and_sound_title" android:key="pref_display_and_sound" android:order="10" />
+        <Preference android:title="@string/settings_data" android:key="pref_data" android:order="15" />
+        <Preference android:title="@string/settings_location_and_proxy_title" android:key="pref_location_and_proxy" android:order="20" />
+        <Preference android:key="pref_about" android:summary="@string/about_summary" android:order="30" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:twitter="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingRight="@dimen/featured_carousel_user_info_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/name_item" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/FeaturedCarouselProfileCardNameItem" />
+            <ImageView android:id="@id/protected_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/icon_protected" style="@style/FeaturedCarouselProfileCardProtectedItem.RTL" />
+            <ImageView android:id="@id/verified_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/icon_verified" style="@style/FeaturedCarouselProfileCardVerifiedItem" />
+        </LinearLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:layout_gravity="right" android:id="@id/screenname_item" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FeaturedCarouselProfileCardScreennameItem" />
+    </LinearLayout>
+    <com.twitter.library.media.widget.UserImageView android:id="@id/user_image" android:layout_width="wrap_content" android:layout_height="wrap_content" twitter:defaultDrawable="@color/placeholder_bg" twitter:singleImageView="true" />
+</LinearLayout>

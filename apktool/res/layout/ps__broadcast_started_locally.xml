@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <tv.periscope.android.view.PsTextView android:textSize="@dimen/abc_text_size_body_2_material" android:textColor="@color/ps__white" android:id="@id/broadcast_live_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ps__broadcast_live_label" custom:ps__font="fonts/MuseoSans-300.otf" />
+    <tv.periscope.android.view.PsTextView android:textSize="@dimen/abc_text_size_headline_material" android:textColor="@color/ps__white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ps__broadcasting_live" android:drawableRight="@drawable/ps__ic_live_audio" android:drawablePadding="8.0dip" android:layout_below="@id/broadcast_live_label" android:drawableEnd="@drawable/ps__ic_live_audio" custom:ps__font="fonts/MuseoSans-700.otf" />
+</RelativeLayout>

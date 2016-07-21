@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/vit_notifications_filter_category">
+        <CheckBoxPreference android:title="@string/vit_quality_filter_title" android:key="quality_filter" android:summary="@string/vit_quality_filter_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

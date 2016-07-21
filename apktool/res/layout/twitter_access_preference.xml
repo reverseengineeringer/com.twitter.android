@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RadioGroup android:orientation="vertical" android:id="@id/twitter_access_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/twitter_access_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TwitterAccess Off" />
+        <RadioButton android:id="@id/twitter_access_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TwitterAccess On" />
+        <com.twitter.ui.widget.TwitterEditText android:enabled="false" android:id="@id/twitter_access_carrier" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="40.0dip" android:inputType="text" twitter:labelText="Test on carrier:" style="@style/TwitterEditText" />
+        <com.twitter.ui.widget.TwitterEditText android:enabled="false" android:id="@id/twitter_access_interval" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="40.0dip" android:inputType="number" twitter:labelText="Interval:" style="@style/TwitterEditText" />
+    </RadioGroup>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/validation_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twitter.ui.widget.TypefacesTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Validating..." />
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="@android:style/Widget.ProgressBar.Small" />
+    </LinearLayout>
+</FrameLayout>

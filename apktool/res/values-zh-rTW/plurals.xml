@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_item_count">
+        <item quantity="other">%d 個新項目</item>
+        <item quantity="one">%d 個新項目</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_days">
+        <item quantity="other">剩下 %1$d 天</item>
+        <item quantity="one">剩下 %1$d 天</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_hours">
+        <item quantity="other">剩下 %1$d 小時</item>
+        <item quantity="one">剩下 %1$d 小時</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_minutes">
+        <item quantity="other">剩下 %1$d 分鐘</item>
+        <item quantity="one">剩下 %1$d 分鐘</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d 天</item>
+        <item quantity="one">1 天</item>
+    </plurals>
+    <plurals name="dm_seen_by_list_others_overflow">
+        <item quantity="other">和{{}}其他 %d 人{{}}</item>
+        <item quantity="one">和{{}}其他 %d 人{{}}</item>
+    </plurals>
+    <plurals name="dm_state_seen_by">
+        <item quantity="other">%d 人已看過</item>
+        <item quantity="one">%d 人已看過</item>
+    </plurals>
+    <plurals name="dm_unread_messages">
+        <item quantity="other">%d 則未讀訊息</item>
+        <item quantity="one">%d 則未讀訊息</item>
+    </plurals>
+    <plurals name="followed_by_count">
+        <item quantity="other">被 %1$s 和另外 %2$d 個跟隨</item>
+        <item quantity="one">已被 %1$s 和其他 %2$d 人跟隨</item>
+    </plurals>
+    <plurals name="in_reply_to_name_and_count">
+        <item quantity="other">回覆給 %1$s 和其他 %2$d%3$s人</item>
+        <item quantity="one">回覆給 %1$s 和其他 %2$d%3$s人</item>
+    </plurals>
+    <plurals name="magic_recs_follow_notif">
+        <item quantity="other">剛被 %1$s 和你跟隨的 %2$d 人跟隨</item>
+        <item quantity="one">剛被 %1$s 和你跟隨的 %2$d 人跟隨</item>
+    </plurals>
+    <plurals name="media_monetization_settings_categories_selected">
+        <item quantity="other">已選取 %d 個類別</item>
+        <item quantity="one">已選取 %d 個類別</item>
+    </plurals>
+    <plurals name="media_tag_prompt">
+        <item quantity="other">這些相片裡面有哪些人?</item>
+        <item quantity="one">這張相片裡面有哪些人?</item>
+    </plurals>
+    <plurals name="media_tag_remaining">
+        <item quantity="other">最多可以再標記 %d 個人。</item>
+        <item quantity="one">還可標記最多 %d 人。</item>
+    </plurals>
+    <plurals name="media_tag_tagged">
+        <item quantity="other">已標記 %d 個人。</item>
+        <item quantity="one">已標記 %d 人</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="other">%d 個月</item>
+        <item quantity="one">1 個月</item>
+    </plurals>
+    <plurals name="most_active_users_footer">
+        <item quantity="other">你還有 %s 位活躍的聯絡人</item>
+        <item quantity="one">你還有 %s 位活躍的聯絡人</item>
+    </plurals>
+    <plurals name="new_tweet_count">
+        <item quantity="other">%d 條新推文</item>
+        <item quantity="one">%d 則新推文</item>
+    </plurals>
+    <plurals name="news_related_tweets_title">
+        <item quantity="other">相關推文</item>
+        <item quantity="one">相關推文</item>
+    </plurals>
+    <plurals name="news_top_tweets">
+        <item quantity="other">%1$s 則熱門推文</item>
+        <item quantity="one">%1$s 則熱門推文</item>
+    </plurals>
+    <plurals name="news_top_tweets_title">
+        <item quantity="other">熱門推文</item>
+        <item quantity="one">熱門推文</item>
+    </plurals>
+    <plurals name="profile_followers_count_label">
+        <item quantity="other">跟隨者</item>
+        <item quantity="one">跟隨者</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_likes">
+        <item quantity="other">%s 個喜歡</item>
+        <item quantity="one">%s 個喜歡</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_media">
+        <item quantity="other">%s 相片</item>
+        <item quantity="one">%s 相片</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_timeline">
+        <item quantity="other">%s 推文</item>
+        <item quantity="one">%s 推文</item>
+    </plurals>
+    <plurals name="profile_tweets_count_label">
+        <item quantity="other">推文</item>
+        <item quantity="one">推文</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">更多%1$d個回覆</item>
+        <item quantity="one">還有 %1$d 個回覆</item>
+    </plurals>
+    <plurals name="search_user_name_pile">
+        <item quantity="other">%1$s, %2$s 及更多</item>
+        <item quantity="one">%1$s 及更多</item>
+    </plurals>
+    <plurals name="selected_image_count">
+        <item quantity="other">已選取 %d 張</item>
+        <item quantity="one">已選取 %d 張</item>
+    </plurals>
+    <plurals name="settings_notif_tweets_count">
+        <item quantity="other">%d個人</item>
+        <item quantity="one">%d 人</item>
+    </plurals>
+    <plurals name="social_follow_and_follow_and_others">
+        <item quantity="other">%1$s、%2$s 和其他 %3$d 人跟隨了</item>
+        <item quantity="one">%1$s、%2$s 和其他 %3$d 人已跟隨</item>
+    </plurals>
+    <plurals name="social_like_and_retweets_count">
+        <item quantity="other">%1$s 個喜歡和 %2$s 個轉推</item>
+        <item quantity="one">%1$s 個喜歡和 %2$s 個轉推</item>
+    </plurals>
+    <plurals name="social_like_count">
+        <item quantity="other">%1$s 個喜歡</item>
+        <item quantity="one">%1$s 個喜歡</item>
+    </plurals>
+    <plurals name="social_like_count_with_user">
+        <item quantity="other">%1$s 和你跟隨的 %2$d 人已喜歡</item>
+        <item quantity="one">%1$s 和你跟隨的 %2$d 人已喜歡</item>
+    </plurals>
+    <plurals name="social_like_count_with_user_accessibility_description">
+        <item quantity="other">已被 %1$s 和你跟隨的 %2$d 人喜歡</item>
+        <item quantity="one">已被 %1$s 和你跟隨的 %2$d 人喜歡</item>
+    </plurals>
+    <plurals name="social_proof_in_reply_multiple_names_and_count">
+        <item quantity="other">回覆給 %1$s、%2$s 和其他 %3$d 人</item>
+        <item quantity="one">回覆給 %1$s、%2$s 和其他 %3$d 人</item>
+    </plurals>
+    <plurals name="social_retweet_and_likes_count">
+        <item quantity="other">%1$s 個轉推和 %2$s 個喜歡</item>
+        <item quantity="one">%1$s 個轉推和 %2$s 個喜歡</item>
+    </plurals>
+    <plurals name="social_retweet_count">
+        <item quantity="other">%1$s 個轉推</item>
+        <item quantity="one">%1$s 個轉推</item>
+    </plurals>
+    <plurals name="stat_label_likes">
+        <item quantity="other">個喜歡</item>
+        <item quantity="one">個喜歡</item>
+    </plurals>
+    <plurals name="stat_label_retweets">
+        <item quantity="other">轉推</item>
+        <item quantity="one">轉推</item>
+    </plurals>
+    <plurals name="stat_label_views">
+        <item quantity="other">查看</item>
+        <item quantity="one">查看</item>
+    </plurals>
+    <plurals name="story_proof_author_follow_by">
+        <item quantity="other">\@%1$s 和其他 %2$d 人跟隨了</item>
+        <item quantity="one">\@%1$s 和其他 %2$d 人跟隨了</item>
+    </plurals>
+    <plurals name="story_proof_follow_by">
+        <item quantity="other">\@%1$s 和其他 %2$d 人最近已跟隨</item>
+        <item quantity="one">\@%1$s 和其他 %2$d 人最近已跟隨</item>
+    </plurals>
+    <plurals name="story_proof_like_by">
+        <item quantity="other">\@%1$s 和其他 %2$d 人已喜歡</item>
+        <item quantity="one">\@%1$s 和其他 %2$d 人已喜歡</item>
+    </plurals>
+    <plurals name="story_proof_retweet_by">
+        <item quantity="other">\@%1$s 和其他 %2$d 人已轉推</item>
+        <item quantity="one">\@%1$s 和其他 %2$d 人已轉推</item>
+    </plurals>
+    <plurals name="story_proof_shared_by">
+        <item quantity="other">\@%1$s 和其他 %2$d 人正在談論此</item>
+        <item quantity="one">\@%1$s 和其他 %2$d 人正在談論此</item>
+    </plurals>
+    <plurals name="tagline_view_count">
+        <item quantity="other">%1$s 次查看</item>
+        <item quantity="one">%1$s 次查看</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%d天</item>
+        <item quantity="one">1天</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%d 天前</item>
+        <item quantity="one">1天前</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d 小時</item>
+        <item quantity="one">1 小時</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%d 小時前</item>
+        <item quantity="one">1小時前</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d 分</item>
+        <item quantity="one">1 分鐘</item>
+    </plurals>
+    <plurals name="time_mins_ago">
+        <item quantity="other">%d 分鐘前</item>
+        <item quantity="one">1分鐘前</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d 秒</item>
+        <item quantity="one">1 秒</item>
+    </plurals>
+    <plurals name="tweet_detail_footer_view_count">
+        <item quantity="other">%1$s 次查看</item>
+        <item quantity="one">%1$s 次查看</item>
+    </plurals>
+    <plurals name="typing_users_count">
+        <item quantity="other">%d 人正在輸入</item>
+        <item quantity="one">%d 人正在輸入</item>
+    </plurals>
+    <plurals name="users_fast_follow_text">
+        <item quantity="other">+ 另外 %1$s 位簡訊跟隨者</item>
+        <item quantity="one">+ 另外 %1$s 位簡訊跟隨者</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d 週</item>
+        <item quantity="one">一週</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="other">%d 年</item>
+        <item quantity="one">1 年</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers">
+        <item quantity="other">%1$s 已邀請 %2$s 人</item>
+        <item quantity="one">%1$s 已邀請 %2$s 人</item>
+    </plurals>
+    <plurals name="ps__invited_num_followers_embolden">
+        <item quantity="other">*%1$s* 已邀請 %2$s 人</item>
+        <item quantity="one">*%1$s* 已邀請 %2$s 人</item>
+    </plurals>
+    <plurals name="ps__time_format_days">
+        <item quantity="other">%d 天</item>
+        <item quantity="one">%d 天</item>
+    </plurals>
+    <plurals name="ps__time_format_hours">
+        <item quantity="other">%d 小時</item>
+        <item quantity="one">%d 小時</item>
+    </plurals>
+    <plurals name="ps__time_format_minutes">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">%d 分鐘</item>
+    </plurals>
+    <plurals name="ps__time_format_seconds">
+        <item quantity="other">%d 秒</item>
+        <item quantity="one">%d 秒</item>
+    </plurals>
+</resources>

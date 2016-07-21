@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.composer.geotag.InlinePlacePickerView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/inline_place_picker" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/location_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:src="@drawable/ic_tweet_attr_geo_poi_default" android:tint="@color/secondary_text" android:contentDescription="@null" android:layout_marginEnd="3.0dip" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/secondary_text" android:layout_gravity="center_vertical" android:id="@id/location_text" android:paddingRight="@dimen/location_list_extra_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/composer_location_picker_prompt" android:singleLine="true" android:layout_marginEnd="6.0dip" />
+    <android.support.v7.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/locations_list" android:visibility="gone" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" />
+</com.twitter.android.composer.geotag.InlinePlacePickerView>

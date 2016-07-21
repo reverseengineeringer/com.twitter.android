@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.android.widget.InterceptingRelativeLayout android:id="@id/intercepting_relative_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/space_below_event_header_view" android:background="@color/section_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/event_header_view" />
+        <com.twitter.android.composer.ComposerDockLayout android:id="@id/dock" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+            <com.twitter.android.widget.SwipeRefreshObserverLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:scrollEnabled="false">
+                <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.twitter.android.widget.SwipeRefreshObserverLayout>
+        </com.twitter.android.composer.ComposerDockLayout>
+        <com.twitter.android.widget.UnboundedFrameLayout android:orientation="vertical" android:id="@id/event_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?toolBarSize" android:layout_alignParentTop="true" />
+        <com.twitter.android.widget.UnboundedFrameLayout android:id="@id/tabs_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/event_header_view">
+            <com.twitter.internal.android.widget.HorizontalListView android:id="@id/tabs" android:background="@drawable/navbar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/nav_bar_height" twitter:scrollOffset="20.0dip" twitter:scrollDrawable="@color/tab" twitter:scrollHeight="4.0dip" twitter:fillMode="distribute_remainder" />
+        </com.twitter.android.widget.UnboundedFrameLayout>
+        <com.twitter.android.widget.SwipeProgressBarView android:id="@id/progress_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+        <include android:id="@id/toolbar" layout="@layout/top_toolbar" />
+        <RelativeLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ptr_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?toolBarSize" android:layout_alignParentTop="true">
+            <FrameLayout android:layout_width="@dimen/pull_to_refresh_drawable_width" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+                <ImageView android:layout_gravity="right" android:id="@id/refresh_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/ic_pull_arrow_white" android:scaleType="center" android:contentDescription="@null" />
+            </FrameLayout>
+            <com.twitter.ui.widget.TypefacesTextView android:gravity="center" android:id="@id/refresh_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refresh_pull_down" android:layout_centerInParent="true" style="@style/PullToRefreshText.Line" />
+        </RelativeLayout>
+    </com.twitter.android.widget.InterceptingRelativeLayout>
+    <include layout="@layout/browser_loading_status" />
+    <android.support.design.widget.FloatingActionButton android:id="@id/composer_write" android:visibility="gone" twitter:layout_anchor="@id/intercepting_relative_layout" style="@style/FabStyle" />
+</android.support.design.widget.CoordinatorLayout>

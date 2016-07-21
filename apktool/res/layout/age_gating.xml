@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/top_toolbar_with_action_title" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/header_container" layout="@layout/age_gate_header" />
+                <View android:id="@id/header_divider" android:background="@drawable/bg_section_divider" android:layout_width="fill_parent" android:layout_height="@dimen/section_divider_height" android:layout_below="@id/header_container" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/white" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/list_row_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/header_divider">
+                    <DatePicker android:id="@id/birthday_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:spinnersShown="true" android:calendarViewShown="false" />
+                    <View android:background="@drawable/bg_section_divider" android:layout_width="fill_parent" android:layout_height="@dimen/section_divider_height" />
+                    <com.twitter.ui.widget.TypefacesTextView android:textColorLink="@color/link" android:id="@id/tos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/card_inset" android:text="@string/privacy_policy_title" android:lineSpacingMultiplier="1.2" style="@style/TextContent" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</com.twitter.library.widget.ToolbarWrapperLayout>

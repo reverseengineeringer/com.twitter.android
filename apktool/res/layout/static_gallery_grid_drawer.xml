@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/gallery_grid_drawer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/gallery_grid_fragment" android:background="@color/composer_drawer_bg" android:layout_width="fill_parent" android:layout_height="@dimen/convo_min_gallery_grid_height" />
+    <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/composer_divot_height">
+        <ImageView android:id="@id/divot_gallery" android:layout_width="46.0dip" android:layout_height="fill_parent" android:src="@drawable/divot_tile_white" android:scaleType="fitXY" android:tint="@color/app_background" android:contentDescription="@null" />
+        <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/divot_tile_white" android:scaleType="fitXY" android:tint="@color/app_background" android:layout_weight="1.0" android:contentDescription="@null" />
+    </LinearLayout>
+</FrameLayout>

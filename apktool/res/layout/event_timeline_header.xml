@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/event_view" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:overlayDrawable="@drawable/bg_event_gradient"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/secondary_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/primary_card" />
+    <FrameLayout android:id="@id/primary_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/event_image" />
+    <com.twitter.media.ui.image.BackgroundImageView android:id="@id/event_image" android:layout_width="fill_parent" android:layout_height="@dimen/event_timeline_header_cover_image_height" android:layout_alignParentTop="true" twitter:overlayDrawable="@android:color/transparent" twitter:crossfadeDuration="300" twitter:filterMaxOpacity="0.0" twitter:filterColor="@android:color/transparent" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/white_circle" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.android.widget.DMAvatar android:id="@id/dm_avatar" android:layout_width="@dimen/share_via_dm_recent_item_dimension" android:layout_height="@dimen/share_via_dm_recent_item_dimension" twitter:dmImageSize="@dimen/share_via_dm_recent_item_dimension" />
+    <com.twitter.library.media.widget.UserImageView android:id="@id/user_image" android:layout_width="@dimen/share_via_dm_recent_item_dimension" android:layout_height="@dimen/share_via_dm_recent_item_dimension" twitter:userImageSize="@dimen/share_via_dm_recent_item_dimension" twitter:imageCornerRadius="@dimen/share_via_dm_recent_item_dimension" twitter:roundingStrategy="circle" />
+    <com.twitter.ui.widget.UnpaddedTypefacesTextView android:textSize="@dimen/font_size_micro" android:textColor="@color/secondary_text" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title" android:paddingTop="@dimen/spacing_xsmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+</LinearLayout>

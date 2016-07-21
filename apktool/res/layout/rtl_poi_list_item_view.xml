@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/ListRow.PoiItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/poi_item_name" android:layout_alignParentRight="true" style="@style/PoiListElement.Text.Primary" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/poi_item_handle" android:layout_toLeftOf="@id/poi_item_name" android:layout_alignBaseline="@id/poi_item_name" style="@style/PoiListElement.Text.Secondary" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/poi_item_address" android:layout_below="@id/poi_item_name" android:layout_alignParentRight="true" style="@style/PoiListElement.Text.Secondary" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/poi_item_distance" android:layout_toLeftOf="@id/poi_item_address" android:layout_below="@id/poi_item_name" android:layout_alignWithParentIfMissing="true" style="@style/PoiListElement.Text.Secondary" />
+</RelativeLayout>

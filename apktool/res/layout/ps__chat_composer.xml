@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/line" android:background="@color/ps__white_20" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="74.0dip" android:minHeight="@dimen/ps__min_touch_target_size" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <tv.periscope.android.view.PsImageView android:layout_gravity="center" android:id="@id/comment_send_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ps__ic_send" android:scaleType="center" android:minWidth="@dimen/ps__min_touch_target_size" android:minHeight="@dimen/ps__min_touch_target_size" custom:ps__tint="@color/ps__bg_action_bar_pressable" />
+            <ImageView android:layout_gravity="center" android:id="@id/cross" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ps__ic_close" android:scaleType="center" android:minWidth="@dimen/ps__min_touch_target_size" android:minHeight="@dimen/ps__min_touch_target_size" />
+        </FrameLayout>
+        <FrameLayout android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/button_container" android:layout_centerVertical="true">
+            <tv.periscope.android.view.PsTextView android:textSize="16.0sp" android:textColor="@color/ps__white_low_alpha" android:gravity="start|center" android:id="@id/chat_status" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ps__chat_avatar_size" custom:ps__font="fonts/MuseoSans-300.otf" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/compose_layout" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/button_container" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <tv.periscope.android.view.MaskImageView android:id="@id/avatar" android:layout_width="@dimen/ps__chat_avatar_size" android:layout_height="fill_parent" android:scaleType="centerCrop" android:minHeight="@dimen/ps__chat_avatar_size" />
+            <tv.periscope.android.view.PsEditText android:textSize="16.0sp" android:textColor="@color/ps__dark_grey" android:textColorHint="@color/ps__light_grey" android:gravity="start|center" android:id="@id/compose_comment" android:background="@drawable/ps__bg_chat" android:padding="8.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ps__chat_avatar_size" android:hint="@string/ps__comment_hint" custom:ps__font="fonts/MuseoSans-300.otf" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

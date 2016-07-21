@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.UserSocialView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListRow.WhoToFollow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.widget.SocialBylineView android:id="@id/social_byline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SocialProof.WhoToFollow" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/social_byline">
+        <include layout="@layout/user_with_bio_and_follow_button" />
+    </RelativeLayout>
+</com.twitter.library.widget.UserSocialView>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_item_count">
+        <item quantity="other">Novih stavki: %d</item>
+        <item quantity="one">%d nova stavka</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_days">
+        <item quantity="other">Preostaje ovoliko dana: %1$d</item>
+        <item quantity="one">Preostao je još %1$d dan</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_hours">
+        <item quantity="other">Preostaje %1$d h</item>
+        <item quantity="one">Preostao je još %1$d sat</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_minutes">
+        <item quantity="other">Preostaje %1$d min</item>
+        <item quantity="one">Preostala je još %1$d minuta</item>
+    </plurals>
+    <plurals name="dm_seen_by_list_others_overflow">
+        <item quantity="other">i {{}}drugi (njih još %d){{}}</item>
+        <item quantity="one">i {{}}drugi (njih još %d){{}}</item>
+    </plurals>
+    <plurals name="dm_state_seen_by">
+        <item quantity="other">Broj osoba koje su vidjele: %d</item>
+        <item quantity="one">Vidjela %d osoba</item>
+    </plurals>
+    <plurals name="dm_unread_messages">
+        <item quantity="other">Nepročitanih poruka: %d</item>
+        <item quantity="one">%d nepročitana poruka</item>
+    </plurals>
+    <plurals name="followed_by_count">
+        <item quantity="other">Prate %1$s i drugi (njih %2$d)</item>
+        <item quantity="one">Korisnika/cu prati %1$s i još %2$d korisnik</item>
+    </plurals>
+    <plurals name="in_reply_to_name_and_count">
+        <item quantity="other">Kao odgovor korisniku/ci %1$s i drugima (kojih ima%3$s%2$d)</item>
+        <item quantity="one">Odgovor korisniku/ci %1$s i drugima kojih ima%3$s%2$d</item>
+    </plurals>
+    <plurals name="magic_recs_follow_notif">
+        <item quantity="other">Upravo su počeli pratiti %1$s i druge osobe koje pratite (njih %2$d)</item>
+        <item quantity="one">Upravo su počeli pratiti %1$s i %2$d osoba koju pratite</item>
+    </plurals>
+    <plurals name="media_monetization_settings_categories_selected">
+        <item quantity="other">Odabrano kategorija: %d</item>
+        <item quantity="one">Odabrano kategorija: %d</item>
+    </plurals>
+    <plurals name="media_tag_prompt">
+        <item quantity="other">Tko je na tim fotografijama?</item>
+        <item quantity="one">Tko je na toj fotografiji?</item>
+    </plurals>
+    <plurals name="media_tag_remaining">
+        <item quantity="other">Označite još ovoliko osoba: %d.</item>
+        <item quantity="one">Označiti možete još sljedeći broj osoba: %d.</item>
+    </plurals>
+    <plurals name="media_tag_tagged">
+        <item quantity="other">Označeno ovoliko osoba: %d</item>
+        <item quantity="one">%d osoba je označena</item>
+    </plurals>
+    <plurals name="most_active_users_footer">
+        <item quantity="other">Imate još ovoliko aktivnih kontakata: %s</item>
+        <item quantity="one">Imate još ovoliko aktivnih kontakata: %s</item>
+    </plurals>
+    <plurals name="new_tweet_count">
+        <item quantity="other">Novih tweetova: %d</item>
+        <item quantity="one">%d novi Tweet</item>
+    </plurals>
+    <plurals name="news_related_tweets_title">
+        <item quantity="other">Povezani tweetovi</item>
+        <item quantity="one">Povezani tweet</item>
+    </plurals>
+    <plurals name="news_top_tweets">
+        <item quantity="other">Najpopularnijih tweetova:%1$s</item>
+        <item quantity="one">%1$s najpopularniji tweet</item>
+    </plurals>
+    <plurals name="news_top_tweets_title">
+        <item quantity="other">Najpopularniji tweetovi</item>
+        <item quantity="one">Najpopularniji tweet</item>
+    </plurals>
+    <plurals name="profile_followers_count_label">
+        <item quantity="other">Osobe koje prate</item>
+        <item quantity="one">Osoba koja prati</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_likes">
+        <item quantity="other">Lajkova: %s</item>
+        <item quantity="one">%s lajk</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_media">
+        <item quantity="other">%s fotografija</item>
+        <item quantity="one">%s fotografija</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_timeline">
+        <item quantity="other">Tweetova: %s</item>
+        <item quantity="one">%s tweet</item>
+    </plurals>
+    <plurals name="profile_tweets_count_label">
+        <item quantity="other">Tweetovi</item>
+        <item quantity="one">Tweet</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">Još %1$d odgovora</item>
+        <item quantity="one">Još %1$d odgovor</item>
+    </plurals>
+    <plurals name="search_user_name_pile">
+        <item quantity="other">%1$s, %2$s i drugi</item>
+        <item quantity="one">%1$s i drugi</item>
+    </plurals>
+    <plurals name="selected_image_count">
+        <item quantity="other">Odabrano fotografija: %d</item>
+        <item quantity="one">Broj odabranih fotografija: %d</item>
+    </plurals>
+    <plurals name="settings_notif_tweets_count">
+        <item quantity="other">Broj osoba: %d</item>
+        <item quantity="one">%d osoba</item>
+    </plurals>
+    <plurals name="social_follow_and_follow_and_others">
+        <item quantity="other">Prate %1$s, %2$s i drugi (njih %3$d)</item>
+        <item quantity="one">%1$s, %2$s i još %3$d korisnika/ca prati tog korisnika/cu</item>
+    </plurals>
+    <plurals name="social_like_and_retweets_count">
+        <item quantity="other">Tweet je proslijeđen %2$s puta i ima ovoliko lajkova: %1$s</item>
+        <item quantity="one">Tweet je proslijeđen %2$s put i ima sljedeći broj oznaka \"sviđa mi se\": %1$s</item>
+    </plurals>
+    <plurals name="social_like_count">
+        <item quantity="other">Lajkova: %1$s</item>
+        <item quantity="one">%1$s oznaka \"sviđa mi se\"</item>
+    </plurals>
+    <plurals name="social_like_count_with_user">
+        <item quantity="other">Lajkali %1$s i druge osobe koje pratite (njih %2$d)</item>
+        <item quantity="one">%1$s i još %2$d korisnika/ca koje pratite lajkali/le su</item>
+    </plurals>
+    <plurals name="social_like_count_with_user_accessibility_description">
+        <item quantity="other">Lajkali %1$s i druge osobe koje pratite (njih %2$d)</item>
+        <item quantity="one">Tweet je lajkao/la %1$s i još %2$d korisnika/ca koje pratite</item>
+    </plurals>
+    <plurals name="social_proof_in_reply_multiple_names_and_count">
+        <item quantity="other">Kao odgovor korisnicima/cama %1$s, %2$s i drugima (kojih ima %3$d)</item>
+        <item quantity="one">Kao odgovor korisnicima/ama %1$s, %2$s i drugima kojih ima %3$d</item>
+    </plurals>
+    <plurals name="social_retweet_and_likes_count">
+        <item quantity="other">Tweet je proslijeđen %1$s puta i ima ovoliko lajkova: %2$s</item>
+        <item quantity="one">Tweet je proslijeđen %1$s put(a) i ima %2$s oznaku \"sviđa mi se\"</item>
+    </plurals>
+    <plurals name="social_retweet_count">
+        <item quantity="other">Tweet proslijeđen %1$s puta</item>
+        <item quantity="one">Tweet je proslijeđen %1$s put</item>
+    </plurals>
+    <plurals name="stat_label_likes">
+        <item quantity="other">LAJKOVA</item>
+        <item quantity="one">LAJK</item>
+    </plurals>
+    <plurals name="stat_label_retweets">
+        <item quantity="other">PROSLIJEĐENI TWEETOVI</item>
+        <item quantity="one">PROSLIJEĐENI TWEET</item>
+    </plurals>
+    <plurals name="stat_label_views">
+        <item quantity="other">PRIKAZA</item>
+        <item quantity="one">PRIKAZ</item>
+    </plurals>
+    <plurals name="story_proof_author_follow_by">
+        <item quantity="other">\@%1$s i drugi (njih %2$d) prate</item>
+        <item quantity="one">Prate @%1$s i drugi (njih %2$d)</item>
+    </plurals>
+    <plurals name="story_proof_follow_by">
+        <item quantity="other">Nedavno počeli pratiti @%1$s i drugi (njih %2$d)</item>
+        <item quantity="one">Nedavno počeli pratiti @%1$s i drugi (njih %2$d)</item>
+    </plurals>
+    <plurals name="story_proof_like_by">
+        <item quantity="other">Lajkali @%1$s i drugi (njih %2$d)</item>
+        <item quantity="one">Lajkali @%1$s i drugi (njih %2$d)</item>
+    </plurals>
+    <plurals name="story_proof_retweet_by">
+        <item quantity="other">Tweet proslijedili @%1$s i drugi (njih %2$d)</item>
+        <item quantity="one">Tweet su proslijedili @%1$s i druge osobe (njih %2$d)</item>
+    </plurals>
+    <plurals name="story_proof_shared_by">
+        <item quantity="other">\@%1$s i drugi (njih %2$d) razgovaraju o tome</item>
+        <item quantity="one">\@%1$s i još %2$d osoba razgovaraju o tome</item>
+    </plurals>
+    <plurals name="tagline_view_count">
+        <item quantity="other">Broj prikaza: %1$s</item>
+        <item quantity="one">%1$s prikaz</item>
+    </plurals>
+    <plurals name="tweet_detail_footer_view_count">
+        <item quantity="other">Broj prikaza: %1$s</item>
+        <item quantity="one">%1$s prikaz</item>
+    </plurals>
+    <plurals name="typing_users_count">
+        <item quantity="other">Broj osoba koje pišu: %d</item>
+        <item quantity="one">%d osoba tipka</item>
+    </plurals>
+    <plurals name="users_fast_follow_text">
+        <item quantity="other">I još ovoliko osoba koje prate putem SMS-a: +%1$s</item>
+        <item quantity="one">I još%1$s osoba koja prati putem SMS-a</item>
+    </plurals>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:background="@color/app_background" android:layout_width="@dimen/csat_feedback_score_button_side" android:layout_height="@dimen/csat_feedback_score_button_side" android:layout_margin="@dimen/csat_feedback_score_button_padding_for_emojis"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?listPreferredItemHeightSmall" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:id="@id/action_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/drawer_item_action_view_padding" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body2" android:gravity="center|right" android:id="@id/title" android:paddingLeft="?drawerViewSidePadding" android:paddingRight="?drawerViewSidePadding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:drawablePadding="@dimen/design_navigation_icon_padding" android:layout_weight="1.0" />
+</LinearLayout>

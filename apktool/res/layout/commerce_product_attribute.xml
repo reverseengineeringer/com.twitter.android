@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/commerce_main_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.android.commerce.view.ErrorTextView android:textSize="@dimen/commerce_font_size_small" android:textColor="@color/medium_red" android:layout_gravity="left" android:id="@id/commerce_attribute_error" android:padding="@dimen/commerce_error_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/commerce_divider_medium_height" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/commerce_font_size_xlarge" android:textColor="@color/primary_text" android:layout_gravity="center|left" android:id="@id/commerce_item_attribute_text" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Size" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="2.4" />
+        <Spinner android:textSize="@dimen/commerce_font_size_medium" android:layout_gravity="center|left" android:id="@id/commerce_item_attribute_select" android:focusable="true" android:layout_width="0.0px" android:layout_height="@dimen/commerce_spinner_height" android:hint="@string/commerce_state" android:prompt="@string/commerce_state" android:layout_weight="10.0" style="@style/Commerce.Form" />
+    </LinearLayout>
+</LinearLayout>

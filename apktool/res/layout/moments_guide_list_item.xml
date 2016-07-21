@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ListRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moments_guide_list_item_core" />
+    <ViewStub android:id="@id/score_card_stub" android:layout="@layout/moments_guide_list_item_score_overlay" android:inflatedId="@id/score_card_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_standard_spacing" />
+</LinearLayout>

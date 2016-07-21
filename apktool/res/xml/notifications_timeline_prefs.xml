@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_notifications_timeline_filters" android:key="timeline_filters">
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_notifications_timeline_mentions_only" android:key="connect_tab" android:summary="@string/settings_notifications_timeline_mentions_only_desc" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_notifications_timeline_follow_only" android:key="notifications_follow_only" android:summary="@string/settings_notifications_timeline_follow_only_desc" />
+    </PreferenceCategory>
+</PreferenceScreen>

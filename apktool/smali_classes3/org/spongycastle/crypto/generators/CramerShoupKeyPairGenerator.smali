@@ -1,0 +1,220 @@
+.class public Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;
+.super Ljava/lang/Object;
+.source "Twttr"
+
+# interfaces
+.implements Lorg/spongycastle/crypto/AsymmetricCipherKeyPairGenerator;
+
+
+# static fields
+.field private static final a:Ljava/math/BigInteger;
+
+
+# instance fields
+.field private b:Lorg/spongycastle/crypto/params/CramerShoupKeyGenerationParameters;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .prologue
+    .line 21
+    const-wide/16 v0, 0x1
+
+    invoke-static {v0, v1}, Ljava/math/BigInteger;->valueOf(J)Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    sput-object v0, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->a:Ljava/math/BigInteger;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 19
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method private a(Ljava/math/BigInteger;Ljava/security/SecureRandom;)Ljava/math/BigInteger;
+    .locals 2
+
+    .prologue
+    .line 40
+    sget-object v0, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->a:Ljava/math/BigInteger;
+
+    sget-object v1, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->a:Ljava/math/BigInteger;
+
+    invoke-virtual {p1, v1}, Ljava/math/BigInteger;->subtract(Ljava/math/BigInteger;)Ljava/math/BigInteger;
+
+    move-result-object v1
+
+    invoke-static {v0, v1, p2}, Lorg/spongycastle/util/BigIntegers;->a(Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/security/SecureRandom;)Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method private a(Ljava/security/SecureRandom;Lorg/spongycastle/crypto/params/CramerShoupParameters;)Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;
+    .locals 7
+
+    .prologue
+    .line 44
+    invoke-virtual {p2}, Lorg/spongycastle/crypto/params/CramerShoupParameters;->c()Ljava/math/BigInteger;
+
+    move-result-object v1
+
+    .line 45
+    new-instance v0, Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;
+
+    invoke-direct {p0, v1, p1}, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->a(Ljava/math/BigInteger;Ljava/security/SecureRandom;)Ljava/math/BigInteger;
+
+    move-result-object v2
+
+    invoke-direct {p0, v1, p1}, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->a(Ljava/math/BigInteger;Ljava/security/SecureRandom;)Ljava/math/BigInteger;
+
+    move-result-object v3
+
+    invoke-direct {p0, v1, p1}, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->a(Ljava/math/BigInteger;Ljava/security/SecureRandom;)Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    invoke-direct {p0, v1, p1}, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->a(Ljava/math/BigInteger;Ljava/security/SecureRandom;)Ljava/math/BigInteger;
+
+    move-result-object v5
+
+    invoke-direct {p0, v1, p1}, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->a(Ljava/math/BigInteger;Ljava/security/SecureRandom;)Ljava/math/BigInteger;
+
+    move-result-object v6
+
+    move-object v1, p2
+
+    invoke-direct/range {v0 .. v6}, Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;-><init>(Lorg/spongycastle/crypto/params/CramerShoupParameters;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;)V
+
+    .line 49
+    return-object v0
+.end method
+
+.method private a(Lorg/spongycastle/crypto/params/CramerShoupParameters;Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;)Lorg/spongycastle/crypto/params/CramerShoupPublicKeyParameters;
+    .locals 6
+
+    .prologue
+    .line 53
+    invoke-virtual {p1}, Lorg/spongycastle/crypto/params/CramerShoupParameters;->a()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    .line 54
+    invoke-virtual {p1}, Lorg/spongycastle/crypto/params/CramerShoupParameters;->b()Ljava/math/BigInteger;
+
+    move-result-object v1
+
+    .line 55
+    invoke-virtual {p1}, Lorg/spongycastle/crypto/params/CramerShoupParameters;->c()Ljava/math/BigInteger;
+
+    move-result-object v2
+
+    .line 57
+    invoke-virtual {p2}, Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;->c()Ljava/math/BigInteger;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v3, v2}, Ljava/math/BigInteger;->modPow(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
+
+    move-result-object v3
+
+    invoke-virtual {p2}, Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;->d()Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    invoke-virtual {v1, v4, v2}, Ljava/math/BigInteger;->modPow(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
+
+    move-result-object v3
+
+    .line 58
+    invoke-virtual {p2}, Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;->e()Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    invoke-virtual {v0, v4, v2}, Ljava/math/BigInteger;->modPow(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    invoke-virtual {p2}, Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;->f()Ljava/math/BigInteger;
+
+    move-result-object v5
+
+    invoke-virtual {v1, v5, v2}, Ljava/math/BigInteger;->modPow(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
+
+    move-result-object v1
+
+    invoke-virtual {v4, v1}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
+
+    move-result-object v1
+
+    .line 59
+    invoke-virtual {p2}, Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;->g()Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    invoke-virtual {v0, v4, v2}, Ljava/math/BigInteger;->modPow(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    .line 61
+    new-instance v2, Lorg/spongycastle/crypto/params/CramerShoupPublicKeyParameters;
+
+    invoke-direct {v2, p1, v3, v1, v0}, Lorg/spongycastle/crypto/params/CramerShoupPublicKeyParameters;-><init>(Lorg/spongycastle/crypto/params/CramerShoupParameters;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;)V
+
+    return-object v2
+.end method
+
+
+# virtual methods
+.method public a()Lorg/spongycastle/crypto/AsymmetricCipherKeyPair;
+    .locals 3
+
+    .prologue
+    .line 30
+    iget-object v0, p0, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->b:Lorg/spongycastle/crypto/params/CramerShoupKeyGenerationParameters;
+
+    invoke-virtual {v0}, Lorg/spongycastle/crypto/params/CramerShoupKeyGenerationParameters;->c()Lorg/spongycastle/crypto/params/CramerShoupParameters;
+
+    move-result-object v0
+
+    .line 32
+    iget-object v1, p0, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->b:Lorg/spongycastle/crypto/params/CramerShoupKeyGenerationParameters;
+
+    invoke-virtual {v1}, Lorg/spongycastle/crypto/params/CramerShoupKeyGenerationParameters;->a()Ljava/security/SecureRandom;
+
+    move-result-object v1
+
+    invoke-direct {p0, v1, v0}, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->a(Ljava/security/SecureRandom;Lorg/spongycastle/crypto/params/CramerShoupParameters;)Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;
+
+    move-result-object v1
+
+    .line 33
+    invoke-direct {p0, v0, v1}, Lorg/spongycastle/crypto/generators/CramerShoupKeyPairGenerator;->a(Lorg/spongycastle/crypto/params/CramerShoupParameters;Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;)Lorg/spongycastle/crypto/params/CramerShoupPublicKeyParameters;
+
+    move-result-object v0
+
+    .line 34
+    invoke-virtual {v1, v0}, Lorg/spongycastle/crypto/params/CramerShoupPrivateKeyParameters;->a(Lorg/spongycastle/crypto/params/CramerShoupPublicKeyParameters;)V
+
+    .line 36
+    new-instance v2, Lorg/spongycastle/crypto/AsymmetricCipherKeyPair;
+
+    invoke-direct {v2, v0, v1}, Lorg/spongycastle/crypto/AsymmetricCipherKeyPair;-><init>(Lorg/spongycastle/crypto/params/AsymmetricKeyParameter;Lorg/spongycastle/crypto/params/AsymmetricKeyParameter;)V
+
+    return-object v2
+.end method

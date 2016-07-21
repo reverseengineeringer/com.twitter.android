@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/highlights_action_height" android:layout_weight="1.0">
+        <com.twitter.library.widget.ObservableScrollView android:id="@id/scrolling_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/ScrollableStoryContainer">
+            <RelativeLayout android:padding="@dimen/highlights_outer_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/highlights_tweet_header_tall" />
+                <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/highlights_tweet_no_media_text_size" android:gravity="start" android:id="@id/tweet_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/highlights_text_tweet_avatar_padding" android:layout_below="@id/screen_name_and_time" android:lineSpacingMultiplier="@dimen/highlights_spacing_xxlarge_text" style="@style/Highlights.ContentText" />
+            </RelativeLayout>
+        </com.twitter.library.widget.ObservableScrollView>
+        <include layout="@layout/highlights_fading_edge" />
+    </RelativeLayout>
+</merge>

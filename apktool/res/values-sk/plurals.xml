@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_item_count">
+        <item quantity="other">Nové položky: %d</item>
+        <item quantity="one">%d nová položka</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_days">
+        <item quantity="other">Zostáva: %1$d d</item>
+        <item quantity="one">Zostáva %1$d deň</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_hours">
+        <item quantity="other">Zostáva: %1$d hod.</item>
+        <item quantity="one">Zostáva %1$d hodina</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_minutes">
+        <item quantity="other">Zostáva %1$d min.</item>
+        <item quantity="one">Zostáva %1$d minúta</item>
+    </plurals>
+    <plurals name="dm_seen_by_list_others_overflow">
+        <item quantity="other">a ďalší používatelia ({{}}%d{{}})</item>
+        <item quantity="one">a ďalší používatelia ({{}}%d{{}})</item>
+    </plurals>
+    <plurals name="dm_state_seen_by">
+        <item quantity="other">Videlo niekoľko používateľov (%d)</item>
+        <item quantity="one">Videl používateľ %d</item>
+    </plurals>
+    <plurals name="dm_unread_messages">
+        <item quantity="other">Počet neprečítaných správ: %d</item>
+        <item quantity="one">%d neprečítaná správa</item>
+    </plurals>
+    <plurals name="followed_by_count">
+        <item quantity="other">Sledované používateľom %1$s a ďalšími (%2$d)</item>
+        <item quantity="one">Sledované používateľom %1$s a ďalšími (%2$d)</item>
+    </plurals>
+    <plurals name="in_reply_to_name_and_count">
+        <item quantity="other">V odpovedi používateľovi %1$s a %2$d%3$s ďalším</item>
+        <item quantity="one">V odpovedi používateľovi %1$s a %2$d%3$s ďalším</item>
+    </plurals>
+    <plurals name="magic_recs_follow_notif">
+        <item quantity="other">Práve začali sledovať %1$s a ďalší (%2$d), ktorých sledujete</item>
+        <item quantity="one">Práve začali sledovať používateľ %1$s a %2$d osoba, ktorých sledujete</item>
+    </plurals>
+    <plurals name="media_monetization_settings_categories_selected">
+        <item quantity="other">Vybrané kategórie: %d</item>
+        <item quantity="one">Vybrané kategórie: %d</item>
+    </plurals>
+    <plurals name="media_tag_prompt">
+        <item quantity="other">Kto je na týchto fotkách?</item>
+        <item quantity="one">Kto je na tejto fotke?</item>
+    </plurals>
+    <plurals name="media_tag_remaining">
+        <item quantity="other">Označiť môžete ešte %d ďalších ľudí.</item>
+        <item quantity="one">Označiť môžete ešte %d ďalšiu osobu.</item>
+    </plurals>
+    <plurals name="media_tag_tagged">
+        <item quantity="other">Počet označených ľudí: %d</item>
+        <item quantity="one">%d označená osoba</item>
+    </plurals>
+    <plurals name="most_active_users_footer">
+        <item quantity="other">Máte ešte aktívnejšie kontakty (%s)</item>
+        <item quantity="one">Máte %s ešte aktívnejší kontakt</item>
+    </plurals>
+    <plurals name="new_tweet_count">
+        <item quantity="other">Počet nových Tweetov: %d</item>
+        <item quantity="one">%d nový Tweet</item>
+    </plurals>
+    <plurals name="news_related_tweets_title">
+        <item quantity="other">Podobné Tweety</item>
+        <item quantity="one">Podobný Tweet</item>
+    </plurals>
+    <plurals name="news_top_tweets">
+        <item quantity="other">Počet populárnych Tweetov: %1$s</item>
+        <item quantity="one">%1$s populárny Tweet</item>
+    </plurals>
+    <plurals name="news_top_tweets_title">
+        <item quantity="other">Populárne Tweety</item>
+        <item quantity="one">Populárny Tweet</item>
+    </plurals>
+    <plurals name="profile_followers_count_label">
+        <item quantity="other">Sledujúci</item>
+        <item quantity="one">Sledujúcich</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_likes">
+        <item quantity="other">Počet označení „Páči sa mi to“: %s</item>
+        <item quantity="one">%s označenie „Páči sa mi to“</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_media">
+        <item quantity="other">Počet fotiek: %s</item>
+        <item quantity="one">%s fotka</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_timeline">
+        <item quantity="other">Počet Tweetov: %s</item>
+        <item quantity="one">%s Tweet</item>
+    </plurals>
+    <plurals name="profile_tweets_count_label">
+        <item quantity="other">Tweety</item>
+        <item quantity="one">Tweet</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">Počet ďalších odpovedí: %1$d</item>
+        <item quantity="one">%1$d ďalšia odpoveď</item>
+    </plurals>
+    <plurals name="search_user_name_pile">
+        <item quantity="other">%1$s, %2$s a ďalší</item>
+        <item quantity="one">%1$s a ďalší</item>
+    </plurals>
+    <plurals name="selected_image_count">
+        <item quantity="other">Vybrané: %d</item>
+        <item quantity="one">Vybraté: %d</item>
+    </plurals>
+    <plurals name="settings_notif_tweets_count">
+        <item quantity="other">%d ľudí</item>
+        <item quantity="one">%d osoba</item>
+    </plurals>
+    <plurals name="social_follow_and_follow_and_others">
+        <item quantity="other">Sledujú používatelia %1$s, %2$s a %3$d ďalší</item>
+        <item quantity="one">Sledujú používatelia %1$s, %2$s a %3$d ďalší</item>
+    </plurals>
+    <plurals name="social_like_and_retweets_count">
+        <item quantity="other">„Páči sa mi to“: %1$s a retweety: %2$s</item>
+        <item quantity="one">Označenia Páči sa mi to: %1$s a retweety: %2$s</item>
+    </plurals>
+    <plurals name="social_like_count">
+        <item quantity="other">%1$s označení „Páči sa mi to“</item>
+        <item quantity="one">%1$s označenie Páči sa mi to</item>
+    </plurals>
+    <plurals name="social_like_count_with_user">
+        <item quantity="other">Označené ako „Páči sa mi to“ používateľom %1$s a ďalšími (%2$d), ktorých sledujete</item>
+        <item quantity="one">Označené ako Páči sa mi to používateľom %1$s a %2$d ďalším, ktorého sledujete</item>
+    </plurals>
+    <plurals name="social_like_count_with_user_accessibility_description">
+        <item quantity="other">Označil ako „Páči sa mi to“ používateľ %1$s a ďalší (%2$d), ktorých sledujete</item>
+        <item quantity="one">Označené ako Páči sa mi to používateľom %1$s a %2$d ďalším, ktorého sledujete</item>
+    </plurals>
+    <plurals name="social_proof_in_reply_multiple_names_and_count">
+        <item quantity="other">V odpovedi používateľom %1$s, %2$s a %3$d ďalším</item>
+        <item quantity="one">V odpovedi používateľom %1$s, %2$s a %3$d ďalším</item>
+    </plurals>
+    <plurals name="social_retweet_and_likes_count">
+        <item quantity="other">Retweety: %1$s a „Páči sa mi to“: %2$s</item>
+        <item quantity="one">Retweety: %1$s a označenia Páči sa mi to: %2$s</item>
+    </plurals>
+    <plurals name="social_retweet_count">
+        <item quantity="other">Počet retweetov: %1$s</item>
+        <item quantity="one">%1$s retweet</item>
+    </plurals>
+    <plurals name="stat_label_likes">
+        <item quantity="other">PÁČI SA</item>
+        <item quantity="one">PÁČI SA</item>
+    </plurals>
+    <plurals name="stat_label_retweets">
+        <item quantity="other">RETWEETY</item>
+        <item quantity="one">RETWEET</item>
+    </plurals>
+    <plurals name="stat_label_views">
+        <item quantity="other">ZOBRAZENIA</item>
+        <item quantity="one">ZOBRAZENIE</item>
+    </plurals>
+    <plurals name="story_proof_author_follow_by">
+        <item quantity="other">Sleduje používateľ @%1$s a ďalší (%2$d)</item>
+        <item quantity="one">Sleduje používateľ @%1$s a %2$d ďalší</item>
+    </plurals>
+    <plurals name="story_proof_follow_by">
+        <item quantity="other">\@%1$s a ďalší (%2$d) vás začali nedávno sledovať</item>
+        <item quantity="one">\@%1$s a ďalší (%2$d) vás začali nedávno sledovať</item>
+    </plurals>
+    <plurals name="story_proof_like_by">
+        <item quantity="other">\@%1$s a ďalší (%2$d) označili, že sa im to páči</item>
+        <item quantity="one">\@%1$s a ďalší (%2$d) označili, že sa im to páči</item>
+    </plurals>
+    <plurals name="story_proof_retweet_by">
+        <item quantity="other">\@%1$s a ďalší (%2$d) retweetli</item>
+        <item quantity="one">\@%1$s a ďalší (%2$d) retweetli</item>
+    </plurals>
+    <plurals name="story_proof_shared_by">
+        <item quantity="other">\@%1$s a ďalší (%2$d) sa o tomto rozprávajú</item>
+        <item quantity="one">\@%1$s a %2$d sa o tomto rozprávajú</item>
+    </plurals>
+    <plurals name="tagline_view_count">
+        <item quantity="other">Počet zobrazení: %1$s</item>
+        <item quantity="one">%1$s zobrazenie</item>
+    </plurals>
+    <plurals name="tweet_detail_footer_view_count">
+        <item quantity="other">Počet zobrazení: %1$s</item>
+        <item quantity="one">%1$s zobrazenie</item>
+    </plurals>
+    <plurals name="typing_users_count">
+        <item quantity="other">Píšuci ľudia: %d</item>
+        <item quantity="one">%d osoba píše</item>
+    </plurals>
+    <plurals name="users_fast_follow_text">
+        <item quantity="other">+ ďalší sledujúci cez SMS správy (%1$s)</item>
+        <item quantity="one">+ ďalší sledujúci cez SMS správy (%1$s)</item>
+    </plurals>
+</resources>

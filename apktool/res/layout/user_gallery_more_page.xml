@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/face_pile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/btn_padding" />
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/primary_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/name_pile" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.twitter.internal.android.widget.ShadowTextView android:gravity="center_vertical" android:id="@id/view_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/btn_padding" android:text="@string/search_view_more_people" android:drawablePadding="@dimen/icon_spacing" style="@style/Button" />
+</LinearLayout>

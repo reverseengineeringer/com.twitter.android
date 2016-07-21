@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/proof_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/highlights_social_proof_height" style="@style/HighlightsProofBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.ui.widget.TypefacesTextView android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/proof_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/HighlightsProofBarLabel" />
+    <com.twitter.media.ui.image.MediaImageView android:layout_width="@dimen/highlights_social_proof_avatar_dimen" android:layout_height="@dimen/highlights_social_proof_avatar_dimen" android:layout_marginLeft="@dimen/highlights_social_proof_padding_between_text" android:layout_marginTop="@dimen/highlights_proof_avatar_adjustment" style="@style/HighlightsProofBarAvatar">
+        <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/highlights_avatar_rounded_corner_size" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <com.twitter.media.ui.image.MediaImageView android:layout_width="@dimen/highlights_social_proof_avatar_dimen" android:layout_height="@dimen/highlights_social_proof_avatar_dimen" android:layout_marginLeft="@dimen/highlights_social_proof_margin_between_images" android:layout_marginTop="@dimen/highlights_proof_avatar_adjustment" style="@style/HighlightsProofBarAvatar">
+        <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/highlights_avatar_rounded_corner_size" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/proof_logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/highlights_item_padding" android:src="@drawable/ic_title_recent_logo" android:contentDescription="@null" />
+</LinearLayout>

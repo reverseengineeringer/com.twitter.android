@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.media.ui.image.AspectRatioFrameLayout android:id="@id/card" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:aspect_ratio="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/live_video_media_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:background="@drawable/bg_live_video_event_card_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/text_container" android:padding="@dimen/live_video_card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.library.widget.TightTextView android:background="@drawable/live_video_badge_bg" android:paddingLeft="@dimen/live_video_card_badge_vertical_padding" android:paddingTop="@dimen/live_video_card_badge_horizontal_padding" android:paddingRight="@dimen/live_video_card_badge_vertical_padding" android:paddingBottom="@dimen/live_video_card_badge_horizontal_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/live_video_card_badge_horizontal_margin" android:layout_marginBottom="@dimen/live_video_card_badge_vertical_margin" twitter:text_size="@dimen/font_size_micro" twitter:text_color="@color/white" twitter:text="@string/av_player_live_badge_label" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LiveVideoCardText.Primary" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LiveVideoCardText.Secondary" />
+    </LinearLayout>
+</com.twitter.media.ui.image.AspectRatioFrameLayout>

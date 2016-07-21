@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.AspectRatioFrameLayout android:id="@id/media_container" twitter:aspect_ratio="1.78" style="@style/TrendsPlusHeroImageContainer">
+        <com.twitter.library.media.widget.TweetMediaView android:id="@id/media" style="@style/TrendsPlusHeroImage" />
+    </com.twitter.media.ui.image.AspectRatioFrameLayout>
+    <include layout="@layout/trendsplus_media_divider" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TrendsPlusTrendContainer">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/rank" style="@style/TrendsPlusTrend.Rank" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/title" android:layout_toRightOf="@id/rank" style="@style/TrendsPlusTrend.Title" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/meta_description" android:layout_below="@id/title" style="@style/TrendsPlusTrend.CollapsedMetaDescription" />
+    </RelativeLayout>
+</merge>

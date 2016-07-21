@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/card_font_size_small" android:textColor="@color/link" android:ellipsize="end" android:id="@id/card_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <com.twitter.ui.widget.TwitterButton android:textSize="@dimen/card_font_size_small" android:id="@id/card_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_default_spacing" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/TwitterButtonMediumCondensedBold" />
+</RelativeLayout>

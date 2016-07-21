@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:minHeight="?android:listPreferredItemHeight" style="@style/ListRow.LoginVerification"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/deep_gray" android:id="@id/login_verification_request_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/action_button_accept_frame" android:paddingRight="@dimen/list_row_padding_horizontal" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/action_button_accept" android:layout_width="wrap_content" android:layout_height="@dimen/mini_user_image_size" android:src="@drawable/ic_accept_default" android:contentDescription="@string/button_accept" style="@style/Button" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/action_button_deny_frame" android:paddingRight="@dimen/list_row_padding_horizontal" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/action_button_deny" android:layout_width="wrap_content" android:layout_height="@dimen/mini_user_image_size" android:src="@drawable/ic_deny_default" android:contentDescription="@string/button_deny" style="@style/Button" />
+    </FrameLayout>
+</LinearLayout>

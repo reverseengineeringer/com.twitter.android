@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/favorite_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:gravity="right" android:layout_gravity="center" android:id="@id/favorites_stat" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsFullScreenText.TweetStats" />
+    <com.twitter.android.widget.ToggleImageButton android:id="@id/favorite" android:background="@null" android:layout_width="@dimen/moments_tweet_action_button_size" android:layout_height="@dimen/moments_tweet_action_button_size" android:src="@drawable/moments_btn_tweet_like_action" android:contentDescription="@string/tweets_like" />
+</LinearLayout>

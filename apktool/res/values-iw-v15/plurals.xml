@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_item_count">
+        <item quantity="other">‏%d פריטים חדשים</item>
+        <item quantity="one">‏פריט חדש %d</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_days">
+        <item quantity="other">‏נשארו %1$d ימים</item>
+        <item quantity="one">‏נשאר יום %1$d</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_hours">
+        <item quantity="other">‏נשארו %1$d שעות</item>
+        <item quantity="one">‏נשארה שעה %1$d</item>
+    </plurals>
+    <plurals name="consumer_poll_card_time_remaining_minutes">
+        <item quantity="other">‏נשארו %1$d דקות</item>
+        <item quantity="one">‏נשארה דקה %1$d</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">‏%d ימים</item>
+        <item quantity="one">‏יום</item>
+    </plurals>
+    <plurals name="dm_seen_by_list_others_overflow">
+        <item quantity="other">‏ו־{{}}%d אחרים{{}}</item>
+        <item quantity="one">‏ו־{{}}%d אחר{{}}</item>
+    </plurals>
+    <plurals name="dm_state_seen_by">
+        <item quantity="other">‏נצפה על־ידי %d אנשים</item>
+        <item quantity="one">‏נצפה על־ידי משתמש %d</item>
+    </plurals>
+    <plurals name="dm_unread_messages">
+        <item quantity="other">‏%d מסרים שלא נקראו</item>
+        <item quantity="one">‏מסר %d שלא נקרא</item>
+    </plurals>
+    <plurals name="followed_by_count">
+        <item quantity="other">‏ברשימת המעקב של %1$s ושל %2$d נוספים</item>
+        <item quantity="one">‏במעקב של %1$s ועוד %2$d נוספים</item>
+    </plurals>
+    <plurals name="in_reply_to_name_and_count">
+        <item quantity="other">‏בתגובה ל־%1$s ול־%2$d%3$sאחרים</item>
+        <item quantity="one">‏בתשובה ל-%1$s ולעוד %2$d%3$s נוסף</item>
+    </plurals>
+    <plurals name="magic_recs_follow_notif">
+        <item quantity="other">‏בדיוק נוסף לרשימת המעקב של %1$s ושל %2$d אנשים שאתה עוקב אחריהם</item>
+        <item quantity="one">‏בדיוק נוסף לרשימת המעקב של %1$s ושל אדם %2$d שאתה עוקב אחריו</item>
+    </plurals>
+    <plurals name="media_monetization_settings_categories_selected">
+        <item quantity="other">‏נבחרו %d קטגוריות</item>
+        <item quantity="one">‏נבחרה קטגוריה %d</item>
+    </plurals>
+    <plurals name="media_tag_prompt">
+        <item quantity="other">‏מי נמצא בתמונות האלה?</item>
+        <item quantity="one">‏מי נמצא בתמונה הזו?</item>
+    </plurals>
+    <plurals name="media_tag_remaining">
+        <item quantity="other">‏תייג עד %d אנשים נוספים.</item>
+        <item quantity="one">‏תייג עד אדם %d נוסף.</item>
+    </plurals>
+    <plurals name="media_tag_tagged">
+        <item quantity="other">‏%d אנשים תויגו</item>
+        <item quantity="one">‏אדם %d תויג</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="other">‏%d חודשים</item>
+        <item quantity="one">‏חודש</item>
+    </plurals>
+    <plurals name="most_active_users_footer">
+        <item quantity="other">‏יש לך עוד %s אנשי קשר פעילים</item>
+        <item quantity="one">‏יש לך עוד %s אנשי קשר פעילים</item>
+    </plurals>
+    <plurals name="new_tweet_count">
+        <item quantity="other">‏%d ציוצים חדשים</item>
+        <item quantity="one">‏ציוץ חדש %d</item>
+    </plurals>
+    <plurals name="news_related_tweets_title">
+        <item quantity="other">‏ציוצים קשורים</item>
+        <item quantity="one">‏ציוץ קשור</item>
+    </plurals>
+    <plurals name="news_top_tweets">
+        <item quantity="other">‏%1$s ציוצים מובילים</item>
+        <item quantity="one">‏ציוץ מוביל %1$s</item>
+    </plurals>
+    <plurals name="news_top_tweets_title">
+        <item quantity="other">‏ציוצים מובילים</item>
+        <item quantity="one">‏ציוץ מוביל</item>
+    </plurals>
+    <plurals name="profile_followers_count_label">
+        <item quantity="other">‏עוקבים</item>
+        <item quantity="one">‏במעקב אחריך</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_likes">
+        <item quantity="other">‏%s סימוניים כאהוב</item>
+        <item quantity="one">‏סימון %s כאהוב</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_media">
+        <item quantity="other">‏%s תמונות</item>
+        <item quantity="one">‏תמונה %s</item>
+    </plurals>
+    <plurals name="profile_toolbar_subtitle_timeline">
+        <item quantity="other">‏הציוצים של %s</item>
+        <item quantity="one">‏הציוץ של %s</item>
+    </plurals>
+    <plurals name="profile_tweets_count_label">
+        <item quantity="other">‏ציוצים</item>
+        <item quantity="one">‏ציוץ</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">‏%1$d תגובות נוספות</item>
+        <item quantity="one">‏עוד תשובה %1$d</item>
+    </plurals>
+    <plurals name="search_user_name_pile">
+        <item quantity="other">‏%1$s, %2$s ועוד</item>
+        <item quantity="one">‏%1$s ועוד</item>
+    </plurals>
+    <plurals name="selected_image_count">
+        <item quantity="other">‏נבחרו %d תמונות</item>
+        <item quantity="one">‏%d נבחרו</item>
+    </plurals>
+    <plurals name="settings_notif_tweets_count">
+        <item quantity="other">‏%d אנשים</item>
+        <item quantity="one">‏אדם %d</item>
+    </plurals>
+    <plurals name="social_follow_and_follow_and_others">
+        <item quantity="other">‏%1$s‏, %2$s ו-%3$d אנשים נוספים עוקבים אחרי המשתמש</item>
+        <item quantity="one">‏%1$s, ‏%2$s ועוד %3$d נוסף עוקבים</item>
+    </plurals>
+    <plurals name="social_like_and_retweets_count">
+        <item quantity="other">‏%1$s סימונים כאהוב ו-%2$s ציוצים מחדש</item>
+        <item quantity="one">‏%1$s סימונים כאהוב וציוץ מחדש %2$s</item>
+    </plurals>
+    <plurals name="social_like_count">
+        <item quantity="other">‏%1$s סימונים כאהוב</item>
+        <item quantity="one">‏סימון %1$s כאהוב</item>
+    </plurals>
+    <plurals name="social_like_count_with_user">
+        <item quantity="other">‏%1$s ועוד %2$d משתמשים שאתה עוקב אחריהם סימנו כאהוב</item>
+        <item quantity="one">‏%1$s ועוד %2$d נוסף במעקב אהבו את זה</item>
+    </plurals>
+    <plurals name="social_like_count_with_user_accessibility_description">
+        <item quantity="other">‏סומן כאהוב על-ידי %1$s ועוד %2$d משתמשים שאתה עוקב אחריהם</item>
+        <item quantity="one">‏אהוב על-ידי %1$s ועוד %2$d נוסף במעקב</item>
+    </plurals>
+    <plurals name="social_proof_in_reply_multiple_names_and_count">
+        <item quantity="other">‏בתגובה ל־%1$s, %2$s, ו־%3$d אחרים</item>
+        <item quantity="one">‏בתשובה ל-%1$s, ל-%2$s ול-%3$d נוספים</item>
+    </plurals>
+    <plurals name="social_retweet_and_likes_count">
+        <item quantity="other">‏%1$s ציוצים מחדש ו-%2$s סימונים כאהוב</item>
+        <item quantity="one">‏%1$s ציוצים מחדש וסימון %2$s כאהוב</item>
+    </plurals>
+    <plurals name="social_retweet_count">
+        <item quantity="other">‏%1$s ציוצים מחדש</item>
+        <item quantity="one">‏ציוץ מחדש %1$s</item>
+    </plurals>
+    <plurals name="stat_label_likes">
+        <item quantity="other">‏סימונים כאהוב</item>
+        <item quantity="one">‏אהבתי</item>
+    </plurals>
+    <plurals name="stat_label_retweets">
+        <item quantity="other">‏ציוצים מחדש</item>
+        <item quantity="one">‏ציוץ מחדש</item>
+    </plurals>
+    <plurals name="stat_label_views">
+        <item quantity="other">‏צפיות</item>
+        <item quantity="one">‏צפייה</item>
+    </plurals>
+    <plurals name="story_proof_author_follow_by">
+        <item quantity="other">‏‎@%1$s ועוד %2$d עוקבים</item>
+        <item quantity="one">‏‎@%1$s ועוד %2$d עוקבים</item>
+    </plurals>
+    <plurals name="story_proof_follow_by">
+        <item quantity="other">‏‎@%1$s ועוד %2$d החלו לעקוב לאחרונה</item>
+        <item quantity="one">‏‎@%1$s ועוד %2$d החלו לעקוב לאחרונה</item>
+    </plurals>
+    <plurals name="story_proof_like_by">
+        <item quantity="other">‏‎@%1$s ועוד %2$d משתמשים סימנו כאהוב</item>
+        <item quantity="one">‏‎@%1$s ועוד משתמש %2$d סימנו כאהוב</item>
+    </plurals>
+    <plurals name="story_proof_retweet_by">
+        <item quantity="other">‏‎@%1$s ועוד %2$d משתמשים צייצו מחדש</item>
+        <item quantity="one">‏‎@%1$s ועוד משתמש %2$d צייצו מחדש</item>
+    </plurals>
+    <plurals name="story_proof_shared_by">
+        <item quantity="other">‏‎@%1$s ועוד %2$d מדברים על זה</item>
+        <item quantity="one">‏‎@%1$s ועוד %2$d מדברים על זה</item>
+    </plurals>
+    <plurals name="tagline_view_count">
+        <item quantity="other">‏%1$s צפיות</item>
+        <item quantity="one">‏צפייה %1$s</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">‏%dי</item>
+        <item quantity="one">‏יום</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">‏לפני %d ימים</item>
+        <item quantity="one">‏לפני יום</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">"‏%d ש'"</item>
+        <item quantity="one">‏שעה</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">‏לפני %d שעות</item>
+        <item quantity="one">‏לפני שעה</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">‏%dדק׳</item>
+        <item quantity="one">‏דקה</item>
+    </plurals>
+    <plurals name="time_mins_ago">
+        <item quantity="other">‏לפני %d</item>
+        <item quantity="one">‏לפני דקה</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">‏%d שנ׳</item>
+        <item quantity="one">‏שנייה אחת</item>
+    </plurals>
+    <plurals name="tweet_detail_footer_view_count">
+        <item quantity="other">‏%1$s צפיות</item>
+        <item quantity="one">‏צפייה %1$s</item>
+    </plurals>
+    <plurals name="typing_users_count">
+        <item quantity="other">‏%d אנשים מקלידים</item>
+        <item quantity="one">‏אדם %d מקליד</item>
+    </plurals>
+    <plurals name="users_fast_follow_text">
+        <item quantity="other">‏ועוד %1$s עוקבים בהודעות SMS</item>
+        <item quantity="one">‏ועוד עוקב %1$s בהודעות SMS</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">‏%d שבועות</item>
+        <item quantity="one">‏שבוע</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="other">‏%d שנים</item>
+        <item quantity="one">‏שנה</item>
+    </plurals>
+</resources>

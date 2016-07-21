@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/PollResultContainerStyle.Moments"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.android.nativecards.PollResultBarView android:id="@id/result_bar" style="@style/PollResultTopBarStyle.Moments" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/choice_text" style="@style/NativeCardsConsumerPollChoiceText.Moments" />
+        </FrameLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/choice_percentage" style="@style/NativeCardsConsumerPollChoicePercentage.Moments" />
+    </LinearLayout>
+</FrameLayout>

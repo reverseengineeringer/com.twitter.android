@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/user_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/moments_standard_spacing" android:layout_marginBottom="@dimen/moments_narrower_spacing" xmlns:twitter="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.media.widget.UserImageView android:id="@id/profile_image" android:layout_width="@dimen/moments_text_avatar_size" android:layout_height="@dimen/moments_text_avatar_size" android:layout_marginRight="@dimen/moments_standard_spacing_half" twitter:imageType="profile" twitter:userImageSize="@dimen/moments_text_avatar_size" twitter:imageCornerRadius="@dimen/corner_radius" />
+    <RelativeLayout android:padding="@dimen/moments_full_screen_text_user_info_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_large" android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" style="@style/MomentsFullScreenText.Thin" />
+        <ImageView android:id="@id/verified_badge" android:paddingBottom="@dimen/moments_full_screen_verified_badge_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/moments_standard_spacing_half" android:src="@drawable/ic_moments_verified_white_larger" android:layout_toRightOf="@id/secondary_text" android:layout_alignBottom="@id/secondary_text" android:contentDescription="@null" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium" android:textColor="@color/moments_username_color_dark" android:id="@id/tertiary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/secondary_text" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.av.video.VideoContainerHost android:id="@id/video_container" android:layout_width="wrap_content" android:layout_height="@dimen/media_thumbnail_size" android:layout_marginLeft="@dimen/media_gallery_item_padding" android:layout_marginRight="@dimen/media_gallery_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

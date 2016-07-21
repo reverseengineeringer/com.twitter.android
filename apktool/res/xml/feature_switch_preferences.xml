@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_feature_switch_general_pref_title" />
+    <Preference android:title="@string/settings_feature_switch_reset_pref_title" android:key="reset" android:summary="@string/settings_feature_switch_reset_pref_summary" />
+    <PreferenceCategory android:title="@string/settings_feature_switch_value_pref_title" android:key="fs_values" />
+</PreferenceScreen>

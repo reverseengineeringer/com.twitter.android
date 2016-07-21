@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.preference.CheckBoxPreference android:title="@string/sync_addressbook_contacts" android:key="upload_contacts" android:summary="@string/upload_contacts_summary" />
+    <Preference android:title="@string/remove_all_contacts" android:key="upload_contacts_disconnect" android:summary="@string/upload_contacts_disconnect_summary" />
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingBottom="@dimen/nps_feedback_score_view_single_row_privacy_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/feedback_card_dismiss_button" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/nps_prompt_feedback_score_text" android:layout_marginTop="@dimen/nps_feedback_card_prompts_text_top_margin" android:layout_below="@id/feedback_dismiss_button" style="@style/CustomerFeedbackCardPromptTitle" />
+    <RelativeLayout android:id="@id/nps_feedback_score_button_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nps_feedback_score_view_single_row_buttons_top_padding" android:layout_marginBottom="@dimen/nps_feedback_score_view_single_row_privacy_top_padding" android:layout_below="@id/nps_prompt_feedback_score_text" android:layout_centerHorizontal="true">
+        <LinearLayout android:id="@id/nps_feedback_score_buttons_row1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.twitter.android.dm.cards.dmfeedbackcard.FeedbackScoreButton android:id="@id/nps_score0" twitter:scoreValue="0" style="@style/CustomerFeedbackNpsButton" />
+            <com.twitter.android.dm.cards.dmfeedbackcard.FeedbackScoreButton android:id="@id/nps_score1" twitter:scoreValue="1" style="@style/CustomerFeedbackNpsButtonWithLeftMargin" />
+            <com.twitter.android.dm.cards.dmfeedbackcard.FeedbackScoreButton android:id="@id/nps_score2" twitter:scoreValue="2" style="@style/CustomerFeedbackNpsButtonWithLeftMargin" />
+            <com.twitter.android.dm.cards.dmfeedbackcard.FeedbackScoreButton android:id="@id/nps_score3" twitter:scoreValue="3" style="@style/CustomerFeedbackNpsButtonWithLeftMargin" />
+            <com.twitter.android.dm.cards.dmfeedbackcard.FeedbackScoreButton android:id="@id/nps_score4" twitter:scoreValue="4" style="@style/CustomerFeedbackNpsButtonWithLeftMargin" />
+            <com.twitter.android.dm.cards.dmfeedbackcard.FeedbackScoreButton android:id="@id/nps_score5" twitter:scoreValue="5" style="@style/CustomerFeedbackNpsButtonWithLeftMargin" />
+            <com.twitter.android.dm.cards.dmfeedbackcard.FeedbackScoreButton android:id="@id/nps_score6" twitter:scoreValue="6" style="@style/CustomerFeedbackNpsButtonWithLeftMargin" />
+            <com.twitter.android.dm.cards.dmfeedbackcard.FeedbackScoreButton android:id="@id/nps_score7" twitter:scoreValue="7" style="@style/CustomerFeedbackNpsButtonWithLeftMargin" />
+            <com.twitter.android.dm.cards.dmfeedbackcard.FeedbackScoreButton android:id="@id/nps_score8" twitter:scoreValue="8" style="@style/CustomerFeedbackNpsButtonWithLeftMargin" />
+            <com.twitter.android.dm.cards.dmfeedbackcard.FeedbackScoreButton android:id="@id/nps_score9" twitter:scoreValue="9" style="@style/CustomerFeedbackNpsButtonWithLeftMargin" />
+            <com.twitter.android.dm.cards.dmfeedbackcard.FeedbackScoreButton android:id="@id/nps_score10" twitter:scoreValue="10" style="@style/CustomerFeedbackNpsButtonWithLeftMargin" />
+        </LinearLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:layout_marginTop="@dimen/nps_feedback_score_button_to_description_padding" android:layout_below="@id/nps_feedback_score_buttons_row1" android:layout_alignLeft="@id/nps_feedback_score_buttons_row1" android:layout_alignStart="@id/nps_feedback_score_buttons_row1" style="@style/CustomerFeedbackNpsScoreDescriptionText.NotLikely" />
+        <com.twitter.ui.widget.TypefacesTextView android:layout_marginTop="@dimen/nps_feedback_score_button_to_description_padding" android:layout_below="@id/nps_feedback_score_buttons_row1" android:layout_alignRight="@id/nps_feedback_score_buttons_row1" android:layout_alignEnd="@id/nps_feedback_score_buttons_row1" style="@style/CustomerFeedbackNpsScoreDescriptionText.VeryLikely" />
+    </RelativeLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/feedback_privacy_notice" android:layout_below="@id/nps_feedback_score_button_area" style="@style/CustomerFeedbackCardPrivacyNotice" />
+</RelativeLayout>

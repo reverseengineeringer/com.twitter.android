@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/card_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/card_image" android:background="@color/faded_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_default_spacing" android:contentDescription="@string/image_profile" twitter:defaultDrawable="@color/placeholder_bg" />
+    <com.twitter.ui.widget.TwitterButton android:textSize="@dimen/card_font_size_small" android:id="@id/card_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/learn_more" android:layout_below="@id/card_image" android:layout_alignParentLeft="true" style="@style/TwitterButtonMediumCondensedBold" />
+</RelativeLayout>

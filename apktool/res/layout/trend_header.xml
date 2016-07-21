@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.internal.android.widget.GroupedRowView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" style="@style/ListRow.TrendHeader">
+        <include layout="@layout/trend_header_content" />
+    </RelativeLayout>
+</com.twitter.internal.android.widget.GroupedRowView>

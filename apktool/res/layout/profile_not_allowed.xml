@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/list_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_marginBottom="@dimen/profile_header_padding" style="@style/HorizontalRule" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/profile_not_allowed_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ProfileNotAllowedTitle" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/profile_not_allowed_body" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ProfileNotAllowedBody" />
+    <View style="@style/HorizontalRule" />
+</LinearLayout>

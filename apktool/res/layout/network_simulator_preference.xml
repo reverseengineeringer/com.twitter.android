@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/network_simulator_enabled" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="Enable Simulation" />
+    <RadioGroup android:id="@id/profiles_radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="40.0dip">
+        <RadioButton android:id="@id/custom_network_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RadioGroup>
+    <LinearLayout android:orientation="vertical" android:id="@id/custom_simulation_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="Bandwidth Limit (kbps)" />
+        <EditText android:id="@id/bandwidth_limit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:inputType="number" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="Latency (ms)" />
+        <EditText android:id="@id/latency" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:inputType="number" />
+    </LinearLayout>
+</LinearLayout>

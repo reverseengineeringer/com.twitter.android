@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textStyle="bold" android:textColor="@color/secondary_text" android:gravity="center_horizontal" android:id="@id/account_row_label" android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_row_label" />
+    <com.twitter.library.widget.UserView android:id="@id/account_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/account_row_label">
+        <include android:id="@id/account" layout="@layout/account_view" />
+    </com.twitter.library.widget.UserView>
+    <RelativeLayout android:id="@id/content_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/account_row" style="@style/ListRow">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textStyle="bold" android:textColor="@color/primary_text" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:textColor="@color/primary_text" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_below="@id/title" android:lineSpacingExtra="@dimen/line_spacing_extra" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/card_inset" android:paddingRight="@dimen/card_inset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_below="@id/content_area">
+        <Button android:id="@id/cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+        <Button android:id="@id/ok_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/grant_permission_positive" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

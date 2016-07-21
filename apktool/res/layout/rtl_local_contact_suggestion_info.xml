@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/avatar" android:layout_alignParentRight="true" style="@style/DMLocalContactAvatar">
+        <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <FrameLayout android:id="@id/sms_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <include layout="@layout/sms_badge" />
+    </FrameLayout>
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:paddingRight="@dimen/share_tweet_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/avatar" android:layout_toRightOf="@id/sms_badge">
+        <include layout="@layout/dm_local_contact_suggestion_name_and_data" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:toolBarId="@id/header"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DMRecipientSearchWrapper">
+            <LinearLayout android:orientation="vertical" android:id="@id/share_via_dm_education_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.twitter.android.dm.widget.DMRecipientSearch android:id="@id/dm_recipient_search" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/content_area_background" android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:background="@color/app_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/add_participant_warning" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/dm_add_participants_warning" />
+            </ScrollView>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/share_via_dm_quote_view_and_compose_box" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/list_view_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/suggestion_list_view" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/List" />
+                <ProgressBar android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+            </LinearLayout>
+            <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.twitter.library.widget.ToolbarWrapperLayout>

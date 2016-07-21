@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ObservableScrollView android:id="@id/scroller" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/list_empty_text" android:background="@color/list_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/empty_header_spacer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/empty_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/empty_footer_spacer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.twitter.library.widget.ObservableScrollView>

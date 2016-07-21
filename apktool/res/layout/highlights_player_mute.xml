@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.ui.widget.TwitterButton android:id="@id/mute_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/media_box" android:layout_alignRight="@id/media_box" android:contentDescription="@string/mute" twitter:iconColor="@color/highlights_gray" twitter:nodpiBaseIconName="ic_mute" style="@style/TwitterButtonSmallCondensedBorderless" />
+    <com.twitter.ui.widget.TwitterButton android:id="@id/unmute_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/media_box" android:layout_alignRight="@id/media_box" android:contentDescription="@string/mute" twitter:nodpiBaseIconName="ic_mute" style="@style/TwitterButtonSmallCondensedBorderless" />
+</merge>

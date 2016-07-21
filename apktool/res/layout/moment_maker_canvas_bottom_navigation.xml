@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:background="@color/moment_maker_background" android:layout_width="fill_parent" android:layout_height="@dimen/maker_bottom_navigation_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/canvas_bottom_nav_button" android:padding="@dimen/moments_standard_spacing_half" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" style="@style/MomentsFullScreenText" />
+    <TextView android:gravity="center" android:id="@id/canvas_add_tweets_nav_button" android:padding="@dimen/moments_standard_spacing_half" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/maker_add_tweets_navigation" android:drawableTop="@drawable/ic_title_add_default" android:contentDescription="@null" style="@style/MomentsFullScreenText" />
+</LinearLayout>

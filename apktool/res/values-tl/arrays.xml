@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>Pinapagana para sa lahat</item>
+        <item>Pinagana lamang para sa mga Direktang Mensahe</item>
+        <item>Naka-disable para sa lahat</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>I-tweet ang link</item>
+        <item>Kopyahin ang link</item>
+        <item>Ipadala ang link</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>Ano ang kabuuang kasiyahan mo sa %1$s?</item>
+        <item>Gaano ka nasiyahan sa %1$s?</item>
+        <item>Sa kabuuan, gaano ka nasiyahan sa iyong kamakailang karanasan sa %1$s?</item>
+        <item>Paano mo ire-rate ang pangkalahatang karanasan sa %1$s?</item>
+        <item>Paano mo ire-rate ang pangkalahatang karanasan mo sa %1$s?</item>
+        <item>Paano mo ire-rate ang iyong karanasan sa %1$s hanggang ngayon?</item>
+        <item>Paano mo ire-rate ang karanasan mo sa Twitter ng %1$s?</item>
+        <item>Nasiyahan ka ba sa kamakailan mong karanasan sa %1$s?</item>
+        <item>Gaano kabuti naabot ng %1$s ang inaasahan mo?</item>
+        <item>Paano mo ire-rate ang karanasan mo bilang bisita ng %1$s?</item>
+        <item>Paano mo ire-rate ang serbisyo sa iyo ng %1$s?</item>
+        <item>Paano mo ire-rate ang iyong kamakailang karanasan sa serbisyo ng %1$s?</item>
+        <item>Paano mo ire-rate ang serbisyong natanggap mo mula sa %1$s?</item>
+        <item>Nasiyahan ka ba sa naging resulta ng iyong interaksyon sa %1$s?</item>
+        <item>Paano mo ire-rate ang kakayahang lutasin ang iyong isyu sa %1$s?</item>
+        <item>Paano mo ire-rate ang panahon ng pagsagot ng %1$s?</item>
+        <item>Paano mo ire-rate ang bilis ng serbisyo mula sa %1$s?</item>
+        <item>Paano mo ire-rate ang panahon ng paglutas ng %1$s?</item>
+        <item>Paano mo ire-rate ang panahon ng paglutas ng iyong isyu sa %1$s?</item>
+        <item>Paano mo ire-rate ang bilis ng paglutas ng %1$s?</item>
+        <item>Paano mo ire-rate ang pagkabihasa ng tagapayo ng %1$s?</item>
+        <item>Gaano ka nasiyahan sa ahente ng %1$s na tumulong sa iyo?</item>
+        <item>Gaano ka nasiyahan sa espesyalista ng %1$s na tumulong sa iyo?</item>
+        <item>Gaano ka nasiyahan sa kinatawan ng %1$s na tumulong sa iyo?</item>
+        <item>Paano mo ire-rate ang iyong kamakailang karanasan sa pagbabangko sa %1$s?</item>
+        <item>Paano mo ire-rate ang pangkalahatang karanasan sa event ng %1$s?</item>
+        <item>Paano mo ire-rate ang iyong karanasan sa pagbabayad ng bill sa %1$s?</item>
+        <item>Paano mo ire-rate ang iyong karanasan sa pagbili sa %1$s?</item>
+        <item>Paano mo ire-rate ang iyong karanasan sa pamimili sa %1$s?</item>
+        <item>Paano mo ire-rate ang iyong karanasan sa pagtanggap ng padala sa %1$s?</item>
+        <item>Paano mo ire-rate ang iyong karanasan sa pagrerenta sa %1$s?</item>
+        <item>Paano mo ire-rate ang iyong kamakailang pagbisita sa tindahan ng %1$s?</item>
+        <item>Paano mo ire-rate ang iyong kamakailang pamamalagi sa hotel sa %1$s?</item>
+        <item>Paano mo ire-rate ang iyong kamakailang flight sa %1$s?</item>
+        <item>Paano mo ire-rate ang iyong kamakailang pagsakay sa %1$s?</item>
+        <item>Paano mo ire-rate ang iyong kamakailang biyahe sa %1$s?</item>
+        <item>Paano mo ire-rate ang iyong kamakailang pagbisita sa %1$s?</item>
+        <item>Paano mo ire-rate ang iyong kamakailang pagkain sa %1$s?</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>Pinasadya para sa iyo</item>
+        <item>Mula kung kanino man</item>
+        <item>I-off</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>Gaano kalamang na irerekomenda mo ang %1$s sa isang kaibigan?</item>
+        <item>Gaano kalamang na irerekomenda mo ang %1$s sa isang kaibigan?</item>
+        <item>Gaano kalamang na irerekomenda mo ang %1$s sa isang kasamahan?</item>
+        <item>Gaano kalamang na irerekomenda mo ang %1$s sa isang miyembro ng pamilya?</item>
+        <item>Gaano kalamang na irerekomenda mo ang %1$s sa ibang tao?</item>
+        <item>Gaano kalamang na irerekomenda mo ang %1$s sa isang kaibigan o kasamahan?</item>
+        <item>Gaano kalamang na bibili ka sa %1$s sa hinaharap?</item>
+        <item>Gaano kalamang na irerekomenda mo ang %1$s?</item>
+        <item>Irerekomenda mo ba ang %1$s sa isang kaibigan o kasamahan?</item>
+        <item>Gaano kalamang na irerekomenda mo ang iyong karanasan sa %1$s sa isang kaibigan?</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>Ang mga poll lang na ginawa ko</item>
+        <item>Ang mga poll na ginawa o binoto ko</item>
+        <item>I-off</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5 minuto</item>
+        <item>10 minuto</item>
+        <item>15 minuto</item>
+        <item>30 minuto</item>
+        <item>1 oras</item>
+        <item>2 oras</item>
+        <item>4 oras</item>
+        <item>Araw-araw</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>Pangkalahatan</item>
+        <item>Network</item>
+        <item>Mga Larawan at Video</item>
+        <item>Mga Tweet at timelines</item>
+    </string-array>
+</resources>

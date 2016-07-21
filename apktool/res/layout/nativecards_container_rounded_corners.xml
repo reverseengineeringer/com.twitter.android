@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/root_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:background="@drawable/card_border_with_rounded_corners" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/on_click_grayed_out_sheet" android:background="@drawable/bg_nativecards_rounded_corners_clickable" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|right" android:orientation="vertical" android:id="@id/text_container" android:padding="@dimen/moments_standard_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/moments_attribution_line" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsGuideText.Primary.White" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsGuideText.Secondary.White" />
+        <ImageView android:id="@id/moments_bolt" android:layout_marginLeft="@dimen/moments_standard_spacing_half" android:layout_marginRight="0.0dip" android:contentDescription="@null" style="@style/MomentsCardBolt.RtlAware" />
+    </LinearLayout>
+</LinearLayout>

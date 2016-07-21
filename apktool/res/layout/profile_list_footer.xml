@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/highlights_text_size_large" android:textColor="@color/deep_gray" android:gravity="center_horizontal" android:id="@id/footer_text" android:paddingLeft="@dimen/highlights_outer_padding_profile" android:paddingRight="@dimen/highlights_outer_padding_profile" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_min_height" android:layout_marginBottom="@dimen/padding_min_height" android:text="@string/highlights_view_more_profile" />
+</FrameLayout>

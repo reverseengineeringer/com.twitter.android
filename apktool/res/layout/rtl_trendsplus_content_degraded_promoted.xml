@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/TrendsPlusTrendContainer.Degraded.RTL"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/TrendsPlusTopLine.RTL">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/title" style="@style/TrendsPlusTrend.Title.Degraded.RTL" />
+    </LinearLayout>
+    <include layout="@layout/rtl_promoted_attribution" style="@style/TrendsPlusTrend.PromotedAttribution.Degraded.RTL" />
+</LinearLayout>

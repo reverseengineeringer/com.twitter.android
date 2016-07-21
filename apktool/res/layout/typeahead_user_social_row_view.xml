@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.UserSocialView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListRow.WhoToFollow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.library.widget.SocialBylineView android:id="@id/social_byline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SocialProof.Typeahead" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/social_byline">
+        <com.twitter.library.widget.ActionButton android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_centerVertical="false" style="@style/ActionButton" />
+        <com.twitter.library.media.widget.UserImageView android:id="@id/user_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:layout_alignParentTop="true" twitter:userImageSize="mini" />
+        <RelativeLayout android:id="@id/name_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/action_button" android:layout_toRightOf="@id/user_image" android:layout_alignParentTop="true">
+            <include layout="@layout/user_info_name" />
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/screenname_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/name_layout" style="@style/Username.WhoToFollow" />
+        </RelativeLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/extra_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/user_image" android:layout_below="@id/name_container" style="@style/WhoToFollowExtraInfo" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/promoted" android:visibility="gone" android:layout_marginLeft="0.0dip" android:layout_toRightOf="@id/user_image" android:layout_below="@id/extra_info" style="@style/Promoted.User" />
+    </RelativeLayout>
+</com.twitter.library.widget.UserSocialView>

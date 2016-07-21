@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/phone_mt_entry_form" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SignupForm">
+            <com.twitter.ui.widget.TypefacesTextView android:text="@string/phone_mt_entry_header" style="@style/Label" />
+            <com.twitter.ui.widget.TypefacesTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:text="@string/phone_mt_entry_body" style="@style/TextContent" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal">
+                <com.twitter.ui.widget.TwitterEditText android:id="@id/edit_text_phone" android:hint="@string/phone_mt_entry_phone_hint" android:drawableLeft="@drawable/phone_code_holder" android:inputType="phone" twitter:labelText="@string/phone_mt_entry_phone" style="@style/TwitterPhoneEdit" />
+                <com.twitter.ui.widget.TwitterSelection android:id="@id/selection_phone_code" android:layout_width="@dimen/phone_code_field_width" android:layout_height="wrap_content" android:layout_alignBaseline="@id/edit_text_phone" twitter:dialogTheme="@style/CountryCodeSelectionDialogTheme">
+                    <com.twitter.ui.widget.TwitterEditText android:gravity="left" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/ic_form_chevron_down" style="@style/TwitterEditText" />
+                </com.twitter.ui.widget.TwitterSelection>
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:id="@id/horizontal_rule" android:layout_marginBottom="5.0dip" android:layout_below="@id/phone_mt_entry_form" style="@style/HorizontalRule" />
+        <Button android:enabled="false" android:id="@id/register_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:text="@string/cont" android:layout_below="@id/horizontal_rule" style="@style/Button.Submit" />
+    </RelativeLayout>
+</ScrollView>

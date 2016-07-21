@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/NativeCardsConsumerPollBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewSwitcher android:id="@id/animator" style="@style/NativeCardsConsumerPollViewSwitcher">
+        <LinearLayout android:id="@id/nativecards_consumerpoll_choices_container" style="@style/NativeCardsConsumerPollContentContainer.Default" />
+        <LinearLayout android:id="@id/nativecards_consumerpoll_results_container" style="@style/NativeCardsConsumerPollContentContainer.Default" />
+    </ViewSwitcher>
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/pollstatus_text" style="@style/NativeCardsConsumerPollStatusText.Default" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:duration="@integer/popup_flyout_duration"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale android:pivotX="@fraction/popup_window_flyout_pivot_x" android:pivotY="@fraction/popup_window_flyout_pivot_y" android:fromXScale="0.15" android:toXScale="1.0" android:fromYScale="0.0" android:toYScale="1.0" />
+    <alpha android:startOffset="60" android:fromAlpha="0.2" android:toAlpha="1.0" />
+</set>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="36.0dip">
+        <com.twitter.android.autocomplete.ListViewSuggestionEditText android:id="@id/selection_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_preferred_height" android:hint="@string/trends_search_loc" android:maxLines="1" android:scrollHorizontally="false" android:includeFontPadding="false" android:completionThreshold="1" android:inputType="textMultiLine|textNoSuggestions" android:imeOptions="flagNoExtractUi" android:fontFamily="sans-serif-light" twitter:lengthThreshold="0" twitter:focusOnDismiss="true" style="@style/TrendsLocationsInputText" />
+    </LinearLayout>
+    <View android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <View android:background="@color/border_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <View android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ListView android:id="@id/suggestion_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/List" />
+    </FrameLayout>
+</LinearLayout>

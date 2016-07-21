@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>Habilitada para todas</item>
+        <item>Habilitado somente para Mensagens Diretas</item>
+        <item>Desabilitada para todas</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>Tweetar com o link</item>
+        <item>Copiar link</item>
+        <item>Enviar link</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>Qual é o seu nível de satisfação geral com o estabelecimento %1$s?</item>
+        <item>Qual é o seu nível de satisfação com o estabelecimento %1$s?</item>
+        <item>Em geral, qual é o seu nível de satisfação com a sua recente experiência no estabelecimento %1$s?</item>
+        <item>Como você classificaria a experiência geral com o estabelecimento %1$s?</item>
+        <item>Como você classificaria a sua experiência geral com o estabelecimento %1$s?</item>
+        <item>Como você classificaria a sua experiência até o momento com o estabelecimento %1$s?</item>
+        <item>Como você classificaria a sua experiência no Twitter com o estabelecimento %1$s?</item>
+        <item>Você ficou satisfeito com a sua experiência recente com o estabelecimento %1$s?</item>
+        <item>Até que ponto o estabelecimento %1$s atendeu às suas expectativas?</item>
+        <item>Como você classificaria a sua experiência como hóspede no hotel %1$s?</item>
+        <item>Como você classificaria a experiência de serviço do estabelecimento %1$s?</item>
+        <item>Como você classificaria a sua experiência de serviço recente com o estabelecimento %1$s?</item>
+        <item>Como você classificaria o serviço que recebeu do estabelecimento %1$s?</item>
+        <item>Você ficou satisfeito com o resultado de sua interação com o estabelecimento %1$s?</item>
+        <item>Como você classificaria a capacidade de resolver seu problema do estabelecimento %1$s?</item>
+        <item>Como você classificaria o tempo de resposta do estabelecimento %1$s?</item>
+        <item>Como você classificaria a agilidade do serviço do estabelecimento %1$s?</item>
+        <item>Como você classificaria o tempo de resposta do estabelecimento %1$s?</item>
+        <item>Como você classificaria o tempo gasto para resolver seu problema com o estabelecimento %1$s?</item>
+        <item>Como você classificaria a agilidade na resolução de problemas do estabelecimento %1$s?</item>
+        <item>Como você classificaria o conhecimento do consultor do estabelecimento %1$s?</item>
+        <item>Qual é o seu nível de satisfação com o agente do estabelecimento %1$s que ajudou você?</item>
+        <item>Qual é o seu nível de satisfação com o especialista do estabelecimento %1$s que ajudou você?</item>
+        <item>Qual é o seu nível de satisfação com o representante do estabelecimento %1$s que ajudou você?</item>
+        <item>Como você classificaria a sua experiência recente com o serviço do banco %1$s?</item>
+        <item>Como você classificaria a sua experiência geral de evento no estabelecimento %1$s?</item>
+        <item>Como você classificaria a sua experiência de pagamento de contas com o estabelecimento %1$s?</item>
+        <item>Como você classificaria a sua experiência de compra com o estabelecimento %1$s?</item>
+        <item>Como você classificaria a sua experiência de compra com o estabelecimento %1$s?,</item>
+        <item>Como você classificaria a experiência de entrega do estabelecimento %1$s?</item>
+        <item>Como você classificaria a sua experiência de locação com a empresa %1$s?</item>
+        <item>Como você classificaria a sua visita recente à loja %1$s?</item>
+        <item>Como você classificaria a sua estadia recente no hotel %1$s?,</item>
+        <item>Como você classificaria o seu voo recente com a empresa %1$s?</item>
+        <item>Como você classificaria o seu passeio recente com a empresa %1$s?</item>
+        <item>Como você classificaria a sua viagem recente com a empresa %1$s?</item>
+        <item>Como você classificaria a sua visita recente ao estabelecimento %1$s?</item>
+        <item>Como você classificaria a sua refeição recente no estabelecimento %1$s?</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>Personalizadas para você</item>
+        <item>De qualquer usuário</item>
+        <item>Desligado</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>Qual a probabilidade de você recomendar o estabelecimento %1$s a um amigo?</item>
+        <item>Qual a probabilidade de você recomendar o estabelecimento %1$s a um amigo?</item>
+        <item>Qual a probabilidade de você recomendar o estabelecimento %1$s a um colega?</item>
+        <item>Qual a probabilidade de você recomendar o estabelecimento %1$s a um familiar?</item>
+        <item>Qual a probabilidade de você recomendar o estabelecimento %1$s a outra pessoa?</item>
+        <item>Qual a probabilidade de você recomendar o estabelecimento %1$s a um amigo ou colega?</item>
+        <item>Qual a probabilidade de você fazer compras no estabelecimento %1$s no futuro?</item>
+        <item>Qual a probabilidade de você recomendar o estabelecimento %1$s?</item>
+        <item>Você recomendaria o estabelecimento %1$s a um amigo ou colega?</item>
+        <item>Qual a probabilidade de você recomendar sua experiência com o estabelecimento %1$s a um amigo?</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>Apenas enquetes que eu criar</item>
+        <item>Enquetes que eu criar ou votar</item>
+        <item>Desligado</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>4 horas</item>
+        <item>Diário</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>Geral</item>
+        <item>Rede</item>
+        <item>Fotos e vídeos</item>
+        <item>Tweets e linhas do tempo</item>
+    </string-array>
+</resources>

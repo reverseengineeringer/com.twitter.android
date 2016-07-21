@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/ListRow.News.NoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingLeft="@dimen/list_row_padding_horizontal" android:paddingTop="@dimen/list_row_padding_vertical" android:paddingRight="@dimen/list_row_padding_horizontal" android:paddingBottom="@dimen/list_row_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListRow.News">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/news_source" android:layout_alignParentLeft="true" android:fontFamily="sans-serif-medium" style="@style/News.Source" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/news_title" android:layout_toLeftOf="@id/news_image" android:layout_below="@id/news_source" android:layout_alignParentLeft="true" android:fontFamily="sans-serif-light" style="@style/News.Title" />
+        <com.twitter.media.ui.image.AspectRatioFrameLayout android:layout_gravity="center|top" android:id="@id/ratioLayout" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/news_title" twitter:aspect_ratio="1.77778">
+            <com.twitter.media.ui.image.MediaImageView android:id="@id/news_image_center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/news_seamful_margin_top" android:layout_marginTop="@dimen/news_seamful_image_margin_top" android:layout_marginRight="@dimen/news_seamful_margin_top" android:layout_marginBottom="6.0dip" android:contentDescription="@null" twitter:defaultDrawable="@color/placeholder_bg" twitter:fadeIn="true" twitter:scaleType="fit">
+                <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/news_image_rounded_corner_size" />
+            </com.twitter.media.ui.image.MediaImageView>
+        </com.twitter.media.ui.image.AspectRatioFrameLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/news_info" android:layout_below="@id/news_title" android:layout_alignParentLeft="true" android:fontFamily="sans-serif-light" style="@style/News.Info" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/news_info2" android:layout_below="@id/ratioLayout" android:layout_alignParentLeft="true" android:fontFamily="sans-serif-light" style="@style/News.Info" />
+        <com.twitter.media.ui.image.MediaImageView android:id="@id/news_image" android:visibility="gone" android:layout_width="@dimen/news_seamful_image_width" android:layout_height="@dimen/news_seamful_image_height" android:layout_marginLeft="@dimen/news_image_margin_left" android:layout_alignTop="@id/news_title" android:layout_alignParentRight="true" android:contentDescription="@null" twitter:defaultDrawable="@color/placeholder_bg" twitter:fadeIn="true" twitter:scaleType="fill">
+            <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/news_image_rounded_corner_size" />
+        </com.twitter.media.ui.image.MediaImageView>
+    </RelativeLayout>
+    <View android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider_thickness" />
+</LinearLayout>

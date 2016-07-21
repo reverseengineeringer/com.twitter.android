@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/top_toolbar" />
+        <com.twitter.internal.android.widget.IconTabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                <TabWidget android:id="@android:id/tabs" android:background="@drawable/navbar_bg" android:paddingBottom="@dimen/tabbar_padding" android:layout_width="fill_parent" android:layout_height="@dimen/nav_bar_height" android:layout_marginBottom="0.0dip" android:divider="@null" android:dividerPadding="0.0dip" />
+                <com.twitter.internal.android.widget.ViewPagerScrollBar android:id="@id/scrollbar" android:layout_width="fill_parent" android:layout_height="@dimen/nav_bar_scroll_height" android:layout_alignBottom="@android:id/tabs" app:tabDrawable="@color/tab" />
+                <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@android:id/tabs" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </com.twitter.internal.android.widget.IconTabHost>
+    </LinearLayout>
+</com.twitter.library.widget.ToolbarWrapperLayout>

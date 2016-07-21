@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/settings_category_privacy_title" android:key="category_privacy">
+        <CheckBoxPreference android:persistent="false" android:title="@string/settings_protected_title" android:key="protected" android:summary="@string/settings_protected_summary" />
+        <com.twitter.android.settings.MultilineCheckBoxPreference android:persistent="false" android:title="@string/receive_dms_from_anyone" android:key="allow_dms_from" android:summary="@string/receive_dms_from_anyone_summary" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/dm_read_receipts_pref_title" android:key="dm_read_receipts" android:summary="@string/dm_read_receipts_pref_summary" />
+        <com.twitter.android.settings.CheckBoxListPreference android:persistent="false" android:entries="@array/media_tagging_setting_entries" android:title="@string/settings_media_tagging_title" android:key="allow_media_tagging" android:summary="%s" android:defaultValue="none" android:entryValues="@array/media_tagging_setting_values" twitter:offValue="none" />
+        <com.twitter.android.settings.MultilineCheckBoxPreference android:persistent="false" android:title="@string/settings_discoverable_by_email_title" android:key="discoverable_by_email" android:summary="@string/settings_discoverable_by_email_summary" />
+        <com.twitter.android.settings.MultilineCheckBoxPreference android:persistent="false" android:title="@string/settings_discoverable_by_phone_title" android:key="discoverable_by_mobile_phone" android:summary="@string/settings_discoverable_by_phone_summary" />
+        <com.twitter.android.settings.MultilineTitlePreference android:title="@string/contacts" android:key="contacts_sync" android:summary="" />
+        <com.twitter.android.settings.MultilineTitlePreference android:title="@string/settings_app_graph_title" android:key="app_graph" android:summary="" />
+        <com.twitter.android.settings.MultilineTitlePreference android:persistent="false" android:title="@string/settings_personalized_ads_title" android:key="personalized_ads" android:summary="" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_category_content_title" android:key="category_content">
+        <com.twitter.android.settings.MultilineCheckBoxPreference android:persistent="false" android:title="@string/settings_display_possibly_sensitive_media_title" android:key="display_sensitive_media" android:summary="@string/settings_display_possibly_sensitive_media_summary" />
+        <Preference android:title="@string/block_list" android:key="block_list" />
+        <Preference android:title="@string/mute_list" android:key="mute_list" />
+        <com.twitter.android.widget.UrlLinkableCheckboxPreference android:persistent="false" android:title="@string/settings_allow_automated_mute_title" android:key="smart_mute" android:summary="@string/settings_allow_automated_mute_summary" twitter:clickableUrl="@string/learn_more_about_automated_mute" />
+    </PreferenceCategory>
+</PreferenceScreen>

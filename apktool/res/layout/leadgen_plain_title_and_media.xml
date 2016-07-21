@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textStyle="bold" android:textColor="@color/text" android:ellipsize="end" android:id="@id/card_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_default_spacing" android:singleLine="true" />
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/card_image" android:background="@color/faded_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/image_profile" twitter:defaultDrawable="@color/placeholder_bg" />
+</LinearLayout>

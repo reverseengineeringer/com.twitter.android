@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Debug" android:key="pref_debug"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Categories">
+        <PreferenceScreen android:title="Launch UX">
+            <com.twitter.android.widget.DeepLinkPreference android:title="Launch Deep Link" android:positiveButtonText="Launch" />
+            <Preference android:title="Start Welcome Flow All Screens" android:key="start_nux_all_screens" />
+            <Preference android:title="Start Welcome Flow Seamful" android:key="start_nux_seamful" />
+            <Preference android:title="Start Edit Profile Module" android:key="start_edit_profile_nux" />
+            <Preference android:title="Start Smart Follow NUX" android:key="start_smart_follow_nux" />
+            <Preference android:title="Start Smart RUX" android:key="start_smart_rux" />
+            <Preference android:title="Start Highlights" android:key="start_highlights" />
+            <Preference android:title="Start Highlights w/ NUX Flow" android:key="start_highlights_nux" />
+            <Preference android:title="Start Highlights w/ Empty State" android:key="start_highlights_empty" />
+            <Preference android:title="Start Highlights w/ Sample Story" android:key="start_highlights_sample" />
+            <com.twitter.android.widget.PeopleDiscoveryPreference android:title="Start People Discovery w/ Debug Param" android:positiveButtonText="Launch" />
+            <Preference android:title="Signup #phone100 Flow" android:key="pref_signup_phone100" />
+            <Preference android:title="Signup #phone100 password entry fragment" android:key="pref_signup_phone100_password" />
+            <Preference android:title="Signup #phone100 SSPC" android:key="pref_signup_phone100_SSPC" />
+            <Preference android:title="Signup #phone100 Add Phone" android:key="pref_signup_phone100_add_phone" />
+            <Preference android:title="Start Commerce Product Previewer" android:key="debug_start_product_previewer" />
+            <Preference android:title="Email Developer Key Hash" android:key="pref_dev_key_hash" />
+            <Preference android:title="Start B2C Feedback flow" android:key="debug_b2c_feedback_flow" />
+            <Preference android:title="Start Alert landing screen" android:key="start_alert_landing_screen" />
+            <Preference android:title="Start Live Video landing screen" android:key="start_live_video_landing_screen" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Network">
+            <com.twitter.android.widget.StagingHostPreference android:title="Set Staging Server" android:positiveButtonText="Apply changes" />
+            <com.twitter.android.widget.UploadHostPreference android:title="Set Upload Server" android:positiveButtonText="Apply changes" />
+            <com.twitter.android.widget.DMHostPreference android:title="Set DM Server" android:positiveButtonText="Apply changes" />
+            <ListPreference android:entries="@array/http_client_entries" android:title="HTTP Client" android:key="http_client_name" android:summary="Select HTTP client" android:defaultValue="" android:entryValues="@array/http_client_values" />
+            <com.twitter.android.widget.NetworkPerformanceSimulatorPreference android:title="Network Performance Simulation" android:positiveButtonText="Apply" />
+            <com.twitter.android.widget.TwitterAccessPreference android:title="Set Twitter Access" android:positiveButtonText="Apply changes" />
+            <ListPreference android:entries="@array/simulate_back_pressure_labels" android:title="Simulate Back Pressure" android:key="simulate_back_pressure" android:summary="Select back-pressure simulation mode" android:defaultValue="" android:entryValues="@array/simulate_back_pressure_values" />
+            <CheckBoxPreference android:title="Email Network Capture" android:key="email_network_capture" android:summary="Email generated HAR files" android:defaultValue="true" />
+            <CheckBoxPreference android:title="Data Usage Meter" android:key="data_usage_meter" android:summary="Show 1MB data usage meter" android:defaultValue="false" />
+            <CheckBoxPreference android:title="Wifi-Only Mode" android:key="wifi_only_mode" android:summary="When enabled, the app will not send any data over the network unless connected to a wifi network." android:defaultValue="false" />
+            <CheckBoxPreference android:title="Enable Zipkin Tracing" android:key="debug_force_zipkin_tracing" android:summary="Look for traceID in TwitterAPI logs" />
+            <CheckBoxPreference android:title="Extra dtab entries enabled" android:key="extra_dtab_enabled" />
+            <EditTextPreference android:title="Set extra dtab entries" android:key="extra_dtab" android:dialogMessage="See go/dtaboverride for usage/info" android:inputType="textMultiLine|textNoSuggestions" />
+            <EditTextPreference android:title="Set concon Id" android:key="extra_concon_id" android:dialogMessage="See go/usingconcon" android:inputType="textMultiLine|textNoSuggestions" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Scribing">
+            <com.twitter.android.widget.ScribeUrlPreference android:title="Set scribe endpoint" android:positiveButtonText="Apply changes" />
+            <com.twitter.android.widget.ScribeThriftUrlPreference android:title="Set thrift scribe endpoint" android:positiveButtonText="Apply changes" />
+            <com.twitter.android.settings.ListPreference android:entries="@array/scribe_flushing_frequencies" android:title="Scribe Flush Frequency" android:key="debug_scribe_flushing_frequency" android:summary="Flush scribe in every %s seconds" android:defaultValue="default" android:entryValues="@array/scribe_flushing_frequencies" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Push Notifications" android:key="pref_debug_push">
+            <Preference android:title="Simulate logged in push" android:key="simulate_logged_in_push" />
+            <Preference android:title="Simulate logged out push" android:key="simulate_logged_out_push" />
+            <Preference android:title="Reset logged out registration" android:key="reset_logged_out_reg" android:summary="Last used bytes " />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Commerce">
+            <EditTextPreference android:title="Commerce Card Host" android:key="debug_card_commerce_host_v2" android:defaultValue="" android:dialogMessage="Type in the hostname of the Commerce host" android:inputType="textUri" />
+            <EditTextPreference android:title="Commerce Card TPay Host" android:key="debug_card_tpay_host_v2" android:defaultValue="" android:dialogMessage="Type in the hostname of the Commerce TPay host" android:inputType="textUri" />
+            <CheckBoxPreference android:title="Always require phone number" android:key="debug_always_require_phone" android:summary="Always require phone number for all Buy Now Cards" />
+            <CheckBoxPreference android:title="Always require billing address" android:key="debug_always_require_billing" android:summary="Always require billing address for all Buy Now Cards" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Crashlytics">
+            <Preference android:title="Fatal Exception" android:key="debug_crash_fatal" />
+            <Preference android:title="Non-Fatal Exception" android:key="debug_crash_nonfatal" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Communities">
+            <com.twitter.android.communities.CommunityLaunchDebugPreference android:title="Launch Community" />
+            <com.twitter.android.eventtimelines.tv.show.TvShowLaunchDebugPreference android:title="Launch TV Timeline" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Revenue">
+            <PreferenceCategory android:title="Revenue Options">
+                <com.twitter.android.revenue.RevenueInjectTweetDebugDialogPreference android:title="Inject Tweet" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Moments">
+            <Preference android:title="Launch Moments" android:key="launch_moments" />
+            <Preference android:title="Inject Suggested Moments" android:key="inject_suggested_moments_carousel" android:summary="Injects a carousel of suggested moments in the timeline" />
+            <Preference android:title="Reset Moments Tutorial State" android:key="reset_moments_tutorial" />
+            <CheckBoxPreference android:title="Enable Moment Maker Entry Point" android:key="moment_maker_debug_enabled" android:summary="Always display the edit button in the capsule." />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Stickers">
+            <Preference android:title="Reset Sticker Tooltips" android:key="reset_sticker_tooltips" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Debug" android:key="pref_debug_main">
+        <com.twitter.android.widget.LocalePreference android:title="Set locale" android:positiveButtonText="Apply changes" />
+        <com.twitter.android.widget.UmfPreference android:title="Force UMF Campaign" android:positiveButtonText="Apply changes" />
+        <Preference android:title="Geo Debug Settings" android:key="geo_debug" />
+        <CheckBoxPreference android:title="Enable WebView Debugging" android:key="debug_web_contents" android:summary="Allow chrome://inspect on KK+ debug builds" />
+        <CheckBoxPreference android:title="Lock Portrait Mode" android:key="debug_lock_portrait" android:summary="Lock portrait mode (requires restart)" />
+        <Preference android:title="Check phone verification status" android:key="check_phone" />
+        <Preference android:title="Logged in MT" android:key="logged_in_mt" />
+        <Preference android:title="Phone Ownership" android:key="phone_ownership" />
+        <Preference android:title="Show Bouncer" android:key="bouncer" />
+        <Preference android:title="Logcat Viewer" android:key="logcat_viewer" />
+        <Preference android:title="Acquire Thread Dump" android:key="thread_dump" />
+        <Preference android:title="Export Feature Switches" android:key="feature_switches_export" />
+        <Preference android:title="Show Active Hashflags" android:key="debug_show_hashflags" />
+        <Preference android:title="Trigger Home Timeline sync" android:key="debug_home_timeline_sync" />
+        <Preference android:title="Debug PTR" android:key="ptr_debug" />
+        <CheckBoxPreference android:title="Use production user agent" android:key="debug_prod_ua" />
+        <Preference android:title="Perform Database Cleanup" android:key="debug_cleanup" android:summary="Last cleanup: " />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Debug Tweets" android:key="pref_debug_tweets">
+        <Preference android:title="Delete cached tweets" android:key="debug_delete_cached_tweets" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Debug Video" android:key="pref_debug_video">
+        <ListPreference android:entries="@array/video_multi_bitrate_network_type_labels" android:title="Video Multi-bitrate network type" android:key="video_multi_bitrate_network_type" android:summary="Select network type to be used when requesting videos." android:defaultValue="" android:entryValues="@array/video_multi_bitrate_network_type_values" />
+        <CheckBoxPreference android:title="Disable video control hiding" android:key="video_disable_control_hiding" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Debug Dock" android:key="pref_debug_dock">
+        <Preference android:title="Create a new Dock" android:key="show_dock" android:summary="Creates a new empty Dock. Return to home timeline to see it." />
+        <CheckBoxPreference android:title="Show Dock touch targets" android:key="dock_show_touch_targets" android:summary="For any new dock." />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Debug News" android:key="pref_debug_news">
+        <Preference android:title="Set test data to latest news ids" android:key="set_test_data_to_latest_news_ids" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Debug Email Association" android:key="pref_debug_email_association">
+        <Preference android:title="Add email" android:key="add_email" />
+        <Preference android:title="Update email" android:key="update_email" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.twitter.media.ui.image.AspectRatioFrameLayout android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:aspect_ratio="3.0">
+            <FrameLayout android:id="@id/header_map_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/header_blurred_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+        </com.twitter.media.ui.image.AspectRatioFrameLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/header_content" android:padding="@dimen/list_row_padding_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textStyle="bold" android:textColor="@color/text" android:id="@id/header_text_primary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/text" android:id="@id/header_text_secondary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/text" android:id="@id/header_text_tertiary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </LinearLayout>
+    <View android:id="@id/header_divider" android:background="@drawable/bg_section_divider" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

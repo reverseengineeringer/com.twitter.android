@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/composer_header" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/up_button" android:background="@drawable/bg_nav_item" android:paddingRight="12.0dip" android:layout_width="56.0dip" android:layout_height="fill_parent" android:src="?toolbarDismissIcon" android:scaleType="center" android:tint="@color/twitter_blue" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/button_toolbar_back" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/drafts_button" android:background="@drawable/bg_nav_item" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:src="@drawable/ic_dialog_drafts" android:contentDescription="@string/button_action_drafts" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/lifeline_alert" android:background="@drawable/bg_nav_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:contentDescription="@string/button_action_lifeline_alert" />
+        <com.twitter.library.media.widget.UserImageView android:layout_gravity="center_vertical" android:id="@id/account_image" android:layout_width="wrap_content" android:layout_height="wrap_content" twitter:userImageSize="32.0dip" />
+    </LinearLayout>
+    <View android:id="@id/toolbar_border" android:background="@color/border_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

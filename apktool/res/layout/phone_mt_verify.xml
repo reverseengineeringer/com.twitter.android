@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/phone_mt_verify_form" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SignupForm">
+            <com.twitter.ui.widget.TypefacesTextView android:text="@string/phone_mt_verify_code_header" style="@style/Label" />
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/phone_mt_verify_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:text="@string/phone_mt_verify_code_body" style="@style/TextContent" />
+            <com.twitter.ui.widget.TypefacesTextView android:layout_marginTop="20.0dip" android:text="@string/phone_mt_verify_code" style="@style/Label" />
+            <EditText android:id="@id/code" android:inputType="number" style="@style/SignupEdit" />
+        </LinearLayout>
+        <View android:id="@id/horizontal_rule" android:layout_marginBottom="5.0dip" android:layout_below="@id/phone_mt_verify_form" style="@style/HorizontalRule" />
+        <Button android:enabled="false" android:id="@id/verify_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:text="@string/cont" android:layout_below="@id/horizontal_rule" style="@style/Button.Submit" />
+        <com.twitter.ui.widget.TypefacesTextView android:gravity="center" android:id="@id/resend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/phone_mt_verify_request_new_code" android:layout_below="@id/verify_code" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

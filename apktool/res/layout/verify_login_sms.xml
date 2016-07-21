@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/top_toolbar" />
+        <ScrollView android:background="@color/list_margin_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/login_form" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SignupForm">
+                    <com.twitter.ui.widget.TypefacesTextView android:text="@string/verify_login_sms" style="@style/Label.Large" />
+                    <com.twitter.ui.widget.TypefacesTextView android:text="@string/sms_code_label" style="@style/Label" />
+                    <EditText android:id="@id/login_code" android:inputType="number" style="@style/SignupEdit" />
+                </LinearLayout>
+                <View android:id="@id/horizontal_rule" android:layout_marginBottom="5.0dip" android:layout_below="@id/login_form" style="@style/HorizontalRule" />
+                <Button android:enabled="false" android:id="@id/verify_login_send" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:text="@string/post_button_send" android:layout_below="@id/horizontal_rule" style="@style/Button.Submit" />
+                <com.twitter.ui.widget.TypefacesTextView android:gravity="center" android:id="@id/need_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/need_help" android:layout_below="@id/verify_login_send" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</com.twitter.library.widget.ToolbarWrapperLayout>

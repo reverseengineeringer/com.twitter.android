@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dm_last_read_marker" android:paddingLeft="@dimen/dm_last_read_marker_padding_horizontal" android:paddingTop="@dimen/dm_last_read_marker_padding_top" android:paddingRight="@dimen/dm_last_read_marker_padding_horizontal" android:paddingBottom="@dimen/dm_last_read_marker_padding_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/border_color" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <com.twitter.ui.widget.TypefacesTextView android:textStyle="bold" android:textColor="@color/secondary_text" android:id="@id/dm_unread_messages" android:paddingLeft="@dimen/dm_last_read_marker_unread_messages_padding_horizontal" android:paddingRight="@dimen/dm_last_read_marker_unread_messages_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_gravity="center" android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0" />
+</LinearLayout>

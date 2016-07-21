@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <include layout="@layout/top_toolbar" />
+        <Switch android:textSize="@dimen/font_size_medium" android:textStyle="bold" android:textColor="@color/black" android:id="@id/media_monetization_settings_monetization_enabled" android:background="?android:selectableItemBackground" android:padding="@dimen/media_monetization_settings_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/media_monetization_settings_monetization" />
+        <LinearLayout android:orientation="vertical" android:id="@id/media_monetization_settings_tag_content" android:background="?android:selectableItemBackground" android:padding="@dimen/media_monetization_settings_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size_medium" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/media_monetization_settings_tag_content" />
+            <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/medium_gray" android:id="@id/media_monetization_settings_tag_content_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/media_monetization_settings_tag_content_margin" />
+        </LinearLayout>
+        <View android:background="@color/faint_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/medium_gray" android:padding="@dimen/media_monetization_settings_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/media_monetization_settings_footer" />
+    </LinearLayout>
+</com.twitter.library.widget.ToolbarWrapperLayout>

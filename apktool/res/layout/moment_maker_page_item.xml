@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.media.ui.image.AspectRatioFrameLayout android:layout_gravity="center" android:id="@id/snapshot_container_view" android:background="@drawable/moment_snapshot_container_background" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:aspect_ratio="@dimen/moment_page_preview_aspect_ratio"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto" />

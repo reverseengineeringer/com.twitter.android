@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/duration_picker_layout_padding" android:paddingRight="@dimen/duration_picker_layout_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:divider="@drawable/duration_picker_col_divider" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/primary_text" android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/duration_picker_textview_height" android:text="@string/duration_picker_days" />
+        <NumberPicker android:id="@id/day_picker" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/primary_text" android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/duration_picker_textview_height" android:text="@string/duration_picker_hours" />
+        <NumberPicker android:id="@id/hour_picker" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/primary_text" android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/duration_picker_textview_height" android:text="@string/duration_picker_minutes" />
+        <NumberPicker android:id="@id/minute_picker" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

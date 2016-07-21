@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>Ingeschakeld voor alles</item>
+        <item>Alleen ingeschakeld voor privéberichten</item>
+        <item>Uitgeschakeld voor alles</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>Link tweeten</item>
+        <item>Link kopiëren</item>
+        <item>Link verzenden</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>Hoe tevreden ben je over het algemeen met %1$s?</item>
+        <item>Hoe tevreden ben je met %1$s?</item>
+        <item>Hoe tevreden was je over het algemeen over je ervaring bij %1$s?</item>
+        <item>Hoe tevreden was je over de algemene ervaring bij %1$s?</item>
+        <item>Hoe tevreden was je over je algemene ervaring bij %1$s?</item>
+        <item>Hoe tevreden ben je tot nu toe je over je ervaring bij %1$s?</item>
+        <item>Hoe tevreden ben je over je ervaring op Twitter met %1$s?</item>
+        <item>Was je tevreden over je recente ervaring bij %1$s?</item>
+        <item>In hoeverre voldoet %1$s aan je verwachtingen?</item>
+        <item>Hoe tevreden was je over je ervaring als gast bij %1$s?</item>
+        <item>Hoe tevreden was je over de service van %1$s?</item>
+        <item>Hoe tevreden was je over je recente ervaring met de service van %1$s?</item>
+        <item>Hoe tevreden was je over de service van %1$s?</item>
+        <item>Was je tevreden over het resultaat van je interactie met %1$s?</item>
+        <item>Hoe tevreden was je over de probleemoplossing van %1$s?</item>
+        <item>Hoe tevreden was je over de tijd die %1$s nodig had om een antwoord te sturen?</item>
+        <item>Hoe tevreden was je over de snelheid van de service van %1$s?</item>
+        <item>Hoe tevreden was je over de tijd die %1$s nodig had om een oplossing te vinden?</item>
+        <item>Hoe tevreden was je over de tijd die %1$s nodig had om je probleem op te lossen?</item>
+        <item>Hoe tevreden was je over de tijd die %1$s nodig had om een oplossing te vinden?</item>
+        <item>Hoe tevreden was je over de expertise van de adviseur van %1$s?</item>
+        <item>Hoe tevreden was je over de agent van %1$s die je heeft geholpen?</item>
+        <item>Hoe tevreden was je over de specialist van %1$s die je heeft geholpen?</item>
+        <item>Hoe tevreden was je over de vertegenwoordiger van %1$s die je heeft geholpen?</item>
+        <item>Hoe tevreden was je over je recente bankierervaring met %1$s?</item>
+        <item>Hoe tevreden was je over het algemeen over je ervaring bij het evenement bij %1$s?</item>
+        <item>Hoe tevreden was je over de ervaring met het betalen van een rekening met %1$s?</item>
+        <item>Hoe tevreden was je over de aankoopervaring bij %1$s?</item>
+        <item>Hoe tevreden was je over de winkelervaring bij %1$s?</item>
+        <item>Hoe tevreden was je over de verzending bij %1$s?</item>
+        <item>Hoe tevreden was je over de ervaring met huren bij %1$s?</item>
+        <item>Hoe tevreden was je over je recente bezoek aan de winkel van %1$s?</item>
+        <item>Hoe tevreden was je over je recente hotelverblijf bij %1$s?</item>
+        <item>Hoe tevreden was je over je recente vlucht met %1$s?</item>
+        <item>Hoe tevreden was je over je recente rit met %1$s?</item>
+        <item>Hoe tevreden was je over je recente reis met %1$s?</item>
+        <item>Hoe tevreden was je over je recente bezoek aan %1$s?</item>
+        <item>Hoe tevreden was je over je recente maaltijd bij %1$s?</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>Voor jou gepersonaliseerd</item>
+        <item>Van wie dan ook</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>Zou je %1$s aanraden aan een vriend?</item>
+        <item>Zou je %1$s aanraden aan een vriend?</item>
+        <item>Zou je %1$s aanraden aan een collega?</item>
+        <item>Zou je %1$s aanraden aan een familielid?</item>
+        <item>Zou je %1$s aanraden aan een ander?</item>
+        <item>Zou je %1$s aanraden aan een vriend of collega?</item>
+        <item>Zou je in de toekomst winkelen bij %1$s?</item>
+        <item>Zou je %1$s aanraden?</item>
+        <item>Zou je %1$s aanraden aan een vriend of collega?</item>
+        <item>Zou je je ervaring met %1$s aanraden aan een vriend?</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>Alleen peilingen die ik maak</item>
+        <item>Peilingen die ik maak of waarop ik een stem uitbreng</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>30 minuten</item>
+        <item>1 uur</item>
+        <item>2 uur</item>
+        <item>4 uur</item>
+        <item>Dagelijks</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>Algemeen</item>
+        <item>Netwerk</item>
+        <item>"Foto's en video's"</item>
+        <item>Tweets en tijdlijnen</item>
+    </string-array>
+</resources>

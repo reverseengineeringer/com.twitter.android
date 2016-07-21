@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_divider" layout="@layout/section_divider" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/title" android:text="@string/suggested_tweet" style="@style/SectionHeader.Profile.SuggestedHeader" />
+    <View android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider_thickness" />
+    <include layout="@layout/tweet_row_view_tweet" />
+    <include android:id="@id/bottom_divider" layout="@layout/section_divider" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/chat_message_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/ps__chat_avatar_size">
+        <tv.periscope.android.view.MaskImageView android:id="@id/avatar" android:background="@drawable/ps__bg_chat_avatar" android:layout_width="@dimen/ps__chat_avatar_size" android:layout_height="fill_parent" android:scaleType="centerCrop" android:minHeight="@dimen/ps__chat_avatar_size" />
+        <LinearLayout android:orientation="vertical" android:id="@id/chat_text_container" android:background="@drawable/ps__bg_chat" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="10.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ps__chat_layout_margin_end" android:minHeight="@dimen/ps__chat_avatar_size">
+            <LinearLayout android:orientation="horizontal" android:id="@id/username_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <tv.periscope.android.view.PsTextView android:textSize="12.0sp" android:textColor="@color/ps__light_grey" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" custom:ps__font="fonts/MuseoSans-300.otf" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/block_count_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:src="@drawable/ps__ic_block_small" />
+                <tv.periscope.android.view.PsTextView android:textSize="12.0sp" android:textColor="@color/ps__light_grey" android:id="@id/block_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:src="@drawable/ps__ic_block_small" custom:ps__font="fonts/MuseoSans-300.otf" />
+            </LinearLayout>
+            <tv.periscope.android.view.PsTextView android:textSize="14.0sp" android:textColor="@color/ps__dark_grey" android:id="@id/chat_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_weight="1.0" custom:ps__font="fonts/MuseoSans-300.otf" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/reply_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="7.0dip" android:src="@drawable/ps__ic_reply_indicator" />
+    <ImageView android:id="@id/block_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/ps__ic_block" />
+</RelativeLayout>

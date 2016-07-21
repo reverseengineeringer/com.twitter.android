@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/commerce_profile_summary_title" android:key="commerce_settings_payment_shipping" />
+    <Preference android:title="@string/commerce_menu_order_history" android:key="commerce_settings_order_history" />
+</PreferenceScreen>

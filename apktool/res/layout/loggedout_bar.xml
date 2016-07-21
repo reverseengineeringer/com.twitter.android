@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.widget.LoggedOutBar android:orientation="vertical" android:id="@id/loggedout_bar" android:background="@drawable/bg_bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/faded_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:id="@id/signup" android:text="@string/appindexing_signup" style="@style/AppIndexingSignUpButton" />
+        <Button android:id="@id/login" android:text="@string/appindexing_login" style="@style/AppIndexingLoginButton" />
+    </LinearLayout>
+</com.twitter.android.widget.LoggedOutBar>

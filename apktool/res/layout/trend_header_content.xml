@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/icon" android:layout_width="@dimen/user_image_size" android:layout_height="@dimen/user_image_size" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:layout_alignParentLeft="true" android:layout_centerVertical="true" twitter:defaultDrawable="@drawable/icn_trending_default" twitter:scaleType="fill" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/text_item" style="@style/ListItem.TrendHeader" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/promoted" android:visibility="gone" style="@style/Promoted.TrendHeader" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/sub_title" android:visibility="gone" style="@style/StatName.TrendHeader" />
+    </LinearLayout>
+</merge>

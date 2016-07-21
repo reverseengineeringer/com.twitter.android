@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_media_text_badge" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/media_badge" android:layout_width="@dimen/moments_audio_badge_size" android:layout_height="@dimen/moments_audio_badge_size" android:layout_margin="@dimen/moments_media_badge_spacing" android:contentDescription="@null" />
+    <com.twitter.library.widget.TightTextView android:id="@id/media_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moments_media_badge_spacing" android:layout_marginRight="@dimen/moments_media_badge_spacing" android:layout_marginBottom="@dimen/moments_media_badge_spacing" twitter:vertical_alignment="center" twitter:horizontal_alignment="center" twitter:text_size="@dimen/font_size_micro" twitter:text_color="@color/white" />
+</LinearLayout>

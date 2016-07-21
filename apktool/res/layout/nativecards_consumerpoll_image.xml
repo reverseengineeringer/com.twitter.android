@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/NativeCardsConsumerPollBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.media.ui.image.MediaImageView android:layout_gravity="center|top" android:id="@id/background_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip" twitter:aspect_ratio="1.0" twitter:singleImageView="true">
+            <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/default_corner_radius" twitter:fixedSize="true" />
+        </com.twitter.media.ui.image.MediaImageView>
+        <ViewSwitcher android:layout_gravity="bottom" android:id="@id/animator" style="@style/NativeCardsConsumerPollViewSwitcher.Image">
+            <LinearLayout android:id="@id/nativecards_consumerpoll_choices_container" style="@style/NativeCardsConsumerPollContentContainer.Image" />
+            <LinearLayout android:id="@id/nativecards_consumerpoll_results_container" style="@style/NativeCardsConsumerPollContentContainer.Image" />
+        </ViewSwitcher>
+    </FrameLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/pollstatus_text" android:layout_below="@id/wrapper" style="@style/NativeCardsConsumerPollStatusText.Image" />
+</RelativeLayout>

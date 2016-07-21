@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="5.0dip" />
+            <gradient android:startColor="@color/seamful_twitter_blue" android:endColor="@color/seamful_green" android:type="linear" />
+        </shape>
+    </item>
+</selector>

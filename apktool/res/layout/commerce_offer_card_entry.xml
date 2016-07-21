@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/offer_card_entry_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/commerce_card_form_padding" android:layout_marginRight="@dimen/commerce_card_form_padding">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/offer_credit_card_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/commerce_card_unknown_cc" android:contentDescription="@null" />
+            <ImageView android:id="@id/offer_credit_card_back_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/commerce_card_cc_back" android:contentDescription="@null" />
+        </FrameLayout>
+        <com.twitter.android.commerce.widget.creditcard.CardEntryContainer android:id="@id/offer_card_entry" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/border_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/commerce_card_entry_padding" android:layout_marginRight="@dimen/commerce_card_entry_padding" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:paddingLeft="@dimen/moments_standard_spacing" android:paddingTop="@dimen/moments_capsule_overlay_top_spacing" android:paddingRight="@dimen/moments_standard_spacing" android:paddingBottom="@dimen/moments_large_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/moments_fullscreen_tweet_actions_chrome" />
+    </LinearLayout>
+</FrameLayout>

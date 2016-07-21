@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/trends_divider" android:background="@drawable/trendsplus_list_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_thickness"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

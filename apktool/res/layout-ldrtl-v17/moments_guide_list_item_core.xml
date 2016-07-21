@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.ui.widget.ToggleTwitterButton android:id="@id/follow_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/follow" twitter:styleIdOn="@style/TwitterButtonSmallHeavy" twitter:styleIdOff="@style/TwitterButtonSmallBold" twitter:nodpiBaseIconName="ic_lightning_small" style="@style/TwitterButtonSmall" />
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/moments_standard_spacing" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/screen_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/standard_spacing" style="@style/MomentsGuideText.ScreenName" />
+            <ImageView android:id="@id/verified_badge" android:layout_marginRight="@dimen/standard_spacing" android:contentDescription="@null" style="@style/MomentsGuideVerifiedBadge" />
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/favicon_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsGuideText.FaviconText" />
+            <com.twitter.media.ui.image.MediaImageView android:id="@id/favicon_image" android:layout_marginLeft="@dimen/moments_standard_spacing_half" android:layout_marginRight="0.0dip" style="@style/MomentsGuideAuthorAvatar">
+                <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:cornerRadius="@dimen/corner_radius" />
+            </com.twitter.media.ui.image.MediaImageView>
+        </LinearLayout>
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsGuideText.Primary" />
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.twitter.ui.widget.BadgeView android:id="@id/promoted_badge" twitter:contentColor="@color/secondary_text" style="@style/BadgeView.Moments" />
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MomentsGuideText.Secondary" />
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/live_badge" android:layout_marginLeft="@dimen/moments_small_spacing" android:layout_marginRight="0.0dip" style="@style/MomentsGuideText.LiveBadge.Green" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/thumbnail_wrapper" android:layout_width="@dimen/moments_thumbnail_width" android:layout_height="@dimen/moments_thumbnail_height" android:layout_marginLeft="@dimen/moments_standard_spacing" layout="@layout/moments_guide_list_item_thumbnail" />
+</LinearLayout>

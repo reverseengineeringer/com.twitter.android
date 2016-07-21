@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/country_code_list_item_padding" android:paddingRight="@dimen/country_code_list_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textStyle="bold" android:textColor="@color/text" android:gravity="center_vertical" android:id="@id/country_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.twitter.ui.widget.TypefacesTextView android:textStyle="bold" android:textColor="@color/text" android:id="@id/country_code" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

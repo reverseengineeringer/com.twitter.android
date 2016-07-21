@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.events.sports.AdaptiveSportsEventView android:id="@id/event_view" android:padding="@dimen/cricket_matches_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/sport_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.twitter.android.events.sports.AdaptiveTeamRowView android:id="@id/team_one_row" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:customRowLayout="@layout/cricket_team_row" />
+        <com.twitter.android.events.sports.AdaptiveTeamRowView android:id="@id/team_two_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cricket_matches_margin_top" twitter:customRowLayout="@layout/cricket_team_row" />
+        <RelativeLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cricket_matches_margin">
+            <com.twitter.ui.widget.TypefacesTextView android:ellipsize="end" android:id="@id/tweet_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sports_tweet_count_left_margin" android:singleLine="true" android:layout_toLeftOf="@id/game_time" android:layout_alignParentLeft="true" />
+            <com.twitter.ui.widget.TypefacesTextView android:textStyle="bold" android:textColor="@color/deep_gray" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+            <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/medium_gray" android:id="@id/game_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/summary" android:layout_alignParentRight="true" />
+            <CheckBox android:textStyle="bold" android:textColor="@drawable/checkbox_textcolor" android:gravity="end|center" android:id="@id/gameRemindMeCB" android:background="@drawable/checkbox_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:button="@null" android:minWidth="148.0dip" android:minHeight="48.0dip" android:drawableRight="@drawable/checkbox_reminder" android:drawablePadding="8.0dip" android:layout_below="@id/game_time" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.twitter.android.events.sports.AdaptiveSportsEventView>

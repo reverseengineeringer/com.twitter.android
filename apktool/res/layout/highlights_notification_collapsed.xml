@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/highlights_notification_root" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/HighlightsNotification"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/notification_icon" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_toRightOf="@id/icon" android:layout_alignTop="@id/icon" android:layout_alignBottom="@id/icon" android:layout_alignParentRight="true">
+        <RelativeLayout android:id="@id/notif_col_1" style="@style/HighlightsNotification.Column">
+            <ImageView android:id="@id/notif_col_image_1" android:contentDescription="@null" style="@style/HighlightsNotification.Image" />
+            <TextView android:textColor="@color/highlights_notification_story_text" android:id="@id/notif_col_text_1" style="@style/HighlightsNotification.Text.Condensed" />
+            <ImageView android:layout_alignLeft="@id/notif_col_image_1" android:layout_alignTop="@id/notif_col_image_1" android:layout_alignRight="@id/notif_col_image_1" android:layout_alignBottom="@id/notif_col_text_1" android:contentDescription="@null" style="@style/HighlightsNotification.Selector" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/notif_col_2" android:layout_marginLeft="@dimen/highlights_notification_column_margin" style="@style/HighlightsNotification.Column">
+            <ImageView android:id="@id/notif_col_image_2" android:contentDescription="@null" style="@style/HighlightsNotification.Image" />
+            <TextView android:textColor="@color/highlights_notification_story_text" android:id="@id/notif_col_text_2" style="@style/HighlightsNotification.Text.Condensed" />
+            <ImageView android:layout_alignLeft="@id/notif_col_image_2" android:layout_alignTop="@id/notif_col_image_2" android:layout_alignRight="@id/notif_col_image_2" android:layout_alignBottom="@id/notif_col_text_2" android:contentDescription="@null" style="@style/HighlightsNotification.Selector" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

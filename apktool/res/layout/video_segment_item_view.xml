@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.media.widget.VideoSegmentListItemView android:orientation="horizontal" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" twitter:aspect_ratio="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/placeholder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/recording" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/recording_circle_active" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center" android:id="@id/waiting" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:contentDescription="@null" />
+    </FrameLayout>
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:scaleType="fill">
+        <com.twitter.media.ui.image.RichImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <com.twitter.library.media.widget.VideoDurationView android:layout_gravity="bottom|center|left" android:id="@id/duration" android:background="@drawable/bg_media_text_badge" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_margin="4.0dip" twitter:text_size="11.0dip" twitter:text_face="bold" twitter:text_color="@color/white" twitter:time_format="seconds" />
+</com.twitter.android.media.widget.VideoSegmentListItemView>

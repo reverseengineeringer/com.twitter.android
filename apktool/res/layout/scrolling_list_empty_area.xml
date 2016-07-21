@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.widget.ObservableScrollView android:id="@id/scroller" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="false">
+        <LinearLayout android:orientation="vertical" android:id="@id/list_empty_text" android:background="@color/list_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListRow">
+            <View android:id="@id/empty_header_spacer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.twitter.ui.widget.TypefacesTextView android:layout_gravity="center|top" android:id="@id/list_empty_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/standard_spacing" style="@style/Dot" />
+            <View android:id="@id/empty_footer_spacer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.twitter.library.widget.ObservableScrollView>
+    <ProgressBar android:layout_gravity="center" android:id="@id/list_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyle" />
+</FrameLayout>

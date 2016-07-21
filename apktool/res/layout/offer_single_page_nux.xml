@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.8" android:overScrollMode="never">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/commerce_font_size_xxxlarge" android:textColor="@color/text" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/commerce_offer_nux_padding" android:layout_marginBottom="@dimen/commerce_offer_nux_padding" android:text="@string/commerce_offer_nux_header" android:includeFontPadding="false" />
+            <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/commerce_offer_nux_padding">
+                <ImageView android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/illo_commerce_nux01" android:adjustViewBounds="true" android:layout_weight="0.33" android:contentDescription="@null" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.66">
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/commerce_font_size_xlarge" android:gravity="left" android:id="@id/offer_nux_section_header1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/commerce_offer_nux_padding_header" android:text="@string/commerce_offer_nux_section1_header" />
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/commerce_font_size_medium" android:textColor="@color/deep_gray" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/commerce_offer_nux_section1_text" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/commerce_offer_nux_padding" android:weightSum="1.0">
+                <ImageView android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/illo_commerce_nux02" android:adjustViewBounds="true" android:layout_weight="0.33" android:contentDescription="@null" />
+                <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.66">
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/commerce_font_size_xlarge" android:gravity="left" android:id="@id/offer_nux_section_header2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/commerce_offer_nux_padding_header" android:text="@string/commerce_offer_nux_section2_header" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <ImageView android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/illo_commerce_nux03" android:adjustViewBounds="true" android:layout_weight="0.33" android:contentDescription="@null" />
+                <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.66">
+                    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/commerce_font_size_xlarge" android:gravity="left" android:id="@id/offer_nux_section_header3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/commerce_offer_nux_padding_header" android:text="@string/commerce_offer_nux_section3_header" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.2">
+        <com.twitter.ui.widget.TwitterButton android:id="@id/offer_nux_finish" android:layout_width="fill_parent" android:layout_height="@dimen/commerce_card_button_height" android:layout_marginLeft="@dimen/commerce_main_padding" android:layout_marginRight="@dimen/commerce_main_padding" android:layout_marginBottom="@dimen/commerce_summary_subtitle_heavy_bottom_margin" android:text="@string/commerce_offer_nux_button" style="@style/TwitterButtonMediumHeavy" />
+    </LinearLayout>
+</LinearLayout>

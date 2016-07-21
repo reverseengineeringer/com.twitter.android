@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:selectable="false" android:summary="@string/settings_general_indicator" />
+    <CheckBoxPreference android:title="@string/settings_media_forward" android:key="media_forward" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/settings_data_charges_title" android:key="data_charges_alerts" android:summary="@string/settings_data_charges_summary" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/settings_video_data_title" android:key="category_autoplay">
+        <Preference android:selectable="false" android:summary="@string/settings_video_autoplay_summary" />
+        <com.twitter.android.settings.ListPreference android:entries="@array/auto_play_entries" android:title="@string/settings_video_autoplay_title" android:key="video_autoplay" android:summary="%s" android:defaultValue="@null" android:dialogTitle="@string/settings_video_autoplay_title" android:entryValues="@array/auto_play_value" />
+        <Preference android:title="@string/settings_learn_more" android:key="video_autoplay_learn_more" />
+    </PreferenceCategory>
+</PreferenceScreen>

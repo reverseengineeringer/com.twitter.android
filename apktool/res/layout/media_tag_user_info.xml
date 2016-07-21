@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.media.widget.UserImageView android:id="@id/user_image" style="@style/SmallUserImage" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/user_info_name" />
+        <com.twitter.ui.widget.TypefacesTextView android:id="@id/screenname_item" android:layout_below="@id/name_layout" style="@style/Username" />
+        <com.twitter.ui.widget.TypefacesTextView android:ellipsize="none" android:id="@id/cannot_tag" android:paddingLeft="3.0dip" android:visibility="gone" android:text="@string/cannot_photo_tag" android:singleLine="true" android:layout_toRightOf="@id/screenname_item" android:layout_alignBaseline="@id/screenname_item" style="@style/Username" />
+        <ImageView android:layout_gravity="right" android:id="@id/user_selected" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_accept_default" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:contentDescription="@null" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchScreenTheme" parent="@style/Theme">
+        <item name="android:windowBackground">@drawable/launch_screen_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="OverlayTheme" parent="@style/ThemeBase">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="highlightsActionFavorite">@drawable/highlights_action_heart</item>
+        <item name="mediaImageViewStyle">@style/MediaImageViewHighlights</item>
+        <item name="tweetMediaViewStyle">@style/TweetMediaView.Highlights</item>
+    </style>
+    <style name="Theme.Dark.Transparent.MomentsFullScreenPagerBase" parent="@style/Theme.Dark.Transparent">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="Theme.WhiteToolBarForeground.Moments" parent="@style/Theme.WhiteToolBarForeground">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="TranslucentBarTheme" parent="@style/ThemeBase">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="ps__InterstitialActivityTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

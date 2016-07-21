@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_add_participants" android:title="@string/dm_add_people" android:showAsAction="never" />
+    <item android:id="@id/menu_view_participants" android:title="@string/dm_view_participants" android:showAsAction="never" />
+    <item android:id="@id/menu_edit_group_name" android:title="@string/dm_edit_group_name" android:showAsAction="never" />
+    <item android:id="@id/menu_edit_group_photo" android:title="@string/dm_edit_group_photo" android:showAsAction="never" />
+    <item android:id="@id/menu_notifications_enabled" android:checked="true" android:title="@string/dm_turn_off_notifications" android:showAsAction="never" />
+    <item android:id="@id/menu_messages_delete" android:title="@string/delete" android:showAsAction="never" />
+    <item android:id="@id/menu_messages_flag" android:title="@string/dm_flag_action" android:showAsAction="never" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/dark_transparent_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/av_player_periscope_cta_margin" android:text="@string/periscope_end_status" android:textAllCaps="true" />
+    <FrameLayout android:id="@id/app_card_container" android:padding="@dimen/profile_spotlight_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:paddingTop="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/periscope_end_cta" android:layout_below="@id/app_card_container" />
+</RelativeLayout>

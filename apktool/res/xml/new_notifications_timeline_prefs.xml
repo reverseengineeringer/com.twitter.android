@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/vit_notifications_filter_category">
+        <CheckBoxPreference android:title="@string/settings_notifications_timeline_follow_only" android:key="notifications_follow_only" android:summary="@string/settings_notifications_timeline_follow_only_desc" />
+        <CheckBoxPreference android:title="@string/vit_quality_filter_title" android:key="quality_filter" android:summary="@string/vit_quality_filter_summary" />
+        <Preference android:title="@string/settings_notifications_privacy_and_safety" android:key="privacy_and_safety" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notifications_settings_category">
+        <Preference android:title="@string/settings_notifications_title" android:key="mobile_notifications" />
+        <com.twitter.android.settings.ListPreference android:persistent="false" android:entries="@array/badge_behaviors_descriptions" android:title="@string/settings_badge_title" android:key="launcher_icon_badge_behavior" android:defaultValue="badge_enabled" android:entryValues="@array/badge_behaviors_values" />
+        <Preference android:title="@string/settings_advanced" android:key="advanced" />
+    </PreferenceCategory>
+</PreferenceScreen>

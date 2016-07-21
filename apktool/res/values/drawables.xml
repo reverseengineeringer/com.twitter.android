@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_icon_bg">@color/notification_icon_bg</item>
+    <item type="drawable" name="highlights_tweet_media_default">@color/placeholder_bg</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/share_via_dm_padding_large" android:paddingTop="@dimen/share_via_dm_padding_large" android:paddingRight="@dimen/share_via_dm_padding_large" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/share_via_dm_title_font_size" android:textColor="@color/secondary_text" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_via_dm_error_title" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/share_via_dm_font_size_text" android:textColor="@color/secondary_text" android:gravity="center" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_via_dm_add_participants_error" />
+</LinearLayout>

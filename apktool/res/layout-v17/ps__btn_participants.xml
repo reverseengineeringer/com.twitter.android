@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ps__min_touch_target_size" android:minHeight="@dimen/ps__min_touch_target_size" android:paddingStart="@dimen/ps__btn_horizontal_padding" android:paddingEnd="@dimen/ps__btn_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/num_people_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ps__ic_participants" android:scaleType="center" />
+    <tv.periscope.android.view.PsTextView android:textSize="16.0sp" android:textColor="@color/ps__white" android:id="@id/num_people_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginStart="6.0dip" custom:ps__font="fonts/MuseoSans-700.otf" />
+</LinearLayout>

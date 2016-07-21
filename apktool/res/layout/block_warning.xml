@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListRow.BlockWarning"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/block_warning_header_font_size" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/warning_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/block_warning_line_space" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/block_warning_body_font_size" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/warning_body" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.twitter.ui.widget.TwitterButton android:id="@id/button_view_tweet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/block_warning_button_top_margin" android:text="@string/view_tweet" style="@style/TwitterButtonBlockWarning" />
+</LinearLayout>

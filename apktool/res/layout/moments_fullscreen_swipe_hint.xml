@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/moments_text_size_medium" android:textColor="@color/white" android:id="@id/swipe_hint_text" android:paddingLeft="@dimen/moments_standard_spacing" android:paddingRight="@dimen/moments_standard_spacing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/moments_fullscreen_swipe_hint" android:drawablePadding="@dimen/moments_standard_spacing_half" android:textAllCaps="true" style="@style/MomentsFullScreenText.Thin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

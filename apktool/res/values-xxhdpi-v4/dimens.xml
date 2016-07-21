@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="divider_thickness">2.0px</dimen>
+    <dimen name="moments_guide_badge_margin">-4.3299866dip</dimen>
+</resources>

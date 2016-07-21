@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="num_gallery_grid_columns">5</integer>
+    <integer name="num_gallery_grid_columns_periscope_exp">5</integer>
+    <integer name="video_advertisement_notice_duration">6250</integer>
+</resources>

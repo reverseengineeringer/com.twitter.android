@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.library.media.widget.UserImageView android:id="@id/team_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:layout_centerVertical="true" android:contentDescription="@null" twitter:userImageSize="@dimen/user_image_size" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/team_logo" android:layout_centerVertical="true">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textColor="@color/deep_gray" android:id="@id/team_location" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:id="@id/team_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_xxlarge" android:textStyle="bold" android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

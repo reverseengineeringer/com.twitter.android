@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/inline_dismiss_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout style="@style/InlineDismissItem">
+            <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/subtext" android:id="@id/confirmation_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InlineDismissConfirmationText" />
+            <com.twitter.ui.widget.TypefacesTextView android:textStyle="bold" android:textColor="@color/inline_dismiss_undo" android:id="@id/undo_feeback" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/inline_dismiss_undo" android:contentDescription="@string/inline_dismiss_undo" style="@style/InlineDismissUndoButton" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/feedback_items" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/inline_dismiss_divider" android:showDividers="middle|beginning" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/poi_fragment_root" android:focusableInTouchMode="true" style="@style/POIFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/poi_title" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/list_preferred_height">
+        <com.twitter.ui.widget.TwitterButton android:id="@id/poi_title_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TwitterButtonMediumBorderless" />
+        <View android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        <TextSwitcher android:id="@id/title_switcher" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_centerInParent="true">
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textStyle="bold" android:textColor="@color/secondary_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_large" android:textStyle="bold" android:textColor="@color/secondary_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </TextSwitcher>
+    </RelativeLayout>
+    <com.twitter.ui.widget.TwitterEditText android:textColor="@color/primary_text" android:textColorHint="@color/secondary_text" android:gravity="center_vertical" android:id="@id/query" android:layout_width="fill_parent" android:layout_height="@dimen/list_preferred_height" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="5.0dip" android:hint="@string/poi_search_prompt" android:drawablePadding="5.0dip" android:layout_below="@id/poi_title" android:inputType="textNoSuggestions" android:imeOptions="actionSearch|flagNoExtractUi" style="@style/TwitterEditText" />
+    <ListView android:id="@id/poi_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_below="@id/query" style="@style/List" />
+    <FrameLayout android:id="@android:id/empty" android:background="@color/app_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/query">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/place_picker_empty_view_margin" android:layout_marginRight="@dimen/place_picker_empty_view_margin">
+            <com.twitter.ui.widget.TypefacesTextView android:textSize="21.0sp" android:id="@id/failure_primary_text" style="@style/PlacePickerEmptyTextView" />
+            <com.twitter.ui.widget.TypefacesTextView android:id="@id/failure_secondary_text" android:layout_marginTop="@dimen/place_picker_secondary_text_margin_top" style="@style/PlacePickerEmptyTextView" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@id/list_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyle" />
+    </FrameLayout>
+    <include android:id="@id/poi_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/poi_setting_item" />
+</RelativeLayout>

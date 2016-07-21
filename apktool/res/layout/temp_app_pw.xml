@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/standard_spacing">
+        <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/primary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/what_is_a_temp_app_pw" />
+    </LinearLayout>
+    <View android:background="@color/faded_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.twitter.refresh.widget.RefreshableListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/List.Refreshable" />
+    <include android:id="@android:id/empty" layout="@layout/empty_list_layout" />
+    <View android:background="@color/faded_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/contacts_settings_button" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/font_size_medium" android:padding="@dimen/contacts_sync_notification_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contacts_sync_disabled" />
+    <View android:background="@color/faded_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

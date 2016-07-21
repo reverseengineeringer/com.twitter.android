@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/tweet_row_item" android:paddingLeft="@dimen/highlights_outer_padding" android:paddingTop="@dimen/highlights_inner_spacing_topalign_adjusted" android:paddingRight="@dimen/highlights_outer_padding" android:paddingBottom="@dimen/highlights_ascii_topalign_image_adjustment" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/highlights_tweet_header_tall" />
+    <com.twitter.media.ui.image.AspectRatioFrameLayout android:id="@id/media_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/highlights_inner_spacing" android:layout_below="@id/screen_name_and_time" twitter:aspect_ratio="@dimen/highlights_media_aspect_ratio">
+        <com.twitter.library.media.widget.TweetMediaView android:id="@id/tweet_media" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:defaultDrawable="@drawable/highlights_tweet_media_default" />
+    </com.twitter.media.ui.image.AspectRatioFrameLayout>
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/highlights_tweet_media_text_size" android:id="@id/tweet_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/highlights_inner_spacing" android:layout_below="@id/media_box" android:lineSpacingMultiplier="@dimen/highlights_spacing_large_text" style="@style/Highlights.ContentText" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/highlights_inline_action_min_height" android:layout_marginBottom="@dimen/highlights_tweet_row_spacing" android:layout_below="@id/tweet_content" layout="@layout/highlights_tweet_actions_inline" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.ToolbarWrapperLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/top_toolbar" />
+        <ScrollView android:background="@color/list_margin_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SignupForm">
+                    <com.twitter.ui.widget.TwitterEditText android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textEmailAddress" android:imeOptions="flagNoExtractUi" twitter:labelText="@string/signup_email_label" style="@style/TwitterSignupEdit" />
+                    <com.twitter.ui.widget.TwitterEditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPassword" android:imeOptions="flagNoExtractUi" twitter:labelText="@string/signup_password_label" style="@style/TwitterSignupEdit" />
+                </LinearLayout>
+                <View android:id="@id/horizontal_rule" android:layout_marginBottom="5.0dip" style="@style/HorizontalRule" />
+                <Button android:enabled="false" android:id="@id/submit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_row_padding_horizontal" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:text="@string/settings_change_email_title" style="@style/Button.Submit" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</com.twitter.library.widget.ToolbarWrapperLayout>

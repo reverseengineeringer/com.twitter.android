@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.android.settings.MultilineCheckBoxPreference android:title="@string/settings_personalized_ads_title" android:key="allow_personalized_ads" android:summary="@string/settings_personalized_ads_summary" />
+    <Preference android:title="@string/settings_learn_more" android:key="learn_more" />
+</PreferenceScreen>

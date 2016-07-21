@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/section_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Select Show" />
+    <Spinner android:id="@id/community_id_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.twitter.ui.widget.TypefacesTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Semantic Core Entity ID" />
+    <EditText android:id="@id/community_id_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="numberDecimal|phone|textCapWords" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingBottom="@dimen/feedback_complete_view_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/feedback_card_dismiss_button" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/feedback_thank_you_text" android:layout_marginTop="@dimen/nps_feedback_card_prompts_text_top_margin" android:text="@string/feedback_finish_message" android:layout_below="@id/feedback_dismiss_button" style="@style/CustomerFeedbackCardPromptTitle" />
+    <com.twitter.ui.widget.TwitterButton android:textSize="@dimen/feedback_card_medium_text_size" android:id="@id/feedback_tweet_experience_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feedback_card_center_button_top_bottom_margin" android:text="@string/tweet_about_experience" android:layout_below="@id/feedback_thank_you_text" android:layout_centerHorizontal="true" app:labelColor="@color/secondary_text" app:strokeColor="@color/secondary_text" app:strokePressedColor="@color/pressed" app:labelPressedColor="@color/pressed" style="@style/TwitterButtonMediumLight" />
+</RelativeLayout>

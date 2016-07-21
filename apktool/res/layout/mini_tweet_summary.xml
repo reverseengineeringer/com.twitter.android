@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_mini_tweet_top_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textStyle="bold" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ActivityText.Byline" />
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/mini_tweet_content" android:paddingTop="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ActivityTweetView" />
+</LinearLayout>

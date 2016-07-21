@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.media.ui.image.MediaImageView android:id="@id/primary_image" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twitter.moments.core.ui.widget.capsule.DrawableAwareImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.twitter.media.ui.image.MediaImageView>
+    <include layout="@layout/moments_image_loading_progress_bar" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ParentAlignment"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/name_item" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?userInfoNameStyle" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/protected_item" android:paddingLeft="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_locked" android:contentDescription="@string/icon_protected" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/verified_item" android:paddingLeft="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_verified" android:contentDescription="@string/icon_verified" />
+</LinearLayout>

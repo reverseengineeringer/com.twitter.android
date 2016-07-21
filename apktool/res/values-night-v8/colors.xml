@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#ff1b2836</color>
+    <color name="border_color">#ff324554</color>
+    <color name="focused_bg">@color/toolbar_bg_color</color>
+    <color name="list_bg">@color/clear</color>
+    <color name="placeholder_bg">@color/toolbar_bg_color</color>
+    <color name="pressed">@color/border_color</color>
+    <color name="section_divider_color">#ff141d26</color>
+    <color name="status_bar_color">@color/app_background</color>
+    <color name="subtext">#ff8899a6</color>
+    <color name="text">#ffffffff</color>
+    <color name="text_blue">@color/twitter_blue</color>
+    <color name="toolbar_bg_color">#ff243447</color>
+    <color name="unread">#ff2e4359</color>
+</resources>

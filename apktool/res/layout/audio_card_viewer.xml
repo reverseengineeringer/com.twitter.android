@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.widget.ExpandableViewHost android:id="@id/expandable_view_host" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" twitter:expandableViewId="@id/av_card_canvas_view" twitter:footerViewId="@id/av_card_canvas_tweet_engagement_view" twitter:controllerViewId="@id/audio_player_artwork" twitter:backgroundColor="@color/dark_transparent_black"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.android.av.TweetEngagementView android:id="@id/av_card_canvas_tweet_engagement_view" android:layout_width="fill_parent" android:layout_height="@dimen/button_min_size" android:layout_alignParentBottom="true" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/av_card_canvas_tweet_engagement_view">
+        <com.twitter.android.av.audio.AudioCardPlayerView android:layout_gravity="center" android:id="@id/av_card_canvas_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_small" twitter:maxWidth="@dimen/audio_card_view_max_width" />
+    </FrameLayout>
+</com.twitter.android.widget.ExpandableViewHost>

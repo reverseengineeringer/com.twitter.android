@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/app_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="12.0dip">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/gallery" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/composer_footer_camera" android:contentDescription="@string/button_action_photos" />
+        <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/found_media" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/composer_footer_found_media" android:contentDescription="@string/button_action_found_media" />
+        <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/poll" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/poll_selector" android:contentDescription="@string/button_action_poll" />
+        <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.twitter.android.widget.ToggleImageButton android:layout_gravity="center_vertical" android:id="@id/location" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_dialog_geo" android:scaleType="center" twitter:contentDescriptionOn="@string/button_action_disable_geo_tag" twitter:contentDescriptionOff="@string/button_action_enable_geo_tag" twitter:toggleOnClick="false" />
+        <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip">
+            <com.twitter.android.composer.ComposerCountView android:textSize="@dimen/font_size_small" android:gravity="center_vertical" android:id="@id/count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:text="@string/max_chars" style="@style/CharCount" />
+            <ProgressBar android:gravity="center" android:id="@id/card_preview_progress" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminate="true" style="?android:attr/progressBarStyleSmall" />
+        </FrameLayout>
+        <com.twitter.ui.widget.TwitterButton android:layout_gravity="center_vertical" android:id="@id/composer_post" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/post_tweet" style="@style/TwitterButtonMediumHeavy" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.twitter.android.moments.ui.maker.SnappyRecyclerView android:layout_gravity="center" android:id="@id/canvas_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include layout="@layout/moment_maker_canvas_bottom_navigation" />
+</LinearLayout>

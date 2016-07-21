@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DMRow.JoinConversation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/secondary_text" android:ellipsize="end" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/line_spacing_extra" style="@style/DMRow.JoinConversationInlineItem" />
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/secondary_text" android:ellipsize="end" android:id="@id/more_participants_in_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/line_spacing_extra" style="@style/DMRow.JoinConversationInlineItem" />
+    <com.twitter.ui.widget.TypefacesTextView android:textColor="@color/secondary_text" android:id="@id/protect_account_warning" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dm_protected_user_warning" android:lineSpacingExtra="@dimen/line_spacing_extra" style="@style/DMRow.JoinConversationInlineItem" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/participant_avatars" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DMRow.JoinConversationInlineItem" />
+</LinearLayout>

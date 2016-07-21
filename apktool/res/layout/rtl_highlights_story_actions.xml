@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/actions" android:layout_width="fill_parent" android:layout_height="@dimen/highlights_action_height" style="@style/StoryActionBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:id="@id/story_action_open" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/StoryActionBarViewButton" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.twitter.library.widget.CompoundDrawableAnimButton android:id="@id/story_action_follow" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableRight="@drawable/highlights_action_follow" android:contentDescription="@string/follow" style="@style/HighlightsActionButton.InStoryActionBar" />
+    <com.twitter.library.widget.CompoundDrawableAnimButton android:id="@id/story_action_favorite" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableRight="?highlightsActionFavorite" android:contentDescription="@string/tweets_like" style="@style/HighlightsActionButton.InStoryActionBar" />
+    <com.twitter.library.widget.CompoundDrawableAnimButton android:id="@id/story_action_retweet" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableRight="@drawable/highlights_action_retweet" android:drawablePadding="@dimen/highlights_action_retweet_padding" android:contentDescription="@string/tweets_retweet" style="@style/HighlightsActionButton.InStoryActionBar" />
+</LinearLayout>

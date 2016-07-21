@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="@dimen/profile_header_avatar_border" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.ui.widget.TypefacesTextView android:textStyle="bold" android:textColor="@color/secondary_text" android:ellipsize="end" android:id="@id/title" android:padding="@dimen/profile_header_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" />
+    <ImageView android:id="@id/dismiss" android:padding="@dimen/profile_dismiss_button_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/profile_dismiss_button_margin_right" android:src="@drawable/ic_dialog_close_no_border" android:contentDescription="@string/button_action_dismiss" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.android.profilecompletionmodule.profilepreview.ProfilePreviewScreen android:orientation="vertical" android:background="@color/twitter_blue" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/skip" android:padding="@dimen/prompt_dismiss_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cc_close_no_padding_light" android:contentDescription="@string/cancel" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="11.0">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+                <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="7.0" />
+                <include android:layout_gravity="center" android:id="@id/profile_card" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_horizontal_padding" android:layout_marginRight="@dimen/list_horizontal_padding" android:layout_weight="86.0" layout="@layout/profile_card_layout" />
+                <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="7.0" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
+            <com.twitter.ui.widget.TypefacesTextView android:layout_gravity="center_horizontal" android:id="@id/screen_title" android:paddingLeft="@dimen/prompt_fullscreen_text_padding_horizontal" android:paddingRight="@dimen/prompt_fullscreen_text_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/profile_module_preview_title_margin_vertical" android:layout_marginBottom="@dimen/profile_module_preview_title_margin_vertical" android:text="@string/profile_module_preview_title_filled" style="@style/PromptText" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.twitter.ui.widget.TwitterButton android:layout_gravity="center_horizontal" android:id="@id/cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/profile_module_preview_cta_margin_bottom" android:text="@string/profile_module_preview_cta" app:fillColor="@color/white" style="@style/TwitterButtonLargeBold" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
+        </LinearLayout>
+    </ScrollView>
+</com.twitter.android.profilecompletionmodule.profilepreview.ProfilePreviewScreen>

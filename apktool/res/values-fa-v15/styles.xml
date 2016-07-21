@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionButton" parent="@style/ActionButtonBase">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginRight">@dimen/btn_padding_horiz</item>
+    </style>
+    <style name="ActionButton.Follow" parent="@style/ActionButton">
+        <item name="android:paddingTop">@dimen/btn_follow_padding</item>
+        <item name="android:paddingBottom">@dimen/btn_follow_padding</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:minWidth">@dimen/user_follow_btn_min_width</item>
+        <item name="android:minHeight">@dimen/user_follow_btn_min_height</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ActionButton.TweetDetails" parent="@style/ActionButton">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="ActivityText.Info" parent="@style/ActivityText">
+        <item name="android:textSize">@dimen/font_size_small</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:paddingLeft">@dimen/list_row_padding_horizontal</item>
+    </style>
+    <style name="ActivityText.Title" parent="@style/ActivityText">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:gravity">bottom|center|right</item>
+    </style>
+    <style name="CarouselTweetDismiss">
+        <item name="android:paddingRight">@dimen/tweet_dismiss_padding</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="CarouselTweetHeader">
+        <item name="android:layout_toLeftOf">@id/profile_image</item>
+    </style>
+    <style name="CarouselTweetProfileImage">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="InlineDismissConfirmationText">
+        <item name="android:layout_toRightOf">@id/undo_feeback</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="InlineDismissUndoButton">
+        <item name="android:layout_marginRight">@dimen/inline_dismiss_undo_inside_margin</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="ListRow.Activity" parent="@style/ListRow">
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="ParentAlignment">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="SectionHeader.Profile.SuggestedHeader" parent="@style/SectionHeader.Profile">
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="SmartFollowUserAvatarStyle">
+        <item name="android:layout_marginLeft">@dimen/smart_follow_list_avatar_margin_end</item>
+        <item name="android:layout_marginTop">@dimen/smart_follow_list_avatar_margin_top</item>
+    </style>
+    <style name="TextContent">
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="TimelineMessageDismiss">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="TweetDetailsName">
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginRight">@dimen/list_row_padding_horizontal</item>
+        <item name="android:layout_toLeftOf">@id/profile_image</item>
+        <item name="android:layout_toRightOf">@id/action_button</item>
+    </style>
+    <style name="TweetProfileImage">
+        <item name="android:paddingLeft">@dimen/image_margin_end</item>
+        <item name="android:paddingRight">0.0dip</item>
+    </style>
+    <style name="UserAvatarStyle">
+        <item name="android:layout_marginLeft">@dimen/image_margin_end</item>
+    </style>
+    <style name="UserImage">
+        <item name="android:layout_width">@dimen/user_image_size</item>
+        <item name="android:layout_height">@dimen/user_image_size</item>
+        <item name="android:layout_marginLeft">@dimen/list_row_padding_horizontal</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="UserSelected">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+</resources>

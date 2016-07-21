@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twitter.library.widget.UserSocialView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListRow.WhoToFollow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.library.widget.SocialBylineView android:id="@id/social_byline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/SocialProof.WhoToFollow" />
+    <com.twitter.library.media.widget.UserImageView android:id="@id/user_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/image_margin_end" android:layout_below="@id/social_byline" android:layout_alignParentRight="true" twitter:singleImageView="true" />
+    <com.twitter.library.widget.ActionButton android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_row_padding_horizontal" android:layout_below="@id/social_byline" android:layout_alignParentLeft="true" style="@style/ActionButton.Follow" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/user_image" android:layout_toRightOf="@id/action_button" android:layout_below="@id/social_byline" layout="@layout/unpadded_user_info" />
+    <include layout="@layout/user_promoted_info" />
+</com.twitter.library.widget.UserSocialView>

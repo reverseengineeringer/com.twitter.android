@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="badge_behaviors_descriptions">
+        <item>Enabled for all</item>
+        <item>Enabled only for Direct Messages</item>
+        <item>Disabled for all</item>
+    </string-array>
+    <string-array name="card_long_press_options">
+        <item>Tweet link</item>
+        <item>Copy link</item>
+        <item>Send link</item>
+    </string-array>
+    <string-array name="csat_prompt_feedback_variants">
+        <item>What is your overall satisfaction with %1$s?</item>
+        <item>How satisfied are you with %1$s?</item>
+        <item>Overall, how satisfied were you with your recent %1$s experience?</item>
+        <item>How would you rate the overall experience with %1$s?</item>
+        <item>How would you rate your overall experience with %1$s?</item>
+        <item>How would you rate your experience so far with %1$s?</item>
+        <item>How would you rate your experience on Twitter with %1$s?</item>
+        <item>Were you satisfied with your recent experience with %1$s?</item>
+        <item>How well does %1$s meet your expectations?</item>
+        <item>How would you rate your guest experience with %1$s?</item>
+        <item>How would you rate your service experience with %1$s?</item>
+        <item>How would you rate your recent service experience with %1$s?</item>
+        <item>How would you rate the service you received from %1$s?</item>
+        <item>Were you satisfied with the result of your interaction with %1$s?</item>
+        <item>How would you rate the ability to resolve your issue with %1$s?</item>
+        <item>How would you rate the response time from %1$s?</item>
+        <item>How would you rate the speed of service from %1$s?</item>
+        <item>How would you rate the time to resolution with %1$s?</item>
+        <item>How would you rate the time to resolve your issue with %1$s?</item>
+        <item>How would you rate the speed of resolution with %1$s?</item>
+        <item>"How would you rate the %1$s advisor's expertise?"</item>
+        <item>How satisfied were you with the %1$s agent who helped you?</item>
+        <item>How satisfied were you with the %1$s specialist who helped you?</item>
+        <item>How satisfied were you with the %1$s representative who helped you?</item>
+        <item>How would you rate your recent banking experience with %1$s?</item>
+        <item>How would you rate the overall event experience at %1$s?</item>
+        <item>How would you rate your bill pay experience with %1$s?</item>
+        <item>How would you rate your purchase experience with %1$s?</item>
+        <item>How would you rate your shopping experience with %1$s?</item>
+        <item>How would you rate your delivery experience with %1$s?</item>
+        <item>How would you rate your rental experience with %1$s?</item>
+        <item>How would you rate your recent %1$s store visit?</item>
+        <item>How would you rate your recent %1$s hotel stay?</item>
+        <item>How would you rate your recent flight with %1$s?</item>
+        <item>How would you rate your recent ride with %1$s?</item>
+        <item>How would you rate your recent trip with %1$s?</item>
+        <item>How would you rate your recent visit to %1$s?</item>
+        <item>How would you rate your recent meal at %1$s?</item>
+    </string-array>
+    <string-array name="mention_notif">
+        <item>Tailored for you</item>
+        <item>From anyone</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="nps_prompt_feedback_variants">
+        <item>How likely are you to recommend %1$s to a friend?</item>
+        <item>How likely is it that you would recommend %1$s to a friend?</item>
+        <item>How likely is it that you would recommend %1$s to a colleague?</item>
+        <item>How likely is it that you would recommend %1$s to a family member?</item>
+        <item>How likely is it that you would recommend %1$s to someone else?</item>
+        <item>How likely is it that you would recommend %1$s to a friend or colleague?</item>
+        <item>How likely is it that you would shop at %1$s in the future?</item>
+        <item>How likely is it that you would recommend %1$s?</item>
+        <item>Would you recommend %1$s to a friend or colleague?</item>
+        <item>How likely are you to recommend your experience with %1$s to a friend?</item>
+    </string-array>
+    <string-array name="polls_notif">
+        <item>Only polls I create</item>
+        <item>Polls I create or vote in</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="refresh_intervals">
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>Daily</item>
+    </string-array>
+    <string-array name="report_problem_dlg_categories">
+        <item>General</item>
+        <item>Network</item>
+        <item>Photos and videos</item>
+        <item>Tweets and timelines</item>
+    </string-array>
+    <string-array name="auto_play_entries">
+        <item>@string/settings_video_autoplay_use_mobile_wifi</item>
+        <item>@string/settings_video_autoplay_use_wifi_only</item>
+        <item>@string/settings_video_autoplay_never</item>
+    </string-array>
+    <string-array name="auto_play_value">
+        <item>wifi_and_mobile</item>
+        <item>wifi_only</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="badge_behaviors_values">
+        <item>badge_enabled</item>
+        <item>badge_dm_only</item>
+        <item>badge_disabled</item>
+    </string-array>
+    <array name="camera_flash_toggle_drawables">
+        <item>@drawable/ic_cc_flash_off</item>
+        <item>@drawable/ic_cc_flash</item>
+        <item>@drawable/ic_cc_flash</item>
+    </array>
+    <string-array name="camera_flash_toggle_modes">
+        <item>off</item>
+        <item>on</item>
+        <item>torch</item>
+    </string-array>
+    <string-array name="change_photo_options">
+        <item>@string/edit_profile_take_photo</item>
+        <item>@string/edit_profile_choose_existing_photo</item>
+    </string-array>
+    <string-array name="commerce_state_codes">
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>DC</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+    <string-array name="commerce_states_long_list">
+        <item>@string/commerce_choose_state</item>
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>District Of Columbia</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+    <integer-array name="emoji_codes">
+        <item>0x1f415</item>
+        <item>0x1f436</item>
+        <item>0x1f429</item>
+        <item>0x1f408</item>
+        <item>0x1f431</item>
+        <item>0x1f400</item>
+        <item>0x1f401</item>
+        <item>0x1f42d</item>
+        <item>0x1f439</item>
+        <item>0x1f422</item>
+        <item>0x1f407</item>
+        <item>0x1f430</item>
+        <item>0x1f413</item>
+        <item>0x1f414</item>
+        <item>0x1f423</item>
+        <item>0x1f424</item>
+        <item>0x1f425</item>
+        <item>0x1f426</item>
+        <item>0x1f40f</item>
+        <item>0x1f411</item>
+        <item>0x1f410</item>
+        <item>0x1f43a</item>
+        <item>0x1f403</item>
+        <item>0x1f402</item>
+        <item>0x1f404</item>
+        <item>0x1f42e</item>
+        <item>0x1f434</item>
+        <item>0x1f417</item>
+        <item>0x1f416</item>
+        <item>0x1f437</item>
+        <item>0x1f43d</item>
+        <item>0x1f438</item>
+        <item>0x1f40d</item>
+        <item>0x1f43c</item>
+        <item>0x1f427</item>
+        <item>0x1f418</item>
+        <item>0x1f428</item>
+        <item>0x1f412</item>
+        <item>0x1f435</item>
+        <item>0x1f405</item>
+        <item>0x1f406</item>
+        <item>0x1f42f</item>
+        <item>0x1f43b</item>
+        <item>0x1f42b</item>
+        <item>0x1f42a</item>
+        <item>0x1f40a</item>
+        <item>0x1f433</item>
+        <item>0x1f40b</item>
+        <item>0x1f41f</item>
+        <item>0x1f420</item>
+        <item>0x1f421</item>
+        <item>0x1f419</item>
+        <item>0x1f41a</item>
+        <item>0x1f42c</item>
+        <item>0x1f40c</item>
+        <item>0x1f41b</item>
+        <item>0x1f41c</item>
+        <item>0x1f41d</item>
+        <item>0x1f41e</item>
+        <item>0x1f432</item>
+        <item>0x1f409</item>
+        <item>0x1f43e</item>
+        <item>0x1f378</item>
+        <item>0x1f37a</item>
+        <item>0x1f37b</item>
+        <item>0x1f377</item>
+        <item>0x1f379</item>
+        <item>0x1f376</item>
+        <item>0x2615</item>
+        <item>0x1f375</item>
+        <item>0x1f37c</item>
+        <item>0x1f374</item>
+        <item>0x1f368</item>
+        <item>0x1f367</item>
+        <item>0x1f366</item>
+        <item>0x1f369</item>
+        <item>0x1f370</item>
+        <item>0x1f36a</item>
+        <item>0x1f36b</item>
+        <item>0x1f36c</item>
+        <item>0x1f36d</item>
+        <item>0x1f36e</item>
+        <item>0x1f36f</item>
+        <item>0x1f373</item>
+        <item>0x1f354</item>
+        <item>0x1f35f</item>
+        <item>0x1f35d</item>
+        <item>0x1f355</item>
+        <item>0x1f356</item>
+        <item>0x1f357</item>
+        <item>0x1f364</item>
+        <item>0x1f363</item>
+        <item>0x1f371</item>
+        <item>0x1f35e</item>
+        <item>0x1f35c</item>
+        <item>0x1f359</item>
+        <item>0x1f35a</item>
+        <item>0x1f35b</item>
+        <item>0x1f372</item>
+        <item>0x1f365</item>
+        <item>0x1f362</item>
+        <item>0x1f361</item>
+        <item>0x1f358</item>
+        <item>0x1f360</item>
+        <item>0x1f34c</item>
+        <item>0x1f34e</item>
+        <item>0x1f34f</item>
+        <item>0x1f34a</item>
+        <item>0x1f34b</item>
+        <item>0x1f344</item>
+        <item>0x1f345</item>
+        <item>0x1f346</item>
+        <item>0x1f347</item>
+        <item>0x1f348</item>
+        <item>0x1f349</item>
+        <item>0x1f350</item>
+        <item>0x1f351</item>
+        <item>0x1f352</item>
+        <item>0x1f353</item>
+        <item>0x1f34d</item>
+        <item>0x1f330</item>
+        <item>0x1f331</item>
+        <item>0x1f332</item>
+        <item>0x1f333</item>
+        <item>0x1f334</item>
+        <item>0x1f335</item>
+        <item>0x1f337</item>
+        <item>0x1f338</item>
+        <item>0x1f339</item>
+        <item>0x1f340</item>
+        <item>0x1f341</item>
+        <item>0x1f342</item>
+        <item>0x1f343</item>
+        <item>0x1f33a</item>
+        <item>0x1f33b</item>
+        <item>0x1f33c</item>
+        <item>0x1f33d</item>
+        <item>0x1f33e</item>
+        <item>0x1f33f</item>
+        <item>0x2600</item>
+        <item>0x1f308</item>
+        <item>0x26c5</item>
+        <item>0x2601</item>
+        <item>0x1f301</item>
+        <item>0x1f302</item>
+        <item>0x2614</item>
+        <item>0x1f4a7</item>
+        <item>0x26a1</item>
+        <item>0x1f300</item>
+        <item>0x2744</item>
+        <item>0x26c4</item>
+        <item>0x1f319</item>
+        <item>0x1f31e</item>
+        <item>0x1f31d</item>
+        <item>0x1f31a</item>
+        <item>0x1f31b</item>
+        <item>0x1f31c</item>
+        <item>0x1f311</item>
+        <item>0x1f312</item>
+        <item>0x1f313</item>
+        <item>0x1f314</item>
+        <item>0x1f315</item>
+        <item>0x1f316</item>
+        <item>0x1f317</item>
+        <item>0x1f318</item>
+        <item>0x1f391</item>
+        <item>0x1f304</item>
+        <item>0x1f305</item>
+        <item>0x1f307</item>
+        <item>0x1f306</item>
+        <item>0x1f303</item>
+        <item>0x1f30c</item>
+        <item>0x1f309</item>
+        <item>0x1f30a</item>
+        <item>0x1f30b</item>
+        <item>0x1f30e</item>
+        <item>0x1f30f</item>
+        <item>0x1f30d</item>
+        <item>0x1f310</item>
+        <item>0x1f51d</item>
+        <item>0x1f519</item>
+        <item>0x1f51b</item>
+        <item>0x1f51c</item>
+        <item>0x1f51a</item>
+        <item>0x23f3</item>
+        <item>0x231b</item>
+        <item>0x23f0</item>
+        <item>0x2648</item>
+        <item>0x2649</item>
+        <item>0x264a</item>
+        <item>0x264b</item>
+        <item>0x264c</item>
+        <item>0x264d</item>
+        <item>0x264e</item>
+        <item>0x264f</item>
+        <item>0x2650</item>
+        <item>0x2651</item>
+        <item>0x2652</item>
+        <item>0x2653</item>
+        <item>0x26ce</item>
+        <item>0x1f531</item>
+        <item>0x1f52f</item>
+        <item>0x1f6bb</item>
+        <item>0x1f6ae</item>
+        <item>0x1f6af</item>
+        <item>0x1f6b0</item>
+        <item>0x1f6b1</item>
+        <item>0x1f170</item>
+        <item>0x1f171</item>
+        <item>0x1f18e</item>
+        <item>0x1f17e</item>
+        <item>0x1f4ae</item>
+        <item>0x1f4af</item>
+        <item>0x1f520</item>
+        <item>0x1f521</item>
+        <item>0x1f522</item>
+        <item>0x1f523</item>
+        <item>0x1f524</item>
+        <item>0x27bf</item>
+        <item>0x1f4f6</item>
+        <item>0x1f4f3</item>
+        <item>0x1f4f4</item>
+        <item>0x1f4f5</item>
+        <item>0x1f6b9</item>
+        <item>0x1f6ba</item>
+        <item>0x1f6bc</item>
+        <item>0x267f</item>
+        <item>0x267b</item>
+        <item>0x1f6ad</item>
+        <item>0x1f6a9</item>
+        <item>0x26a0</item>
+        <item>0x1f201</item>
+        <item>0x1f51e</item>
+        <item>0x26d4</item>
+        <item>0x1f192</item>
+        <item>0x1f197</item>
+        <item>0x1f195</item>
+        <item>0x1f198</item>
+        <item>0x1f199</item>
+        <item>0x1f193</item>
+        <item>0x1f196</item>
+        <item>0x1f19a</item>
+        <item>0x1f232</item>
+        <item>0x1f233</item>
+        <item>0x1f234</item>
+        <item>0x1f235</item>
+        <item>0x1f236</item>
+        <item>0x1f237</item>
+        <item>0x1f238</item>
+        <item>0x1f239</item>
+        <item>0x1f202</item>
+        <item>0x1f23a</item>
+        <item>0x1f250</item>
+        <item>0x1f251</item>
+        <item>0x3299</item>
+        <item>0xae</item>
+        <item>0xa9</item>
+        <item>0x2122</item>
+        <item>0x1f21a</item>
+        <item>0x1f22f</item>
+        <item>0x3297</item>
+        <item>0x2b55</item>
+        <item>0x274c</item>
+        <item>0x274e</item>
+        <item>0x2139</item>
+        <item>0x1f6ab</item>
+        <item>0x2705</item>
+        <item>0x2714</item>
+        <item>0x1f517</item>
+        <item>0x2734</item>
+        <item>0x2733</item>
+        <item>0x2795</item>
+        <item>0x2796</item>
+        <item>0x2716</item>
+        <item>0x2797</item>
+        <item>0x1f4a0</item>
+        <item>0x1f4a1</item>
+        <item>0x1f4a4</item>
+        <item>0x1f4a2</item>
+        <item>0x1f525</item>
+        <item>0x1f4a5</item>
+        <item>0x1f4a8</item>
+        <item>0x1f4a6</item>
+        <item>0x1f4ab</item>
+        <item>0x1f55b</item>
+        <item>0x1f567</item>
+        <item>0x1f550</item>
+        <item>0x1f55c</item>
+        <item>0x1f551</item>
+        <item>0x1f55d</item>
+        <item>0x1f552</item>
+        <item>0x1f55e</item>
+        <item>0x1f553</item>
+        <item>0x1f55f</item>
+        <item>0x1f554</item>
+        <item>0x1f560</item>
+        <item>0x1f555</item>
+        <item>0x1f561</item>
+        <item>0x1f556</item>
+        <item>0x1f562</item>
+        <item>0x1f557</item>
+        <item>0x1f563</item>
+        <item>0x1f558</item>
+        <item>0x1f564</item>
+        <item>0x1f559</item>
+        <item>0x1f565</item>
+        <item>0x1f55a</item>
+        <item>0x1f566</item>
+        <item>0x2195</item>
+        <item>0x2b06</item>
+        <item>0x2197</item>
+        <item>0x27a1</item>
+        <item>0x2198</item>
+        <item>0x2b07</item>
+        <item>0x2199</item>
+        <item>0x2b05</item>
+        <item>0x2196</item>
+        <item>0x2194</item>
+        <item>0x2934</item>
+        <item>0x2935</item>
+        <item>0x23ea</item>
+        <item>0x23eb</item>
+        <item>0x23ec</item>
+        <item>0x23e9</item>
+        <item>0x25c0</item>
+        <item>0x25b6</item>
+        <item>0x1f53d</item>
+        <item>0x1f53c</item>
+        <item>0x2747</item>
+        <item>0x2728</item>
+        <item>0x1f534</item>
+        <item>0x1f535</item>
+        <item>0x26aa</item>
+        <item>0x26ab</item>
+        <item>0x1f533</item>
+        <item>0x1f532</item>
+        <item>0x2b50</item>
+        <item>0x1f31f</item>
+        <item>0x1f320</item>
+        <item>0x25ab</item>
+        <item>0x25aa</item>
+        <item>0x25fd</item>
+        <item>0x25fe</item>
+        <item>0x25fb</item>
+        <item>0x25fc</item>
+        <item>0x2b1c</item>
+        <item>0x2b1b</item>
+        <item>0x1f538</item>
+        <item>0x1f539</item>
+        <item>0x1f536</item>
+        <item>0x1f537</item>
+        <item>0x1f53a</item>
+        <item>0x1f53b</item>
+        <item>0x1f51f</item>
+        <item>0x2754</item>
+        <item>0x2753</item>
+        <item>0x2755</item>
+        <item>0x2757</item>
+        <item>0x203c</item>
+        <item>0x2049</item>
+        <item>0x3030</item>
+        <item>0x27b0</item>
+        <item>0x2660</item>
+        <item>0x2665</item>
+        <item>0x2663</item>
+        <item>0x2666</item>
+        <item>0x1f194</item>
+        <item>0x1f511</item>
+        <item>0x21a9</item>
+        <item>0x1f191</item>
+        <item>0x1f50d</item>
+        <item>0x1f512</item>
+        <item>0x1f513</item>
+        <item>0x21aa</item>
+        <item>0x1f510</item>
+        <item>0x2611</item>
+        <item>0x1f518</item>
+        <item>0x1f50e</item>
+        <item>0x1f516</item>
+        <item>0x1f50f</item>
+        <item>0x1f503</item>
+        <item>0x1f500</item>
+        <item>0x1f501</item>
+        <item>0x1f502</item>
+        <item>0x1f504</item>
+        <item>0x1f4e7</item>
+        <item>0x1f505</item>
+        <item>0x1f506</item>
+        <item>0x1f507</item>
+        <item>0x1f508</item>
+        <item>0x1f509</item>
+        <item>0x1f50a</item>
+        <item>0x1f1e6</item>
+        <item>0x1f1e7</item>
+        <item>0x1f1e8</item>
+        <item>0x1f1e9</item>
+        <item>0x1f1ea</item>
+        <item>0x1f1eb</item>
+        <item>0x1f1ec</item>
+        <item>0x1f1ed</item>
+        <item>0x1f1ee</item>
+        <item>0x1f1ef</item>
+        <item>0x1f1f0</item>
+        <item>0x1f1f1</item>
+        <item>0x1f1f2</item>
+        <item>0x1f1f3</item>
+        <item>0x1f1f4</item>
+        <item>0x1f1f5</item>
+        <item>0x1f1f6</item>
+        <item>0x1f1f7</item>
+        <item>0x1f1f8</item>
+        <item>0x1f1f9</item>
+        <item>0x1f1fa</item>
+        <item>0x1f1fb</item>
+        <item>0x1f1fc</item>
+        <item>0x1f1fd</item>
+        <item>0x1f1fe</item>
+        <item>0x1f1ff</item>
+        <item>0x263a</item>
+        <item>0x1f60a</item>
+        <item>0x1f600</item>
+        <item>0x1f601</item>
+        <item>0x1f602</item>
+        <item>0x1f603</item>
+        <item>0x1f604</item>
+        <item>0x1f605</item>
+        <item>0x1f606</item>
+        <item>0x1f607</item>
+        <item>0x1f608</item>
+        <item>0x1f609</item>
+        <item>0x1f62f</item>
+        <item>0x1f610</item>
+        <item>0x1f611</item>
+        <item>0x1f615</item>
+        <item>0x1f620</item>
+        <item>0x1f62c</item>
+        <item>0x1f621</item>
+        <item>0x1f622</item>
+        <item>0x1f634</item>
+        <item>0x1f62e</item>
+        <item>0x1f623</item>
+        <item>0x1f624</item>
+        <item>0x1f625</item>
+        <item>0x1f626</item>
+        <item>0x1f627</item>
+        <item>0x1f628</item>
+        <item>0x1f629</item>
+        <item>0x1f630</item>
+        <item>0x1f61f</item>
+        <item>0x1f631</item>
+        <item>0x1f632</item>
+        <item>0x1f633</item>
+        <item>0x1f635</item>
+        <item>0x1f636</item>
+        <item>0x1f637</item>
+        <item>0x1f61e</item>
+        <item>0x1f612</item>
+        <item>0x1f60d</item>
+        <item>0x1f61b</item>
+        <item>0x1f61c</item>
+        <item>0x1f61d</item>
+        <item>0x1f60b</item>
+        <item>0x1f617</item>
+        <item>0x1f619</item>
+        <item>0x1f618</item>
+        <item>0x1f61a</item>
+        <item>0x1f60e</item>
+        <item>0x1f62d</item>
+        <item>0x1f60c</item>
+        <item>0x1f616</item>
+        <item>0x1f614</item>
+        <item>0x1f62a</item>
+        <item>0x1f60f</item>
+        <item>0x1f613</item>
+        <item>0x1f62b</item>
+        <item>0x1f64b</item>
+        <item>0x1f64c</item>
+        <item>0x1f64d</item>
+        <item>0x1f645</item>
+        <item>0x1f646</item>
+        <item>0x1f647</item>
+        <item>0x1f64e</item>
+        <item>0x1f64f</item>
+        <item>0x1f63a</item>
+        <item>0x1f63c</item>
+        <item>0x1f638</item>
+        <item>0x1f639</item>
+        <item>0x1f63b</item>
+        <item>0x1f63d</item>
+        <item>0x1f63f</item>
+        <item>0x1f63e</item>
+        <item>0x1f640</item>
+        <item>0x1f648</item>
+        <item>0x1f649</item>
+        <item>0x1f64a</item>
+        <item>0x1f4a9</item>
+        <item>0x1f476</item>
+        <item>0x1f466</item>
+        <item>0x1f467</item>
+        <item>0x1f468</item>
+        <item>0x1f469</item>
+        <item>0x1f474</item>
+        <item>0x1f475</item>
+        <item>0x1f48f</item>
+        <item>0x1f491</item>
+        <item>0x1f46a</item>
+        <item>0x1f46b</item>
+        <item>0x1f46c</item>
+        <item>0x1f46d</item>
+        <item>0x1f464</item>
+        <item>0x1f465</item>
+        <item>0x1f46e</item>
+        <item>0x1f477</item>
+        <item>0x1f481</item>
+        <item>0x1f482</item>
+        <item>0x1f46f</item>
+        <item>0x1f470</item>
+        <item>0x1f478</item>
+        <item>0x1f385</item>
+        <item>0x1f47c</item>
+        <item>0x1f471</item>
+        <item>0x1f472</item>
+        <item>0x1f473</item>
+        <item>0x1f483</item>
+        <item>0x1f486</item>
+        <item>0x1f487</item>
+        <item>0x1f485</item>
+        <item>0x1f47b</item>
+        <item>0x1f479</item>
+        <item>0x1f47a</item>
+        <item>0x1f47d</item>
+        <item>0x1f47e</item>
+        <item>0x1f47f</item>
+        <item>0x1f480</item>
+        <item>0x1f4aa</item>
+        <item>0x1f440</item>
+        <item>0x1f442</item>
+        <item>0x1f443</item>
+        <item>0x1f463</item>
+        <item>0x1f444</item>
+        <item>0x1f445</item>
+        <item>0x1f48b</item>
+        <item>0x2764</item>
+        <item>0x1f499</item>
+        <item>0x1f49a</item>
+        <item>0x1f49b</item>
+        <item>0x1f49c</item>
+        <item>0x1f493</item>
+        <item>0x1f494</item>
+        <item>0x1f495</item>
+        <item>0x1f496</item>
+        <item>0x1f497</item>
+        <item>0x1f498</item>
+        <item>0x1f49d</item>
+        <item>0x1f49e</item>
+        <item>0x1f49f</item>
+        <item>0x1f44d</item>
+        <item>0x1f44e</item>
+        <item>0x1f44c</item>
+        <item>0x270a</item>
+        <item>0x270c</item>
+        <item>0x270b</item>
+        <item>0x1f44a</item>
+        <item>0x261d</item>
+        <item>0x1f446</item>
+        <item>0x1f447</item>
+        <item>0x1f448</item>
+        <item>0x1f449</item>
+        <item>0x1f44b</item>
+        <item>0x1f44f</item>
+        <item>0x1f450</item>
+        <item>0x1f530</item>
+        <item>0x1f484</item>
+        <item>0x1f45e</item>
+        <item>0x1f45f</item>
+        <item>0x1f451</item>
+        <item>0x1f452</item>
+        <item>0x1f3a9</item>
+        <item>0x1f393</item>
+        <item>0x1f453</item>
+        <item>0x231a</item>
+        <item>0x1f454</item>
+        <item>0x1f455</item>
+        <item>0x1f456</item>
+        <item>0x1f457</item>
+        <item>0x1f458</item>
+        <item>0x1f459</item>
+        <item>0x1f460</item>
+        <item>0x1f461</item>
+        <item>0x1f462</item>
+        <item>0x1f45a</item>
+        <item>0x1f45c</item>
+        <item>0x1f4bc</item>
+        <item>0x1f392</item>
+        <item>0x1f45d</item>
+        <item>0x1f45b</item>
+        <item>0x1f4b0</item>
+        <item>0x1f4b3</item>
+        <item>0x1f4b2</item>
+        <item>0x1f4b5</item>
+        <item>0x1f4b4</item>
+        <item>0x1f4b6</item>
+        <item>0x1f4b7</item>
+        <item>0x1f4b8</item>
+        <item>0x1f4b1</item>
+        <item>0x1f4b9</item>
+        <item>0x1f52b</item>
+        <item>0x1f52a</item>
+        <item>0x1f4a3</item>
+        <item>0x1f489</item>
+        <item>0x1f48a</item>
+        <item>0x1f6ac</item>
+        <item>0x1f514</item>
+        <item>0x1f515</item>
+        <item>0x1f6aa</item>
+        <item>0x1f52c</item>
+        <item>0x1f52d</item>
+        <item>0x1f52e</item>
+        <item>0x1f526</item>
+        <item>0x1f50b</item>
+        <item>0x1f50c</item>
+        <item>0x1f4dc</item>
+        <item>0x1f4d7</item>
+        <item>0x1f4d8</item>
+        <item>0x1f4d9</item>
+        <item>0x1f4da</item>
+        <item>0x1f4d4</item>
+        <item>0x1f4d2</item>
+        <item>0x1f4d1</item>
+        <item>0x1f4d3</item>
+        <item>0x1f4d5</item>
+        <item>0x1f4d6</item>
+        <item>0x1f4f0</item>
+        <item>0x1f4db</item>
+        <item>0x1f383</item>
+        <item>0x1f384</item>
+        <item>0x1f380</item>
+        <item>0x1f381</item>
+        <item>0x1f382</item>
+        <item>0x1f388</item>
+        <item>0x1f386</item>
+        <item>0x1f387</item>
+        <item>0x1f389</item>
+        <item>0x1f38a</item>
+        <item>0x1f38d</item>
+        <item>0x1f38f</item>
+        <item>0x1f38c</item>
+        <item>0x1f390</item>
+        <item>0x1f38b</item>
+        <item>0x1f38e</item>
+        <item>0x1f4f1</item>
+        <item>0x1f4f2</item>
+        <item>0x1f4df</item>
+        <item>0x260e</item>
+        <item>0x1f4de</item>
+        <item>0x1f4e0</item>
+        <item>0x1f4e6</item>
+        <item>0x2709</item>
+        <item>0x1f4e8</item>
+        <item>0x1f4e9</item>
+        <item>0x1f4ea</item>
+        <item>0x1f4eb</item>
+        <item>0x1f4ed</item>
+        <item>0x1f4ec</item>
+        <item>0x1f4ee</item>
+        <item>0x1f4e4</item>
+        <item>0x1f4e5</item>
+        <item>0x1f4ef</item>
+        <item>0x1f4e2</item>
+        <item>0x1f4e3</item>
+        <item>0x1f4e1</item>
+        <item>0x1f4ac</item>
+        <item>0x1f4ad</item>
+        <item>0x2712</item>
+        <item>0x270f</item>
+        <item>0x1f4dd</item>
+        <item>0x1f4cf</item>
+        <item>0x1f4d0</item>
+        <item>0x1f4cd</item>
+        <item>0x1f4cc</item>
+        <item>0x1f4ce</item>
+        <item>0x2702</item>
+        <item>0x1f4ba</item>
+        <item>0x1f4bb</item>
+        <item>0x1f4bd</item>
+        <item>0x1f4be</item>
+        <item>0x1f4bf</item>
+        <item>0x1f4c6</item>
+        <item>0x1f4c5</item>
+        <item>0x1f4c7</item>
+        <item>0x1f4cb</item>
+        <item>0x1f4c1</item>
+        <item>0x1f4c2</item>
+        <item>0x1f4c3</item>
+        <item>0x1f4c4</item>
+        <item>0x1f4ca</item>
+        <item>0x1f4c8</item>
+        <item>0x1f4c9</item>
+        <item>0x26fa</item>
+        <item>0x1f3a1</item>
+        <item>0x1f3a2</item>
+        <item>0x1f3a0</item>
+        <item>0x1f3aa</item>
+        <item>0x1f3a8</item>
+        <item>0x1f3ac</item>
+        <item>0x1f3a5</item>
+        <item>0x1f4f7</item>
+        <item>0x1f4f9</item>
+        <item>0x1f3a6</item>
+        <item>0x1f3ad</item>
+        <item>0x1f3ab</item>
+        <item>0x1f3ae</item>
+        <item>0x1f3b2</item>
+        <item>0x1f3b0</item>
+        <item>0x1f0cf</item>
+        <item>0x1f3b4</item>
+        <item>0x1f004</item>
+        <item>0x1f3af</item>
+        <item>0x1f4fa</item>
+        <item>0x1f4fb</item>
+        <item>0x1f4c0</item>
+        <item>0x1f4fc</item>
+        <item>0x1f3a7</item>
+        <item>0x1f3a4</item>
+        <item>0x1f3b5</item>
+        <item>0x1f3b6</item>
+        <item>0x1f3bc</item>
+        <item>0x1f3bb</item>
+        <item>0x1f3b9</item>
+        <item>0x1f3b7</item>
+        <item>0x1f3ba</item>
+        <item>0x1f3b8</item>
+        <item>0x303d</item>
+        <item>0x1f3e0</item>
+        <item>0x1f3e1</item>
+        <item>0x1f3e2</item>
+        <item>0x1f3e3</item>
+        <item>0x1f3e4</item>
+        <item>0x1f3e5</item>
+        <item>0x1f3e6</item>
+        <item>0x1f3e7</item>
+        <item>0x1f3e8</item>
+        <item>0x1f3e9</item>
+        <item>0x1f3ea</item>
+        <item>0x1f3eb</item>
+        <item>0x26ea</item>
+        <item>0x26f2</item>
+        <item>0x1f3ec</item>
+        <item>0x1f3ef</item>
+        <item>0x1f3f0</item>
+        <item>0x1f3ed</item>
+        <item>0x1f5fb</item>
+        <item>0x1f5fc</item>
+        <item>0x1f5fd</item>
+        <item>0x1f5fe</item>
+        <item>0x1f5ff</item>
+        <item>0x2693</item>
+        <item>0x1f3ee</item>
+        <item>0x1f488</item>
+        <item>0x1f527</item>
+        <item>0x1f528</item>
+        <item>0x1f529</item>
+        <item>0x1f6bf</item>
+        <item>0x1f6c1</item>
+        <item>0x1f6c0</item>
+        <item>0x1f6bd</item>
+        <item>0x1f6be</item>
+        <item>0x1f3bd</item>
+        <item>0x1f3a3</item>
+        <item>0x1f3b1</item>
+        <item>0x1f3b3</item>
+        <item>0x26be</item>
+        <item>0x26f3</item>
+        <item>0x1f3be</item>
+        <item>0x26bd</item>
+        <item>0x1f3bf</item>
+        <item>0x1f3c0</item>
+        <item>0x1f3c1</item>
+        <item>0x1f3c2</item>
+        <item>0x1f3c3</item>
+        <item>0x1f3c4</item>
+        <item>0x1f3c6</item>
+        <item>0x1f3c7</item>
+        <item>0x1f40e</item>
+        <item>0x1f3c8</item>
+        <item>0x1f3c9</item>
+        <item>0x1f3ca</item>
+        <item>0x1f682</item>
+        <item>0x1f683</item>
+        <item>0x1f684</item>
+        <item>0x1f685</item>
+        <item>0x1f686</item>
+        <item>0x1f687</item>
+        <item>0x24c2</item>
+        <item>0x1f688</item>
+        <item>0x1f68a</item>
+        <item>0x1f68b</item>
+        <item>0x1f68c</item>
+        <item>0x1f68d</item>
+        <item>0x1f68e</item>
+        <item>0x1f68f</item>
+        <item>0x1f690</item>
+        <item>0x1f691</item>
+        <item>0x1f692</item>
+        <item>0x1f693</item>
+        <item>0x1f694</item>
+        <item>0x1f695</item>
+        <item>0x1f696</item>
+        <item>0x1f697</item>
+        <item>0x1f698</item>
+        <item>0x1f699</item>
+        <item>0x1f69a</item>
+        <item>0x1f69b</item>
+        <item>0x1f69c</item>
+        <item>0x1f69d</item>
+        <item>0x1f69e</item>
+        <item>0x1f69f</item>
+        <item>0x1f6a0</item>
+        <item>0x1f6a1</item>
+        <item>0x1f6a2</item>
+        <item>0x1f6a3</item>
+        <item>0x1f681</item>
+        <item>0x2708</item>
+        <item>0x1f6c2</item>
+        <item>0x1f6c3</item>
+        <item>0x1f6c4</item>
+        <item>0x1f6c5</item>
+        <item>0x26f5</item>
+        <item>0x1f6b2</item>
+        <item>0x1f6b3</item>
+        <item>0x1f6b4</item>
+        <item>0x1f6b5</item>
+        <item>0x1f6b7</item>
+        <item>0x1f6b8</item>
+        <item>0x1f689</item>
+        <item>0x1f680</item>
+        <item>0x1f6a4</item>
+        <item>0x1f6b6</item>
+        <item>0x26fd</item>
+        <item>0x1f17f</item>
+        <item>0x1f6a5</item>
+        <item>0x1f6a6</item>
+        <item>0x1f6a7</item>
+        <item>0x1f6a8</item>
+        <item>0x2668</item>
+        <item>0x1f48c</item>
+        <item>0x1f48d</item>
+        <item>0x1f48e</item>
+        <item>0x1f490</item>
+        <item>0x1f492</item>
+        <item>0xfe4e5</item>
+        <item>0xfe4e6</item>
+        <item>0xfe4e7</item>
+        <item>0xfe4e8</item>
+        <item>0xfe4e9</item>
+        <item>0xfe4ea</item>
+        <item>0xfe4eb</item>
+        <item>0xfe4ec</item>
+        <item>0xfe4ed</item>
+        <item>0xfe4ee</item>
+        <item>0xfe82c</item>
+        <item>0xfe837</item>
+        <item>0xfe82e</item>
+        <item>0xfe82f</item>
+        <item>0xfe830</item>
+        <item>0xfe831</item>
+        <item>0xfe832</item>
+        <item>0xfe833</item>
+        <item>0xfe834</item>
+        <item>0xfe835</item>
+        <item>0xfe836</item>
+    </integer-array>
+    <string-array name="font_sizes">
+        <item>13 pt</item>
+        <item>14 pt</item>
+        <item>15 pt</item>
+        <item>16 pt</item>
+        <item>17 pt</item>
+        <item>18 pt</item>
+        <item>19 pt</item>
+        <item>20 pt</item>
+    </string-array>
+    <string-array name="font_sizes_values">
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="http_client_entries">
+        <item>DebugOkHttpOperationClient/OkHttp3 (Default)</item>
+        <item>PinningOkHttpOperationClient (OkHttp 1.5)</item>
+        <item>Mock</item>
+        <item>Charles</item>
+        <item>DebugHttpUrlConnectionClient</item>
+        <item>Sample Stories</item>
+        <item>Empty Home Timeline</item>
+        <item>Recap</item>
+        <item>Revenue</item>
+        <item>TweetView Permutation</item>
+        <item>Instant Timeline</item>
+        <item>Who To Follow</item>
+        <item>Timeline Prompts</item>
+        <item>Notifications</item>
+    </string-array>
+    <string-array name="http_client_values">
+        <item>com.twitter.library.network.debug.DebugOkHttpOperationClient</item>
+        <item>com.twitter.library.network.PinningOkHttpOperationClient</item>
+        <item>com.twitter.library.network.debug.MockHttpOperationClient</item>
+        <item>com.twitter.library.network.debug.CharlesHttpOperationClient</item>
+        <item>com.twitter.library.network.debug.DebugHttpUrlConnectionClient</item>
+        <item>com.twitter.library.network.debug.StoryHttpOperationClient</item>
+        <item>com.twitter.library.network.debug.EmptyHomeTimelineHttpOperationClient</item>
+        <item>com.twitter.library.network.debug.RecapHttpOperationClient</item>
+        <item>com.twitter.library.network.debug.RevenueHttpOperationClient</item>
+        <item>com.twitter.library.network.debug.TweetViewPermutationOperationClient</item>
+        <item>com.twitter.library.network.debug.InstantTimelineHttpOperationClient</item>
+        <item>com.twitter.library.network.debug.WtfHttpOperationClient</item>
+        <item>com.twitter.library.network.debug.TimelinePromptHttpOperationClient</item>
+        <item>com.twitter.library.network.debug.NotificationsMockHttpOperationClient</item>
+    </string-array>
+    <string-array name="mandatory_phone_signup_not_receive_sms">
+        <item>@string/phone_verify_resend_the_code</item>
+        <item>@string/phone_verify_signup_with_email</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="mark_message_spam">
+        <item>@string/mark_as_spam</item>
+        <item>@string/mark_as_abusive</item>
+    </string-array>
+    <string-array name="media_tagging_setting_entries">
+        <item>@string/media_tagging_setting_anyone</item>
+        <item>@string/media_tagging_setting_follow</item>
+        <item>@string/media_tagging_setting_no_one</item>
+    </string-array>
+    <string-array name="media_tagging_setting_values">
+        <item>@string/media_tagging_setting_value_all</item>
+        <item>@string/media_tagging_setting_value_following</item>
+        <item>@string/media_tagging_setting_value_none</item>
+    </string-array>
+    <string-array name="moments_debug_feedback_areas">
+        <item>Moment</item>
+        <item>Page</item>
+    </string-array>
+    <string-array name="moments_debug_feedback_sentiments">
+        <item>@string/moments_debug_dialog_like_it</item>
+        <item>@string/moments_debug_dialog_needs_improvement</item>
+    </string-array>
+    <string-array name="moments_debug_negative_feedback_moment_areas">
+        <item>Has spelling/grammar errors on cover</item>
+        <item>Lacks content</item>
+        <item>Is missing part of the story</item>
+        <item>Is outdated</item>
+        <item>Is repetitive</item>
+        <item>May be offensive</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="moments_debug_negative_feedback_page_areas">
+        <item>Is not relevant to the story</item>
+        <item>Comes from a suspect author</item>
+        <item>Is repetitive</item>
+        <item>Is poorly cropped</item>
+        <item>Has media that is unclear</item>
+        <item>Has broken link</item>
+        <item>May be offensive</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="moments_debug_positive_feedback_moment_areas">
+        <item>Informative</item>
+        <item>Funny</item>
+        <item>Well Constructed</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="moments_debug_positive_feedback_page_areas">
+        <item>Informative</item>
+        <item>Funny</item>
+        <item>Unique</item>
+        <item>Other</item>
+    </string-array>
+    <integer-array name="new_filter_intensities">
+        <item>100</item>
+        <item>80</item>
+        <item>80</item>
+        <item>80</item>
+        <item>80</item>
+        <item>80</item>
+        <item>80</item>
+        <item>80</item>
+        <item>100</item>
+    </integer-array>
+    <string-array name="new_filter_names">
+        <item>@string/filter_name_no_filter</item>
+        <item>@string/filter_name_radiant</item>
+        <item>@string/filter_name_positive</item>
+        <item>@string/filter_name_warm</item>
+        <item>@string/filter_name_breeze</item>
+        <item>@string/filter_name_glow</item>
+        <item>@string/filter_name_golden</item>
+        <item>@string/filter_name_fame</item>
+        <item>@string/filter_name_stark</item>
+    </string-array>
+    <integer-array name="new_filters">
+        <item>0</item>
+        <item>@integer/filter_id_radiant</item>
+        <item>@integer/filter_id_positive</item>
+        <item>@integer/filter_id_new_warm</item>
+        <item>@integer/filter_id_breeze</item>
+        <item>@integer/filter_id_glow</item>
+        <item>@integer/filter_id_golden</item>
+        <item>@integer/filter_id_fame</item>
+        <item>@integer/filter_id_stark</item>
+    </integer-array>
+    <string-array name="notif_settings_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="notif_vit_follows_entries">
+        <item>@string/settings_tailored_option</item>
+        <item>@string/settings_verified_option</item>
+        <item>@string/settings_off_option</item>
+    </string-array>
+    <string-array name="refresh_interval_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>1440</item>
+    </string-array>
+    <string-array name="report_conversation_options">
+        <item>@string/mark_as_spam</item>
+        <item>@string/mark_as_abusive</item>
+    </string-array>
+    <string-array name="scribe_flushing_frequencies">
+        <item>default</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="settings_update_phone_options">
+        <item>@string/settings_update_phone</item>
+        <item>@string/settings_delete_phone</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="simulate_back_pressure_labels">
+        <item>Off</item>
+        <item>Server default</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="simulate_back_pressure_values">
+        <item></item>
+        <item>choice</item>
+        <item>always</item>
+    </string-array>
+    <string-array name="video_multi_bitrate_network_type_labels">
+        <item>Dynamic</item>
+        <item>Unknown</item>
+        <item>Very Low</item>
+        <item>Low</item>
+        <item>Medium Low</item>
+        <item>Medium</item>
+        <item>Medium High</item>
+        <item>High</item>
+        <item>Very High</item>
+    </string-array>
+    <string-array name="video_multi_bitrate_network_type_values">
+        <item></item>
+        <item>UNKNOWN</item>
+        <item>VERY_LOW</item>
+        <item>LOW</item>
+        <item>MEDIUM_LOW</item>
+        <item>MEDIUM</item>
+        <item>MEDIUM_HIGH</item>
+        <item>HIGH</item>
+        <item>VERY_HIGH</item>
+    </string-array>
+    <array name="whitelisted_device_ids" />
+</resources>

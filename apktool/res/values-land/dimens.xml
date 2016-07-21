@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photo_row_height">100.0dip</dimen>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="addressbook_connection_cancel_button_top">5.0dip</dimen>
+    <dimen name="addressbook_live_sync_prompt_padding_top">30.0dip</dimen>
+    <item type="dimen" name="addressbook_logo_weight">15</item>
+    <item type="dimen" name="addressbook_text_weight">69</item>
+    <dimen name="event_header_image_height">48.0dip</dimen>
+    <item type="dimen" name="event_timeline_header_cover_image_height">@dimen/toolBarHeight</item>
+    <dimen name="filter_crop_padding">10.0dip</dimen>
+    <dimen name="glad_you_are_here_checkbox_margin_bottom">21.0dip</dimen>
+    <dimen name="glad_you_are_here_cta_margin_bottom">15.0dip</dimen>
+    <dimen name="live_video_timeline_player_min_height">100.0dip</dimen>
+    <dimen name="prompt_fullscreen_text_padding_horizontal">64.0dip</dimen>
+    <dimen name="search_field_inset_vertical">4.0dip</dimen>
+    <dimen name="search_field_underline_top_margin_default">43.0dip</dimen>
+    <dimen name="search_field_underline_top_margin_focused">42.0dip</dimen>
+    <dimen name="smart_follow_buttons_layout_bottom_margin">0.0dip</dimen>
+    <dimen name="smart_follow_secondary_button_bottom_margin">16.0dip</dimen>
+    <dimen name="smart_follow_secondary_button_top_margin">8.0dip</dimen>
+    <dimen name="smart_follow_waiting_screen_error_container_margin_top">30.0dip</dimen>
+    <dimen name="toolBarHeight">48.0dip</dimen>
+    <dimen name="trendsplus_border_width">1.0px</dimen>
+    <dimen name="video_segment_edit_thumbnail_divider_width">2.0dip</dimen>
+    <dimen name="video_segment_edit_thumbnail_indicator_offset">8.0dip</dimen>
+    <dimen name="video_segments_duration_margin_bottom">70.0dip</dimen>
+    <dimen name="video_segments_duration_margin_left">12.0dip</dimen>
+    <dimen name="welcome_screen_desc_margin_bottom">30.0dip</dimen>
+    <dimen name="welcome_screen_login_margin_bottom">15.0dip</dimen>
+    <dimen name="welcome_screen_logo_margin_top">30.0dip</dimen>
+    <dimen name="welcome_screen_signup_margin_bottom">9.0dip</dimen>
+    <dimen name="welcome_screen_title_margin_bottom">8.0dip</dimen>
+    <item type="dimen" name="csat_feedback_score_button_horiz_margin">@dimen/csat_feedback_score_button_horiz_margin_landscape</item>
+</resources>

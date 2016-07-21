@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingTop="@dimen/drawer_account_item_padding_horizontal" android:paddingBottom="@dimen/drawer_account_item_padding_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.library.media.widget.UserImageView android:id="@id/user_image" android:layout_column="0" android:layout_row="0" android:layout_rowSpan="2" style="@style/DrawerAccountUserImageView" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/button_small_text" android:textStyle="bold" android:textColor="@color/text" android:ellipsize="end" android:id="@id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_column="1" android:maxLines="1" android:singleLine="true" android:layout_row="0" />
+    <com.twitter.ui.widget.TypefacesTextView android:textSize="@dimen/button_small_text" android:textColor="@color/subtext" android:ellipsize="end" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:maxLines="1" android:singleLine="true" android:layout_row="1" />
+</GridLayout>

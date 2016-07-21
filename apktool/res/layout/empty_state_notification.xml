@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <com.twitter.ui.widget.PromptView android:id="@id/empty_state_view" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:titleText="@string/empty_state_notification_desc_like" twitter:isHeader="true" />
+    <com.twitter.library.widget.TweetView android:gravity="center" android:id="@id/sample_mention_tweet" android:layout_width="fill_parent" android:layout_height="wrap_content" twitter:profileImageWidth="@dimen/user_image_size" twitter:profileImageHeight="@dimen/user_image_size" style="@style/ListRow.Tweet" />
+    <View android:id="@id/horizontal_rule" android:layout_marginTop="3.0dip" style="@style/HorizontalRule" />
+</LinearLayout>
